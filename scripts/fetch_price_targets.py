@@ -23,7 +23,12 @@ WATCHLIST_CSV = Path(__file__).parent / "metadata_target_stocks_latest.csv"
 OUTPUT_JSON = ROOT / "docs" / "data.json"
 
 FINVIZ_BASE = "https://finviz.com"
-FINVIZ_URL = "https://finviz.com/analyst_ratings_all.ashx"
+# 正しいURLを特定するため、複数候補を順番に試す
+FINVIZ_URL_CANDIDATES = [
+    "https://finviz.com/analyst_ratings_all.ashx",
+    "https://finviz.com/analyst_ratings.ashx",
+    "https://finviz.com/analyst_ratings_all",
+]
 HEADERS = {
     "User-Agent": (
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
@@ -95,25 +100,46 @@ def _find_ratings_table(soup: BeautifulSoup):
     return None
 
 
-def fetch_page(session: requests.Session, page: int) -> list[dict]:
-    """Finviz analyst ratings から 1 ページ分を取得（r= 行オフセット形式）"""
-    row_offset = (page - 1) * ROWS_PER_PAGE + 1
-    params = {"v": "2", "r": row_offset}
+def _try_fetch(session: requests.Session, url: str, params: dict):
+    """単一URLに対してリクエストを試み、(resp, soup) または (None, None) を返す"""
     try:
-        resp = session.get(FINVIZ_URL, params=params, timeout=20)
-        logger.info(f"Page {page} (r={row_offset}): HTTP {resp.status_code}, {len(resp.content)} bytes")
+        resp = session.get(url, params=params, timeout=20, allow_redirects=True)
+        logger.info(
+            f"  URL tried: {url} → final: {resp.url} | HTTP {resp.status_code}, {len(resp.content)} bytes"
+        )
         resp.raise_for_status()
     except requests.RequestException as e:
-        logger.warning(f"Page {page} fetch failed: {e}")
-        if hasattr(e, "response") and e.response is not None:
-            logger.warning(f"Response snippet: {e.response.text[:500]}")
-        return []
+        final_url = e.response.url if hasattr(e, "response") and e.response is not None else "N/A"
+        logger.warning(f"  FAILED: {url} → {final_url} : {e}")
+        return None, None
 
     soup = BeautifulSoup(resp.text, "html.parser")
-    table = _find_ratings_table(soup)
-    if not table:
-        logger.warning(f"Page {page}: ratings table not found")
-        logger.warning(f"Response snippet: {resp.text[:500]}")
+    title = soup.find("title")
+    logger.info(f"  Page title: {title.get_text(strip=True) if title else '(none)'}")
+    return resp, soup
+
+
+def fetch_page(session: requests.Session, page: int) -> list[dict]:
+    """Finviz analyst ratings から 1 ページ分を取得（複数URL候補を試行）"""
+    row_offset = (page - 1) * ROWS_PER_PAGE + 1
+    params = {"v": "2", "r": row_offset}
+    logger.info(f"Page {page} (r={row_offset}): trying {len(FINVIZ_URL_CANDIDATES)} URL candidates ...")
+
+    resp = None
+    soup = None
+    table = None
+    for url in FINVIZ_URL_CANDIDATES:
+        resp, soup = _try_fetch(session, url, params)
+        if resp is None or soup is None:
+            continue  # HTTP エラー → 次の候補へ
+        table = _find_ratings_table(soup)
+        if table:
+            break  # テーブルが見つかれば確定
+        logger.warning(f"  Ratings table not found at {resp.url} — trying next candidate ...")
+        logger.warning(f"  Response snippet (first 400 chars): {resp.text[:400]}")
+
+    if table is None:
+        logger.warning(f"Page {page} (r={row_offset}): no ratings table found in any URL candidate")
         return []
 
     rows = []
