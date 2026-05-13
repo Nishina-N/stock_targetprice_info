@@ -23,7 +23,12 @@ WATCHLIST_CSV = Path(__file__).parent / "metadata_target_stocks_latest.csv"
 OUTPUT_JSON = ROOT / "docs" / "data.json"
 
 FINVIZ_BASE = "https://finviz.com"
-FINVIZ_URL = "https://finviz.com/analyst_ratings_all.ashx"
+# analyst_ratings_all は存在しない。news?v=6 がアナリスト評価ビュー
+FINVIZ_URL_CANDIDATES = [
+    "https://finviz.com/news.ashx",
+    "https://finviz.com/news",
+]
+VIEW_PARAM = "6"  # v=6 = アナリスト評価ビュー
 HEADERS = {
     "User-Agent": (
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
@@ -69,17 +74,29 @@ def _make_session() -> requests.Session:
     return session
 
 
+def _log_tables(soup: BeautifulSoup):
+    """デバッグ用：ページ上の全テーブルのID・class・列数を出力"""
+    tables = soup.find_all("table")
+    logger.info(f"  Found {len(tables)} table(s) on page:")
+    for i, t in enumerate(tables):
+        tid = t.get("id", "")
+        tcls = " ".join(t.get("class", []))
+        trs = t.find_all("tr")
+        ncols = len(trs[0].find_all(["th", "td"])) if trs else 0
+        logger.info(f"    table[{i}] id='{tid}' class='{tcls}' rows={len(trs)} cols={ncols}")
+
+
 def _find_ratings_table(soup: BeautifulSoup):
     """複数の方法でアナリスト評価テーブルを検索"""
     # 1. ID による検索
-    for table_id in ("analyst-ratings-full-table", "ratings-table", "analyst-ratings"):
+    for table_id in ("analyst-ratings-full-table", "ratings-table", "analyst-ratings", "news-table"):
         t = soup.find("table", id=table_id)
         if t:
             logger.info(f"Table found by id='{table_id}'")
             return t
 
     # 2. class による検索
-    for cls_keyword in ("analyst", "ratings", "rating"):
+    for cls_keyword in ("analyst", "ratings", "rating", "news"):
         t = soup.find("table", {"class": lambda c: c and cls_keyword in c.lower()})
         if t:
             logger.info(f"Table found by class containing '{cls_keyword}'")
@@ -95,45 +112,65 @@ def _find_ratings_table(soup: BeautifulSoup):
     return None
 
 
+def _fetch_url(session: requests.Session, url: str, params: dict, page: int, row_offset: int):
+    """指定URLでページを取得し (response, soup) を返す。失敗時は (None, None)"""
+    try:
+        resp = session.get(url, params=params, timeout=20)
+        final_url = resp.url
+        logger.info(f"  URL tried: {url}?{requests.compat.urlencode(params)} → final: {final_url}")
+        logger.info(f"  HTTP {resp.status_code}, {len(resp.content)} bytes")
+        resp.raise_for_status()
+        return resp, BeautifulSoup(resp.text, "html.parser")
+    except requests.RequestException as e:
+        logger.warning(f"  Fetch failed: {e}")
+        if hasattr(e, "response") and e.response is not None:
+            logger.warning(f"  Response snippet: {e.response.text[:400]}")
+        return None, None
+
+
 def fetch_page(session: requests.Session, page: int) -> list[dict]:
     """Finviz analyst ratings から 1 ページ分を取得（r= 行オフセット形式）"""
     row_offset = (page - 1) * ROWS_PER_PAGE + 1
-    params = {"v": "2", "r": row_offset}
-    try:
-        resp = session.get(FINVIZ_URL, params=params, timeout=20)
-        logger.info(f"Page {page} (r={row_offset}): HTTP {resp.status_code}, {len(resp.content)} bytes")
-        resp.raise_for_status()
-    except requests.RequestException as e:
-        logger.warning(f"Page {page} fetch failed: {e}")
-        if hasattr(e, "response") and e.response is not None:
-            logger.warning(f"Response snippet: {e.response.text[:500]}")
-        return []
+    params = {"v": VIEW_PARAM, "r": row_offset}
 
-    soup = BeautifulSoup(resp.text, "html.parser")
-    table = _find_ratings_table(soup)
-    if not table:
-        logger.warning(f"Page {page}: ratings table not found")
-        logger.warning(f"Response snippet: {resp.text[:500]}")
-        return []
-
-    rows = []
-    for tr in table.find_all("tr")[1:]:   # ヘッダー行をスキップ
-        tds = tr.find_all("td")
-        if len(tds) < 7:
+    logger.info(f"Page {page} (r={row_offset}):")
+    for candidate_url in FINVIZ_URL_CANDIDATES:
+        resp, soup = _fetch_url(session, candidate_url, params, page, row_offset)
+        if soup is None:
             continue
-        rows.append({
-            "date":        tds[0].get_text(strip=True),
-            "ticker":      tds[1].get_text(strip=True).upper(),
-            "action":      tds[2].get_text(strip=True),   # Upgrade / Downgrade / Reiterated
-            "analyst":     tds[3].get_text(strip=True),
-            "rating_prev": tds[4].get_text(strip=True),
-            "rating_new":  tds[5].get_text(strip=True),
-            "pt_prev":     tds[6].get_text(strip=True),
-            "pt_new":      tds[7].get_text(strip=True) if len(tds) > 7 else "",
-        })
 
-    logger.info(f"Page {page}: {len(rows)} rows")
-    return rows
+        # ページタイトルをログ出力
+        title_tag = soup.find("title")
+        logger.info(f"  Page title: {title_tag.get_text(strip=True) if title_tag else '(no title)'}")
+
+        _log_tables(soup)
+
+        table = _find_ratings_table(soup)
+        if table is None:
+            logger.warning(f"  No ratings table found at {candidate_url}")
+            logger.warning(f"  Response snippet: {resp.text[:400]}")
+            continue
+
+        rows = []
+        for tr in table.find_all("tr")[1:]:   # ヘッダー行をスキップ
+            tds = tr.find_all("td")
+            if len(tds) < 7:
+                continue
+            rows.append({
+                "date":        tds[0].get_text(strip=True),
+                "ticker":      tds[1].get_text(strip=True).upper(),
+                "action":      tds[2].get_text(strip=True),   # Upgrade / Downgrade / Reiterated
+                "analyst":     tds[3].get_text(strip=True),
+                "rating_prev": tds[4].get_text(strip=True),
+                "rating_new":  tds[5].get_text(strip=True),
+                "pt_prev":     tds[6].get_text(strip=True),
+                "pt_new":      tds[7].get_text(strip=True) if len(tds) > 7 else "",
+            })
+
+        logger.info(f"  {len(rows)} rows extracted from {candidate_url}")
+        return rows
+
+    return []
 
 
 def build_records(raw_rows: list[dict], watchlist: dict[str, dict]) -> list[dict]:
