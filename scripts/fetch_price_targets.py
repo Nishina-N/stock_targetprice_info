@@ -22,6 +22,7 @@ ROOT = Path(__file__).parent.parent
 WATCHLIST_CSV = Path(__file__).parent / "metadata_target_stocks_latest.csv"
 OUTPUT_JSON = ROOT / "docs" / "data.json"
 
+FINVIZ_BASE = "https://finviz.com"
 FINVIZ_URL = "https://finviz.com/analyst_ratings_all.ashx"
 HEADERS = {
     "User-Agent": (
@@ -29,10 +30,13 @@ HEADERS = {
         "AppleWebKit/537.36 (KHTML, like Gecko) "
         "Chrome/124.0.0.0 Safari/537.36"
     ),
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
     "Accept-Language": "en-US,en;q=0.9",
+    "Accept-Encoding": "gzip, deflate, br",
     "Referer": "https://finviz.com/",
 }
 
+ROWS_PER_PAGE = 100
 MAX_PAGES = 10   # 1ページ = 100件 → 最大1000件取得
 SLEEP_MIN = 2.0
 SLEEP_MAX = 4.0
@@ -53,27 +57,66 @@ def load_watchlist(csv_path: Path) -> dict[str, dict]:
     return watchlist
 
 
-def fetch_page(page: int) -> list[dict]:
-    """Finviz analyst ratings から 1 ページ分を取得"""
-    params = {"v": "2", "p": page}
+def _make_session() -> requests.Session:
+    """クッキーを取得するためにトップページを事前訪問するセッションを作成"""
+    session = requests.Session()
+    session.headers.update(HEADERS)
     try:
-        resp = requests.get(FINVIZ_URL, headers=HEADERS, params=params, timeout=20)
+        resp = session.get(FINVIZ_BASE, timeout=20)
+        logger.info(f"Homepage pre-visit: HTTP {resp.status_code}")
+    except requests.RequestException as e:
+        logger.warning(f"Homepage pre-visit failed (continuing anyway): {e}")
+    return session
+
+
+def _find_ratings_table(soup: BeautifulSoup):
+    """複数の方法でアナリスト評価テーブルを検索"""
+    # 1. ID による検索
+    for table_id in ("analyst-ratings-full-table", "ratings-table", "analyst-ratings"):
+        t = soup.find("table", id=table_id)
+        if t:
+            logger.info(f"Table found by id='{table_id}'")
+            return t
+
+    # 2. class による検索
+    for cls_keyword in ("analyst", "ratings", "rating"):
+        t = soup.find("table", {"class": lambda c: c and cls_keyword in c.lower()})
+        if t:
+            logger.info(f"Table found by class containing '{cls_keyword}'")
+            return t
+
+    # 3. 列数ヒューリスティック（7列以上のテーブルを採用）
+    for t in soup.find_all("table"):
+        trs = t.find_all("tr")
+        if trs and len(trs[0].find_all(["th", "td"])) >= 7:
+            logger.info("Table found by column-count heuristic")
+            return t
+
+    return None
+
+
+def fetch_page(session: requests.Session, page: int) -> list[dict]:
+    """Finviz analyst ratings から 1 ページ分を取得（r= 行オフセット形式）"""
+    row_offset = (page - 1) * ROWS_PER_PAGE + 1
+    params = {"v": "2", "r": row_offset}
+    try:
+        resp = session.get(FINVIZ_URL, params=params, timeout=20)
+        logger.info(f"Page {page} (r={row_offset}): HTTP {resp.status_code}, {len(resp.content)} bytes")
         resp.raise_for_status()
     except requests.RequestException as e:
         logger.warning(f"Page {page} fetch failed: {e}")
+        if hasattr(e, "response") and e.response is not None:
+            logger.warning(f"Response snippet: {e.response.text[:500]}")
         return []
 
     soup = BeautifulSoup(resp.text, "html.parser")
-    rows = []
-
-    table = soup.find("table", id="analyst-ratings-full-table")
-    if not table:
-        # fallback: class ベース検索
-        table = soup.find("table", {"class": lambda c: c and "analyst" in c.lower()})
+    table = _find_ratings_table(soup)
     if not table:
         logger.warning(f"Page {page}: ratings table not found")
+        logger.warning(f"Response snippet: {resp.text[:500]}")
         return []
 
+    rows = []
     for tr in table.find_all("tr")[1:]:   # ヘッダー行をスキップ
         tds = tr.find_all("td")
         if len(tds) < 7:
@@ -120,9 +163,10 @@ def build_records(raw_rows: list[dict], watchlist: dict[str, dict]) -> list[dict
 def main():
     watchlist = load_watchlist(WATCHLIST_CSV)
     all_rows: list[dict] = []
+    session = _make_session()
 
     for page in range(1, MAX_PAGES + 1):
-        rows = fetch_page(page)
+        rows = fetch_page(session, page)
         if not rows:
             logger.info(f"No more data at page {page}, stopping.")
             break
