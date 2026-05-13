@@ -1,19 +1,23 @@
 """
 fetch_price_targets.py
-Finviz の analyst ratings ページから目標株価変更を取得し、
-ウォッチリスト銘柄でフィルタリングして JSON に保存する。
+FMP (Financial Modeling Prep) の upgrades-downgrades-rss-feed から
+最新のアナリスト格付け変更を取得し、ウォッチリスト銘柄でフィルタリングして JSON に保存する。
+
+必要な環境変数:
+    FMP_API_KEY: Financial Modeling Prep の API キー
+                 取得: https://financialmodelingprep.com/
+                 無料枠: 250 リクエスト/日
 """
 
 import csv
 import json
+import os
 import time
-import random
 import logging
 from datetime import datetime, timezone
 from pathlib import Path
 
 import requests
-from bs4 import BeautifulSoup
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
 logger = logging.getLogger(__name__)
@@ -22,29 +26,11 @@ ROOT = Path(__file__).parent.parent
 WATCHLIST_CSV = Path(__file__).parent / "metadata_target_stocks_latest.csv"
 OUTPUT_JSON = ROOT / "docs" / "data.json"
 
-FINVIZ_BASE = "https://finviz.com"
-# analyst_ratings_all は存在しない。news?v=6 がアナリスト評価ビュー
-FINVIZ_URL_CANDIDATES = [
-    "https://finviz.com/news.ashx",
-    "https://finviz.com/news",
-]
-VIEW_PARAM = "6"  # v=6 = アナリスト評価ビュー
-HEADERS = {
-    "User-Agent": (
-        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-        "AppleWebKit/537.36 (KHTML, like Gecko) "
-        "Chrome/124.0.0.0 Safari/537.36"
-    ),
-    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-    "Accept-Language": "en-US,en;q=0.9",
-    "Accept-Encoding": "gzip, deflate",
-    "Referer": "https://finviz.com/",
-}
+FMP_BASE = "https://financialmodelingprep.com/api/v4"
+FMP_ENDPOINT = f"{FMP_BASE}/upgrades-downgrades-rss-feed"
 
-ROWS_PER_PAGE = 100
 MAX_PAGES = 10   # 1ページ = 100件 → 最大1000件取得
-SLEEP_MIN = 2.0
-SLEEP_MAX = 4.0
+SLEEP_SEC = 1.0  # FMP レート制限対策（無料枠: 250 req/日）
 
 
 def load_watchlist(csv_path: Path) -> dict[str, dict]:
@@ -62,153 +48,86 @@ def load_watchlist(csv_path: Path) -> dict[str, dict]:
     return watchlist
 
 
-def _make_session() -> requests.Session:
-    """クッキーを取得するためにトップページを事前訪問するセッションを作成"""
-    session = requests.Session()
-    session.headers.update(HEADERS)
+def fetch_page(api_key: str, page: int) -> list[dict]:
+    """FMP から 1 ページ分のアナリスト格付けデータを取得（page=0 始まり）"""
+    params = {"page": page, "apikey": api_key}
     try:
-        resp = session.get(FINVIZ_BASE, timeout=20)
-        logger.info(f"Homepage pre-visit: HTTP {resp.status_code}")
-    except requests.RequestException as e:
-        logger.warning(f"Homepage pre-visit failed (continuing anyway): {e}")
-    return session
-
-
-def _log_tables(soup: BeautifulSoup):
-    """デバッグ用：ページ上の全テーブルのID・class・列数を出力"""
-    tables = soup.find_all("table")
-    logger.info(f"  Found {len(tables)} table(s) on page:")
-    for i, t in enumerate(tables):
-        tid = t.get("id", "")
-        tcls = " ".join(t.get("class", []))
-        trs = t.find_all("tr")
-        ncols = len(trs[0].find_all(["th", "td"])) if trs else 0
-        logger.info(f"    table[{i}] id='{tid}' class='{tcls}' rows={len(trs)} cols={ncols}")
-
-
-def _find_ratings_table(soup: BeautifulSoup):
-    """複数の方法でアナリスト評価テーブルを検索"""
-    # 1. ID による検索
-    for table_id in ("analyst-ratings-full-table", "ratings-table", "analyst-ratings", "news-table"):
-        t = soup.find("table", id=table_id)
-        if t:
-            logger.info(f"Table found by id='{table_id}'")
-            return t
-
-    # 2. class による検索
-    for cls_keyword in ("analyst", "ratings", "rating", "news"):
-        t = soup.find("table", {"class": lambda c: c and cls_keyword in c.lower()})
-        if t:
-            logger.info(f"Table found by class containing '{cls_keyword}'")
-            return t
-
-    # 3. 列数ヒューリスティック（7列以上のテーブルを採用）
-    for t in soup.find_all("table"):
-        trs = t.find_all("tr")
-        if trs and len(trs[0].find_all(["th", "td"])) >= 7:
-            logger.info("Table found by column-count heuristic")
-            return t
-
-    return None
-
-
-def _fetch_url(session: requests.Session, url: str, params: dict, page: int, row_offset: int):
-    """指定URLでページを取得し (response, soup) を返す。失敗時は (None, None)"""
-    try:
-        resp = session.get(url, params=params, timeout=20)
-        final_url = resp.url
-        logger.info(f"  URL tried: {url}?{requests.compat.urlencode(params)} → final: {final_url}")
-        logger.info(f"  HTTP {resp.status_code}, {len(resp.content)} bytes")
+        resp = requests.get(FMP_ENDPOINT, params=params, timeout=20)
+        logger.info(f"Page {page}: HTTP {resp.status_code}, {len(resp.content)} bytes")
         resp.raise_for_status()
-        return resp, BeautifulSoup(resp.text, "html.parser")
+        data = resp.json()
+        if not isinstance(data, list):
+            logger.warning(f"Page {page}: unexpected response format: {str(data)[:200]}")
+            return []
+        logger.info(f"Page {page}: {len(data)} records fetched")
+        return data
     except requests.RequestException as e:
-        logger.warning(f"  Fetch failed: {e}")
-        if hasattr(e, "response") and e.response is not None:
-            logger.warning(f"  Response snippet: {e.response.text[:400]}")
-        return None, None
+        logger.warning(f"Page {page} fetch failed: {e}")
+        return []
 
 
-def fetch_page(session: requests.Session, page: int) -> list[dict]:
-    """Finviz analyst ratings から 1 ページ分を取得（r= 行オフセット形式）"""
-    row_offset = (page - 1) * ROWS_PER_PAGE + 1
-    params = {"v": VIEW_PARAM, "r": row_offset}
+def normalize_action(action: str) -> str:
+    """FMP の action 文字列（小文字）を表示用に正規化"""
+    a = (action or "").lower()
+    if "upgrade" in a:
+        return "Upgrade"
+    if "downgrade" in a:
+        return "Downgrade"
+    if "initiat" in a:
+        return "Initiated"
+    if "reiterat" in a or "maintain" in a or "reaffirm" in a:
+        return "Reiterated"
+    return action.capitalize() if action else "Reiterated"
 
-    logger.info(f"Page {page} (r={row_offset}):")
-    for candidate_url in FINVIZ_URL_CANDIDATES:
-        resp, soup = _fetch_url(session, candidate_url, params, page, row_offset)
-        if soup is None:
-            continue
 
-        # ページタイトルをログ出力
-        title_tag = soup.find("title")
-        logger.info(f"  Page title: {title_tag.get_text(strip=True) if title_tag else '(no title)'}")
-
-        _log_tables(soup)
-
-        table = _find_ratings_table(soup)
-        if table is None:
-            logger.warning(f"  No ratings table found at {candidate_url}")
-            logger.warning(f"  Response snippet: {resp.text[:400]}")
-            continue
-
-        rows = []
-        for tr in table.find_all("tr")[1:]:   # ヘッダー行をスキップ
-            tds = tr.find_all("td")
-            if len(tds) < 7:
-                continue
-            rows.append({
-                "date":        tds[0].get_text(strip=True),
-                "ticker":      tds[1].get_text(strip=True).upper(),
-                "action":      tds[2].get_text(strip=True),   # Upgrade / Downgrade / Reiterated
-                "analyst":     tds[3].get_text(strip=True),
-                "rating_prev": tds[4].get_text(strip=True),
-                "rating_new":  tds[5].get_text(strip=True),
-                "pt_prev":     tds[6].get_text(strip=True),
-                "pt_new":      tds[7].get_text(strip=True) if len(tds) > 7 else "",
-            })
-
-        logger.info(f"  {len(rows)} rows extracted from {candidate_url}")
-        return rows
-
-    return []
+def normalize_date(date_str: str) -> str:
+    """FMP の日付文字列 'YYYY-MM-DD HH:MM:SS' を 'YYYY-MM-DD' に正規化"""
+    if not date_str:
+        return ""
+    return date_str[:10]
 
 
 def build_records(raw_rows: list[dict], watchlist: dict[str, dict]) -> list[dict]:
     """ウォッチリスト銘柄のみ抽出してメタデータをマージ"""
     records = []
     for row in raw_rows:
-        sym = row["ticker"]
+        sym = (row.get("symbol") or "").strip().upper()
         if sym not in watchlist:
             continue
         meta = watchlist[sym]
         records.append({
-            "date":        row["date"],
+            "date":        normalize_date(row.get("publishedDate", "")),
             "ticker":      sym,
             "company":     meta["company"],
             "sector":      meta["sector"],
             "industry":    meta["industry"],
-            "action":      row["action"],
-            "analyst":     row["analyst"],
-            "rating_prev": row["rating_prev"],
-            "rating_new":  row["rating_new"],
-            "pt_prev":     row["pt_prev"],
-            "pt_new":      row["pt_new"],
+            "action":      normalize_action(row.get("action", "")),
+            "analyst":     row.get("gradingCompany", ""),
+            "rating_prev": row.get("previousGrade", ""),
+            "rating_new":  row.get("newGrade", ""),
+            # upgrades-downgrades-rss-feed には目標株価情報が含まれないため空文字
+            "pt_prev":     "",
+            "pt_new":      "",
         })
     return records
 
 
 def main():
+    api_key = os.environ.get("FMP_API_KEY", "")
+    if not api_key:
+        logger.error("FMP_API_KEY environment variable is not set. Exiting.")
+        raise SystemExit(1)
+
     watchlist = load_watchlist(WATCHLIST_CSV)
     all_rows: list[dict] = []
-    session = _make_session()
 
-    for page in range(1, MAX_PAGES + 1):
-        rows = fetch_page(session, page)
+    for page in range(0, MAX_PAGES):
+        rows = fetch_page(api_key, page)
         if not rows:
             logger.info(f"No more data at page {page}, stopping.")
             break
         all_rows.extend(rows)
-        time.sleep(random.uniform(SLEEP_MIN, SLEEP_MAX))
+        time.sleep(SLEEP_SEC)
 
     records = build_records(all_rows, watchlist)
     logger.info(f"Matched records: {len(records)} / {len(all_rows)} total")
@@ -222,7 +141,7 @@ def main():
 
     merged_map: dict[str, dict] = {}
     for r in existing + records:
-        key = f"{r['date']}|{r['ticker']}|{r['analyst']}|{r['pt_new']}"
+        key = f"{r['date']}|{r['ticker']}|{r['analyst']}|{r['rating_new']}"
         merged_map[key] = r
 
     merged = sorted(merged_map.values(), key=lambda x: x["date"], reverse=True)
