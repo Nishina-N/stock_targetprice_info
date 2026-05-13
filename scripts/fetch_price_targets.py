@@ -31,6 +31,10 @@ HEADERS = {
     ),
     "Accept-Language": "en-US,en;q=0.9",
     "Referer": "https://finviz.com/",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Connection": "keep-alive",
+    "Upgrade-Insecure-Requests": "1",
 }
 
 MAX_PAGES = 10   # 1ページ = 100件 → 最大1000件取得
@@ -53,27 +57,63 @@ def load_watchlist(csv_path: Path) -> dict[str, dict]:
     return watchlist
 
 
-def fetch_page(page: int) -> list[dict]:
+def _find_ratings_table(soup: BeautifulSoup) -> object:
+    """アナリスト評価テーブルを複数のセレクタで検索する"""
+    candidates = [
+        ("id", "analyst-ratings-full-table"),
+        ("id", "analyst_ratings_table"),
+        ("id", "analyst-ratings"),
+        ("id", "ratings-table"),
+    ]
+    for attr, val in candidates:
+        table = soup.find("table", {attr: val})
+        if table:
+            logger.info(f"Table found by {attr}={val}")
+            return table
+
+    # クラスベース検索
+    for keyword in ("analyst", "rating"):
+        table = soup.find("table", {"class": lambda c: c and keyword in c.lower()})
+        if table:
+            logger.info(f"Table found by class keyword '{keyword}'")
+            return table
+
+    # 列数 ≥ 7 の最初の大きなテーブルにフォールバック
+    for t in soup.find_all("table"):
+        rows = t.find_all("tr")
+        if len(rows) > 5:
+            first_data = rows[1].find_all("td") if len(rows) > 1 else []
+            if len(first_data) >= 7:
+                logger.info("Table found by column count heuristic")
+                return t
+
+    return None
+
+
+def fetch_page(page: int, session: requests.Session) -> list[dict]:
     """Finviz analyst ratings から 1 ページ分を取得"""
-    params = {"v": "2", "p": page}
+    # r パラメータ（行オフセット）でページネーション: page 1→r=1, page 2→r=101, ...
+    offset = (page - 1) * 100 + 1
+    params = {"v": "2", "r": offset}
     try:
-        resp = requests.get(FINVIZ_URL, headers=HEADERS, params=params, timeout=20)
+        resp = session.get(FINVIZ_URL, headers=HEADERS, params=params, timeout=30)
+        logger.info(f"Page {page} (r={offset}): HTTP {resp.status_code}, {len(resp.text)} bytes")
         resp.raise_for_status()
     except requests.RequestException as e:
         logger.warning(f"Page {page} fetch failed: {e}")
         return []
 
     soup = BeautifulSoup(resp.text, "html.parser")
-    rows = []
+    table = _find_ratings_table(soup)
 
-    table = soup.find("table", id="analyst-ratings-full-table")
     if not table:
-        # fallback: class ベース検索
-        table = soup.find("table", {"class": lambda c: c and "analyst" in c.lower()})
-    if not table:
-        logger.warning(f"Page {page}: ratings table not found")
+        logger.warning(
+            f"Page {page}: ratings table not found. "
+            f"Response snippet: {resp.text[:500]!r}"
+        )
         return []
 
+    rows = []
     for tr in table.find_all("tr")[1:]:   # ヘッダー行をスキップ
         tds = tr.find_all("td")
         if len(tds) < 7:
@@ -89,7 +129,7 @@ def fetch_page(page: int) -> list[dict]:
             "pt_new":      tds[7].get_text(strip=True) if len(tds) > 7 else "",
         })
 
-    logger.info(f"Page {page}: {len(rows)} rows")
+    logger.info(f"Page {page}: {len(rows)} rows parsed")
     return rows
 
 
@@ -121,8 +161,17 @@ def main():
     watchlist = load_watchlist(WATCHLIST_CSV)
     all_rows: list[dict] = []
 
+    session = requests.Session()
+    # Finviz のトップページを先に訪問してクッキーを取得
+    try:
+        session.get("https://finviz.com/", headers=HEADERS, timeout=20)
+        logger.info("Visited Finviz homepage to obtain session cookie")
+        time.sleep(random.uniform(1.0, 2.0))
+    except requests.RequestException as e:
+        logger.warning(f"Failed to visit homepage: {e}")
+
     for page in range(1, MAX_PAGES + 1):
-        rows = fetch_page(page)
+        rows = fetch_page(page, session)
         if not rows:
             logger.info(f"No more data at page {page}, stopping.")
             break
