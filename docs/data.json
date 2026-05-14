@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-14T20:22:25Z",
-  "total": 807,
+  "updated_at": "2026-05-14T21:58:49Z",
+  "total": 811,
   "records": [
     {
       "date": "2026-05-14",
@@ -2182,6 +2182,58 @@
       "action": "Hold",
       "analyst": "Roth Capital",
       "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-05-14",
+      "ticker": "CCAP",
+      "company": "Crescent Capital BDC, Inc.",
+      "sector": "Financial Services",
+      "industry": "Asset Management",
+      "action": "Upgrade",
+      "analyst": "B. Riley",
+      "rating_prev": null,
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-05-14",
+      "ticker": "DOX",
+      "company": "Amdocs Limited",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "action": "Downgrade",
+      "analyst": "CFRA",
+      "rating_prev": null,
+      "rating_new": "Sell",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-05-14",
+      "ticker": "CSCO",
+      "company": "Cisco Systems, Inc.",
+      "sector": "Technology",
+      "industry": "Communication Equipment",
+      "action": "Upgrade",
+      "analyst": "HSBC",
+      "rating_prev": "Hold",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-05-14",
+      "ticker": "VRT",
+      "company": "Vertiv Holdings Co",
+      "sector": "Industrials",
+      "industry": "Electrical Equipment & Parts",
+      "action": "Initialise",
+      "analyst": "Loop Capital Markets",
+      "rating_prev": null,
       "rating_new": "Buy",
       "pt_prev": "",
       "pt_new": ""
