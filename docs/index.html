@@ -283,6 +283,52 @@
   .pager button:disabled { opacity: .3; cursor: default; }
   .pager button:not(:disabled):hover { border-color: var(--accent); color: var(--accent); }
   .pager .page-info { font-family: var(--mono); font-size: 12px; color: var(--dim); }
+
+  /* ═══════════════════════════════════════════════════
+     Responsive — Mobile / Tablet  (≤ 640px)
+     ① Header wrapping
+     ② Table contained horizontal scroll
+  ═══════════════════════════════════════════════════ */
+  @media (max-width: 640px) {
+
+    /* ページ全体の横オーバーフローを防止 */
+    body { overflow-x: hidden; }
+
+    /* ① ── Header ── */
+    header {
+      flex-wrap: wrap;
+      gap: 10px;
+      padding: 12px 16px;
+    }
+    .controls {
+      width: 100%;
+      gap: 8px;
+    }
+    .search-wrap {
+      flex: 1 1 100%;
+    }
+    input[type="text"] {
+      width: 100%;
+    }
+    select {
+      flex: 1 1 auto;
+      min-width: 0;
+    }
+    .meta {
+      margin-left: 0;
+      width: 100%;
+    }
+
+    /* ② ── Table horizontal scroll ── */
+    .table-wrap {
+      width: 100%;
+      -webkit-overflow-scrolling: touch;
+    }
+    /* モバイルではヘッダー高さが可変になるため sticky を解除 */
+    thead {
+      position: static;
+    }
+  }
 </style>
 </head>
 <body>
