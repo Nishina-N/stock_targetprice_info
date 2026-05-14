@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-14T21:58:49Z",
-  "total": 811,
+  "updated_at": "2026-05-14T22:54:43Z",
+  "total": 816,
   "records": [
     {
       "date": "2026-05-14",
@@ -2234,6 +2234,71 @@
       "action": "Initialise",
       "analyst": "Loop Capital Markets",
       "rating_prev": null,
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-05-14",
+      "ticker": "TNGX",
+      "company": "Tango Therapeutics, Inc.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "Downgrade",
+      "analyst": "Piper Sandler",
+      "rating_prev": "Overweight",
+      "rating_new": "Neutral",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-05-14",
+      "ticker": "PZZA",
+      "company": "Papa John's International, Inc.",
+      "sector": "Consumer Cyclical",
+      "industry": "Restaurants",
+      "action": "Hold",
+      "analyst": "Stephens",
+      "rating_prev": "Overweight",
+      "rating_new": "Overweight",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-05-14",
+      "ticker": "NCNO",
+      "company": "nCino, Inc.",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "action": "Hold",
+      "analyst": "Goldman Sachs",
+      "rating_prev": "Neutral",
+      "rating_new": "Neutral",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-05-14",
+      "ticker": "LUNR",
+      "company": "Intuitive Machines, Inc.",
+      "sector": "Industrials",
+      "industry": "Aerospace & Defense",
+      "action": "Hold",
+      "analyst": "Roth Capital",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-05-14",
+      "ticker": "NVMI",
+      "company": "Nova Ltd.",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "action": "Hold",
+      "analyst": "Jefferies",
+      "rating_prev": "Buy",
       "rating_new": "Buy",
       "pt_prev": "",
       "pt_new": ""
