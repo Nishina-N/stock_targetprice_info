@@ -144,6 +144,36 @@ def build_records(
     return records
 
 
+def fill_missing_pt_prev(new_records: list[dict], existing: list[dict]) -> list[dict]:
+    """
+    差分検出型 pt_prev 補完。
+    既存データ（data.json）から ticker+analyst ごとの最新 pt_new を取得し、
+    新レコードの pt_new と比較して「値が変化している場合のみ」pt_prev を補完する。
+
+    - 値が変化している → pt_prev = 既存の最新 pt_new（前回値として記録）
+    - 値が同じ         → 補完しない（変化なし）
+    - 初回登場         → 補完しない（過去データなし）
+
+    これにより毎時実行でも冪等性が保たれ、pt_prev = pt_new になるバグを防ぐ。
+    """
+    # ticker+analyst ごとの最新 pt_new を取得（日付昇順でソートして最後のものを採用）
+    latest_pt: dict[str, str] = {}
+    for r in sorted(existing, key=lambda x: x.get("date", "")):
+        if r.get("pt_new"):
+            key = f"{r['ticker']}|{r['analyst']}"
+            latest_pt[key] = r["pt_new"]
+
+    for r in new_records:
+        if r.get("pt_new") and not r.get("pt_prev"):
+            key = f"{r['ticker']}|{r['analyst']}"
+            if key in latest_pt:
+                stored = latest_pt[key]
+                if stored != r["pt_new"]:  # 値が変化した時だけ補完
+                    r["pt_prev"] = stored
+
+    return new_records
+
+
 def build_pt_only_records(
     pt_rows: list[dict],
     watchlist: dict[str, dict],
@@ -238,9 +268,21 @@ def main():
             payload = json.load(f)
             existing = payload.get("records", [])
 
+    # 差分検出型 pt_prev 補完: APIが返さなかった pt_prev を既存データから補完
+    records = fill_missing_pt_prev(records, existing)
+
+    # 既存データを先にマップへ投入し、その後新レコードで上書き
+    # （ただし、既存に pt_prev があり新データに pt_prev がない場合は既存値を保持）
     merged_map: dict[str, dict] = {}
-    for r in existing + records:
+    for r in existing:
         key = f"{r['date']}|{r['ticker']}|{r['analyst']}|{r.get('action', '')}|{r['rating_new']}"
+        merged_map[key] = r
+
+    for r in records:
+        key = f"{r['date']}|{r['ticker']}|{r['analyst']}|{r.get('action', '')}|{r['rating_new']}"
+        # 同一キーが既存にあり、かつ既存の pt_prev が保存済みで新データにない場合 → 保持
+        if key in merged_map and not r.get("pt_prev") and merged_map[key].get("pt_prev"):
+            r["pt_prev"] = merged_map[key]["pt_prev"]
         merged_map[key] = r
 
     merged = sorted(merged_map.values(), key=lambda x: x["date"], reverse=True)
