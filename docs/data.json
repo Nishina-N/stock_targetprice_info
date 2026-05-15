@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-15T22:00:14Z",
-  "total": 1336,
+  "updated_at": "2026-05-15T23:04:20Z",
+  "total": 1338,
   "records": [
     {
       "date": "2026-05-15",
@@ -3104,6 +3104,19 @@
       "industry": "Specialty Retail",
       "action": "Upgrade",
       "analyst": "HSBC",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-05-15",
+      "ticker": "DGXX",
+      "company": "Digi Power X Inc.",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "action": "Hold",
+      "analyst": "Alliance Global Partners",
       "rating_prev": "Buy",
       "rating_new": "Buy",
       "pt_prev": "",
@@ -10570,6 +10583,19 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "89"
+    },
+    {
+      "date": "2026-05-13",
+      "ticker": "SATS",
+      "company": "EchoStar Corporation",
+      "sector": "Technology",
+      "industry": "Communication Equipment",
+      "action": "PT Change",
+      "analyst": "New Street",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "161"
     },
     {
       "date": "2026-05-12",
