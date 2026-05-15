@@ -231,6 +231,7 @@
   .badge-downgrade { background: rgba(244,63,94,.12);  color: var(--down); border: 1px solid rgba(244,63,94,.25); }
   .badge-reiterate { background: rgba(148,163,184,.1); color: var(--neutral); border: 1px solid rgba(148,163,184,.2); }
   .badge-initiated { background: rgba(59,130,246,.12); color: var(--accent); border: 1px solid rgba(59,130,246,.25); }
+  .badge-ptchange  { background: rgba(139,92,246,.12); color: #7c3aed;  border: 1px solid rgba(139,92,246,.25); }
 
   .pt-arrow { color: var(--dim); margin: 0 4px; }
   .pt-up   { color: var(--up); font-weight: 600; }
@@ -348,6 +349,7 @@
       <option value="downgrade">Downgrade</option>
       <option value="reiterated">Reiterated</option>
       <option value="initiated">Initiated</option>
+      <option value="pt change">PT Change</option>
     </select>
     <select id="filter-sector">
       <option value="">All Sectors</option>
@@ -496,6 +498,7 @@ function actionBadge(action) {
   if (a.includes("upgrade"))   return `<span class="badge badge-upgrade">Upgrade</span>`;
   if (a.includes("downgrade")) return `<span class="badge badge-downgrade">Downgrade</span>`;
   if (a.includes("initiat"))   return `<span class="badge badge-initiated">Initiated</span>`;
+  if (a.includes("pt change")) return `<span class="badge badge-ptchange">PT Change</span>`;
   return `<span class="badge badge-reiterate">${action || "—"}</span>`;
 }
 
@@ -585,8 +588,8 @@ document.querySelectorAll("th[data-col]").forEach(th => {
   });
 });
 
-// 自動リフレッシュ（1時間）
-setInterval(loadData, 60 * 60 * 1000);
+// 自動リフレッシュ（2時間）
+setInterval(loadData, 2 * 60 * 60 * 1000);
 
 loadData();
 </script>
