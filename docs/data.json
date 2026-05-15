@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-15T15:11:34Z",
-  "total": 1297,
+  "updated_at": "2026-05-15T17:25:12Z",
+  "total": 1319,
   "records": [
     {
       "date": "2026-05-15",
@@ -1456,7 +1456,7 @@
       "rating_prev": "Underperform",
       "rating_new": "Underperform",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "135"
     },
     {
       "date": "2026-05-15",
@@ -1469,7 +1469,7 @@
       "rating_prev": "Outperform",
       "rating_new": "Outperform",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "11"
     },
     {
       "date": "2026-05-15",
@@ -1482,7 +1482,7 @@
       "rating_prev": "Outperform",
       "rating_new": "Outperform",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "148"
     },
     {
       "date": "2026-05-15",
@@ -2718,6 +2718,240 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "60"
+    },
+    {
+      "date": "2026-05-15",
+      "ticker": "PUK",
+      "company": "Prudential plc",
+      "sector": "Financial Services",
+      "industry": "Insurance - Life",
+      "action": "Hold",
+      "analyst": "Morgan Stanley",
+      "rating_prev": "Overweight",
+      "rating_new": "Overweight",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-05-15",
+      "ticker": "STM",
+      "company": "STMicroelectronics N.V.",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "action": "Hold",
+      "analyst": "Deutsche Bank",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-05-15",
+      "ticker": "NOK",
+      "company": "Nokia Oyj",
+      "sector": "Technology",
+      "industry": "Communication Equipment",
+      "action": "Hold",
+      "analyst": "Deutsche Bank",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-05-15",
+      "ticker": "ASST",
+      "company": "Strive, Inc.",
+      "sector": "Communication Services",
+      "industry": "Asset Management",
+      "action": "Hold",
+      "analyst": "H.C. Wainwright",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-05-15",
+      "ticker": "VALE",
+      "company": "Vale S.A.",
+      "sector": "Basic Materials",
+      "industry": "Industrial Materials",
+      "action": "Hold",
+      "analyst": "Deutsche Bank",
+      "rating_prev": "Hold",
+      "rating_new": "Hold",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-05-15",
+      "ticker": "TECK",
+      "company": "Teck Resources Limited",
+      "sector": "Basic Materials",
+      "industry": "Industrial Materials",
+      "action": "Hold",
+      "analyst": "Deutsche Bank",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-05-15",
+      "ticker": "RIO",
+      "company": "Rio Tinto Group",
+      "sector": "Basic Materials",
+      "industry": "Industrial Materials",
+      "action": "Hold",
+      "analyst": "Deutsche Bank",
+      "rating_prev": "Hold",
+      "rating_new": "Hold",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-05-15",
+      "ticker": "FCX",
+      "company": "Freeport-McMoRan Inc.",
+      "sector": "Basic Materials",
+      "industry": "Copper",
+      "action": "Hold",
+      "analyst": "Deutsche Bank",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-05-15",
+      "ticker": "BHP",
+      "company": "BHP Group Limited",
+      "sector": "Basic Materials",
+      "industry": "Industrial Materials",
+      "action": "Hold",
+      "analyst": "Deutsche Bank",
+      "rating_prev": "Hold",
+      "rating_new": "Hold",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-05-15",
+      "ticker": "PSKY",
+      "company": "Paramount Skydance Corporation Class B Common Stock",
+      "sector": "Communication Services",
+      "industry": "Entertainment",
+      "action": "Hold",
+      "analyst": "Raymond James",
+      "rating_prev": "Market Perform",
+      "rating_new": "Market Perform",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-05-15",
+      "ticker": "PSKY",
+      "company": "Paramount Skydance Corporation Class B Common Stock",
+      "sector": "Communication Services",
+      "industry": "Entertainment",
+      "action": "Hold",
+      "analyst": "UBS",
+      "rating_prev": "Overweight",
+      "rating_new": "Overweight",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-05-15",
+      "ticker": "VOXR",
+      "company": "Vox Royalty Corp.",
+      "sector": "Basic Materials",
+      "industry": "Other Precious Metals",
+      "action": "Hold",
+      "analyst": "BMO Capital",
+      "rating_prev": "Outperform",
+      "rating_new": "Outperform",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-05-15",
+      "ticker": "BN",
+      "company": "Brookfield Corporation",
+      "sector": "Financial Services",
+      "industry": "Asset Management",
+      "action": "Hold",
+      "analyst": "Scotiabank",
+      "rating_prev": "Outperform",
+      "rating_new": "Outperform",
+      "pt_prev": "",
+      "pt_new": "53"
+    },
+    {
+      "date": "2026-05-15",
+      "ticker": "LSTA",
+      "company": "Lisata Therapeutics, Inc.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "Downgrade",
+      "analyst": "H.C. Wainwright",
+      "rating_prev": "Buy",
+      "rating_new": "Neutral",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-05-15",
+      "ticker": "ONC",
+      "company": "BeOne Medicines Ltd.",
+      "sector": "Healthcare",
+      "industry": "Medical - Pharmaceuticals",
+      "action": "PT Change",
+      "analyst": "Leerink Partners",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "367"
+    },
+    {
+      "date": "2026-05-15",
+      "ticker": "ANAB",
+      "company": "AnaptysBio, Inc.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "PT Change",
+      "analyst": "Leerink Partners",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "90"
+    },
+    {
+      "date": "2026-05-15",
+      "ticker": "ELBM",
+      "company": "Electra Battery Materials Corporation",
+      "sector": "Basic Materials",
+      "industry": "Industrial Materials",
+      "action": "PT Change",
+      "analyst": "Industrial Alliance Securities",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "1.5"
+    },
+    {
+      "date": "2026-05-15",
+      "ticker": "CXT",
+      "company": "Crane NXT, Co.",
+      "sector": "Industrials",
+      "industry": "Industrial - Machinery",
+      "action": "PT Change",
+      "analyst": "Northland Securities",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "52"
     },
     {
       "date": "2026-05-14",
@@ -9880,7 +10114,7 @@
       "rating_prev": "",
       "rating_new": "",
       "pt_prev": "81",
-      "pt_new": "81"
+      "pt_new": "61"
     },
     {
       "date": "2026-05-13",
@@ -10063,6 +10297,58 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "54"
+    },
+    {
+      "date": "2026-05-13",
+      "ticker": "GLBE",
+      "company": "Global-e Online Ltd.",
+      "sector": "Consumer Cyclical",
+      "industry": "Specialty Retail",
+      "action": "PT Change",
+      "analyst": "Raymond James",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "42"
+    },
+    {
+      "date": "2026-05-13",
+      "ticker": "GLBE",
+      "company": "Global-e Online Ltd.",
+      "sector": "Consumer Cyclical",
+      "industry": "Specialty Retail",
+      "action": "PT Change",
+      "analyst": "Jefferies",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "40"
+    },
+    {
+      "date": "2026-05-13",
+      "ticker": "PSFE",
+      "company": "Paysafe Limited",
+      "sector": "Technology",
+      "industry": "Information Technology Services",
+      "action": "PT Change",
+      "analyst": "BTIG",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "12"
+    },
+    {
+      "date": "2026-05-13",
+      "ticker": "NXT",
+      "company": "Nextpower Inc.",
+      "sector": "Technology",
+      "industry": "Consumer Electronics",
+      "action": "PT Change",
+      "analyst": "Jefferies",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "145"
     },
     {
       "date": "2026-05-12",
