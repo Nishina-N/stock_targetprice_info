@@ -582,6 +582,7 @@ document.querySelectorAll('.tab-btn').forEach(btn => {
     if (tab === 'pt')       { updatePtMeta(); }
     else if (tab === 'earnings') { updateEarningsMeta(); }
     else                   { updateInsiderMeta(); }
+    window.dispatchEvent(new Event('tab-changed'));
   });
 });
 
@@ -1157,6 +1158,49 @@ setInterval(() => {
 loadPtData();
 loadEarningsData();
 loadInsiderData();
+
+// ── Safari sticky-thead polyfill ──────────────────────────────────────────
+// Safari treats any ancestor with overflow-x:auto as the scroll container,
+// so position:sticky on <th> is anchored to .table-wrap (which has no
+// vertical scroll) rather than the viewport — making sticky silently fail.
+// We detect Safari and drive sticky manually via translateY on <thead>.
+(function () {
+  if (!/^((?!chrome|android).)*safari/i.test(navigator.userAgent)) return;
+
+  // Override CSS sticky on th; position thead relatively so transform works
+  var ss = document.createElement('style');
+  ss.textContent =
+    'th { position: static !important; top: auto !important; z-index: auto !important; }' +
+    'thead { position: relative !important; z-index: 50; }';
+  document.head.appendChild(ss);
+
+  function updateStickyTheads() {
+    var headerEl = document.querySelector('header');
+    var pinY     = headerEl ? headerEl.getBoundingClientRect().height : 0;
+
+    document.querySelectorAll('.table-wrap').forEach(function (wrap) {
+      var section = wrap.closest('[id^="section-"]');
+      if (section && section.style.display === 'none') return;
+
+      var thead = wrap.querySelector('thead');
+      if (!thead) return;
+
+      var wr = wrap.getBoundingClientRect();
+      var th = thead.offsetHeight;
+
+      if (wr.top < pinY && wr.bottom > pinY + th) {
+        thead.style.transform = 'translateY(' + (pinY - wr.top) + 'px)';
+      } else {
+        thead.style.transform = '';
+      }
+    });
+  }
+
+  window.addEventListener('scroll',      updateStickyTheads, { passive: true });
+  window.addEventListener('resize',      updateStickyTheads, { passive: true });
+  window.addEventListener('tab-changed', updateStickyTheads);
+  updateStickyTheads();
+}());
 </script>
 </body>
 </html>
