@@ -182,9 +182,6 @@
     border-spacing: 0;
     table-layout: fixed;
   }
-  thead {
-    /* Safari対応のため sticky は th に移動 */
-  }
   th {
     background: var(--surface);
     border-bottom: 1px solid var(--border2);
@@ -200,10 +197,6 @@
     cursor: pointer;
     user-select: none;
     transition: color .15s;
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
-    top: 53px;
-    z-index: 50;
   }
   th:hover { color: var(--text); }
   th.sorted { color: var(--accent); }
@@ -357,7 +350,6 @@
     select { flex: 1 1 auto; min-width: 0; }
     .meta { margin-left: 0; width: 100%; }
     .table-wrap { width: 100%; -webkit-overflow-scrolling: touch; }
-    thead { position: static; }
   }
 </style>
 </head>
