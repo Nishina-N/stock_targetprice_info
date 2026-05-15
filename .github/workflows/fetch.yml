@@ -34,6 +34,12 @@ jobs:
           FMP_API_KEY: ${{ secrets.FMP_API_KEY }}
         run: python scripts/fetch_earnings_surprises.py
 
+　　　 - name: Fetch insider trading
+        env:
+          FMP_API_KEY: ${{ secrets.FMP_API_KEY }}
+        run: python scripts/fetch_insider_trading.py
+
+
       - name: Commit and push if changed
         run: |
           git config user.name  "github-actions[bot]"
