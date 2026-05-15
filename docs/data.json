@@ -1,7 +1,20 @@
 {
-  "updated_at": "2026-05-14T23:43:40Z",
-  "total": 816,
+  "updated_at": "2026-05-15T01:52:43Z",
+  "total": 817,
   "records": [
+    {
+      "date": "2026-05-15",
+      "ticker": "CCAP",
+      "company": "Crescent Capital BDC, Inc.",
+      "sector": "Financial Services",
+      "industry": "Asset Management",
+      "action": "Downgrade",
+      "analyst": "Oppenheimer",
+      "rating_prev": "Outperform",
+      "rating_new": "Perform",
+      "pt_prev": "",
+      "pt_new": ""
+    },
     {
       "date": "2026-05-14",
       "ticker": "ATHM",
