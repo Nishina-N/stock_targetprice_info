@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-15T19:24:55Z",
-  "total": 1331,
+  "updated_at": "2026-05-15T20:57:03Z",
+  "total": 1333,
   "records": [
     {
       "date": "2026-05-15",
@@ -3042,7 +3042,7 @@
       "rating_prev": "Buy",
       "rating_new": "Buy",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "3.5"
     },
     {
       "date": "2026-05-15",
@@ -3069,6 +3069,19 @@
       "rating_new": "Buy",
       "pt_prev": "",
       "pt_new": "20"
+    },
+    {
+      "date": "2026-05-15",
+      "ticker": "PGNY",
+      "company": "Progyny, Inc.",
+      "sector": "Healthcare",
+      "industry": "Medical - Healthcare Information Services",
+      "action": "Hold",
+      "analyst": "Barclays",
+      "rating_prev": "Overweight",
+      "rating_new": "Overweight",
+      "pt_prev": "",
+      "pt_new": ""
     },
     {
       "date": "2026-05-14",
@@ -10505,6 +10518,19 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "78"
+    },
+    {
+      "date": "2026-05-13",
+      "ticker": "IRDM",
+      "company": "Iridium Communications Inc.",
+      "sector": "Communication Services",
+      "industry": "Telecommunications Services",
+      "action": "PT Change",
+      "analyst": "New Street",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "40"
     },
     {
       "date": "2026-05-12",
