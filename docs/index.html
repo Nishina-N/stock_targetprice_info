@@ -178,7 +178,8 @@
   }
   table {
     width: 100%;
-    border-collapse: collapse;
+    border-collapse: separate;
+    border-spacing: 0;
     table-layout: fixed;
   }
   thead {
@@ -250,7 +251,6 @@
   #tbl-insider th:nth-child(12) { width: 60px;  }
 
   tr {
-    border-bottom: 1px solid var(--border);
     transition: background .1s;
   }
   tbody tr:hover { background: rgba(59,130,246,.05); }
@@ -263,6 +263,7 @@
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    border-bottom: 1px solid var(--border);
   }
 
   .td-ticker  { font-weight: 600; color: var(--accent); letter-spacing: .04em; }
