@@ -225,13 +225,13 @@
   #tbl-earnings th:nth-child(3)  { width: 70px;  }
   #tbl-earnings th:nth-child(4)  { width: 170px; }
   #tbl-earnings th:nth-child(5)  { width: 120px; }
-  #tbl-earnings th:nth-child(6)  { width: 90px;  }
-  #tbl-earnings th:nth-child(7)  { width: 80px;  }
-  #tbl-earnings th:nth-child(8)  { width: 80px;  }
-  #tbl-earnings th:nth-child(9)  { width: 95px;  }
-  #tbl-earnings th:nth-child(10) { width: 90px;  }
+  #tbl-earnings th:nth-child(6)  { width: 95px;  }
+  #tbl-earnings th:nth-child(7)  { width: 95px;  }
+  #tbl-earnings th:nth-child(8)  { width: 90px;  }
+  #tbl-earnings th:nth-child(9)  { width: 80px;  }
+  #tbl-earnings th:nth-child(10) { width: 80px;  }
   #tbl-earnings th:nth-child(11) { width: 90px;  }
-  #tbl-earnings th:nth-child(12) { width: 95px;  }
+  #tbl-earnings th:nth-child(12) { width: 90px;  }
 
   tr {
     border-bottom: 1px solid var(--border);
@@ -433,7 +433,7 @@
     </div>
     <select id="e-filter-status">
       <option value="">All</option>
-      <option value="reported">Reported</option>
+      <option value="reported" selected>Reported</option>
       <option value="upcoming">Upcoming</option>
     </select>
     <select id="e-filter-sector">
@@ -463,13 +463,13 @@
           <th data-col="symbol">Ticker<span class="sort-arrow">↕</span></th>
           <th data-col="company">Company<span class="sort-arrow">↕</span></th>
           <th data-col="sector">Sector<span class="sort-arrow">↕</span></th>
+          <th data-col="epsSurprisePct">EPS Surp%<span class="sort-arrow">↕</span></th>
+          <th data-col="revenueSurprisePct">Rev Surp%<span class="sort-arrow">↕</span></th>
           <th data-col="time">Time<span class="sort-arrow">↕</span></th>
           <th data-col="epsActual">EPS Act<span class="sort-arrow">↕</span></th>
           <th data-col="epsEstimated">EPS Est<span class="sort-arrow">↕</span></th>
-          <th data-col="epsSurprisePct">EPS Surp%<span class="sort-arrow">↕</span></th>
           <th data-col="revenueActual">Rev Act<span class="sort-arrow">↕</span></th>
           <th data-col="revenueEstimated">Rev Est<span class="sort-arrow">↕</span></th>
-          <th data-col="revenueSurprisePct">Rev Surp%<span class="sort-arrow">↕</span></th>
         </tr>
       </thead>
       <tbody id="tbody-earnings"></tbody>
@@ -858,13 +858,13 @@ function renderEarnings() {
       <td class="td-ticker">${r.symbol}</td>
       <td class="td-company" title="${r.company}">${r.company}</td>
       <td class="td-sector" title="${r.sector}">${r.sector || '—'}</td>
+      <td>${surpriseBadge(r.epsSurprisePct)}</td>
+      <td>${surpriseBadge(r.revenueSurprisePct)}</td>
       <td style="color:var(--neutral);font-size:11px">${fmtTime(r.time)}</td>
       <td>${fmtEps(r.epsActual)}</td>
       <td style="color:var(--dim)">${fmtEps(r.epsEstimated)}</td>
-      <td>${surpriseBadge(r.epsSurprisePct)}</td>
       <td>${fmtRevenue(r.revenueActual)}</td>
       <td style="color:var(--dim)">${fmtRevenue(r.revenueEstimated)}</td>
-      <td>${surpriseBadge(r.revenueSurprisePct)}</td>
     </tr>
   `).join('');
 
