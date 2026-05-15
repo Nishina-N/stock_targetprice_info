@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-15T20:57:03Z",
-  "total": 1333,
+  "updated_at": "2026-05-15T22:00:14Z",
+  "total": 1336,
   "records": [
     {
       "date": "2026-05-15",
@@ -3080,6 +3080,32 @@
       "analyst": "Barclays",
       "rating_prev": "Overweight",
       "rating_new": "Overweight",
+      "pt_prev": "",
+      "pt_new": "27"
+    },
+    {
+      "date": "2026-05-15",
+      "ticker": "JD",
+      "company": "JD.com, Inc.",
+      "sector": "Consumer Cyclical",
+      "industry": "Specialty Retail",
+      "action": "Upgrade",
+      "analyst": "Raymond James",
+      "rating_prev": null,
+      "rating_new": "Outperform",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-05-15",
+      "ticker": "JD",
+      "company": "JD.com, Inc.",
+      "sector": "Consumer Cyclical",
+      "industry": "Specialty Retail",
+      "action": "Upgrade",
+      "analyst": "HSBC",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
       "pt_prev": "",
       "pt_new": ""
     },
@@ -10531,6 +10557,19 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "40"
+    },
+    {
+      "date": "2026-05-13",
+      "ticker": "CMC",
+      "company": "Commercial Metals Company",
+      "sector": "Basic Materials",
+      "industry": "Steel",
+      "action": "PT Change",
+      "analyst": "UBS",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "89"
     },
     {
       "date": "2026-05-12",
