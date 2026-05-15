@@ -182,9 +182,7 @@
     table-layout: fixed;
   }
   thead {
-    position: sticky;
-    top: 53px;
-    z-index: 50;
+    /* Safari対応のため sticky は th に移動 */
   }
   th {
     background: var(--surface);
@@ -201,6 +199,10 @@
     cursor: pointer;
     user-select: none;
     transition: color .15s;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 53px;
+    z-index: 50;
   }
   th:hover { color: var(--text); }
   th.sorted { color: var(--accent); }
