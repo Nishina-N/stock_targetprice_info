@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-15T17:25:12Z",
-  "total": 1319,
+  "updated_at": "2026-05-15T19:24:55Z",
+  "total": 1331,
   "records": [
     {
       "date": "2026-05-15",
@@ -2769,7 +2769,7 @@
       "rating_prev": "Buy",
       "rating_new": "Buy",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "38"
     },
     {
       "date": "2026-05-15",
@@ -2782,7 +2782,7 @@
       "rating_prev": "Hold",
       "rating_new": "Hold",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "18"
     },
     {
       "date": "2026-05-15",
@@ -2952,6 +2952,123 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "52"
+    },
+    {
+      "date": "2026-05-15",
+      "ticker": "SBUX",
+      "company": "Starbucks Corporation",
+      "sector": "Consumer Cyclical",
+      "industry": "Restaurants",
+      "action": "Downgrade",
+      "analyst": "BNP Paribas",
+      "rating_prev": "Underperform",
+      "rating_new": "Underweight",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-05-15",
+      "ticker": "SBUX",
+      "company": "Starbucks Corporation",
+      "sector": "Consumer Cyclical",
+      "industry": "Restaurants",
+      "action": "Downgrade",
+      "analyst": "HSBC",
+      "rating_prev": "Hold",
+      "rating_new": "Reduce",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-05-15",
+      "ticker": "SBUX",
+      "company": "Starbucks Corporation",
+      "sector": "Consumer Cyclical",
+      "industry": "Restaurants",
+      "action": "Downgrade",
+      "analyst": "Piper Sandler",
+      "rating_prev": "Overweight",
+      "rating_new": "Underweight",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-05-15",
+      "ticker": "SBUX",
+      "company": "Starbucks Corporation",
+      "sector": "Consumer Cyclical",
+      "industry": "Restaurants",
+      "action": "Upgrade",
+      "analyst": "Citigroup",
+      "rating_prev": "Neutral",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-05-15",
+      "ticker": "SBUX",
+      "company": "Starbucks Corporation",
+      "sector": "Consumer Cyclical",
+      "industry": "Restaurants",
+      "action": "Upgrade",
+      "analyst": "Fox Advisors",
+      "rating_prev": null,
+      "rating_new": "Outperform",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-05-15",
+      "ticker": "SBUX",
+      "company": "Starbucks Corporation",
+      "sector": "Consumer Cyclical",
+      "industry": "Restaurants",
+      "action": "Downgrade",
+      "analyst": "Exane BNP Paribas",
+      "rating_prev": null,
+      "rating_new": "Underperform",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-05-15",
+      "ticker": "RSSS",
+      "company": "Research Solutions, Inc.",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "action": "Hold",
+      "analyst": "Roth Capital",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-05-15",
+      "ticker": "NEUP",
+      "company": "Neuphoria Therapeutics Inc.",
+      "sector": "Healthcare",
+      "industry": "Medical - Pharmaceuticals",
+      "action": "Downgrade",
+      "analyst": "H.C. Wainwright",
+      "rating_prev": "Buy",
+      "rating_new": "Neutral",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-05-15",
+      "ticker": "NPCE",
+      "company": "NeuroPace, Inc.",
+      "sector": "Healthcare",
+      "industry": "Medical - Devices",
+      "action": "Hold",
+      "analyst": "H.C. Wainwright",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": "20"
     },
     {
       "date": "2026-05-14",
@@ -10349,6 +10466,45 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "145"
+    },
+    {
+      "date": "2026-05-13",
+      "ticker": "VSAT",
+      "company": "Viasat, Inc.",
+      "sector": "Technology",
+      "industry": "Communication Equipment",
+      "action": "PT Change",
+      "analyst": "New Street",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "100"
+    },
+    {
+      "date": "2026-05-13",
+      "ticker": "AVPT",
+      "company": "AvePoint, Inc.",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "action": "PT Change",
+      "analyst": "Goldman Sachs",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "14"
+    },
+    {
+      "date": "2026-05-13",
+      "ticker": "ASO",
+      "company": "Academy Sports and Outdoors, Inc.",
+      "sector": "Consumer Cyclical",
+      "industry": "Specialty Retail",
+      "action": "PT Change",
+      "analyst": "Stephens",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "78"
     },
     {
       "date": "2026-05-12",
