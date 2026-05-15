@@ -1,7 +1,8 @@
 """
 fetch_price_targets.py
-FMP (Financial Modeling Prep) の upgrades-downgrades-rss-feed から
-最新のアナリスト格付け変更を取得し、ウォッチリスト銘柄でフィルタリングして JSON に保存する。
+FMP (Financial Modeling Prep) の upgrades-downgrades-rss-feed と
+price-target-rss-feed から最新のアナリスト情報を取得し、
+ウォッチリスト銘柄でフィルタリングして JSON に保存する。
 
 必要な環境変数:
     FMP_API_KEY: Financial Modeling Prep の API キー
@@ -27,10 +28,12 @@ WATCHLIST_CSV = Path(__file__).parent / "metadata_target_stocks_latest.csv"
 OUTPUT_JSON = ROOT / "docs" / "data.json"
 
 FMP_BASE = "https://financialmodelingprep.com/api/v4"
-FMP_ENDPOINT = f"{FMP_BASE}/upgrades-downgrades-rss-feed"
+FMP_ENDPOINT    = f"{FMP_BASE}/upgrades-downgrades-rss-feed"
+FMP_PT_ENDPOINT = f"{FMP_BASE}/price-target-rss-feed"
 
-MAX_PAGES = 10   # 1ページ = 100件 → 最大1000件取得
-SLEEP_SEC = 1.0  # FMP レート制限対策（無料枠: 250 req/日）
+MAX_PAGES    = 10  # upgrades-downgrades-rss-feed: 1ページ = 100件 → 最大1000件取得
+PT_MAX_PAGES = 5   # price-target-rss-feed: 1ページ = 100件 → 最大500件取得
+SLEEP_SEC    = 1.0  # FMP レート制限対策（無料枠: 250 req/日）
 
 
 def load_watchlist(csv_path: Path) -> dict[str, dict]:
@@ -48,21 +51,22 @@ def load_watchlist(csv_path: Path) -> dict[str, dict]:
     return watchlist
 
 
-def fetch_page(api_key: str, page: int) -> list[dict]:
-    """FMP から 1 ページ分のアナリスト格付けデータを取得（page=0 始まり）"""
+def fetch_page(api_key: str, page: int, endpoint: str = FMP_ENDPOINT) -> list[dict]:
+    """FMP から 1 ページ分のデータを取得（page=0 始まり）"""
+    feed_name = endpoint.split("/")[-1]
     params = {"page": page, "apikey": api_key}
     try:
-        resp = requests.get(FMP_ENDPOINT, params=params, timeout=20)
-        logger.info(f"Page {page}: HTTP {resp.status_code}, {len(resp.content)} bytes")
+        resp = requests.get(endpoint, params=params, timeout=20)
+        logger.info(f"[{feed_name}] Page {page}: HTTP {resp.status_code}, {len(resp.content)} bytes")
         resp.raise_for_status()
         data = resp.json()
         if not isinstance(data, list):
-            logger.warning(f"Page {page}: unexpected response format: {str(data)[:200]}")
+            logger.warning(f"[{feed_name}] Page {page}: unexpected response format: {str(data)[:200]}")
             return []
-        logger.info(f"Page {page}: {len(data)} records fetched")
+        logger.info(f"[{feed_name}] Page {page}: {len(data)} records fetched")
         return data
     except requests.RequestException as e:
-        logger.warning(f"Page {page} fetch failed: {e}")
+        logger.warning(f"[{feed_name}] Page {page} fetch failed: {e}")
         return []
 
 
@@ -87,27 +91,92 @@ def normalize_date(date_str: str) -> str:
     return date_str[:10]
 
 
-def build_records(raw_rows: list[dict], watchlist: dict[str, dict]) -> list[dict]:
-    """ウォッチリスト銘柄のみ抽出してメタデータをマージ"""
-    records = []
+def build_pt_index(pt_rows: list[dict], watchlist: dict[str, dict]) -> dict[str, dict]:
+    """PT フィードから {date|ticker|analyst_lower: {pt_prev, pt_new}} のインデックスを作成"""
+    index: dict[str, dict] = {}
+    for row in pt_rows:
+        sym = (row.get("symbol") or "").strip().upper()
+        if sym not in watchlist:
+            continue
+        date = normalize_date(row.get("publishedDate", ""))
+        analyst = row.get("analystCompany", "")
+        key = f"{date}|{sym}|{analyst.lower()}"
+        index[key] = {
+            "pt_prev": str(row.get("previousPriceTarget", "") or ""),
+            "pt_new":  str(row.get("priceTarget", "") or ""),
+        }
+    return index
+
+
+def build_records(
+    raw_rows: list[dict],
+    watchlist: dict[str, dict],
+    pt_index: dict[str, dict],
+) -> tuple[list[dict], set[str]]:
+    """ウォッチリスト銘柄のみ抽出し、PTインデックスをマージ。消費済みPTキーも返す"""
+    records: list[dict] = []
+    consumed_pt_keys: set[str] = set()
+
     for row in raw_rows:
         sym = (row.get("symbol") or "").strip().upper()
         if sym not in watchlist:
             continue
         meta = watchlist[sym]
+        date    = normalize_date(row.get("publishedDate", ""))
+        analyst = row.get("gradingCompany", "")
+
+        # 同日・同銘柄・同アナリストのPTデータをマージ
+        pt_key  = f"{date}|{sym}|{analyst.lower()}"
+        pt_data = pt_index.get(pt_key)
+        if pt_data:
+            consumed_pt_keys.add(pt_key)
+
         records.append({
-            "date":        normalize_date(row.get("publishedDate", "")),
+            "date":        date,
             "ticker":      sym,
             "company":     meta["company"],
             "sector":      meta["sector"],
             "industry":    meta["industry"],
             "action":      normalize_action(row.get("action", "")),
-            "analyst":     row.get("gradingCompany", ""),
+            "analyst":     analyst,
             "rating_prev": row.get("previousGrade", ""),
             "rating_new":  row.get("newGrade", ""),
-            # upgrades-downgrades-rss-feed には目標株価情報が含まれないため空文字
-            "pt_prev":     "",
-            "pt_new":      "",
+            "pt_prev":     pt_data["pt_prev"] if pt_data else "",
+            "pt_new":      pt_data["pt_new"] if pt_data else "",
+        })
+    return records, consumed_pt_keys
+
+
+def build_pt_only_records(
+    pt_rows: list[dict],
+    watchlist: dict[str, dict],
+    consumed_pt_keys: set[str],
+) -> list[dict]:
+    """格付け変更なし・PT変更のみのレコードを生成（action = "PT Change"）"""
+    records: list[dict] = []
+    for row in pt_rows:
+        sym = (row.get("symbol") or "").strip().upper()
+        if sym not in watchlist:
+            continue
+        date    = normalize_date(row.get("publishedDate", ""))
+        analyst = row.get("analystCompany", "")
+        pt_key  = f"{date}|{sym}|{analyst.lower()}"
+        if pt_key in consumed_pt_keys:
+            continue  # 格付け変更レコードにマージ済み
+
+        meta = watchlist[sym]
+        records.append({
+            "date":        date,
+            "ticker":      sym,
+            "company":     meta["company"],
+            "sector":      meta["sector"],
+            "industry":    meta["industry"],
+            "action":      "PT Change",
+            "analyst":     analyst,
+            "rating_prev": "",
+            "rating_new":  "",
+            "pt_prev":     str(row.get("previousPriceTarget", "") or ""),
+            "pt_new":      str(row.get("priceTarget", "") or ""),
         })
     return records
 
@@ -119,20 +188,40 @@ def main():
         raise SystemExit(1)
 
     watchlist = load_watchlist(WATCHLIST_CSV)
-    all_rows: list[dict] = []
 
+    # ── 1. upgrades-downgrades-rss-feed を取得 ──
+    rating_rows: list[dict] = []
     for page in range(0, MAX_PAGES):
-        rows = fetch_page(api_key, page)
+        rows = fetch_page(api_key, page, FMP_ENDPOINT)
         if not rows:
-            logger.info(f"No more data at page {page}, stopping.")
+            logger.info(f"upgrades-downgrades: no more data at page {page}, stopping.")
             break
-        all_rows.extend(rows)
+        rating_rows.extend(rows)
         time.sleep(SLEEP_SEC)
 
-    records = build_records(all_rows, watchlist)
-    logger.info(f"Matched records: {len(records)} / {len(all_rows)} total")
+    # ── 2. price-target-rss-feed を取得 ──
+    pt_rows: list[dict] = []
+    for page in range(0, PT_MAX_PAGES):
+        rows = fetch_page(api_key, page, FMP_PT_ENDPOINT)
+        if not rows:
+            logger.info(f"price-target: no more data at page {page}, stopping.")
+            break
+        pt_rows.extend(rows)
+        time.sleep(SLEEP_SEC)
 
-    # 既存データとマージ（重複排除）
+    # ── 3. マージ ──
+    pt_index = build_pt_index(pt_rows, watchlist)
+    rating_records, consumed_pt_keys = build_records(rating_rows, watchlist, pt_index)
+    pt_only_records = build_pt_only_records(pt_rows, watchlist, consumed_pt_keys)
+
+    records = rating_records + pt_only_records
+    logger.info(
+        f"Matched records: {len(rating_records)} rating + {len(pt_only_records)} PT-only"
+        f" = {len(records)} total"
+        f" (from {len(rating_rows)} rating rows, {len(pt_rows)} PT rows)"
+    )
+
+    # ── 4. 既存データとマージ（重複排除） ──
     existing: list[dict] = []
     if OUTPUT_JSON.exists():
         with open(OUTPUT_JSON, encoding="utf-8") as f:
@@ -141,7 +230,7 @@ def main():
 
     merged_map: dict[str, dict] = {}
     for r in existing + records:
-        key = f"{r['date']}|{r['ticker']}|{r['analyst']}|{r['rating_new']}"
+        key = f"{r['date']}|{r['ticker']}|{r['analyst']}|{r['action']}|{r['rating_new']}"
         merged_map[key] = r
 
     merged = sorted(merged_map.values(), key=lambda x: x["date"], reverse=True)
