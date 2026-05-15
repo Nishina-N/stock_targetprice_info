@@ -233,6 +233,20 @@
   #tbl-earnings th:nth-child(11) { width: 90px;  }
   #tbl-earnings th:nth-child(12) { width: 95px;  }
 
+  /* Insider Trading column widths */
+  #tbl-insider th:nth-child(1)  { width: 100px; }
+  #tbl-insider th:nth-child(2)  { width: 70px;  }
+  #tbl-insider th:nth-child(3)  { width: 190px; }
+  #tbl-insider th:nth-child(4)  { width: 120px; }
+  #tbl-insider th:nth-child(5)  { width: 160px; }
+  #tbl-insider th:nth-child(6)  { width: 120px; }
+  #tbl-insider th:nth-child(7)  { width: 90px;  }
+  #tbl-insider th:nth-child(8)  { width: 90px;  }
+  #tbl-insider th:nth-child(9)  { width: 90px;  }
+  #tbl-insider th:nth-child(10) { width: 110px; }
+  #tbl-insider th:nth-child(11) { width: 110px; }
+  #tbl-insider th:nth-child(12) { width: 60px;  }
+
   tr {
     border-bottom: 1px solid var(--border);
     transition: background .1s;
@@ -271,6 +285,9 @@
   .badge-ptchange  { background: rgba(139,92,246,.12); color: #7c3aed;        border: 1px solid rgba(139,92,246,.25); }
   .badge-reported  { background: rgba(5,150,105,.10);  color: var(--up);      border: 1px solid rgba(5,150,105,.25); }
   .badge-upcoming  { background: rgba(59,130,246,.10); color: var(--accent);  border: 1px solid rgba(59,130,246,.25); }
+  .badge-buy       { background: rgba(5,150,105,.12);  color: var(--up);      border: 1px solid rgba(5,150,105,.30); }
+  .badge-sell      { background: rgba(225,29,72,.12);  color: var(--down);    border: 1px solid rgba(225,29,72,.30); }
+  .badge-option    { background: rgba(139,92,246,.12); color: #7c3aed;        border: 1px solid rgba(139,92,246,.30); }
 
   .pt-arrow { color: var(--dim); margin: 0 4px; }
   .pt-up    { color: var(--up);   font-weight: 600; }
@@ -352,6 +369,7 @@
 <div class="tab-bar">
   <button class="tab-btn active" data-tab="pt">PT Tracker</button>
   <button class="tab-btn" data-tab="earnings">Earnings Surprises</button>
+  <button class="tab-btn" data-tab="insider">Insider Trading</button>
 </div>
 
 <!-- ══════════════════════════════════════════════
@@ -483,6 +501,65 @@
   </div>
 </div>
 
+<!-- ══════════════════════════════════════════════
+     Insider Trading Section
+══════════════════════════════════════════════ -->
+<div id="section-insider" style="display:none">
+  <div class="controls-bar">
+    <div class="search-wrap">
+      <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/>
+      </svg>
+      <input type="text" id="i-search" placeholder="Ticker / Company / Insider…">
+    </div>
+    <select id="i-filter-type">
+      <option value="">All Types</option>
+      <option value="P-Purchase">Buy (Purchase)</option>
+      <option value="S-Sale">Sell (Sale)</option>
+      <option value="M-Exempt">Option Exercise</option>
+    </select>
+    <select id="i-filter-sector">
+      <option value="">All Sectors</option>
+    </select>
+  </div>
+
+  <div class="stats">
+    <div class="stat"><div class="stat-label">Total</div><div class="stat-value" id="i-stat-total">—</div></div>
+    <div class="stat"><div class="stat-label">Buys</div><div class="stat-value up" id="i-stat-buys">—</div></div>
+    <div class="stat"><div class="stat-label">Sells</div><div class="stat-value down" id="i-stat-sells">—</div></div>
+    <div class="stat"><div class="stat-label">Options</div><div class="stat-value" id="i-stat-options">—</div></div>
+    <div class="stat"><div class="stat-label">Buy Volume</div><div class="stat-value up" id="i-stat-buy-vol">—</div></div>
+  </div>
+
+  <div class="table-wrap">
+    <table id="tbl-insider">
+      <thead>
+        <tr>
+          <th data-col="transactionDate">Date<span class="sort-arrow">↕</span></th>
+          <th data-col="ticker">Ticker<span class="sort-arrow">↕</span></th>
+          <th data-col="company">Company<span class="sort-arrow">↕</span></th>
+          <th data-col="sector">Sector<span class="sort-arrow">↕</span></th>
+          <th data-col="insiderName">Insider<span class="sort-arrow">↕</span></th>
+          <th data-col="role">Role<span class="sort-arrow">↕</span></th>
+          <th data-col="transactionType">Type<span class="sort-arrow">↕</span></th>
+          <th data-col="shares">Shares<span class="sort-arrow">↕</span></th>
+          <th data-col="price">Price<span class="sort-arrow">↕</span></th>
+          <th data-col="totalValue">Total Value<span class="sort-arrow">↕</span></th>
+          <th data-col="sharesOwned">Owned After<span class="sort-arrow">↕</span></th>
+          <th>SEC</th>
+        </tr>
+      </thead>
+      <tbody id="tbody-insider"></tbody>
+    </table>
+    <div id="state-insider" class="state-msg"><span class="spinner"></span>Loading data…</div>
+  </div>
+  <div class="pager">
+    <button id="i-prev" disabled>← Prev</button>
+    <span class="page-info" id="i-page-info">—</span>
+    <button id="i-next" disabled>Next →</button>
+  </div>
+</div>
+
 <script>
 // ══════════════════════════════════════════════
 //  Tab Switching
@@ -496,9 +573,12 @@ document.querySelectorAll('.tab-btn').forEach(btn => {
     activeTab = tab;
     document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
     btn.classList.add('active');
-    document.getElementById('section-pt').style.display       = tab === 'pt' ? '' : 'none';
+    document.getElementById('section-pt').style.display      = tab === 'pt'       ? '' : 'none';
     document.getElementById('section-earnings').style.display = tab === 'earnings' ? '' : 'none';
-    if (tab === 'pt') { updatePtMeta(); } else { updateEarningsMeta(); }
+    document.getElementById('section-insider').style.display  = tab === 'insider'  ? '' : 'none';
+    if (tab === 'pt')       { updatePtMeta(); }
+    else if (tab === 'earnings') { updateEarningsMeta(); }
+    else                   { updateInsiderMeta(); }
   });
 });
 
@@ -893,15 +973,187 @@ document.querySelectorAll('#tbl-earnings th[data-col]').forEach(th => {
   });
 });
 
+// ══════════════════════════════════════════════
+//  Insider Trading
+// ══════════════════════════════════════════════
+let iData = [];
+let iFiltered = [];
+let iSortCol = 'transactionDate';
+let iSortAsc = false;
+let iPage = 1;
+let iUpdatedAt = '';
+
+function updateInsiderMeta() {
+  const updAt = iUpdatedAt
+    ? new Date(iUpdatedAt).toLocaleString('ja-JP', {timeZone:'Asia/Tokyo'})
+    : '—';
+  document.getElementById('meta-info').innerHTML =
+    `Updated: <strong>${updAt} JST</strong> &nbsp;|&nbsp; <strong>${iData.length}</strong> records`;
+}
+
+async function loadInsiderData() {
+  try {
+    const res  = await fetch('insider.json?_=' + Date.now());
+    const json = await res.json();
+    iData      = json.records || [];
+    iUpdatedAt = json.updated_at || '';
+    if (activeTab === 'insider') updateInsiderMeta();
+    buildISectorFilter();
+    applyIFilters();
+  } catch(e) {
+    document.getElementById('state-insider').textContent = 'Failed to load insider.json';
+    document.getElementById('state-insider').style.display = 'block';
+  }
+}
+
+function buildISectorFilter() {
+  const sectors = [...new Set(iData.map(r => r.sector).filter(Boolean))].sort();
+  const sel = document.getElementById('i-filter-sector');
+  while (sel.options.length > 1) sel.remove(1);
+  sectors.forEach(s => {
+    const o = document.createElement('option');
+    o.value = s; o.textContent = s;
+    sel.appendChild(o);
+  });
+}
+
+function applyIFilters() {
+  const q      = document.getElementById('i-search').value.toLowerCase();
+  const txType = document.getElementById('i-filter-type').value;
+  const sector = document.getElementById('i-filter-sector').value;
+
+  iFiltered = iData.filter(r => {
+    if (q && !`${r.ticker} ${r.company} ${r.insiderName}`.toLowerCase().includes(q)) return false;
+    if (txType && r.transactionType !== txType) return false;
+    if (sector && r.sector !== sector) return false;
+    return true;
+  });
+
+  const numericCols = ['shares','price','totalValue','sharesOwned'];
+  iFiltered.sort((a, b) => {
+    let va = a[iSortCol] ?? '', vb = b[iSortCol] ?? '';
+    if (numericCols.includes(iSortCol)) {
+      va = parseFloat(va);
+      vb = parseFloat(vb);
+      if (isNaN(va)) va = iSortAsc ? Infinity : -Infinity;
+      if (isNaN(vb)) vb = iSortAsc ? Infinity : -Infinity;
+    }
+    if (va < vb) return iSortAsc ? -1 :  1;
+    if (va > vb) return iSortAsc ?  1 : -1;
+    return 0;
+  });
+
+  updateIStats();
+  iPage = 1;
+  renderInsider();
+}
+
+function updateIStats() {
+  const buys    = iFiltered.filter(r => r.transactionType === 'P-Purchase');
+  const sells   = iFiltered.filter(r => r.transactionType === 'S-Sale');
+  const options = iFiltered.filter(r => r.transactionType === 'M-Exempt');
+  const buyVol  = buys.reduce((s, r) => s + (r.totalValue || 0), 0);
+  document.getElementById('i-stat-total').textContent   = iFiltered.length;
+  document.getElementById('i-stat-buys').textContent    = buys.length;
+  document.getElementById('i-stat-sells').textContent   = sells.length;
+  document.getElementById('i-stat-options').textContent = options.length;
+  document.getElementById('i-stat-buy-vol').textContent = fmtDollar(buyVol);
+}
+
+function fmtDollar(v) {
+  if (v === null || v === undefined || isNaN(v)) return '—';
+  const abs = Math.abs(v);
+  if (abs >= 1e9) return '$' + (v / 1e9).toFixed(2) + 'B';
+  if (abs >= 1e6) return '$' + (v / 1e6).toFixed(2) + 'M';
+  if (abs >= 1e3) return '$' + (v / 1e3).toFixed(1) + 'K';
+  return '$' + v.toFixed(2);
+}
+
+function fmtShares(v) {
+  if (v === null || v === undefined) return '—';
+  return Number(v).toLocaleString('en-US', {maximumFractionDigits: 0});
+}
+
+function insiderTypeBadge(txType, label) {
+  if (txType === 'P-Purchase') return `<span class="badge badge-buy">${label}</span>`;
+  if (txType === 'S-Sale')     return `<span class="badge badge-sell">${label}</span>`;
+  if (txType === 'M-Exempt')   return `<span class="badge badge-option">${label}</span>`;
+  return `<span class="badge badge-reiterate">${label || txType}</span>`;
+}
+
+function renderInsider() {
+  const tbody = document.getElementById('tbody-insider');
+  const msg   = document.getElementById('state-insider');
+  const total = iFiltered.length;
+
+  if (total === 0) {
+    tbody.innerHTML = '';
+    msg.style.display = 'block';
+    msg.textContent = 'No matching records.';
+    document.getElementById('i-page-info').textContent = '0 / 0';
+    document.getElementById('i-prev').disabled = true;
+    document.getElementById('i-next').disabled = true;
+    return;
+  }
+  msg.style.display = 'none';
+
+  const start      = (iPage - 1) * PAGE_SIZE;
+  const slice      = iFiltered.slice(start, start + PAGE_SIZE);
+  const totalPages = Math.ceil(total / PAGE_SIZE);
+
+  tbody.innerHTML = slice.map(r => `
+    <tr>
+      <td class="td-date">${r.transactionDate || '—'}</td>
+      <td class="td-ticker">${r.ticker}</td>
+      <td class="td-company" title="${r.company}">${r.company}</td>
+      <td class="td-sector" title="${r.sector}">${r.sector || '—'}</td>
+      <td title="${r.insiderName}">${r.insiderName || '—'}</td>
+      <td style="color:var(--neutral);font-size:11px" title="${r.role}">${r.role || '—'}</td>
+      <td>${insiderTypeBadge(r.transactionType, r.transactionLabel)}</td>
+      <td style="font-weight:600">${fmtShares(r.shares)}</td>
+      <td>${r.price != null ? '$' + parseFloat(r.price).toFixed(2) : '—'}</td>
+      <td>${r.totalValue != null ? fmtDollar(r.totalValue) : '—'}</td>
+      <td style="color:var(--dim)">${fmtShares(r.sharesOwned)}</td>
+      <td>${r.link ? `<a href="${r.link}" target="_blank" rel="noopener" style="color:var(--accent);font-size:11px">Form ${r.formType || '4'}</a>` : '—'}</td>
+    </tr>
+  `).join('');
+
+  document.getElementById('i-page-info').textContent =
+    `${start + 1}–${Math.min(start + PAGE_SIZE, total)} / ${total}`;
+  document.getElementById('i-prev').disabled = iPage <= 1;
+  document.getElementById('i-next').disabled = iPage >= totalPages;
+}
+
+['i-search','i-filter-type','i-filter-sector'].forEach(id =>
+  document.getElementById(id).addEventListener('input', applyIFilters)
+);
+document.getElementById('i-prev').addEventListener('click', () => { iPage--; renderInsider(); });
+document.getElementById('i-next').addEventListener('click', () => { iPage++; renderInsider(); });
+
+document.querySelectorAll('#tbl-insider th[data-col]').forEach(th => {
+  th.addEventListener('click', () => {
+    const col = th.dataset.col;
+    if (iSortCol === col) { iSortAsc = !iSortAsc; }
+    else { iSortCol = col; iSortAsc = false; }
+    document.querySelectorAll('#tbl-insider th').forEach(t => t.classList.remove('sorted'));
+    th.classList.add('sorted');
+    const arrow = th.querySelector('.sort-arrow');
+    if (arrow) arrow.textContent = iSortAsc ? '↑' : '↓';
+    applyIFilters();
+  });
+});
+
 // ── Auto-refresh (1 hour) ──
 setInterval(() => {
   loadPtData();
   loadEarningsData();
+  loadInsiderData();
 }, 60 * 60 * 1000);
 
 // ── Initial load ──
 loadPtData();
 loadEarningsData();
+loadInsiderData();
 </script>
 </body>
 </html>
