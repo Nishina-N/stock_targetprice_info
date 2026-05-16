@@ -1,6 +1,6 @@
 """
 fetch_insider_trading.py
-FMP (Financial Modeling Prep) の insider-trading-rss-feed エンドポイントから
+FMP (Financial Modeling Prep) の insider-trading/latest エンドポイントから
 インサイダー取引データを取得し、ウォッチリスト銘柄でフィルタリングして JSON に保存する。
 
 対象取引種別:
@@ -32,8 +32,8 @@ ROOT = Path(__file__).parent.parent
 WATCHLIST_CSV = Path(__file__).parent / "metadata_target_stocks_latest.csv"
 OUTPUT_JSON = ROOT / "docs" / "insider.json"
 
-FMP_BASE = "https://financialmodelingprep.com/api/v4"
-FMP_INSIDER_ENDPOINT = f"{FMP_BASE}/insider-trading-rss-feed"
+FMP_BASE = "https://financialmodelingprep.com/stable"
+FMP_INSIDER_ENDPOINT = f"{FMP_BASE}/insider-trading/latest"
 
 # 取得対象の取引種別（純粋売買 + オプション行使のみ）
 TARGET_TYPES = {"P-Purchase", "S-Sale", "S-Sale+OE", "M-Exempt"}
@@ -60,7 +60,7 @@ def load_watchlist(csv_path: Path) -> dict[str, dict]:
 
 def fetch_page(api_key: str, page: int) -> list[dict] | None:
     """
-    FMP insider-trading-rss-feed から 1 ページ分のデータを取得（page=0 始まり）
+    FMP insider-trading/latest から 1 ページ分のデータを取得（page=0 始まり）
 
     Returns:
         list[dict]: レコードのリスト（空リスト = このページにデータなし）
@@ -187,7 +187,7 @@ def build_records(raw_rows: list[dict], watchlist: dict[str, dict]) -> list[dict
             "totalValue":       total_value,
             "sharesOwned":      safe_float(row.get("securitiesOwned")),
             "formType":         (row.get("formType") or "").strip(),
-            "link":             (row.get("link") or "").strip(),
+            "link":             (row.get("url") or "").strip(),
         })
     return records
 
@@ -209,7 +209,7 @@ def main():
             # API エラー（プラン制限・認証失敗・ネットワーク障害など）
             logger.error(
                 f"[insider] page={page} で API エラーが発生しました。取得を中止します。\n"
-                "FMP_API_KEY が有効か、プランが /api/v4/insider-trading-rss-feed を"
+                "FMP_API_KEY が有効か、プランが /stable/insider-trading/latest を"
                 "サポートしているかをご確認ください。"
             )
             api_error_occurred = True
