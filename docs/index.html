@@ -260,7 +260,8 @@
     border-bottom: 1px solid var(--border);
   }
 
-  .td-ticker  { font-weight: 600; color: var(--accent); letter-spacing: .04em; }
+  .td-ticker  { font-weight: 600; color: var(--accent); letter-spacing: .04em; cursor: pointer; }
+  .td-ticker:hover { text-decoration: underline; text-decoration-style: dotted; }
   .td-company { color: #1e2030; font-family: var(--sans); font-size: 12px; }
   .td-sector  { color: var(--neutral); font-size: 11px; }
   .td-industry{ color: var(--dim); font-size: 11px; }
@@ -385,6 +386,79 @@
     background: linear-gradient(to right, #e11d48, #94a3b8, #059669);
     flex-shrink: 0;
   }
+
+  /* ── Chart Drawer ── */
+  #chart-drawer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 420px;
+    background: var(--surface);
+    border-top: 2px solid var(--border2);
+    box-shadow: 0 -4px 24px rgba(0,0,0,0.12);
+    z-index: 500;
+    transform: translateY(100%);
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    display: flex;
+    flex-direction: column;
+  }
+  #chart-drawer.open {
+    transform: translateY(0);
+  }
+  .chart-drawer-header {
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    border-bottom: 1px solid var(--border);
+    gap: 10px;
+    flex-shrink: 0;
+    background: rgba(248,247,242,0.98);
+  }
+  .chart-drawer-label {
+    font-family: var(--mono);
+    font-size: 10px;
+    color: var(--dim);
+    text-transform: uppercase;
+    letter-spacing: .08em;
+  }
+  .chart-drawer-ticker {
+    font-family: var(--mono);
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--accent);
+    letter-spacing: .04em;
+  }
+  .chart-drawer-tv-link {
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--dim);
+    text-decoration: none;
+    border: 1px solid var(--border2);
+    padding: 2px 8px;
+    border-radius: 4px;
+    transition: color .15s, border-color .15s;
+  }
+  .chart-drawer-tv-link:hover { color: var(--accent); border-color: var(--accent); }
+  .chart-drawer-close {
+    margin-left: auto;
+    background: none;
+    border: 1px solid var(--border2);
+    color: var(--dim);
+    font-size: 14px;
+    width: 28px;
+    height: 28px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: color .15s, border-color .15s;
+    line-height: 1;
+  }
+  .chart-drawer-close:hover { color: var(--text); border-color: var(--text); }
+  #chart-widget-container { flex: 1; min-height: 0; }
+  body.drawer-open { padding-bottom: 420px; }
 
   /* ── Responsive ── */
   @media (max-width: 640px) {
@@ -648,6 +722,17 @@
 <!-- Heatmap Tooltip (global) -->
 <div id="hm-tooltip"></div>
 
+<!-- Chart Drawer (TradingView) -->
+<div id="chart-drawer" role="dialog" aria-label="Chart drawer">
+  <div class="chart-drawer-header">
+    <span class="chart-drawer-label">Chart</span>
+    <span class="chart-drawer-ticker" id="chart-drawer-ticker"></span>
+    <a class="chart-drawer-tv-link" id="chart-drawer-tv-link" href="#" target="_blank" rel="noopener">TradingView ↗</a>
+    <button class="chart-drawer-close" id="chart-drawer-close" aria-label="Close chart">✕</button>
+  </div>
+  <div id="chart-widget-container"></div>
+</div>
+
 <script>
 // ══════════════════════════════════════════════
 //  Tab Switching
@@ -843,7 +928,7 @@ function renderPt() {
   tbody.innerHTML = slice.map(r => `
     <tr>
       <td class="td-date">${r.date || '—'}</td>
-      <td class="td-ticker">${r.ticker}</td>
+      <td class="td-ticker" data-ticker="${r.ticker}">${r.ticker}</td>
       <td class="td-company" title="${r.company}">${r.company}</td>
       <td class="td-sector"  title="${r.sector}">${r.sector || '—'}</td>
       <td class="td-industry" title="${r.industry}">${r.industry || '—'}</td>
@@ -1049,7 +1134,7 @@ function renderEarnings() {
           ? '<span class="badge badge-reported">Reported</span>'
           : '<span class="badge badge-upcoming">Upcoming</span>'}
       </td>
-      <td class="td-ticker">${r.symbol}</td>
+      <td class="td-ticker" data-ticker="${r.symbol}">${r.symbol}</td>
       <td class="td-company" title="${r.company}">${r.company}</td>
       <td class="td-sector" title="${r.sector}">${r.sector || '—'}</td>
       <td>${surpriseBadge(r.epsSurprisePct)}</td>
@@ -1218,7 +1303,7 @@ function renderInsider() {
   tbody.innerHTML = slice.map(r => `
     <tr>
       <td class="td-date">${r.transactionDate || '—'}</td>
-      <td class="td-ticker">${r.ticker}</td>
+      <td class="td-ticker" data-ticker="${r.ticker}">${r.ticker}</td>
       <td class="td-company" title="${r.company}">${r.company}</td>
       <td class="td-sector" title="${r.sector}">${r.sector || '—'}</td>
       <td title="${r.insiderName}">${r.insiderName || '—'}</td>
@@ -1550,6 +1635,96 @@ window.addEventListener('resize', () => {
   if (activeTab !== 'heatmap') return;
   clearTimeout(hmResizeTimer);
   hmResizeTimer = setTimeout(renderHeatmap, 200);
+});
+
+// ══════════════════════════════════════════════
+//  Chart Drawer (TradingView)
+// ══════════════════════════════════════════════
+let tvScriptLoaded   = false;
+let tvScriptLoading  = false;
+let tvScriptCallbacks = [];
+
+function loadTvScript(callback) {
+  if (tvScriptLoaded) { callback(); return; }
+  tvScriptCallbacks.push(callback);
+  if (tvScriptLoading) return;
+  tvScriptLoading = true;
+  const s = document.createElement('script');
+  s.src = 'https://s3.tradingview.com/tv.js';
+  s.onload = () => {
+    tvScriptLoaded   = true;
+    tvScriptLoading  = false;
+    tvScriptCallbacks.forEach(cb => cb());
+    tvScriptCallbacks = [];
+  };
+  document.head.appendChild(s);
+}
+
+function openChartDrawer(ticker) {
+  document.getElementById('chart-drawer-ticker').textContent = ticker;
+  document.getElementById('chart-drawer-tv-link').href =
+    'https://www.tradingview.com/chart/?symbol=' + encodeURIComponent(ticker);
+  document.getElementById('chart-drawer').classList.add('open');
+  document.body.classList.add('drawer-open');
+
+  loadTvScript(() => {
+    const container = document.getElementById('chart-widget-container');
+    container.innerHTML = '';
+    new TradingView.widget({
+      container_id:       'chart-widget-container',
+      autosize:           true,
+      symbol:             ticker,
+      interval:           'D',
+      timezone:           'America/New_York',
+      theme:              'light',
+      style:              '1',
+      locale:             'en',
+      toolbar_bg:         '#f8f7f2',
+      enable_publishing:  false,
+      allow_symbol_change: true,
+      save_image:         false,
+      hide_side_toolbar:  false,
+      withdateranges:     true,
+    });
+  });
+}
+
+function closeChartDrawer() {
+  const drawer = document.getElementById('chart-drawer');
+  drawer.classList.remove('open');
+  document.body.classList.remove('drawer-open');
+  // Clear widget after animation to free resources
+  setTimeout(() => {
+    if (!drawer.classList.contains('open')) {
+      document.getElementById('chart-widget-container').innerHTML = '';
+    }
+  }, 350);
+}
+
+// Close button
+document.getElementById('chart-drawer-close').addEventListener('click', closeChartDrawer);
+
+// Escape key to close
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') closeChartDrawer();
+});
+
+// Event delegation — PT table
+document.getElementById('tbody-pt').addEventListener('click', e => {
+  const td = e.target.closest('.td-ticker');
+  if (td) openChartDrawer(td.dataset.ticker || td.textContent.trim());
+});
+
+// Event delegation — Earnings table
+document.getElementById('tbody-earnings').addEventListener('click', e => {
+  const td = e.target.closest('.td-ticker');
+  if (td) openChartDrawer(td.dataset.ticker || td.textContent.trim());
+});
+
+// Event delegation — Insider table
+document.getElementById('tbody-insider').addEventListener('click', e => {
+  const td = e.target.closest('.td-ticker');
+  if (td) openChartDrawer(td.dataset.ticker || td.textContent.trim());
 });
 
 // ── Auto-refresh (1 hour) ──
