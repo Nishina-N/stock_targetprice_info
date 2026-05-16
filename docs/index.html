@@ -612,7 +612,7 @@
     <select id="hm-filter-days">
       <option value="all">All Time</option>
       <option value="7">Last 7 Days</option>
-      <option value="30">Last 30 Days</option>
+      <option value="30" selected>Last 30 Days</option>
       <option value="90">Last 90 Days</option>
     </select>
     <select id="hm-group-by">
@@ -1260,7 +1260,7 @@ document.querySelectorAll('#tbl-insider th[data-col]').forEach(th => {
 // ══════════════════════════════════════════════
 //  Heatmap (D3.js Squarified Treemap)
 // ══════════════════════════════════════════════
-let hmDays = 'all';
+let hmDays = '30';
 let hmGroupBy = 'industry';
 let hmResizeTimer;
 
@@ -1441,10 +1441,17 @@ function renderHeatmap() {
       hmHideTooltip();
     })
     .on('click', (event, d) => {
-      // Jump to PT tab and filter by sector
+      // Jump to PT tab and filter by industry (or sector when grouped by sector)
       document.querySelector('.tab-btn[data-tab="pt"]').click();
-      const sel = document.getElementById('filter-sector');
-      sel.value = d.data.sector;
+      if (hmGroupBy === 'industry') {
+        document.getElementById('filter-sector').value = '';
+        buildPtIndustryFilter();
+        document.getElementById('filter-industry').value = d.data.name;
+      } else {
+        document.getElementById('filter-industry').value = '';
+        document.getElementById('filter-sector').value = d.data.name;
+        buildPtIndustryFilter();
+      }
       applyPtFilters();
     });
 
