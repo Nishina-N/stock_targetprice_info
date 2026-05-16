@@ -787,7 +787,7 @@ function updateEarningsMeta() {
     : '—';
   const reported = eData.filter(r => r.isReported).length;
   document.getElementById('meta-info').innerHTML =
-    `Updated: <strong>${updAt} JST</strong> &nbsp;|&nbsp; <strong>${eData.length}</strong> records (<strong>${reported}</strong> reported)`;
+    `Updated: <strong>${updAt} JST</strong> &nbsp;|&nbsp; <strong>${eData.length}</strong> records`;
 }
 
 async function loadEarningsData() {
