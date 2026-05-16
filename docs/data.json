@@ -1,7 +1,20 @@
 {
-  "updated_at": "2026-05-16T16:55:00Z",
-  "total": 1338,
+  "updated_at": "2026-05-16T17:53:20Z",
+  "total": 1339,
   "records": [
+    {
+      "date": "2026-05-16",
+      "ticker": "MBLY",
+      "company": "Mobileye Global Inc.",
+      "sector": "Consumer Cyclical",
+      "industry": "Auto - Parts",
+      "action": "Initialise",
+      "analyst": "Jefferies",
+      "rating_prev": null,
+      "rating_new": "Underperform",
+      "pt_prev": "",
+      "pt_new": ""
+    },
     {
       "date": "2026-05-15",
       "ticker": "CCAP",
