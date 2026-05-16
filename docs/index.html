@@ -435,6 +435,9 @@
     <select id="filter-sector">
       <option value="">All Sectors</option>
     </select>
+    <select id="filter-industry">
+      <option value="">All Industries</option>
+    </select>
     <select id="filter-pt">
       <option value="">All PT Changes</option>
       <option value="up">PT Raised ↑</option>
@@ -697,6 +700,7 @@ async function loadPtData() {
     if (activeTab === 'pt')      updatePtMeta();
     if (activeTab === 'heatmap') renderHeatmap();
     buildPtSectorFilter();
+    buildPtIndustryFilter();
     applyPtFilters();
   } catch(e) {
     document.getElementById('state-pt').textContent = 'Failed to load data.json';
@@ -715,6 +719,21 @@ function buildPtSectorFilter() {
   });
 }
 
+function buildPtIndustryFilter() {
+  const selectedSector = document.getElementById('filter-sector').value;
+  const source = selectedSector
+    ? ptData.filter(r => r.sector === selectedSector)
+    : ptData;
+  const industries = [...new Set(source.map(r => r.industry).filter(Boolean))].sort();
+  const sel = document.getElementById('filter-industry');
+  while (sel.options.length > 1) sel.remove(1);
+  industries.forEach(ind => {
+    const o = document.createElement('option');
+    o.value = ind; o.textContent = ind;
+    sel.appendChild(o);
+  });
+}
+
 function parsePT(s) {
   if (!s) return null;
   const n = parseFloat(s.replace(/[^0-9.]/g, ''));
@@ -722,15 +741,17 @@ function parsePT(s) {
 }
 
 function applyPtFilters() {
-  const q      = document.getElementById('search').value.toLowerCase();
-  const action = document.getElementById('filter-action').value.toLowerCase();
-  const sector = document.getElementById('filter-sector').value;
-  const ptF    = document.getElementById('filter-pt').value;
+  const q        = document.getElementById('search').value.toLowerCase();
+  const action   = document.getElementById('filter-action').value.toLowerCase();
+  const sector   = document.getElementById('filter-sector').value;
+  const industry = document.getElementById('filter-industry').value;
+  const ptF      = document.getElementById('filter-pt').value;
 
   ptFiltered = ptData.filter(r => {
     if (q && !`${r.ticker} ${r.company} ${r.analyst}`.toLowerCase().includes(q)) return false;
     if (action && !r.action.toLowerCase().includes(action)) return false;
     if (sector && r.sector !== sector) return false;
+    if (industry && r.industry !== industry) return false;
     if (ptF) {
       const prev = parsePT(r.pt_prev), next = parsePT(r.pt_new);
       if (ptF === 'up'   && !(prev && next && next > prev)) return false;
@@ -845,9 +866,14 @@ function renderPt() {
   document.getElementById('pt-next').disabled = ptPage >= totalPages;
 }
 
-['search','filter-action','filter-sector','filter-pt'].forEach(id =>
+['search','filter-action','filter-pt','filter-industry'].forEach(id =>
   document.getElementById(id).addEventListener('input', applyPtFilters)
 );
+document.getElementById('filter-sector').addEventListener('input', () => {
+  document.getElementById('filter-industry').value = '';
+  buildPtIndustryFilter();
+  applyPtFilters();
+});
 document.getElementById('pt-prev').addEventListener('click', () => { ptPage--; renderPt(); });
 document.getElementById('pt-next').addEventListener('click', () => { ptPage++; renderPt(); });
 
