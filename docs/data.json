@@ -1,7 +1,72 @@
 {
-  "updated_at": "2026-05-17T23:54:20Z",
-  "total": 1339,
+  "updated_at": "2026-05-18T02:52:27Z",
+  "total": 1345,
   "records": [
+    {
+      "date": "2026-05-18",
+      "ticker": "TIMB",
+      "company": "TIM S.A.",
+      "sector": "Communication Services",
+      "industry": "Telecommunications Services",
+      "action": "Initialise",
+      "analyst": "Goldman Sachs",
+      "rating_prev": null,
+      "rating_new": "Neutral",
+      "pt_prev": "",
+      "pt_new": "23.4"
+    },
+    {
+      "date": "2026-05-18",
+      "ticker": "VIV",
+      "company": "Telefônica Brasil S.A.",
+      "sector": "Communication Services",
+      "industry": "Telecommunications Services",
+      "action": "Initialise",
+      "analyst": "Goldman Sachs",
+      "rating_prev": null,
+      "rating_new": "Sell",
+      "pt_prev": "",
+      "pt_new": "13.9"
+    },
+    {
+      "date": "2026-05-18",
+      "ticker": "AMX",
+      "company": "América Móvil, S.A.B. de C.V.",
+      "sector": "Communication Services",
+      "industry": "Telecommunications Services",
+      "action": "Initialise",
+      "analyst": "Goldman Sachs",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": "31.8"
+    },
+    {
+      "date": "2026-05-18",
+      "ticker": "INTR",
+      "company": "Inter & Co, Inc.",
+      "sector": "Financial Services",
+      "industry": "Banks - Regional",
+      "action": "Downgrade",
+      "analyst": "Citigroup",
+      "rating_prev": null,
+      "rating_new": "Neutral",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-05-17",
+      "ticker": "VFC",
+      "company": "V.F. Corporation",
+      "sector": "Consumer Cyclical",
+      "industry": "Apparel - Manufacturers",
+      "action": "PT Change",
+      "analyst": "Williams Trading",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "19"
+    },
     {
       "date": "2026-05-16",
       "ticker": "MBLY",
@@ -6657,6 +6722,19 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "25"
+    },
+    {
+      "date": "2026-05-14",
+      "ticker": "WHR",
+      "company": "Whirlpool Corporation",
+      "sector": "Consumer Cyclical",
+      "industry": "Furnishings, Fixtures & Appliances",
+      "action": "PT Change",
+      "analyst": "Goldman Sachs",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "53"
     },
     {
       "date": "2026-05-13",
