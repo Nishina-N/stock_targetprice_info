@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-18T15:21:11Z",
-  "total": 1549,
+  "updated_at": "2026-05-18T17:56:53Z",
+  "total": 1556,
   "records": [
     {
       "date": "2026-05-18",
@@ -1912,6 +1912,45 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "374"
+    },
+    {
+      "date": "2026-05-18",
+      "ticker": "MU",
+      "company": "Micron Technology, Inc.",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "action": "Hold",
+      "analyst": "Citigroup",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-05-18",
+      "ticker": "ALT",
+      "company": "Altimmune, Inc.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "Hold",
+      "analyst": "H.C. Wainwright",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-05-18",
+      "ticker": "BMRN",
+      "company": "BioMarin Pharmaceutical Inc.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "PT Change",
+      "analyst": "H.C. Wainwright",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "50"
     },
     {
       "date": "2026-05-17",
@@ -9387,6 +9426,58 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "621"
+    },
+    {
+      "date": "2026-05-14",
+      "ticker": "IMUX",
+      "company": "Immunic, Inc.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "PT Change",
+      "analyst": "Roth Capital",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "19"
+    },
+    {
+      "date": "2026-05-14",
+      "ticker": "TSEM",
+      "company": "Tower Semiconductor Ltd.",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "action": "PT Change",
+      "analyst": "Wedbush",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "300"
+    },
+    {
+      "date": "2026-05-14",
+      "ticker": "PL",
+      "company": "Planet Labs PBC",
+      "sector": "Industrials",
+      "industry": "Aerospace & Defense",
+      "action": "PT Change",
+      "analyst": "Wedbush",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "50"
+    },
+    {
+      "date": "2026-05-14",
+      "ticker": "MRVL",
+      "company": "Marvell Technology, Inc.",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "action": "PT Change",
+      "analyst": "RBC Capital",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "200"
     },
     {
       "date": "2026-05-13",
