@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-19T20:28:26Z",
-  "total": 1748,
+  "updated_at": "2026-05-19T22:12:50Z",
+  "total": 1757,
   "records": [
     {
       "date": "2026-05-19",
@@ -1522,6 +1522,97 @@
       "rating_new": "",
       "pt_prev": "394",
       "pt_new": "369"
+    },
+    {
+      "date": "2026-05-19",
+      "ticker": "PSX",
+      "company": "Phillips 66",
+      "sector": "Energy",
+      "industry": "Oil & Gas Refining & Marketing",
+      "action": "Hold",
+      "analyst": "Goldman Sachs",
+      "rating_prev": "Neutral",
+      "rating_new": "Neutral",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-05-19",
+      "ticker": "AAPL",
+      "company": "Apple Inc.",
+      "sector": "Technology",
+      "industry": "Consumer Electronics",
+      "action": "Upgrade",
+      "analyst": "Guggenheim",
+      "rating_prev": null,
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-05-19",
+      "ticker": "AAPL",
+      "company": "Apple Inc.",
+      "sector": "Technology",
+      "industry": "Consumer Electronics",
+      "action": "Upgrade",
+      "analyst": "UBS",
+      "rating_prev": "Neutral",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-05-19",
+      "ticker": "BEKE",
+      "company": "KE Holdings Inc.",
+      "sector": "Real Estate",
+      "industry": "Real Estate - Services",
+      "action": "Hold",
+      "analyst": "Citigroup",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-05-19",
+      "ticker": "HD",
+      "company": "The Home Depot, Inc.",
+      "sector": "Consumer Cyclical",
+      "industry": "Home Improvement",
+      "action": "PT Change",
+      "analyst": "D.A. Davidson",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "377"
+    },
+    {
+      "date": "2026-05-19",
+      "ticker": "PNFP",
+      "company": "Pinnacle Financial Partners, Inc.",
+      "sector": "Financial Services",
+      "industry": "Banks - Regional",
+      "action": "PT Change",
+      "analyst": "Robert W. Baird",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "115"
+    },
+    {
+      "date": "2026-05-19",
+      "ticker": "FATE",
+      "company": "Fate Therapeutics, Inc.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "PT Change",
+      "analyst": "Jefferies",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "4"
     },
     {
       "date": "2026-05-18",
@@ -7346,6 +7437,32 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "217"
+    },
+    {
+      "date": "2026-05-15",
+      "ticker": "WMT",
+      "company": "Walmart Inc.",
+      "sector": "Consumer Defensive",
+      "industry": "Discount Stores",
+      "action": "PT Change",
+      "analyst": "Piper Sandler",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "137"
+    },
+    {
+      "date": "2026-05-15",
+      "ticker": "TGT",
+      "company": "Target Corporation",
+      "sector": "Consumer Defensive",
+      "industry": "Discount Stores",
+      "action": "PT Change",
+      "analyst": "Piper Sandler",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "121"
     },
     {
       "date": "2026-05-14",
