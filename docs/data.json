@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-18T22:57:12Z",
-  "total": 1583,
+  "updated_at": "2026-05-19T00:07:44Z",
+  "total": 1589,
   "records": [
     {
       "date": "2026-05-18",
@@ -2237,6 +2237,45 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "18"
+    },
+    {
+      "date": "2026-05-18",
+      "ticker": "AGO",
+      "company": "Assured Guaranty Ltd.",
+      "sector": "Financial Services",
+      "industry": "Insurance - Specialty",
+      "action": "Upgrade",
+      "analyst": "UBS",
+      "rating_prev": "Neutral",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-05-18",
+      "ticker": "SPOT",
+      "company": "Spotify Technology S.A.",
+      "sector": "Communication Services",
+      "industry": "Internet Content & Information",
+      "action": "Hold",
+      "analyst": "Citigroup",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-05-18",
+      "ticker": "CRVO",
+      "company": "CervoMed Inc.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "PT Change",
+      "analyst": "Roth Capital",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "9"
     },
     {
       "date": "2026-05-17",
@@ -9829,6 +9868,45 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "92"
+    },
+    {
+      "date": "2026-05-14",
+      "ticker": "WPM",
+      "company": "Wheaton Precious Metals Corp.",
+      "sector": "Basic Materials",
+      "industry": "Gold",
+      "action": "PT Change",
+      "analyst": "Scotiabank",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "180"
+    },
+    {
+      "date": "2026-05-14",
+      "ticker": "FNV",
+      "company": "Franco-Nevada Corporation",
+      "sector": "Basic Materials",
+      "industry": "Gold",
+      "action": "PT Change",
+      "analyst": "Scotiabank",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "290"
+    },
+    {
+      "date": "2026-05-14",
+      "ticker": "WIX",
+      "company": "Wix.com Ltd.",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "action": "PT Change",
+      "analyst": "Scotiabank",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "110"
     },
     {
       "date": "2026-05-13",
