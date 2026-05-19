@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-19T15:39:20Z",
-  "total": 1714,
+  "updated_at": "2026-05-19T18:02:07Z",
+  "total": 1733,
   "records": [
     {
       "date": "2026-05-19",
@@ -507,7 +507,7 @@
       "rating_prev": "Buy",
       "rating_new": "Buy",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "10"
     },
     {
       "date": "2026-05-19",
@@ -520,7 +520,7 @@
       "rating_prev": "Sector Perform",
       "rating_new": "Sector Perform",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "206"
     },
     {
       "date": "2026-05-19",
@@ -533,7 +533,7 @@
       "rating_prev": "Sector Perform",
       "rating_new": "Sector Perform",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "37"
     },
     {
       "date": "2026-05-19",
@@ -546,7 +546,7 @@
       "rating_prev": "Outperform",
       "rating_new": "Outperform",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "24"
     },
     {
       "date": "2026-05-19",
@@ -559,7 +559,7 @@
       "rating_prev": "Sector Perform",
       "rating_new": "Sector Perform",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "25"
     },
     {
       "date": "2026-05-19",
@@ -585,7 +585,7 @@
       "rating_prev": "Outperform",
       "rating_new": "Outperform",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "30"
     },
     {
       "date": "2026-05-19",
@@ -598,7 +598,7 @@
       "rating_prev": "Buy",
       "rating_new": "Buy",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "125"
     },
     {
       "date": "2026-05-19",
@@ -1314,6 +1314,84 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "65"
+    },
+    {
+      "date": "2026-05-19",
+      "ticker": "NVDA",
+      "company": "NVIDIA Corporation",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "action": "Upgrade",
+      "analyst": "UBS",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-05-19",
+      "ticker": "GTLB",
+      "company": "GitLab Inc.",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "action": "Hold",
+      "analyst": "Raymond James",
+      "rating_prev": "Market Perform",
+      "rating_new": "Market Perform",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-05-19",
+      "ticker": "CRNT",
+      "company": "Ceragon Networks Ltd.",
+      "sector": "Technology",
+      "industry": "Communication Equipment",
+      "action": "Hold",
+      "analyst": "Roth Capital",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": "4.5"
+    },
+    {
+      "date": "2026-05-19",
+      "ticker": "RLAY",
+      "company": "Relay Therapeutics, Inc.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "Hold",
+      "analyst": "Raymond James",
+      "rating_prev": "Strong Buy",
+      "rating_new": "Strong Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-05-19",
+      "ticker": "VET",
+      "company": "Vermilion Energy Inc.",
+      "sector": "Energy",
+      "industry": "Oil & Gas Exploration & Production",
+      "action": "Hold",
+      "analyst": "RBC Capital",
+      "rating_prev": "Sector Perform",
+      "rating_new": "Sector Perform",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-05-19",
+      "ticker": "RLAY",
+      "company": "Relay Therapeutics, Inc.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "PT Change",
+      "analyst": "UBS",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "26"
     },
     {
       "date": "2026-05-18",
@@ -6904,6 +6982,175 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "16"
+    },
+    {
+      "date": "2026-05-15",
+      "ticker": "GTN",
+      "company": "Gray Media, Inc.",
+      "sector": "Communication Services",
+      "industry": "Broadcasting",
+      "action": "PT Change",
+      "analyst": "Guggenheim",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "7"
+    },
+    {
+      "date": "2026-05-15",
+      "ticker": "ALMS",
+      "company": "Alumis Inc. Common Stock",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "PT Change",
+      "analyst": "Guggenheim",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "34"
+    },
+    {
+      "date": "2026-05-15",
+      "ticker": "CELC",
+      "company": "Celcuity Inc.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "PT Change",
+      "analyst": "Wells Fargo",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "183"
+    },
+    {
+      "date": "2026-05-15",
+      "ticker": "AMAT",
+      "company": "Applied Materials, Inc.",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "action": "PT Change",
+      "analyst": "Wells Fargo",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "520"
+    },
+    {
+      "date": "2026-05-15",
+      "ticker": "YELP",
+      "company": "Yelp Inc.",
+      "sector": "Communication Services",
+      "industry": "Internet Content & Information",
+      "action": "PT Change",
+      "analyst": "Morgan Stanley",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "24"
+    },
+    {
+      "date": "2026-05-15",
+      "ticker": "VNOM",
+      "company": "Viper Energy, Inc.",
+      "sector": "Energy",
+      "industry": "Oil & Gas Midstream",
+      "action": "PT Change",
+      "analyst": "Wells Fargo",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "61"
+    },
+    {
+      "date": "2026-05-15",
+      "ticker": "D",
+      "company": "Dominion Energy, Inc.",
+      "sector": "Utilities",
+      "industry": "Regulated Electric",
+      "action": "PT Change",
+      "analyst": "Wells Fargo",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "68"
+    },
+    {
+      "date": "2026-05-15",
+      "ticker": "AMAT",
+      "company": "Applied Materials, Inc.",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "action": "PT Change",
+      "analyst": "Morgan Stanley",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "502"
+    },
+    {
+      "date": "2026-05-15",
+      "ticker": "STRO",
+      "company": "Sutro Biopharma, Inc.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "PT Change",
+      "analyst": "H.C. Wainwright",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "50"
+    },
+    {
+      "date": "2026-05-15",
+      "ticker": "KYTX",
+      "company": "Kyverna Therapeutics, Inc.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "PT Change",
+      "analyst": "H.C. Wainwright",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "25"
+    },
+    {
+      "date": "2026-05-15",
+      "ticker": "ALMS",
+      "company": "Alumis Inc. Common Stock",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "PT Change",
+      "analyst": "H.C. Wainwright",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "25"
+    },
+    {
+      "date": "2026-05-15",
+      "ticker": "AVAH",
+      "company": "Aveanna Healthcare Holdings Inc.",
+      "sector": "Healthcare",
+      "industry": "Medical - Care Facilities",
+      "action": "PT Change",
+      "analyst": "Stephens",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "11"
+    },
+    {
+      "date": "2026-05-15",
+      "ticker": "ELVA",
+      "company": "Electrovaya Inc.",
+      "sector": "Industrials",
+      "industry": "Electrical Equipment & Parts",
+      "action": "PT Change",
+      "analyst": "H.C. Wainwright",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "15"
     },
     {
       "date": "2026-05-14",
