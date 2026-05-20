@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-20T17:52:36Z",
-  "total": 1998,
+  "updated_at": "2026-05-20T20:09:13Z",
+  "total": 2008,
   "records": [
     {
       "date": "2026-05-20",
@@ -2419,6 +2419,110 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "280"
+    },
+    {
+      "date": "2026-05-20",
+      "ticker": "GRMN",
+      "company": "Garmin Ltd.",
+      "sector": "Technology",
+      "industry": "Hardware, Equipment & Parts",
+      "action": "Hold",
+      "analyst": "Tigress Financial",
+      "rating_prev": "Strong Buy",
+      "rating_new": "Strong Buy",
+      "pt_prev": "",
+      "pt_new": "325"
+    },
+    {
+      "date": "2026-05-20",
+      "ticker": "NVDA",
+      "company": "NVIDIA Corporation",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "action": "Hold",
+      "analyst": "Wedbush",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-05-20",
+      "ticker": "CAVA",
+      "company": "CAVA Group, Inc.",
+      "sector": "Consumer Cyclical",
+      "industry": "Restaurants",
+      "action": "Hold",
+      "analyst": "Guggenheim",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-05-20",
+      "ticker": "PGR",
+      "company": "The Progressive Corporation",
+      "sector": "Financial Services",
+      "industry": "Insurance - Property & Casualty",
+      "action": "Hold",
+      "analyst": "Bank of America Securities",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-05-20",
+      "ticker": "SHAK",
+      "company": "Shake Shack Inc.",
+      "sector": "Consumer Cyclical",
+      "industry": "Restaurants",
+      "action": "Hold",
+      "analyst": "BTIG",
+      "rating_prev": "Neutral",
+      "rating_new": "Neutral",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-05-20",
+      "ticker": "CAVA",
+      "company": "CAVA Group, Inc.",
+      "sector": "Consumer Cyclical",
+      "industry": "Restaurants",
+      "action": "Hold",
+      "analyst": "Bank of America Securities",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-05-20",
+      "ticker": "ADI",
+      "company": "Analog Devices, Inc.",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "action": "PT Change",
+      "analyst": "Truist Financial",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "405"
+    },
+    {
+      "date": "2026-05-20",
+      "ticker": "ECL",
+      "company": "Ecolab Inc.",
+      "sector": "Basic Materials",
+      "industry": "Chemicals - Specialty",
+      "action": "PT Change",
+      "analyst": "Jefferies",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "345"
     },
     {
       "date": "2026-05-19",
@@ -6356,6 +6460,19 @@
       "analyst": "Jefferies",
       "rating_prev": null,
       "rating_new": "Underperform",
+      "pt_prev": "",
+      "pt_new": "8"
+    },
+    {
+      "date": "2026-05-16",
+      "ticker": "MBLY",
+      "company": "Mobileye Global Inc.",
+      "sector": "Consumer Cyclical",
+      "industry": "Auto - Parts",
+      "action": "PT Change",
+      "analyst": "Jefferies",
+      "rating_prev": "",
+      "rating_new": "",
       "pt_prev": "",
       "pt_new": "8"
     },
@@ -10596,6 +10713,19 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "38"
+    },
+    {
+      "date": "2026-05-15",
+      "ticker": "PGNY",
+      "company": "Progyny, Inc.",
+      "sector": "Healthcare",
+      "industry": "Medical - Healthcare Information Services",
+      "action": "PT Change",
+      "analyst": "Barclays",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "27"
     },
     {
       "date": "2026-05-14",
