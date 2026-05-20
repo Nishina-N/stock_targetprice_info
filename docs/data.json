@@ -1,7 +1,20 @@
 {
-  "updated_at": "2026-05-19T23:59:56Z",
-  "total": 1757,
+  "updated_at": "2026-05-20T04:20:04Z",
+  "total": 1761,
   "records": [
+    {
+      "date": "2026-05-20",
+      "ticker": "PKG",
+      "company": "Packaging Corporation of America",
+      "sector": "Consumer Cyclical",
+      "industry": "Packaging & Containers",
+      "action": "Upgrade",
+      "analyst": "UBS",
+      "rating_prev": "Neutral",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": "248"
+    },
     {
       "date": "2026-05-19",
       "ticker": "GFS",
@@ -1613,6 +1626,19 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "4"
+    },
+    {
+      "date": "2026-05-19",
+      "ticker": "TX",
+      "company": "Ternium S.A.",
+      "sector": "Basic Materials",
+      "industry": "Steel",
+      "action": "Upgrade",
+      "analyst": "Bradesco",
+      "rating_prev": null,
+      "rating_new": "Outperform",
+      "pt_prev": "",
+      "pt_new": "62"
     },
     {
       "date": "2026-05-18",
@@ -7463,6 +7489,32 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "121"
+    },
+    {
+      "date": "2026-05-15",
+      "ticker": "HLT",
+      "company": "Hilton Worldwide Holdings Inc.",
+      "sector": "Consumer Cyclical",
+      "industry": "Travel Lodging",
+      "action": "PT Change",
+      "analyst": "Bernstein",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "320"
+    },
+    {
+      "date": "2026-05-15",
+      "ticker": "AMAT",
+      "company": "Applied Materials, Inc.",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "action": "PT Change",
+      "analyst": "Bernstein",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "525"
     },
     {
       "date": "2026-05-14",
