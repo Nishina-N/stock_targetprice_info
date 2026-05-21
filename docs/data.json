@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-21T16:14:25Z",
-  "total": 2330,
+  "updated_at": "2026-05-21T18:57:34Z",
+  "total": 2337,
   "records": [
     {
       "date": "2026-05-21",
@@ -3266,6 +3266,45 @@
       "pt_new": "90"
     },
     {
+      "date": "2026-05-21",
+      "ticker": "IBM",
+      "company": "International Business Machines Corporation",
+      "sector": "Technology",
+      "industry": "Information Technology Services",
+      "action": "Hold",
+      "analyst": "Wedbush",
+      "rating_prev": "Outperform",
+      "rating_new": "Outperform",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-05-21",
+      "ticker": "RL",
+      "company": "Ralph Lauren Corporation",
+      "sector": "Consumer Cyclical",
+      "industry": "Apparel - Manufacturers",
+      "action": "Hold",
+      "analyst": "Needham",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-05-21",
+      "ticker": "KEYS",
+      "company": "Keysight Technologies, Inc.",
+      "sector": "Technology",
+      "industry": "Hardware, Equipment & Parts",
+      "action": "PT Change",
+      "analyst": "Truist Financial",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "376"
+    },
+    {
       "date": "2026-05-20",
       "ticker": "PKG",
       "company": "Packaging Corporation of America",
@@ -5680,7 +5719,7 @@
       "analyst": "Truist Financial",
       "rating_prev": "",
       "rating_new": "",
-      "pt_prev": "",
+      "pt_prev": "255",
       "pt_new": "280"
     },
     {
@@ -6603,7 +6642,7 @@
       "analyst": "Morgan Stanley",
       "rating_prev": "Overweight",
       "rating_new": "Overweight",
-      "pt_prev": "",
+      "pt_prev": "111",
       "pt_new": "115"
     },
     {
@@ -7567,6 +7606,58 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "207"
+    },
+    {
+      "date": "2026-05-19",
+      "ticker": "THG",
+      "company": "The Hanover Insurance Group, Inc.",
+      "sector": "Financial Services",
+      "industry": "Insurance - Property & Casualty",
+      "action": "PT Change",
+      "analyst": "BMO Capital",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "203"
+    },
+    {
+      "date": "2026-05-19",
+      "ticker": "CRWD",
+      "company": "CrowdStrike Holdings, Inc.",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "action": "PT Change",
+      "analyst": "Barclays",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "650"
+    },
+    {
+      "date": "2026-05-19",
+      "ticker": "WPC",
+      "company": "W. P. Carey Inc.",
+      "sector": "Real Estate",
+      "industry": "REIT - Diversified",
+      "action": "PT Change",
+      "analyst": "Barclays",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "78"
+    },
+    {
+      "date": "2026-05-19",
+      "ticker": "BAP",
+      "company": "Credicorp Ltd.",
+      "sector": "Financial Services",
+      "industry": "Banks - Regional",
+      "action": "PT Change",
+      "analyst": "HSBC",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "350"
     },
     {
       "date": "2026-05-18",
