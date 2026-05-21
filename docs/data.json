@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-20T22:22:53Z",
-  "total": 2019,
+  "updated_at": "2026-05-21T00:04:22Z",
+  "total": 2021,
   "records": [
     {
       "date": "2026-05-20",
@@ -2548,7 +2548,7 @@
       "rating_prev": "Neutral",
       "rating_new": "Neutral",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "14.75"
     },
     {
       "date": "2026-05-20",
@@ -2561,7 +2561,7 @@
       "rating_prev": "Buy",
       "rating_new": "Buy",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "450"
     },
     {
       "date": "2026-05-20",
@@ -2614,6 +2614,32 @@
       "rating_new": "",
       "pt_prev": "123",
       "pt_new": "130"
+    },
+    {
+      "date": "2026-05-20",
+      "ticker": "ADI",
+      "company": "Analog Devices, Inc.",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "action": "Hold",
+      "analyst": "Jefferies",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-05-20",
+      "ticker": "OXY",
+      "company": "Occidental Petroleum Corporation",
+      "sector": "Energy",
+      "industry": "Oil & Gas Exploration & Production",
+      "action": "Upgrade",
+      "analyst": "Goldman Sachs",
+      "rating_prev": "Sell",
+      "rating_new": "Neutral",
+      "pt_prev": "",
+      "pt_new": "64"
     },
     {
       "date": "2026-05-19",
