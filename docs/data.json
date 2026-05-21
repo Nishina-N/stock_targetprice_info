@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-21T18:57:34Z",
-  "total": 2337,
+  "updated_at": "2026-05-21T20:52:03Z",
+  "total": 2342,
   "records": [
     {
       "date": "2026-05-21",
@@ -3289,7 +3289,7 @@
       "rating_prev": "Buy",
       "rating_new": "Buy",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "405"
     },
     {
       "date": "2026-05-21",
@@ -3303,6 +3303,58 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "376"
+    },
+    {
+      "date": "2026-05-21",
+      "ticker": "SPOT",
+      "company": "Spotify Technology S.A.",
+      "sector": "Communication Services",
+      "industry": "Internet Content & Information",
+      "action": "Hold",
+      "analyst": "Jefferies",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-05-21",
+      "ticker": "LSPD",
+      "company": "Lightspeed Commerce Inc.",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "action": "Hold",
+      "analyst": "BTIG",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": "12"
+    },
+    {
+      "date": "2026-05-21",
+      "ticker": "AAP",
+      "company": "Advance Auto Parts, Inc.",
+      "sector": "Consumer Cyclical",
+      "industry": "Specialty Retail",
+      "action": "PT Change",
+      "analyst": "Truist Financial",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "55",
+      "pt_new": "62"
+    },
+    {
+      "date": "2026-05-21",
+      "ticker": "ZS",
+      "company": "Zscaler, Inc.",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "action": "PT Change",
+      "analyst": "Morgan Stanley",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "155"
     },
     {
       "date": "2026-05-20",
@@ -7658,6 +7710,19 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "350"
+    },
+    {
+      "date": "2026-05-19",
+      "ticker": "TLN",
+      "company": "Talen Energy Corporation",
+      "sector": "Utilities",
+      "industry": "Independent Power Producers",
+      "action": "PT Change",
+      "analyst": "Barclays",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "411"
     },
     {
       "date": "2026-05-18",
