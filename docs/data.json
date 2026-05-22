@@ -1,7 +1,85 @@
 {
-  "updated_at": "2026-05-21T23:59:05Z",
-  "total": 2382,
+  "updated_at": "2026-05-22T04:11:37Z",
+  "total": 2389,
   "records": [
+    {
+      "date": "2026-05-22",
+      "ticker": "BIRK",
+      "company": "Birkenstock Holding plc",
+      "sector": "Consumer Cyclical",
+      "industry": "Apparel - Footwear & Accessories",
+      "action": "Hold",
+      "analyst": "Goldman Sachs",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": "52.5"
+    },
+    {
+      "date": "2026-05-22",
+      "ticker": "HLNE",
+      "company": "Hamilton Lane Incorporated",
+      "sector": "Financial Services",
+      "industry": "Asset Management",
+      "action": "Hold",
+      "analyst": "Goldman Sachs",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": "148"
+    },
+    {
+      "date": "2026-05-22",
+      "ticker": "CWK",
+      "company": "Cushman & Wakefield plc",
+      "sector": "Real Estate",
+      "industry": "Real Estate - Services",
+      "action": "Hold",
+      "analyst": "Goldman Sachs",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": "17"
+    },
+    {
+      "date": "2026-05-22",
+      "ticker": "CAVA",
+      "company": "CAVA Group, Inc.",
+      "sector": "Consumer Cyclical",
+      "industry": "Restaurants",
+      "action": "PT Change",
+      "analyst": "D.A. Davidson",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "84"
+    },
+    {
+      "date": "2026-05-22",
+      "ticker": "TGT",
+      "company": "Target Corporation",
+      "sector": "Consumer Defensive",
+      "industry": "Discount Stores",
+      "action": "PT Change",
+      "analyst": "D.A. Davidson",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "155"
+    },
+    {
+      "date": "2026-05-22",
+      "ticker": "TKR",
+      "company": "The Timken Company",
+      "sector": "Industrials",
+      "industry": "Manufacturing - Tools & Accessories",
+      "action": "PT Change",
+      "analyst": "Goldman Sachs",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "117",
+      "pt_new": "128"
+    },
     {
       "date": "2026-05-21",
       "ticker": "MTZ",
@@ -8243,6 +8321,19 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "22"
+    },
+    {
+      "date": "2026-05-19",
+      "ticker": "DRTS",
+      "company": "Alpha Tau Medical Ltd.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "PT Change",
+      "analyst": "Piper Sandler",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "8"
     },
     {
       "date": "2026-05-18",
