@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-22T19:28:49Z",
-  "total": 2758,
+  "updated_at": "2026-05-22T21:05:55Z",
+  "total": 2763,
   "records": [
     {
       "date": "2026-05-22",
@@ -3628,6 +3628,71 @@
       "rating_new": "Neutral",
       "pt_prev": "",
       "pt_new": "52"
+    },
+    {
+      "date": "2026-05-22",
+      "ticker": "VIPS",
+      "company": "Vipshop Holdings Limited",
+      "sector": "Consumer Cyclical",
+      "industry": "Specialty Retail",
+      "action": "Upgrade",
+      "analyst": "UBS",
+      "rating_prev": "Neutral",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-05-22",
+      "ticker": "MSFT",
+      "company": "Microsoft Corporation",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "action": "Upgrade",
+      "analyst": "Jefferies",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-05-22",
+      "ticker": "MSFT",
+      "company": "Microsoft Corporation",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "action": "Downgrade",
+      "analyst": "H.C. Wainwright",
+      "rating_prev": "Neutral",
+      "rating_new": "Neutral",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-05-22",
+      "ticker": "DNLI",
+      "company": "Denali Therapeutics Inc.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "PT Change",
+      "analyst": "Morgan Stanley",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "35"
+    },
+    {
+      "date": "2026-05-22",
+      "ticker": "CPRT",
+      "company": "Copart, Inc.",
+      "sector": "Industrials",
+      "industry": "Specialty Business Services",
+      "action": "PT Change",
+      "analyst": "Jefferies",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "45"
     },
     {
       "date": "2026-05-21",
