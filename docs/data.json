@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-22T17:05:53Z",
-  "total": 2748,
+  "updated_at": "2026-05-22T19:28:49Z",
+  "total": 2758,
   "records": [
     {
       "date": "2026-05-22",
@@ -3537,6 +3537,97 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "685"
+    },
+    {
+      "date": "2026-05-22",
+      "ticker": "CAE",
+      "company": "CAE Inc.",
+      "sector": "Industrials",
+      "industry": "Aerospace & Defense",
+      "action": "Hold",
+      "analyst": "National Bank",
+      "rating_prev": "Outperform",
+      "rating_new": "Outperform",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-05-22",
+      "ticker": "ARM",
+      "company": "Arm Holdings plc American Depositary Shares",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "action": "Upgrade",
+      "analyst": "Guggenheim",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-05-22",
+      "ticker": "ARM",
+      "company": "Arm Holdings plc American Depositary Shares",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "action": "Upgrade",
+      "analyst": "Bernstein",
+      "rating_prev": "Outperform",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-05-22",
+      "ticker": "ARM",
+      "company": "Arm Holdings plc American Depositary Shares",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "action": "Upgrade",
+      "analyst": "B. Riley",
+      "rating_prev": null,
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-05-22",
+      "ticker": "ARM",
+      "company": "Arm Holdings plc American Depositary Shares",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "action": "Downgrade",
+      "analyst": "Morgan Stanley",
+      "rating_prev": "Overweight",
+      "rating_new": "Underweight",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-05-22",
+      "ticker": "ARM",
+      "company": "Arm Holdings plc American Depositary Shares",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "action": "Downgrade",
+      "analyst": "Jefferies",
+      "rating_prev": "Buy",
+      "rating_new": "Underperform",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-05-22",
+      "ticker": "BKE",
+      "company": "The Buckle, Inc.",
+      "sector": "Consumer Cyclical",
+      "industry": "Apparel - Retail",
+      "action": "Hold",
+      "analyst": "UBS",
+      "rating_prev": "Neutral",
+      "rating_new": "Neutral",
+      "pt_prev": "",
+      "pt_new": "52"
     },
     {
       "date": "2026-05-21",
@@ -10713,6 +10804,45 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "43"
+    },
+    {
+      "date": "2026-05-20",
+      "ticker": "ICE",
+      "company": "Intercontinental Exchange, Inc.",
+      "sector": "Financial Services",
+      "industry": "Financial - Data & Stock Exchanges",
+      "action": "PT Change",
+      "analyst": "UBS",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "205"
+    },
+    {
+      "date": "2026-05-20",
+      "ticker": "DKNG",
+      "company": "DraftKings Inc.",
+      "sector": "Consumer Cyclical",
+      "industry": "Gambling, Resorts & Casinos",
+      "action": "PT Change",
+      "analyst": "UBS",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "43"
+    },
+    {
+      "date": "2026-05-20",
+      "ticker": "COST",
+      "company": "Costco Wholesale Corporation",
+      "sector": "Consumer Defensive",
+      "industry": "Discount Stores",
+      "action": "PT Change",
+      "analyst": "UBS",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "1275"
     },
     {
       "date": "2026-05-19",
