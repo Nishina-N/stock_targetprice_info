@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-24T20:50:49Z",
-  "total": 2766,
+  "updated_at": "2026-05-24T21:53:04Z",
+  "total": 2767,
   "records": [
     {
       "date": "2026-05-24",
@@ -14,6 +14,19 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "375"
+    },
+    {
+      "date": "2026-05-24",
+      "ticker": "TIGO",
+      "company": "Millicom International Cellular S.A.",
+      "sector": "Communication Services",
+      "industry": "Telecommunications Services",
+      "action": "Downgrade",
+      "analyst": "UBS",
+      "rating_prev": "Buy",
+      "rating_new": "Neutral",
+      "pt_prev": "",
+      "pt_new": ""
     },
     {
       "date": "2026-05-22",
