@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-23T23:53:51Z",
-  "total": 2764,
+  "updated_at": "2026-05-24T02:50:04Z",
+  "total": 2765,
   "records": [
     {
       "date": "2026-05-22",
@@ -3706,6 +3706,19 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "168"
+    },
+    {
+      "date": "2026-05-22",
+      "ticker": "ZM",
+      "company": "Zoom Communications, Inc.",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "action": "PT Change",
+      "analyst": "RBC Capital",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "130"
     },
     {
       "date": "2026-05-21",
