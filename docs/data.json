@@ -1,7 +1,20 @@
 {
-  "updated_at": "2026-05-24T17:56:37Z",
-  "total": 2765,
+  "updated_at": "2026-05-24T19:16:15Z",
+  "total": 2766,
   "records": [
+    {
+      "date": "2026-05-24",
+      "ticker": "HEI",
+      "company": "HEICO Corporation",
+      "sector": "Industrials",
+      "industry": "Aerospace & Defense",
+      "action": "PT Change",
+      "analyst": "Jefferies",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "375"
+    },
     {
       "date": "2026-05-22",
       "ticker": "BIRK",
