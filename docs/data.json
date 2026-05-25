@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-25T12:25:33Z",
-  "total": 2775,
+  "updated_at": "2026-05-25T15:47:50Z",
+  "total": 2776,
   "records": [
     {
       "date": "2026-05-25",
@@ -13,7 +13,7 @@
       "rating_prev": "Buy",
       "rating_new": "Neutral",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "102.13"
     },
     {
       "date": "2026-05-25",
@@ -79,6 +79,19 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "26"
+    },
+    {
+      "date": "2026-05-25",
+      "ticker": "AU",
+      "company": "AngloGold Ashanti Plc",
+      "sector": "Basic Materials",
+      "industry": "Gold",
+      "action": "Upgrade",
+      "analyst": "UBS",
+      "rating_prev": "Buy",
+      "rating_new": "Neutral",
+      "pt_prev": "",
+      "pt_new": ""
     },
     {
       "date": "2026-05-24",
