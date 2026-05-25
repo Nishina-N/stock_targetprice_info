@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-24T23:56:34Z",
-  "total": 2767,
+  "updated_at": "2026-05-25T03:41:20Z",
+  "total": 2768,
   "records": [
     {
       "date": "2026-05-24",
@@ -27,6 +27,19 @@
       "rating_new": "Neutral",
       "pt_prev": "",
       "pt_new": "90"
+    },
+    {
+      "date": "2026-05-24",
+      "ticker": "TX",
+      "company": "Ternium S.A.",
+      "sector": "Basic Materials",
+      "industry": "Steel",
+      "action": "Upgrade",
+      "analyst": "Itau BBA",
+      "rating_prev": null,
+      "rating_new": "Outperform",
+      "pt_prev": "",
+      "pt_new": ""
     },
     {
       "date": "2026-05-22",
