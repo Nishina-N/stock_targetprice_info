@@ -1,7 +1,85 @@
 {
-  "updated_at": "2026-05-25T08:16:59Z",
-  "total": 2768,
+  "updated_at": "2026-05-25T12:25:33Z",
+  "total": 2775,
   "records": [
+    {
+      "date": "2026-05-25",
+      "ticker": "FUTU",
+      "company": "Futu Holdings Limited",
+      "sector": "Financial Services",
+      "industry": "Financial - Capital Markets",
+      "action": "Downgrade",
+      "analyst": "Goldman Sachs",
+      "rating_prev": "Buy",
+      "rating_new": "Neutral",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-05-25",
+      "ticker": "LSPD",
+      "company": "Lightspeed Commerce Inc.",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "action": "Hold",
+      "analyst": "BMO Capital",
+      "rating_prev": "Outperform",
+      "rating_new": "Outperform",
+      "pt_prev": "",
+      "pt_new": "12"
+    },
+    {
+      "date": "2026-05-25",
+      "ticker": "SNN",
+      "company": "Smith & Nephew plc",
+      "sector": "Healthcare",
+      "industry": "Medical - Devices",
+      "action": "Hold",
+      "analyst": "Goldman Sachs",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-05-25",
+      "ticker": "NUE",
+      "company": "Nucor Corporation",
+      "sector": "Basic Materials",
+      "industry": "Steel",
+      "action": "Initialise",
+      "analyst": "CICC",
+      "rating_prev": null,
+      "rating_new": "Outperform",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-05-25",
+      "ticker": "BIO",
+      "company": "Bio-Rad Laboratories, Inc.",
+      "sector": "Healthcare",
+      "industry": "Medical - Devices",
+      "action": "PT Change",
+      "analyst": "Wells Fargo",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "310"
+    },
+    {
+      "date": "2026-05-25",
+      "ticker": "PR",
+      "company": "Permian Resources Corporation",
+      "sector": "Energy",
+      "industry": "Oil & Gas Exploration & Production",
+      "action": "PT Change",
+      "analyst": "Wells Fargo",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "26"
+    },
     {
       "date": "2026-05-24",
       "ticker": "HEI",
@@ -10973,6 +11051,19 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "1275"
+    },
+    {
+      "date": "2026-05-20",
+      "ticker": "GLNG",
+      "company": "Golar LNG Limited",
+      "sector": "Energy",
+      "industry": "Oil & Gas Midstream",
+      "action": "PT Change",
+      "analyst": "BTIG",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "67"
     },
     {
       "date": "2026-05-19",
