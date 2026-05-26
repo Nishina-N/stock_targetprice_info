@@ -1,7 +1,59 @@
 {
-  "updated_at": "2026-05-26T00:05:37Z",
-  "total": 2779,
+  "updated_at": "2026-05-26T04:59:39Z",
+  "total": 2783,
   "records": [
+    {
+      "date": "2026-05-26",
+      "ticker": "CPA",
+      "company": "Copa Holdings, S.A.",
+      "sector": "Industrials",
+      "industry": "Airlines, Airports & Air Services",
+      "action": "Hold",
+      "analyst": "UBS",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": "195"
+    },
+    {
+      "date": "2026-05-26",
+      "ticker": "CIB",
+      "company": "Grupo Cibest S.A.",
+      "sector": "Financial Services",
+      "industry": "Banks - Regional",
+      "action": "Upgrade",
+      "analyst": "Itau BBA",
+      "rating_prev": null,
+      "rating_new": "Market Perform",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-05-26",
+      "ticker": "BAH",
+      "company": "Booz Allen Hamilton Holding Corporation",
+      "sector": "Industrials",
+      "industry": "Consulting Services",
+      "action": "PT Change",
+      "analyst": "Stifel Nicolaus",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "110"
+    },
+    {
+      "date": "2026-05-26",
+      "ticker": "RCL",
+      "company": "Royal Caribbean Cruises Ltd.",
+      "sector": "Consumer Cyclical",
+      "industry": "Travel Services",
+      "action": "PT Change",
+      "analyst": "Morgan Stanley",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "280"
+    },
     {
       "date": "2026-05-25",
       "ticker": "FUTU",
