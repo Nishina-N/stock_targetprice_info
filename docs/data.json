@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-26T04:59:39Z",
-  "total": 2783,
+  "updated_at": "2026-05-26T08:37:53Z",
+  "total": 2785,
   "records": [
     {
       "date": "2026-05-26",
@@ -53,6 +53,32 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "280"
+    },
+    {
+      "date": "2026-05-26",
+      "ticker": "DAVE",
+      "company": "Dave Inc.",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "action": "Initialise",
+      "analyst": "UBS",
+      "rating_prev": "Neutral",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-05-26",
+      "ticker": "VRNS",
+      "company": "Varonis Systems, Inc.",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "action": "Initialise",
+      "analyst": "KeyBanc",
+      "rating_prev": null,
+      "rating_new": "Sector Weight",
+      "pt_prev": "",
+      "pt_new": ""
     },
     {
       "date": "2026-05-25",
