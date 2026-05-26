@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-25T22:56:44Z",
-  "total": 2776,
+  "updated_at": "2026-05-26T00:05:37Z",
+  "total": 2779,
   "records": [
     {
       "date": "2026-05-25",
@@ -90,6 +90,32 @@
       "analyst": "UBS",
       "rating_prev": "Buy",
       "rating_new": "Neutral",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-05-25",
+      "ticker": "FRO",
+      "company": "Frontline Ltd.",
+      "sector": "Energy",
+      "industry": "Oil & Gas Midstream",
+      "action": "Downgrade",
+      "analyst": "Pareto",
+      "rating_prev": null,
+      "rating_new": "Hold",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-05-25",
+      "ticker": "ECO",
+      "company": "Okeanis Eco Tankers Corp.",
+      "sector": "Industrials",
+      "industry": "Marine Shipping",
+      "action": "Downgrade",
+      "analyst": "Pareto",
+      "rating_prev": null,
+      "rating_new": "Hold",
       "pt_prev": "",
       "pt_new": ""
     },
@@ -11077,6 +11103,19 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "67"
+    },
+    {
+      "date": "2026-05-20",
+      "ticker": "PGR",
+      "company": "The Progressive Corporation",
+      "sector": "Financial Services",
+      "industry": "Insurance - Property & Casualty",
+      "action": "PT Change",
+      "analyst": "BMO Capital",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "220"
     },
     {
       "date": "2026-05-19",
