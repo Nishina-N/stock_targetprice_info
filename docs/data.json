@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-26T21:40:26Z",
-  "total": 3086,
+  "updated_at": "2026-05-26T23:05:53Z",
+  "total": 3093,
   "records": [
     {
       "date": "2026-05-26",
@@ -3016,7 +3016,7 @@
       "rating_prev": "Outperform",
       "rating_new": "Outperform",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "153"
     },
     {
       "date": "2026-05-26",
@@ -3042,7 +3042,7 @@
       "rating_prev": "Buy",
       "rating_new": "Buy",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "350"
     },
     {
       "date": "2026-05-26",
@@ -3056,6 +3056,45 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "2.15"
+    },
+    {
+      "date": "2026-05-26",
+      "ticker": "SNDK",
+      "company": "Sandisk Corporation",
+      "sector": "Technology",
+      "industry": "Hardware, Equipment & Parts",
+      "action": "Upgrade",
+      "analyst": "Barclays",
+      "rating_prev": null,
+      "rating_new": "Overweight",
+      "pt_prev": "",
+      "pt_new": "2300"
+    },
+    {
+      "date": "2026-05-26",
+      "ticker": "CLBT",
+      "company": "Cellebrite DI Ltd.",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "action": "PT Change",
+      "analyst": "D.A. Davidson",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "20"
+    },
+    {
+      "date": "2026-05-26",
+      "ticker": "BXP",
+      "company": "BXP, Inc.",
+      "sector": "Real Estate",
+      "industry": "REIT - Office",
+      "action": "PT Change",
+      "analyst": "Truist Financial",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "64"
     },
     {
       "date": "2026-05-25",
@@ -6930,6 +6969,45 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "130"
+    },
+    {
+      "date": "2026-05-22",
+      "ticker": "BIRK",
+      "company": "Birkenstock Holding plc",
+      "sector": "Consumer Cyclical",
+      "industry": "Apparel - Footwear & Accessories",
+      "action": "PT Change",
+      "analyst": "Goldman Sachs",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "52.5"
+    },
+    {
+      "date": "2026-05-22",
+      "ticker": "HLNE",
+      "company": "Hamilton Lane Incorporated",
+      "sector": "Financial Services",
+      "industry": "Asset Management",
+      "action": "PT Change",
+      "analyst": "Goldman Sachs",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "148"
+    },
+    {
+      "date": "2026-05-22",
+      "ticker": "CWK",
+      "company": "Cushman & Wakefield plc",
+      "sector": "Real Estate",
+      "industry": "Real Estate - Services",
+      "action": "PT Change",
+      "analyst": "Goldman Sachs",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "17"
     },
     {
       "date": "2026-05-21",
@@ -11597,6 +11675,19 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "189"
+    },
+    {
+      "date": "2026-05-21",
+      "ticker": "BFH",
+      "company": "Bread Financial Holdings, Inc.",
+      "sector": "Financial Services",
+      "industry": "Financial - Credit Services",
+      "action": "PT Change",
+      "analyst": "Loop Capital Markets",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "104"
     },
     {
       "date": "2026-05-20",
