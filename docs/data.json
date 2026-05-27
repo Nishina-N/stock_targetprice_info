@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-27T18:23:22Z",
-  "total": 3478,
+  "updated_at": "2026-05-27T20:59:29Z",
+  "total": 3484,
   "records": [
     {
       "date": "2026-05-27",
@@ -3812,6 +3812,84 @@
       "pt_new": "90"
     },
     {
+      "date": "2026-05-27",
+      "ticker": "QBTS",
+      "company": "D-Wave Quantum Inc.",
+      "sector": "Technology",
+      "industry": "Computer Hardware",
+      "action": "Hold",
+      "analyst": "Wedbush",
+      "rating_prev": "Outperform",
+      "rating_new": "Outperform",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-05-27",
+      "ticker": "SATL",
+      "company": "Satellogic Inc.",
+      "sector": "Technology",
+      "industry": "Hardware, Equipment & Parts",
+      "action": "Hold",
+      "analyst": "Roth Capital",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": "15"
+    },
+    {
+      "date": "2026-05-27",
+      "ticker": "DKS",
+      "company": "DICK'S Sporting Goods, Inc.",
+      "sector": "Consumer Cyclical",
+      "industry": "Specialty Retail",
+      "action": "Hold",
+      "analyst": "Jefferies",
+      "rating_prev": "Hold",
+      "rating_new": "Hold",
+      "pt_prev": "",
+      "pt_new": "224"
+    },
+    {
+      "date": "2026-05-27",
+      "ticker": "QFIN",
+      "company": "Qfin Holdings, Inc.",
+      "sector": "Financial Services",
+      "industry": "Financial - Credit Services",
+      "action": "Hold",
+      "analyst": "Bank of America Securities",
+      "rating_prev": "Neutral",
+      "rating_new": "Neutral",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-05-27",
+      "ticker": "DKS",
+      "company": "DICK'S Sporting Goods, Inc.",
+      "sector": "Consumer Cyclical",
+      "industry": "Specialty Retail",
+      "action": "PT Change",
+      "analyst": "Truist Financial",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "270"
+    },
+    {
+      "date": "2026-05-27",
+      "ticker": "MOV",
+      "company": "Movado Group, Inc.",
+      "sector": "Consumer Cyclical",
+      "industry": "Luxury Goods",
+      "action": "PT Change",
+      "analyst": "Northland Securities",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "35"
+    },
+    {
       "date": "2026-05-26",
       "ticker": "CPA",
       "company": "Copa Holdings, S.A.",
@@ -5472,7 +5550,7 @@
       "analyst": "BTIG",
       "rating_prev": "Buy",
       "rating_new": "Buy",
-      "pt_prev": "",
+      "pt_prev": "160",
       "pt_new": "155"
     },
     {
