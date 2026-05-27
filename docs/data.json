@@ -1,7 +1,33 @@
 {
-  "updated_at": "2026-05-26T23:05:53Z",
-  "total": 3093,
+  "updated_at": "2026-05-27T02:57:10Z",
+  "total": 3097,
   "records": [
+    {
+      "date": "2026-05-27",
+      "ticker": "HERE",
+      "company": "Here Group Limited",
+      "sector": "Consumer Cyclical",
+      "industry": "Leisure",
+      "action": "Downgrade",
+      "analyst": "Citigroup",
+      "rating_prev": null,
+      "rating_new": "Neutral",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-05-27",
+      "ticker": "VNET",
+      "company": "VNET Group, Inc.",
+      "sector": "Technology",
+      "industry": "Information Technology Services",
+      "action": "Hold",
+      "analyst": "Morgan Stanley",
+      "rating_prev": "Overweight",
+      "rating_new": "Overweight",
+      "pt_prev": "",
+      "pt_new": "16"
+    },
     {
       "date": "2026-05-26",
       "ticker": "CPA",
@@ -3095,6 +3121,32 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "64"
+    },
+    {
+      "date": "2026-05-26",
+      "ticker": "MDAI",
+      "company": "Spectral AI, Inc.",
+      "sector": "Healthcare",
+      "industry": "Medical - Devices",
+      "action": "Hold",
+      "analyst": "BTIG",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": "4"
+    },
+    {
+      "date": "2026-05-26",
+      "ticker": "PODD",
+      "company": "Insulet Corporation",
+      "sector": "Healthcare",
+      "industry": "Medical - Devices",
+      "action": "PT Change",
+      "analyst": "BTIG",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "235"
     },
     {
       "date": "2026-05-25",
