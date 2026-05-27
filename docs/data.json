@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-27T22:45:52Z",
-  "total": 3496,
+  "updated_at": "2026-05-27T23:57:58Z",
+  "total": 3497,
   "records": [
     {
       "date": "2026-05-27",
@@ -4031,6 +4031,19 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "15.33"
+    },
+    {
+      "date": "2026-05-27",
+      "ticker": "HAFN",
+      "company": "Hafnia Limited",
+      "sector": "Industrials",
+      "industry": "Marine Shipping",
+      "action": "Downgrade",
+      "analyst": "Pareto",
+      "rating_prev": null,
+      "rating_new": "Hold",
+      "pt_prev": "",
+      "pt_new": ""
     },
     {
       "date": "2026-05-26",
