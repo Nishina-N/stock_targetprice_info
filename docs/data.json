@@ -1,7 +1,20 @@
 {
-  "updated_at": "2026-05-27T23:57:58Z",
-  "total": 3497,
+  "updated_at": "2026-05-28T03:53:32Z",
+  "total": 3505,
   "records": [
+    {
+      "date": "2026-05-28",
+      "ticker": "LYB",
+      "company": "LyondellBasell Industries N.V.",
+      "sector": "Basic Materials",
+      "industry": "Chemicals - Specialty",
+      "action": "Upgrade",
+      "analyst": "Wells Fargo",
+      "rating_prev": "Reduce",
+      "rating_new": "Overweight",
+      "pt_prev": "",
+      "pt_new": "98"
+    },
     {
       "date": "2026-05-27",
       "ticker": "HERE",
@@ -4046,6 +4059,71 @@
       "pt_new": ""
     },
     {
+      "date": "2026-05-27",
+      "ticker": "MRVL",
+      "company": "Marvell Technology, Inc.",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "action": "Hold",
+      "analyst": "Roth Capital",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": "275"
+    },
+    {
+      "date": "2026-05-27",
+      "ticker": "FSLR",
+      "company": "First Solar, Inc.",
+      "sector": "Energy",
+      "industry": "Solar",
+      "action": "Upgrade",
+      "analyst": "GLJ Research",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": "315"
+    },
+    {
+      "date": "2026-05-27",
+      "ticker": "PDD",
+      "company": "PDD Holdings Inc.",
+      "sector": "Consumer Cyclical",
+      "industry": "Specialty Retail",
+      "action": "Downgrade",
+      "analyst": "Macquarie",
+      "rating_prev": "Outperform",
+      "rating_new": "Neutral",
+      "pt_prev": "",
+      "pt_new": "87"
+    },
+    {
+      "date": "2026-05-27",
+      "ticker": "LUNR",
+      "company": "Intuitive Machines, Inc.",
+      "sector": "Industrials",
+      "industry": "Aerospace & Defense",
+      "action": "PT Change",
+      "analyst": "Roth Capital",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "50",
+      "pt_new": "75"
+    },
+    {
+      "date": "2026-05-27",
+      "ticker": "PDD",
+      "company": "PDD Holdings Inc.",
+      "sector": "Consumer Cyclical",
+      "industry": "Specialty Retail",
+      "action": "PT Change",
+      "analyst": "Bernstein",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "110"
+    },
+    {
       "date": "2026-05-26",
       "ticker": "CPA",
       "company": "Copa Holdings, S.A.",
@@ -7320,6 +7398,19 @@
       "rating_new": "Outperform",
       "pt_prev": "",
       "pt_new": ""
+    },
+    {
+      "date": "2026-05-24",
+      "ticker": "TIGO",
+      "company": "Millicom International Cellular S.A.",
+      "sector": "Communication Services",
+      "industry": "Telecommunications Services",
+      "action": "PT Change",
+      "analyst": "UBS",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "90"
     },
     {
       "date": "2026-05-22",
@@ -12260,6 +12351,19 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "55"
+    },
+    {
+      "date": "2026-05-22",
+      "ticker": "VIPS",
+      "company": "Vipshop Holdings Limited",
+      "sector": "Consumer Cyclical",
+      "industry": "Specialty Retail",
+      "action": "PT Change",
+      "analyst": "UBS",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "18.5"
     },
     {
       "date": "2026-05-21",
