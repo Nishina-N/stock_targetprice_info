@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-28T18:33:39Z",
-  "total": 3821,
+  "updated_at": "2026-05-28T21:06:23Z",
+  "total": 3834,
   "records": [
     {
       "date": "2026-05-28",
@@ -3198,7 +3198,7 @@
       "rating_prev": "Neutral",
       "rating_new": "Neutral",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "77"
     },
     {
       "date": "2026-05-28",
@@ -3211,7 +3211,7 @@
       "rating_prev": "Buy",
       "rating_new": "Buy",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "170.5"
     },
     {
       "date": "2026-05-28",
@@ -3263,7 +3263,7 @@
       "rating_prev": "Underweight",
       "rating_new": "Underweight",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "78"
     },
     {
       "date": "2026-05-28",
@@ -3420,6 +3420,149 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "575"
+    },
+    {
+      "date": "2026-05-28",
+      "ticker": "AVAV",
+      "company": "AeroVironment, Inc.",
+      "sector": "Industrials",
+      "industry": "Aerospace & Defense",
+      "action": "Upgrade",
+      "analyst": "GLJ Research",
+      "rating_prev": null,
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-05-28",
+      "ticker": "AVAV",
+      "company": "AeroVironment, Inc.",
+      "sector": "Industrials",
+      "industry": "Aerospace & Defense",
+      "action": "Downgrade",
+      "analyst": "Citigroup",
+      "rating_prev": "Market Outperform",
+      "rating_new": "Sell",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-05-28",
+      "ticker": "AVAV",
+      "company": "AeroVironment, Inc.",
+      "sector": "Industrials",
+      "industry": "Aerospace & Defense",
+      "action": "Upgrade",
+      "analyst": "Jefferies",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-05-28",
+      "ticker": "MCHB",
+      "company": "Mechanics Bank",
+      "sector": "Financial Services",
+      "industry": "Banks - Regional",
+      "action": "Initialise",
+      "analyst": "Raymond James",
+      "rating_prev": null,
+      "rating_new": "Outperform",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-05-28",
+      "ticker": "ICLR",
+      "company": "ICON Public Limited Company",
+      "sector": "Healthcare",
+      "industry": "Medical - Diagnostics & Research",
+      "action": "Downgrade",
+      "analyst": "Piper Sandler",
+      "rating_prev": null,
+      "rating_new": "Neutral",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-05-28",
+      "ticker": "CRM",
+      "company": "Salesforce, Inc.",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "action": "Downgrade",
+      "analyst": "Piper Sandler",
+      "rating_prev": "Overweight",
+      "rating_new": "Neutral",
+      "pt_prev": "",
+      "pt_new": "215"
+    },
+    {
+      "date": "2026-05-28",
+      "ticker": "TD",
+      "company": "The Toronto-Dominion Bank",
+      "sector": "Financial Services",
+      "industry": "Banks - Diversified",
+      "action": "Hold",
+      "analyst": "Jefferies",
+      "rating_prev": "Hold",
+      "rating_new": "Hold",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-05-28",
+      "ticker": "PHR",
+      "company": "Phreesia, Inc.",
+      "sector": "Healthcare",
+      "industry": "Medical - Healthcare Information Services",
+      "action": "Downgrade",
+      "analyst": "Piper Sandler",
+      "rating_prev": "Overweight",
+      "rating_new": "Neutral",
+      "pt_prev": "",
+      "pt_new": "12"
+    },
+    {
+      "date": "2026-05-28",
+      "ticker": "DLTR",
+      "company": "Dollar Tree, Inc.",
+      "sector": "Consumer Defensive",
+      "industry": "Discount Stores",
+      "action": "Hold",
+      "analyst": "Bank of America Securities",
+      "rating_prev": "Underperform",
+      "rating_new": "Underperform",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-05-28",
+      "ticker": "ICLR",
+      "company": "ICON Public Limited Company",
+      "sector": "Healthcare",
+      "industry": "Medical - Diagnostics & Research",
+      "action": "PT Change",
+      "analyst": "Leerink Partners",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "145"
+    },
+    {
+      "date": "2026-05-28",
+      "ticker": "LI",
+      "company": "Li Auto Inc.",
+      "sector": "Consumer Cyclical",
+      "industry": "Auto - Manufacturers",
+      "action": "PT Change",
+      "analyst": "Monness",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "18"
     },
     {
       "date": "2026-05-27",
@@ -11324,6 +11467,32 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "80"
+    },
+    {
+      "date": "2026-05-26",
+      "ticker": "BIP",
+      "company": "Brookfield Infrastructure Partners L.P.",
+      "sector": "Utilities",
+      "industry": "Diversified Utilities",
+      "action": "PT Change",
+      "analyst": "CIBC",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "45"
+    },
+    {
+      "date": "2026-05-26",
+      "ticker": "AEM",
+      "company": "Agnico Eagle Mines Limited",
+      "sector": "Basic Materials",
+      "industry": "Gold",
+      "action": "PT Change",
+      "analyst": "CIBC",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "310"
     },
     {
       "date": "2026-05-25",
