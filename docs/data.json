@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-28T21:06:23Z",
-  "total": 3834,
+  "updated_at": "2026-05-28T23:11:35Z",
+  "total": 3844,
   "records": [
     {
       "date": "2026-05-28",
@@ -3471,7 +3471,7 @@
       "rating_prev": null,
       "rating_new": "Outperform",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "17"
     },
     {
       "date": "2026-05-28",
@@ -3563,6 +3563,123 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "18"
+    },
+    {
+      "date": "2026-05-28",
+      "ticker": "WBI",
+      "company": "WaterBridge Infrastructure LLC",
+      "sector": "Energy",
+      "industry": "Oil & Gas Energy",
+      "action": "Hold",
+      "analyst": "Goldman Sachs",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-05-28",
+      "ticker": "XPEV",
+      "company": "XPeng Inc.",
+      "sector": "Consumer Cyclical",
+      "industry": "Auto - Manufacturers",
+      "action": "Upgrade",
+      "analyst": "Macquarie",
+      "rating_prev": "Outperform",
+      "rating_new": "Outperform",
+      "pt_prev": "",
+      "pt_new": "19"
+    },
+    {
+      "date": "2026-05-28",
+      "ticker": "EQR",
+      "company": "Equity Residential",
+      "sector": "Real Estate",
+      "industry": "REIT - Residential",
+      "action": "Downgrade",
+      "analyst": "Piper Sandler",
+      "rating_prev": "Overweight",
+      "rating_new": "Neutral",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-05-28",
+      "ticker": "BOLT",
+      "company": "Bolt Biotherapeutics, Inc.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "Initialise",
+      "analyst": "Rodman & Renshaw",
+      "rating_prev": null,
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-05-28",
+      "ticker": "ARGX",
+      "company": "argenx SE",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "Downgrade",
+      "analyst": "Rodman & Renshaw",
+      "rating_prev": null,
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-05-28",
+      "ticker": "MDWD",
+      "company": "MediWound Ltd.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "PT Change",
+      "analyst": "Industrial Alliance Securities",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "22"
+    },
+    {
+      "date": "2026-05-28",
+      "ticker": "HCM",
+      "company": "HUTCHMED (China) Limited",
+      "sector": "Healthcare",
+      "industry": "Drug Manufacturers - Specialty & Generic",
+      "action": "PT Change",
+      "analyst": "Morgan Stanley",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "13.6"
+    },
+    {
+      "date": "2026-05-28",
+      "ticker": "ARGX",
+      "company": "argenx SE",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "PT Change",
+      "analyst": "Stifel Nicolaus",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "1255"
+    },
+    {
+      "date": "2026-05-28",
+      "ticker": "MCHB",
+      "company": "Mechanics Bank",
+      "sector": "Financial Services",
+      "industry": "Banks - Regional",
+      "action": "PT Change",
+      "analyst": "Stifel Nicolaus",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "17"
     },
     {
       "date": "2026-05-27",
@@ -11493,6 +11610,19 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "310"
+    },
+    {
+      "date": "2026-05-26",
+      "ticker": "WMB",
+      "company": "The Williams Companies, Inc.",
+      "sector": "Energy",
+      "industry": "Oil & Gas Midstream",
+      "action": "PT Change",
+      "analyst": "CIBC",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "85"
     },
     {
       "date": "2026-05-25",
