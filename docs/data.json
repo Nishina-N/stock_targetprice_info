@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-28T03:53:32Z",
-  "total": 3505,
+  "updated_at": "2026-05-28T07:53:34Z",
+  "total": 3506,
   "records": [
     {
       "date": "2026-05-28",
@@ -14,6 +14,19 @@
       "rating_new": "Overweight",
       "pt_prev": "",
       "pt_new": "98"
+    },
+    {
+      "date": "2026-05-28",
+      "ticker": "BZ",
+      "company": "Kanzhun Limited",
+      "sector": "Industrials",
+      "industry": "Staffing & Employment Services",
+      "action": "Initialise",
+      "analyst": "Jefferies",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
     },
     {
       "date": "2026-05-27",
