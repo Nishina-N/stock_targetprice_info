@@ -1,7 +1,20 @@
 {
-  "updated_at": "2026-05-28T23:11:35Z",
-  "total": 3844,
+  "updated_at": "2026-05-29T02:48:21Z",
+  "total": 3845,
   "records": [
+    {
+      "date": "2026-05-29",
+      "ticker": "SNOW",
+      "company": "Snowflake Inc.",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "action": "Upgrade",
+      "analyst": "HSBC",
+      "rating_prev": "Sell",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
     {
       "date": "2026-05-28",
       "ticker": "LYB",
@@ -3575,7 +3588,7 @@
       "rating_prev": "Buy",
       "rating_new": "Buy",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "36"
     },
     {
       "date": "2026-05-28",
