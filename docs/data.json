@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-29T20:14:56Z",
-  "total": 4084,
+  "updated_at": "2026-05-29T22:26:25Z",
+  "total": 4092,
   "records": [
     {
       "date": "2026-05-29",
@@ -2445,6 +2445,71 @@
       "rating_new": "Outperform",
       "pt_prev": "",
       "pt_new": "120"
+    },
+    {
+      "date": "2026-05-29",
+      "ticker": "NVDA",
+      "company": "NVIDIA Corporation",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "action": "Upgrade",
+      "analyst": "Susquehanna",
+      "rating_prev": "Positive",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-05-29",
+      "ticker": "NVDA",
+      "company": "NVIDIA Corporation",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "action": "Downgrade",
+      "analyst": "UBS",
+      "rating_prev": "Buy",
+      "rating_new": "Neutral",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-05-29",
+      "ticker": "NVDA",
+      "company": "NVIDIA Corporation",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "action": "Upgrade",
+      "analyst": "HSBC",
+      "rating_prev": "Buy",
+      "rating_new": "Positive",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-05-29",
+      "ticker": "BURL",
+      "company": "Burlington Stores, Inc.",
+      "sector": "Consumer Cyclical",
+      "industry": "Apparel - Retail",
+      "action": "Hold",
+      "analyst": "Jefferies",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": "365"
+    },
+    {
+      "date": "2026-05-29",
+      "ticker": "GCO",
+      "company": "Genesco Inc.",
+      "sector": "Consumer Cyclical",
+      "industry": "Apparel - Retail",
+      "action": "PT Change",
+      "analyst": "Truist Financial",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "40"
     },
     {
       "date": "2026-05-28",
@@ -10843,6 +10908,45 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "13"
+    },
+    {
+      "date": "2026-05-27",
+      "ticker": "CRWD",
+      "company": "CrowdStrike Holdings, Inc.",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "action": "PT Change",
+      "analyst": "Oppenheimer",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "750"
+    },
+    {
+      "date": "2026-05-27",
+      "ticker": "WULF",
+      "company": "TeraWulf Inc.",
+      "sector": "Financial Services",
+      "industry": "Financial - Capital Markets",
+      "action": "PT Change",
+      "analyst": "Oppenheimer",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "35"
+    },
+    {
+      "date": "2026-05-27",
+      "ticker": "ZS",
+      "company": "Zscaler, Inc.",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "action": "PT Change",
+      "analyst": "BMO Capital",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "178"
     },
     {
       "date": "2026-05-26",
