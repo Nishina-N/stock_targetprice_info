@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-29T02:48:21Z",
-  "total": 3845,
+  "updated_at": "2026-05-29T06:51:46Z",
+  "total": 3846,
   "records": [
     {
       "date": "2026-05-29",
@@ -12,6 +12,19 @@
       "analyst": "HSBC",
       "rating_prev": "Sell",
       "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": "289"
+    },
+    {
+      "date": "2026-05-29",
+      "ticker": "LI",
+      "company": "Li Auto Inc.",
+      "sector": "Consumer Cyclical",
+      "industry": "Auto - Manufacturers",
+      "action": "Upgrade",
+      "analyst": "Macquarie",
+      "rating_prev": "Underperform",
+      "rating_new": "Neutral",
       "pt_prev": "",
       "pt_new": ""
     },
@@ -10920,7 +10933,7 @@
       "rating_prev": "Buy",
       "rating_new": "Buy",
       "pt_prev": "",
-      "pt_new": "4"
+      "pt_new": ""
     },
     {
       "date": "2026-05-26",
