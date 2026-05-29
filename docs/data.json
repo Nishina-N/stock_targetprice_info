@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-29T17:33:39Z",
-  "total": 4073,
+  "updated_at": "2026-05-29T20:14:56Z",
+  "total": 4084,
   "records": [
     {
       "date": "2026-05-29",
@@ -2354,6 +2354,97 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "435"
+    },
+    {
+      "date": "2026-05-29",
+      "ticker": "DELL",
+      "company": "Dell Technologies Inc.",
+      "sector": "Technology",
+      "industry": "Computer Hardware",
+      "action": "Downgrade",
+      "analyst": "BNP Paribas",
+      "rating_prev": null,
+      "rating_new": "Underperform",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-05-29",
+      "ticker": "DELL",
+      "company": "Dell Technologies Inc.",
+      "sector": "Technology",
+      "industry": "Computer Hardware",
+      "action": "Initialise",
+      "analyst": "Seaport Global",
+      "rating_prev": null,
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-05-29",
+      "ticker": "DELL",
+      "company": "Dell Technologies Inc.",
+      "sector": "Technology",
+      "industry": "Computer Hardware",
+      "action": "Downgrade",
+      "analyst": "Citigroup",
+      "rating_prev": "Buy",
+      "rating_new": "Sell",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-05-29",
+      "ticker": "DELL",
+      "company": "Dell Technologies Inc.",
+      "sector": "Technology",
+      "industry": "Computer Hardware",
+      "action": "Downgrade",
+      "analyst": "Exane BNP Paribas",
+      "rating_prev": null,
+      "rating_new": "Underperform",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-05-29",
+      "ticker": "DELL",
+      "company": "Dell Technologies Inc.",
+      "sector": "Technology",
+      "industry": "Computer Hardware",
+      "action": "Initialise",
+      "analyst": "HSBC",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-05-29",
+      "ticker": "DLTR",
+      "company": "Dollar Tree, Inc.",
+      "sector": "Consumer Defensive",
+      "industry": "Discount Stores",
+      "action": "Hold",
+      "analyst": "Jefferies",
+      "rating_prev": "Underperform",
+      "rating_new": "Underperform",
+      "pt_prev": "",
+      "pt_new": "85"
+    },
+    {
+      "date": "2026-05-29",
+      "ticker": "OKTA",
+      "company": "Okta, Inc.",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "action": "Hold",
+      "analyst": "Macquarie",
+      "rating_prev": "Outperform",
+      "rating_new": "Outperform",
+      "pt_prev": "",
+      "pt_new": "120"
     },
     {
       "date": "2026-05-28",
@@ -5758,7 +5849,7 @@
       "analyst": "UBS",
       "rating_prev": "",
       "rating_new": "",
-      "pt_prev": "132",
+      "pt_prev": "145",
       "pt_new": "124"
     },
     {
@@ -10700,6 +10791,58 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "253"
+    },
+    {
+      "date": "2026-05-27",
+      "ticker": "PODD",
+      "company": "Insulet Corporation",
+      "sector": "Healthcare",
+      "industry": "Medical - Devices",
+      "action": "PT Change",
+      "analyst": "Goldman Sachs",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "205"
+    },
+    {
+      "date": "2026-05-27",
+      "ticker": "BOX",
+      "company": "Box, Inc.",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "action": "PT Change",
+      "analyst": "UBS",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "29"
+    },
+    {
+      "date": "2026-05-27",
+      "ticker": "S",
+      "company": "SentinelOne, Inc.",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "action": "PT Change",
+      "analyst": "Cantor Fitzgerald",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "24"
+    },
+    {
+      "date": "2026-05-27",
+      "ticker": "PTEN",
+      "company": "Patterson-UTI Energy, Inc.",
+      "sector": "Energy",
+      "industry": "Oil & Gas Drilling",
+      "action": "PT Change",
+      "analyst": "Piper Sandler",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "13"
     },
     {
       "date": "2026-05-26",
