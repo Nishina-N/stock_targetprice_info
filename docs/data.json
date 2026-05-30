@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-30T11:18:00Z",
-  "total": 4100,
+  "updated_at": "2026-05-30T13:19:46Z",
+  "total": 4101,
   "records": [
     {
       "date": "2026-05-29",
@@ -6254,6 +6254,19 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "56"
+    },
+    {
+      "date": "2026-05-28",
+      "ticker": "CLLS",
+      "company": "Cellectis S.A.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "PT Change",
+      "analyst": "Barclays",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "9"
     },
     {
       "date": "2026-05-27",
