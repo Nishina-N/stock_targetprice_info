@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-30T09:55:53Z",
-  "total": 4099,
+  "updated_at": "2026-05-30T11:18:00Z",
+  "total": 4100,
   "records": [
     {
       "date": "2026-05-29",
@@ -6241,6 +6241,19 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "36"
+    },
+    {
+      "date": "2026-05-28",
+      "ticker": "STRO",
+      "company": "Sutro Biopharma, Inc.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "PT Change",
+      "analyst": "Barclays",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "56"
     },
     {
       "date": "2026-05-27",
