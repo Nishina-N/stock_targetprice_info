@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-29T22:26:25Z",
-  "total": 4092,
+  "updated_at": "2026-05-30T00:06:06Z",
+  "total": 4098,
   "records": [
     {
       "date": "2026-05-29",
@@ -2510,6 +2510,45 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "40"
+    },
+    {
+      "date": "2026-05-29",
+      "ticker": "CHD",
+      "company": "Church & Dwight Co., Inc.",
+      "sector": "Consumer Defensive",
+      "industry": "Household & Personal Products",
+      "action": "Hold",
+      "analyst": "Goldman Sachs",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": "111"
+    },
+    {
+      "date": "2026-05-29",
+      "ticker": "OKTA",
+      "company": "Okta, Inc.",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "action": "Hold",
+      "analyst": "Goldman Sachs",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": "126"
+    },
+    {
+      "date": "2026-05-29",
+      "ticker": "S",
+      "company": "SentinelOne, Inc.",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "action": "Hold",
+      "analyst": "Goldman Sachs",
+      "rating_prev": "Neutral",
+      "rating_new": "Neutral",
+      "pt_prev": "",
+      "pt_new": "15.5"
     },
     {
       "date": "2026-05-28",
@@ -10947,6 +10986,45 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "178"
+    },
+    {
+      "date": "2026-05-27",
+      "ticker": "PLTK",
+      "company": "Playtika Holding Corp.",
+      "sector": "Technology",
+      "industry": "Electronic Gaming & Multimedia",
+      "action": "PT Change",
+      "analyst": "Roth Capital",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "3.5"
+    },
+    {
+      "date": "2026-05-27",
+      "ticker": "CWEN",
+      "company": "Clearway Energy, Inc.",
+      "sector": "Utilities",
+      "industry": "Renewable Utilities",
+      "action": "PT Change",
+      "analyst": "Morgan Stanley",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "60"
+    },
+    {
+      "date": "2026-05-27",
+      "ticker": "SMTC",
+      "company": "Semtech Corporation",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "action": "PT Change",
+      "analyst": "Roth Capital",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "190"
     },
     {
       "date": "2026-05-26",
