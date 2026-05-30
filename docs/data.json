@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-30T04:49:39Z",
-  "total": 4098,
+  "updated_at": "2026-05-30T07:38:00Z",
+  "total": 4099,
   "records": [
     {
       "date": "2026-05-29",
@@ -6228,6 +6228,19 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "17"
+    },
+    {
+      "date": "2026-05-28",
+      "ticker": "IMNM",
+      "company": "Immunome, Inc.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "PT Change",
+      "analyst": "Barclays",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "36"
     },
     {
       "date": "2026-05-27",
