@@ -1,7 +1,20 @@
 {
-  "updated_at": "2026-05-31T14:28:28Z",
-  "total": 4102,
+  "updated_at": "2026-05-31T16:03:30Z",
+  "total": 4104,
   "records": [
+    {
+      "date": "2026-05-31",
+      "ticker": "FTI",
+      "company": "TechnipFMC plc",
+      "sector": "Energy",
+      "industry": "Oil & Gas Equipment & Services",
+      "action": "Hold",
+      "analyst": "Jefferies",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
     {
       "date": "2026-05-29",
       "ticker": "SNOW",
@@ -11077,6 +11090,19 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "190"
+    },
+    {
+      "date": "2026-05-27",
+      "ticker": "HASI",
+      "company": "HA Sustainable Infrastructure Capital, Inc.",
+      "sector": "Financial Services",
+      "industry": "Financial - Diversified",
+      "action": "PT Change",
+      "analyst": "Morgan Stanley",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "57"
     },
     {
       "date": "2026-05-26",
