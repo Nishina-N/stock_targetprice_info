@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-31T21:56:29Z",
-  "total": 4104,
+  "updated_at": "2026-05-31T22:58:59Z",
+  "total": 4105,
   "records": [
     {
       "date": "2026-05-31",
@@ -11103,6 +11103,19 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "57"
+    },
+    {
+      "date": "2026-05-27",
+      "ticker": "WES",
+      "company": "Western Midstream Partners, LP",
+      "sector": "Energy",
+      "industry": "Oil & Gas Midstream",
+      "action": "PT Change",
+      "analyst": "Morgan Stanley",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "51"
     },
     {
       "date": "2026-05-26",
