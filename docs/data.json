@@ -1,7 +1,59 @@
 {
-  "updated_at": "2026-06-01T00:11:11Z",
-  "total": 4105,
+  "updated_at": "2026-06-01T05:58:31Z",
+  "total": 4111,
   "records": [
+    {
+      "date": "2026-06-01",
+      "ticker": "TNDM",
+      "company": "Tandem Diabetes Care, Inc.",
+      "sector": "Healthcare",
+      "industry": "Medical - Devices",
+      "action": "Upgrade",
+      "analyst": "Wells Fargo",
+      "rating_prev": "Buy",
+      "rating_new": "Overweight",
+      "pt_prev": "",
+      "pt_new": "27"
+    },
+    {
+      "date": "2026-06-01",
+      "ticker": "MNKD",
+      "company": "MannKind Corporation",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "Hold",
+      "analyst": "Wells Fargo",
+      "rating_prev": "Overweight",
+      "rating_new": "Overweight",
+      "pt_prev": "",
+      "pt_new": "11"
+    },
+    {
+      "date": "2026-06-01",
+      "ticker": "MNST",
+      "company": "Monster Beverage Corporation",
+      "sector": "Consumer Defensive",
+      "industry": "Beverages - Non-Alcoholic",
+      "action": "Hold",
+      "analyst": "Morgan Stanley",
+      "rating_prev": "Overweight",
+      "rating_new": "Overweight",
+      "pt_prev": "",
+      "pt_new": "103"
+    },
+    {
+      "date": "2026-06-01",
+      "ticker": "DELL",
+      "company": "Dell Technologies Inc.",
+      "sector": "Technology",
+      "industry": "Computer Hardware",
+      "action": "PT Change",
+      "analyst": "Bernstein",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "280",
+      "pt_new": "500"
+    },
     {
       "date": "2026-05-31",
       "ticker": "FTI",
@@ -11116,6 +11168,32 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "51"
+    },
+    {
+      "date": "2026-05-27",
+      "ticker": "YPF",
+      "company": "YPF Sociedad Anónima",
+      "sector": "Energy",
+      "industry": "Oil & Gas Integrated",
+      "action": "PT Change",
+      "analyst": "UBS",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "48"
+    },
+    {
+      "date": "2026-05-27",
+      "ticker": "EC",
+      "company": "Ecopetrol S.A.",
+      "sector": "Energy",
+      "industry": "Oil & Gas Integrated",
+      "action": "PT Change",
+      "analyst": "UBS",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "14"
     },
     {
       "date": "2026-05-26",
