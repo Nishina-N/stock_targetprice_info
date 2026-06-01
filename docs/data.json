@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-01T21:27:38Z",
-  "total": 4454,
+  "updated_at": "2026-06-01T23:24:37Z",
+  "total": 4455,
   "records": [
     {
       "date": "2026-06-01",
@@ -3016,7 +3016,7 @@
       "rating_prev": null,
       "rating_new": "Underperform",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "7"
     },
     {
       "date": "2026-06-01",
@@ -3029,7 +3029,7 @@
       "rating_prev": "Outperform",
       "rating_new": "Outperform",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "10"
     },
     {
       "date": "2026-06-01",
@@ -3225,6 +3225,19 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "22"
+    },
+    {
+      "date": "2026-06-01",
+      "ticker": "SAIC",
+      "company": "Science Applications International Corporation",
+      "sector": "Technology",
+      "industry": "Information Technology Services",
+      "action": "PT Change",
+      "analyst": "Stifel Nicolaus",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "137"
     },
     {
       "date": "2026-05-31",
