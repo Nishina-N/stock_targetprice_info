@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-02T03:32:46Z",
-  "total": 4463,
+  "updated_at": "2026-06-02T08:24:58Z",
+  "total": 4477,
   "records": [
     {
       "date": "2026-06-02",
@@ -13,7 +13,7 @@
       "rating_prev": "Buy",
       "rating_new": "Buy",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "270"
     },
     {
       "date": "2026-06-02",
@@ -66,6 +66,162 @@
       "rating_new": "Neutral",
       "pt_prev": "",
       "pt_new": "330"
+    },
+    {
+      "date": "2026-06-02",
+      "ticker": "HTZ",
+      "company": "Hertz Global Holdings, Inc.",
+      "sector": "Industrials",
+      "industry": "Rental & Leasing Services",
+      "action": "Hold",
+      "analyst": "Deutsche Bank",
+      "rating_prev": "Hold",
+      "rating_new": "Hold",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-02",
+      "ticker": "GOOG",
+      "company": "Alphabet Inc.",
+      "sector": "Communication Services",
+      "industry": "Internet Content & Information",
+      "action": "Hold",
+      "analyst": "Wells Fargo",
+      "rating_prev": "Overweight",
+      "rating_new": "Overweight",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-02",
+      "ticker": "PR",
+      "company": "Permian Resources Corporation",
+      "sector": "Energy",
+      "industry": "Oil & Gas Exploration & Production",
+      "action": "Upgrade",
+      "analyst": "Morgan Stanley",
+      "rating_prev": "Overweight",
+      "rating_new": "Overweight",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-02",
+      "ticker": "SQM",
+      "company": "Sociedad Química y Minera de Chile S.A.",
+      "sector": "Basic Materials",
+      "industry": "Chemicals - Specialty",
+      "action": "Upgrade",
+      "analyst": "CLSA",
+      "rating_prev": null,
+      "rating_new": "Outperform",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-02",
+      "ticker": "NU",
+      "company": "Nu Holdings Ltd.",
+      "sector": "Financial Services",
+      "industry": "Banks - Diversified",
+      "action": "Downgrade",
+      "analyst": "Bank of America Securities",
+      "rating_prev": "Neutral",
+      "rating_new": "Underperform",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-02",
+      "ticker": "BZ",
+      "company": "Kanzhun Limited",
+      "sector": "Industrials",
+      "industry": "Staffing & Employment Services",
+      "action": "Upgrade",
+      "analyst": "Morgan Stanley",
+      "rating_prev": "Underweight",
+      "rating_new": "Positive",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-02",
+      "ticker": "CI",
+      "company": "Cigna Corporation",
+      "sector": "Healthcare",
+      "industry": "Medical - Healthcare Plans",
+      "action": "Initialise",
+      "analyst": "UBS",
+      "rating_prev": "Buy",
+      "rating_new": "Sell",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-02",
+      "ticker": "ABVX",
+      "company": "Abivax S.A.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "Downgrade",
+      "analyst": "Jefferies",
+      "rating_prev": null,
+      "rating_new": "Hold",
+      "pt_prev": "",
+      "pt_new": "90"
+    },
+    {
+      "date": "2026-06-02",
+      "ticker": "TMHC",
+      "company": "Taylor Morrison Home Corporation",
+      "sector": "Consumer Cyclical",
+      "industry": "Residential Construction",
+      "action": "Downgrade",
+      "analyst": "RBC Capital",
+      "rating_prev": "Outperform",
+      "rating_new": "Sector Perform",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-02",
+      "ticker": "SQM",
+      "company": "Sociedad Química y Minera de Chile S.A.",
+      "sector": "Basic Materials",
+      "industry": "Chemicals - Specialty",
+      "action": "PT Change",
+      "analyst": "Goldman Sachs",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "100"
+    },
+    {
+      "date": "2026-06-02",
+      "ticker": "ACRE",
+      "company": "Ares Commercial Real Estate Corporation",
+      "sector": "Real Estate",
+      "industry": "REIT - Mortgage",
+      "action": "PT Change",
+      "analyst": "UBS",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "5.5"
+    },
+    {
+      "date": "2026-06-02",
+      "ticker": "FULC",
+      "company": "Fulcrum Therapeutics, Inc.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "PT Change",
+      "analyst": "Truist Financial",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "4"
     },
     {
       "date": "2026-06-01",
@@ -10466,6 +10622,32 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "450"
+    },
+    {
+      "date": "2026-05-28",
+      "ticker": "SQM",
+      "company": "Sociedad Química y Minera de Chile S.A.",
+      "sector": "Basic Materials",
+      "industry": "Chemicals - Specialty",
+      "action": "PT Change",
+      "analyst": "Scotiabank",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "105"
+    },
+    {
+      "date": "2026-05-28",
+      "ticker": "SNOW",
+      "company": "Snowflake Inc.",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "action": "PT Change",
+      "analyst": "Scotiabank",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "285"
     },
     {
       "date": "2026-05-27",
