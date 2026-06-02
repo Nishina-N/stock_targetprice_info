@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-02T17:18:12Z",
-  "total": 4700,
+  "updated_at": "2026-06-02T20:42:08Z",
+  "total": 4714,
   "records": [
     {
       "date": "2026-06-02",
@@ -1313,7 +1313,7 @@
       "rating_prev": "Buy",
       "rating_new": "Buy",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "67"
     },
     {
       "date": "2026-06-02",
@@ -1326,7 +1326,7 @@
       "rating_prev": "Buy",
       "rating_new": "Buy",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "90"
     },
     {
       "date": "2026-06-02",
@@ -2302,6 +2302,136 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "105"
+    },
+    {
+      "date": "2026-06-02",
+      "ticker": "RZLT",
+      "company": "Rezolute, Inc.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "Hold",
+      "analyst": "BTIG",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-02",
+      "ticker": "SHAK",
+      "company": "Shake Shack Inc.",
+      "sector": "Consumer Cyclical",
+      "industry": "Restaurants",
+      "action": "Hold",
+      "analyst": "Oppenheimer",
+      "rating_prev": "Outperform",
+      "rating_new": "Outperform",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-02",
+      "ticker": "NVDA",
+      "company": "NVIDIA Corporation",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "action": "Upgrade",
+      "analyst": "National Securities Corporation",
+      "rating_prev": null,
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-02",
+      "ticker": "SHAK",
+      "company": "Shake Shack Inc.",
+      "sector": "Consumer Cyclical",
+      "industry": "Restaurants",
+      "action": "Hold",
+      "analyst": "Jefferies",
+      "rating_prev": "Hold",
+      "rating_new": "Hold",
+      "pt_prev": "",
+      "pt_new": "66"
+    },
+    {
+      "date": "2026-06-02",
+      "ticker": "VERA",
+      "company": "Vera Therapeutics, Inc.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "Hold",
+      "analyst": "Wolfe Research",
+      "rating_prev": "Outperform",
+      "rating_new": "Outperform",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-02",
+      "ticker": "NVDA",
+      "company": "NVIDIA Corporation",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "action": "Hold",
+      "analyst": "William Blair",
+      "rating_prev": "Outperform",
+      "rating_new": "Outperform",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-02",
+      "ticker": "MSGS",
+      "company": "Madison Square Garden Sports Corp.",
+      "sector": "Communication Services",
+      "industry": "Entertainment",
+      "action": "PT Change",
+      "analyst": "Guggenheim",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "422",
+      "pt_new": "470"
+    },
+    {
+      "date": "2026-06-02",
+      "ticker": "MRVL",
+      "company": "Marvell Technology, Inc.",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "action": "PT Change",
+      "analyst": "Stifel Nicolaus",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "230",
+      "pt_new": "321"
+    },
+    {
+      "date": "2026-06-02",
+      "ticker": "DG",
+      "company": "Dollar General Corporation",
+      "sector": "Consumer Defensive",
+      "industry": "Discount Stores",
+      "action": "PT Change",
+      "analyst": "Truist Financial",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "109",
+      "pt_new": "114"
+    },
+    {
+      "date": "2026-06-02",
+      "ticker": "ODD",
+      "company": "Oddity Tech Ltd.",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "action": "PT Change",
+      "analyst": "Truist Financial",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "12"
     },
     {
       "date": "2026-06-01",
@@ -4952,7 +5082,7 @@
       "analyst": "Mizuho Securities",
       "rating_prev": "",
       "rating_new": "",
-      "pt_prev": "",
+      "pt_prev": "290",
       "pt_new": "260"
     },
     {
@@ -8711,6 +8841,58 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "9"
+    },
+    {
+      "date": "2026-05-29",
+      "ticker": "KSS",
+      "company": "Kohl's Corporation",
+      "sector": "Consumer Cyclical",
+      "industry": "Department Stores",
+      "action": "PT Change",
+      "analyst": "UBS",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "9"
+    },
+    {
+      "date": "2026-05-29",
+      "ticker": "NTAP",
+      "company": "NetApp, Inc.",
+      "sector": "Technology",
+      "industry": "Computer Hardware",
+      "action": "PT Change",
+      "analyst": "UBS",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "160"
+    },
+    {
+      "date": "2026-05-29",
+      "ticker": "ICLR",
+      "company": "ICON Public Limited Company",
+      "sector": "Healthcare",
+      "industry": "Medical - Diagnostics & Research",
+      "action": "PT Change",
+      "analyst": "Jefferies",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "165"
+    },
+    {
+      "date": "2026-05-29",
+      "ticker": "ASAN",
+      "company": "Asana, Inc.",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "action": "PT Change",
+      "analyst": "RBC Capital",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "8"
     },
     {
       "date": "2026-05-28",
