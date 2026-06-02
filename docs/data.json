@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-02T20:42:08Z",
-  "total": 4714,
+  "updated_at": "2026-06-02T22:59:40Z",
+  "total": 4730,
   "records": [
     {
       "date": "2026-06-02",
@@ -2314,7 +2314,7 @@
       "rating_prev": "Buy",
       "rating_new": "Buy",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "6"
     },
     {
       "date": "2026-06-02",
@@ -2327,7 +2327,7 @@
       "rating_prev": "Outperform",
       "rating_new": "Outperform",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "82"
     },
     {
       "date": "2026-06-02",
@@ -2391,7 +2391,7 @@
       "analyst": "Guggenheim",
       "rating_prev": "",
       "rating_new": "",
-      "pt_prev": "422",
+      "pt_prev": "470",
       "pt_new": "470"
     },
     {
@@ -2432,6 +2432,175 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "12"
+    },
+    {
+      "date": "2026-06-02",
+      "ticker": "ODD",
+      "company": "Oddity Tech Ltd.",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "action": "Downgrade",
+      "analyst": "KeyBanc",
+      "rating_prev": "Overweight",
+      "rating_new": "Sector Weight",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-02",
+      "ticker": "IBM",
+      "company": "International Business Machines Corporation",
+      "sector": "Technology",
+      "industry": "Information Technology Services",
+      "action": "Hold",
+      "analyst": "Citigroup",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-02",
+      "ticker": "FULC",
+      "company": "Fulcrum Therapeutics, Inc.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "Downgrade",
+      "analyst": "Citigroup",
+      "rating_prev": "Underperform",
+      "rating_new": "Underweight",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-02",
+      "ticker": "HRTX",
+      "company": "Heron Therapeutics, Inc.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "Downgrade",
+      "analyst": "Needham",
+      "rating_prev": "Buy",
+      "rating_new": "Hold",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-02",
+      "ticker": "DOCN",
+      "company": "DigitalOcean Holdings, Inc.",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "action": "Initialise",
+      "analyst": "KeyBanc",
+      "rating_prev": "Overweight",
+      "rating_new": "Overweight",
+      "pt_prev": "",
+      "pt_new": "200"
+    },
+    {
+      "date": "2026-06-02",
+      "ticker": "AGYS",
+      "company": "Agilysys, Inc.",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "action": "Initialise",
+      "analyst": "Piper Sandler",
+      "rating_prev": null,
+      "rating_new": "Overweight",
+      "pt_prev": "",
+      "pt_new": "110"
+    },
+    {
+      "date": "2026-06-02",
+      "ticker": "BSX",
+      "company": "Boston Scientific Corporation",
+      "sector": "Healthcare",
+      "industry": "Medical - Devices",
+      "action": "Hold",
+      "analyst": "BTIG",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": "65"
+    },
+    {
+      "date": "2026-06-02",
+      "ticker": "ODD",
+      "company": "Oddity Tech Ltd.",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "action": "Hold",
+      "analyst": "Jefferies",
+      "rating_prev": "Hold",
+      "rating_new": "Hold",
+      "pt_prev": "",
+      "pt_new": "10.25"
+    },
+    {
+      "date": "2026-06-02",
+      "ticker": "VERA",
+      "company": "Vera Therapeutics, Inc.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "Hold",
+      "analyst": "Jefferies",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": "60"
+    },
+    {
+      "date": "2026-06-02",
+      "ticker": "VERA",
+      "company": "Vera Therapeutics, Inc.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "Hold",
+      "analyst": "William Blair",
+      "rating_prev": "Outperform",
+      "rating_new": "Outperform",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-02",
+      "ticker": "URGN",
+      "company": "UroGen Pharma Ltd.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "Hold",
+      "analyst": "Oppenheimer",
+      "rating_prev": "Outperform",
+      "rating_new": "Outperform",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-02",
+      "ticker": "SHAK",
+      "company": "Shake Shack Inc.",
+      "sector": "Consumer Cyclical",
+      "industry": "Restaurants",
+      "action": "PT Change",
+      "analyst": "D.A. Davidson",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "70"
+    },
+    {
+      "date": "2026-06-02",
+      "ticker": "RZLT",
+      "company": "Rezolute, Inc.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "PT Change",
+      "analyst": "Maxim Group",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "10",
+      "pt_new": "14"
     },
     {
       "date": "2026-06-01",
@@ -8893,6 +9062,45 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "8"
+    },
+    {
+      "date": "2026-05-29",
+      "ticker": "DY",
+      "company": "Dycom Industries, Inc.",
+      "sector": "Industrials",
+      "industry": "Engineering & Construction",
+      "action": "PT Change",
+      "analyst": "UBS",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "611"
+    },
+    {
+      "date": "2026-05-29",
+      "ticker": "NXT",
+      "company": "Nextpower Inc.",
+      "sector": "Technology",
+      "industry": "Consumer Electronics",
+      "action": "PT Change",
+      "analyst": "UBS",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "170"
+    },
+    {
+      "date": "2026-05-29",
+      "ticker": "DELL",
+      "company": "Dell Technologies Inc.",
+      "sector": "Technology",
+      "industry": "Computer Hardware",
+      "action": "PT Change",
+      "analyst": "Barclays",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "550"
     },
     {
       "date": "2026-05-28",
