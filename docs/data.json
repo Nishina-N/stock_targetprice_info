@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-02T22:59:40Z",
-  "total": 4730,
+  "updated_at": "2026-06-03T01:43:43Z",
+  "total": 4731,
   "records": [
     {
       "date": "2026-06-02",
@@ -2601,6 +2601,19 @@
       "rating_new": "",
       "pt_prev": "10",
       "pt_new": "14"
+    },
+    {
+      "date": "2026-06-02",
+      "ticker": "MGM",
+      "company": "MGM Resorts International",
+      "sector": "Consumer Cyclical",
+      "industry": "Gambling, Resorts & Casinos",
+      "action": "Downgrade",
+      "analyst": "CBRE",
+      "rating_prev": null,
+      "rating_new": "Hold",
+      "pt_prev": "",
+      "pt_new": "50"
     },
     {
       "date": "2026-06-01",
