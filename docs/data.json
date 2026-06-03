@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-03T01:43:43Z",
-  "total": 4731,
+  "updated_at": "2026-06-03T06:49:19Z",
+  "total": 4732,
   "records": [
     {
       "date": "2026-06-02",
@@ -9114,6 +9114,19 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "550"
+    },
+    {
+      "date": "2026-05-29",
+      "ticker": "DELL",
+      "company": "Dell Technologies Inc.",
+      "sector": "Technology",
+      "industry": "Computer Hardware",
+      "action": "PT Change",
+      "analyst": "Susquehanna",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "289"
     },
     {
       "date": "2026-05-28",
