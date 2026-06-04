@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-04T14:49:26Z",
-  "total": 5329,
+  "updated_at": "2026-06-04T17:42:36Z",
+  "total": 5358,
   "records": [
     {
       "date": "2026-06-04",
@@ -1222,7 +1222,7 @@
       "rating_prev": "Buy",
       "rating_new": "Buy",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "115"
     },
     {
       "date": "2026-06-04",
@@ -1235,7 +1235,7 @@
       "rating_prev": "Buy",
       "rating_new": "Buy",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "96"
     },
     {
       "date": "2026-06-04",
@@ -1248,7 +1248,7 @@
       "rating_prev": "Market Perform",
       "rating_new": "Market Perform",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "23"
     },
     {
       "date": "2026-06-04",
@@ -1261,7 +1261,7 @@
       "rating_prev": "Buy",
       "rating_new": "Buy",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "270"
     },
     {
       "date": "2026-06-04",
@@ -1274,7 +1274,7 @@
       "rating_prev": "Buy",
       "rating_new": "Buy",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "285"
     },
     {
       "date": "2026-06-04",
@@ -1339,7 +1339,7 @@
       "rating_prev": "Overweight",
       "rating_new": "Overweight",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "5"
     },
     {
       "date": "2026-06-04",
@@ -1365,7 +1365,7 @@
       "rating_prev": "Buy",
       "rating_new": "Buy",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "780"
     },
     {
       "date": "2026-06-04",
@@ -1430,7 +1430,7 @@
       "rating_prev": "Buy",
       "rating_new": "Buy",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "525"
     },
     {
       "date": "2026-06-04",
@@ -2640,6 +2640,253 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "260"
+    },
+    {
+      "date": "2026-06-04",
+      "ticker": "SSL",
+      "company": "Sasol Limited",
+      "sector": "Basic Materials",
+      "industry": "Chemicals - Specialty",
+      "action": "Upgrade",
+      "analyst": "UBS",
+      "rating_prev": null,
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-04",
+      "ticker": "CIEN",
+      "company": "Ciena Corporation",
+      "sector": "Technology",
+      "industry": "Communication Equipment",
+      "action": "Hold",
+      "analyst": "Raymond James",
+      "rating_prev": "Outperform",
+      "rating_new": "Outperform",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-04",
+      "ticker": "DSGX",
+      "company": "The Descartes Systems Group Inc.",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "action": "Hold",
+      "analyst": "CIBC",
+      "rating_prev": "Outperform",
+      "rating_new": "Outperform",
+      "pt_prev": "",
+      "pt_new": "118"
+    },
+    {
+      "date": "2026-06-04",
+      "ticker": "GRRR",
+      "company": "Gorilla Technology Group Inc.",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "action": "Hold",
+      "analyst": "Cantor Fitzgerald",
+      "rating_prev": "Overweight",
+      "rating_new": "Overweight",
+      "pt_prev": "",
+      "pt_new": "40"
+    },
+    {
+      "date": "2026-06-04",
+      "ticker": "M",
+      "company": "Macy's, Inc.",
+      "sector": "Consumer Cyclical",
+      "industry": "Department Stores",
+      "action": "Hold",
+      "analyst": "UBS",
+      "rating_prev": "Sell",
+      "rating_new": "Sell",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-04",
+      "ticker": "OLLI",
+      "company": "Ollie's Bargain Outlet Holdings, Inc.",
+      "sector": "Consumer Defensive",
+      "industry": "Discount Stores",
+      "action": "Hold",
+      "analyst": "UBS",
+      "rating_prev": "Neutral",
+      "rating_new": "Neutral",
+      "pt_prev": "",
+      "pt_new": "87"
+    },
+    {
+      "date": "2026-06-04",
+      "ticker": "HIVE",
+      "company": "HIVE Digital Technologies Ltd.",
+      "sector": "Financial Services",
+      "industry": "Information Technology Services",
+      "action": "PT Change",
+      "analyst": "Cantor Fitzgerald",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "4.6",
+      "pt_new": "7"
+    },
+    {
+      "date": "2026-06-04",
+      "ticker": "AVGO",
+      "company": "Broadcom Inc.",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "action": "PT Change",
+      "analyst": "D.A. Davidson",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "400"
+    },
+    {
+      "date": "2026-06-04",
+      "ticker": "CRWD",
+      "company": "CrowdStrike Holdings, Inc.",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "action": "PT Change",
+      "analyst": "D.A. Davidson",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "765"
+    },
+    {
+      "date": "2026-06-04",
+      "ticker": "OLLI",
+      "company": "Ollie's Bargain Outlet Holdings, Inc.",
+      "sector": "Consumer Defensive",
+      "industry": "Discount Stores",
+      "action": "PT Change",
+      "analyst": "Truist Financial",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "112"
+    },
+    {
+      "date": "2026-06-04",
+      "ticker": "GT",
+      "company": "The Goodyear Tire & Rubber Company",
+      "sector": "Consumer Cyclical",
+      "industry": "Auto - Parts",
+      "action": "PT Change",
+      "analyst": "Argus Research",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "9"
+    },
+    {
+      "date": "2026-06-04",
+      "ticker": "AVY",
+      "company": "Avery Dennison Corporation",
+      "sector": "Industrials",
+      "industry": "Business Equipment & Supplies",
+      "action": "PT Change",
+      "analyst": "Argus Research",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "175"
+    },
+    {
+      "date": "2026-06-04",
+      "ticker": "MOMO",
+      "company": "Hello Group Inc.",
+      "sector": "Communication Services",
+      "industry": "Internet Content & Information",
+      "action": "PT Change",
+      "analyst": "UBS",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "10"
+    },
+    {
+      "date": "2026-06-04",
+      "ticker": "MDT",
+      "company": "Medtronic plc",
+      "sector": "Healthcare",
+      "industry": "Medical - Devices",
+      "action": "PT Change",
+      "analyst": "Truist Financial",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "86"
+    },
+    {
+      "date": "2026-06-04",
+      "ticker": "VEEV",
+      "company": "Veeva Systems Inc.",
+      "sector": "Healthcare",
+      "industry": "Medical - Healthcare Information Services",
+      "action": "PT Change",
+      "analyst": "BNP Paribas",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "285"
+    },
+    {
+      "date": "2026-06-04",
+      "ticker": "OXM",
+      "company": "Oxford Industries, Inc.",
+      "sector": "Consumer Cyclical",
+      "industry": "Apparel - Manufacturers",
+      "action": "PT Change",
+      "analyst": "Truist Financial",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "43"
+    },
+    {
+      "date": "2026-06-04",
+      "ticker": "VEEV",
+      "company": "Veeva Systems Inc.",
+      "sector": "Healthcare",
+      "industry": "Medical - Healthcare Information Services",
+      "action": "PT Change",
+      "analyst": "Morgan Stanley",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "215"
+    },
+    {
+      "date": "2026-06-04",
+      "ticker": "DXLG",
+      "company": "Destination XL Group, Inc.",
+      "sector": "Consumer Cyclical",
+      "industry": "Apparel - Retail",
+      "action": "PT Change",
+      "analyst": "D.A. Davidson",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "1.5"
+    },
+    {
+      "date": "2026-06-04",
+      "ticker": "MOV",
+      "company": "Movado Group, Inc.",
+      "sector": "Consumer Cyclical",
+      "industry": "Luxury Goods",
+      "action": "PT Change",
+      "analyst": "Northland Securities",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "35",
+      "pt_new": "50"
     },
     {
       "date": "2026-06-03",
@@ -4952,7 +5199,7 @@
       "analyst": "Morgan Stanley",
       "rating_prev": "",
       "rating_new": "",
-      "pt_prev": "42.5",
+      "pt_prev": "48.5",
       "pt_new": "53.5"
     },
     {
@@ -9413,6 +9660,136 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "182"
+    },
+    {
+      "date": "2026-06-02",
+      "ticker": "ISRG",
+      "company": "Intuitive Surgical, Inc.",
+      "sector": "Healthcare",
+      "industry": "Medical - Instruments & Supplies",
+      "action": "PT Change",
+      "analyst": "Piper Sandler",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "580"
+    },
+    {
+      "date": "2026-06-02",
+      "ticker": "CAG",
+      "company": "Conagra Brands, Inc.",
+      "sector": "Consumer Defensive",
+      "industry": "Packaged Foods",
+      "action": "PT Change",
+      "analyst": "UBS",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "13"
+    },
+    {
+      "date": "2026-06-02",
+      "ticker": "MKC",
+      "company": "McCormick & Company, Incorporated",
+      "sector": "Consumer Defensive",
+      "industry": "Packaged Foods",
+      "action": "PT Change",
+      "analyst": "UBS",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "51"
+    },
+    {
+      "date": "2026-06-02",
+      "ticker": "VSCO",
+      "company": "Victoria's Secret & Co.",
+      "sector": "Consumer Cyclical",
+      "industry": "Apparel - Retail",
+      "action": "PT Change",
+      "analyst": "Goldman Sachs",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "56"
+    },
+    {
+      "date": "2026-06-02",
+      "ticker": "NUTX",
+      "company": "Nutex Health, Inc.",
+      "sector": "Healthcare",
+      "industry": "Medical - Healthcare Information Services",
+      "action": "PT Change",
+      "analyst": "Lake Street",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "235"
+    },
+    {
+      "date": "2026-06-02",
+      "ticker": "HPE",
+      "company": "Hewlett Packard Enterprise Company",
+      "sector": "Technology",
+      "industry": "Communication Equipment",
+      "action": "PT Change",
+      "analyst": "Susquehanna",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "65"
+    },
+    {
+      "date": "2026-06-02",
+      "ticker": "GOOGL",
+      "company": "Alphabet Inc.",
+      "sector": "Communication Services",
+      "industry": "Internet Content & Information",
+      "action": "PT Change",
+      "analyst": "HSBC",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "420"
+    },
+    {
+      "date": "2026-06-02",
+      "ticker": "CRDO",
+      "company": "Credo Technology Group Holding Ltd",
+      "sector": "Technology",
+      "industry": "Communication Equipment",
+      "action": "PT Change",
+      "analyst": "Susquehanna",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "235"
+    },
+    {
+      "date": "2026-06-02",
+      "ticker": "ABVX",
+      "company": "Abivax S.A.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "PT Change",
+      "analyst": "Morgan Stanley",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "132"
+    },
+    {
+      "date": "2026-06-02",
+      "ticker": "HPE",
+      "company": "Hewlett Packard Enterprise Company",
+      "sector": "Technology",
+      "industry": "Communication Equipment",
+      "action": "PT Change",
+      "analyst": "KeyBanc",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "62"
     },
     {
       "date": "2026-06-01",
