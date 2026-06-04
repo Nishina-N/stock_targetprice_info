@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-04T17:42:36Z",
-  "total": 5358,
+  "updated_at": "2026-06-04T19:59:41Z",
+  "total": 5360,
   "records": [
     {
       "date": "2026-06-04",
@@ -2665,7 +2665,7 @@
       "rating_prev": "Outperform",
       "rating_new": "Outperform",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "530"
     },
     {
       "date": "2026-06-04",
@@ -2887,6 +2887,19 @@
       "rating_new": "",
       "pt_prev": "35",
       "pt_new": "50"
+    },
+    {
+      "date": "2026-06-04",
+      "ticker": "H",
+      "company": "Hyatt Hotels Corporation",
+      "sector": "Consumer Cyclical",
+      "industry": "Travel Lodging",
+      "action": "Upgrade",
+      "analyst": "HSBC",
+      "rating_prev": null,
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": "212"
     },
     {
       "date": "2026-06-03",
@@ -9790,6 +9803,19 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "62"
+    },
+    {
+      "date": "2026-06-02",
+      "ticker": "XPO",
+      "company": "XPO Logistics, Inc.",
+      "sector": "Industrials",
+      "industry": "Integrated Freight & Logistics",
+      "action": "PT Change",
+      "analyst": "Susquehanna",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "212"
     },
     {
       "date": "2026-06-01",
