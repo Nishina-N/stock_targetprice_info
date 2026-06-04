@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-04T03:35:19Z",
-  "total": 5067,
+  "updated_at": "2026-06-04T08:16:37Z",
+  "total": 5077,
   "records": [
     {
       "date": "2026-06-04",
@@ -13,7 +13,7 @@
       "rating_prev": "Buy",
       "rating_new": "Buy",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "550"
     },
     {
       "date": "2026-06-04",
@@ -53,6 +53,110 @@
       "rating_new": "Overweight",
       "pt_prev": "",
       "pt_new": "48"
+    },
+    {
+      "date": "2026-06-04",
+      "ticker": "XPRO",
+      "company": "Expro Group Holdings N.V.",
+      "sector": "Energy",
+      "industry": "Oil & Gas Equipment & Services",
+      "action": "Upgrade",
+      "analyst": "KeyBanc",
+      "rating_prev": null,
+      "rating_new": "Neutral",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-04",
+      "ticker": "MUR",
+      "company": "Murphy Oil Corporation",
+      "sector": "Energy",
+      "industry": "Oil & Gas Exploration & Production",
+      "action": "Downgrade",
+      "analyst": "Jefferies",
+      "rating_prev": "Buy",
+      "rating_new": "Underperform",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-04",
+      "ticker": "AU",
+      "company": "AngloGold Ashanti Plc",
+      "sector": "Basic Materials",
+      "industry": "Gold",
+      "action": "Downgrade",
+      "analyst": "RBC Capital",
+      "rating_prev": "Underperform",
+      "rating_new": "Outperform",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-04",
+      "ticker": "KRT",
+      "company": "Karat Packaging Inc.",
+      "sector": "Consumer Cyclical",
+      "industry": "Packaging & Containers",
+      "action": "Downgrade",
+      "analyst": "Goldman Sachs",
+      "rating_prev": null,
+      "rating_new": "Neutral",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-04",
+      "ticker": "PVH",
+      "company": "PVH Corp.",
+      "sector": "Consumer Cyclical",
+      "industry": "Apparel - Manufacturers",
+      "action": "Downgrade",
+      "analyst": "Evercore ISI",
+      "rating_prev": "Outperform",
+      "rating_new": "Hold",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-04",
+      "ticker": "CRWD",
+      "company": "CrowdStrike Holdings, Inc.",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "action": "Hold",
+      "analyst": "Bernstein",
+      "rating_prev": "Market Perform",
+      "rating_new": "Market Perform",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-04",
+      "ticker": "AB",
+      "company": "AllianceBernstein Holding L.P.",
+      "sector": "Financial Services",
+      "industry": "Asset Management",
+      "action": "Upgrade",
+      "analyst": "Morgan Stanley",
+      "rating_prev": "Overweight",
+      "rating_new": "Overweight",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-04",
+      "ticker": "CRWD",
+      "company": "CrowdStrike Holdings, Inc.",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "action": "Hold",
+      "analyst": "Goldman Sachs",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": "726"
     },
     {
       "date": "2026-06-03",
@@ -10076,6 +10180,32 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "230"
+    },
+    {
+      "date": "2026-06-01",
+      "ticker": "VSAT",
+      "company": "Viasat, Inc.",
+      "sector": "Technology",
+      "industry": "Communication Equipment",
+      "action": "PT Change",
+      "analyst": "Deutsche Bank",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "97"
+    },
+    {
+      "date": "2026-06-01",
+      "ticker": "ACMR",
+      "company": "ACM Research, Inc.",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "action": "PT Change",
+      "analyst": "Roth Capital",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "100"
     },
     {
       "date": "2026-05-31",
