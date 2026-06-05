@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-05T14:39:55Z",
-  "total": 5583,
+  "updated_at": "2026-06-05T17:12:20Z",
+  "total": 5600,
   "records": [
     {
       "date": "2026-06-05",
@@ -871,7 +871,7 @@
       "rating_prev": "Outperform",
       "rating_new": "Outperform",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "275"
     },
     {
       "date": "2026-06-05",
@@ -962,7 +962,7 @@
       "rating_prev": "Buy",
       "rating_new": "Buy",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "49"
     },
     {
       "date": "2026-06-05",
@@ -975,7 +975,7 @@
       "rating_prev": "Outperform",
       "rating_new": "Hold",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "6.1"
     },
     {
       "date": "2026-06-05",
@@ -988,7 +988,7 @@
       "rating_prev": "Buy",
       "rating_new": "Buy",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "98"
     },
     {
       "date": "2026-06-05",
@@ -1001,7 +1001,7 @@
       "rating_prev": "Outperform",
       "rating_new": "Outperform",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "53"
     },
     {
       "date": "2026-06-05",
@@ -1013,8 +1013,8 @@
       "analyst": "Roth Capital",
       "rating_prev": "Buy",
       "rating_new": "Buy",
-      "pt_prev": "",
-      "pt_new": ""
+      "pt_prev": "12",
+      "pt_new": "20"
     },
     {
       "date": "2026-06-05",
@@ -2016,6 +2016,149 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "134"
+    },
+    {
+      "date": "2026-06-05",
+      "ticker": "RGNX",
+      "company": "REGENXBIO Inc.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "Hold",
+      "analyst": "H.C. Wainwright",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-05",
+      "ticker": "DIS",
+      "company": "The Walt Disney Company",
+      "sector": "Communication Services",
+      "industry": "Entertainment",
+      "action": "Upgrade",
+      "analyst": "Huber Research",
+      "rating_prev": null,
+      "rating_new": "Overweight",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-05",
+      "ticker": "DIS",
+      "company": "The Walt Disney Company",
+      "sector": "Communication Services",
+      "industry": "Entertainment",
+      "action": "Hold",
+      "analyst": "UBS",
+      "rating_prev": "Neutral",
+      "rating_new": "Neutral",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-05",
+      "ticker": "DIS",
+      "company": "The Walt Disney Company",
+      "sector": "Communication Services",
+      "industry": "Entertainment",
+      "action": "Hold",
+      "analyst": "Morgan Stanley",
+      "rating_prev": "Overweight",
+      "rating_new": "Overweight",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-05",
+      "ticker": "RBRK",
+      "company": "Rubrik, Inc.",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "action": "Hold",
+      "analyst": "CIBC",
+      "rating_prev": "Outperform",
+      "rating_new": "Outperform",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-05",
+      "ticker": "RBRK",
+      "company": "Rubrik, Inc.",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "action": "Hold",
+      "analyst": "Scotiabank",
+      "rating_prev": "Outperform",
+      "rating_new": "Outperform",
+      "pt_prev": "",
+      "pt_new": "95"
+    },
+    {
+      "date": "2026-06-05",
+      "ticker": "FCF",
+      "company": "First Commonwealth Financial Corporation",
+      "sector": "Financial Services",
+      "industry": "Banks - Regional",
+      "action": "Hold",
+      "analyst": "Bernstein",
+      "rating_prev": "Market Perform",
+      "rating_new": "Market Perform",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-05",
+      "ticker": "BNTX",
+      "company": "BioNTech SE",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "Hold",
+      "analyst": "Bernstein",
+      "rating_prev": "Market Perform",
+      "rating_new": "Market Perform",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-05",
+      "ticker": "LULU",
+      "company": "Lululemon Athletica Inc.",
+      "sector": "Consumer Cyclical",
+      "industry": "Apparel - Retail",
+      "action": "Hold",
+      "analyst": "Bernstein",
+      "rating_prev": "Market Perform",
+      "rating_new": "Market Perform",
+      "pt_prev": "",
+      "pt_new": "145"
+    },
+    {
+      "date": "2026-06-05",
+      "ticker": "CIEN",
+      "company": "Ciena Corporation",
+      "sector": "Technology",
+      "industry": "Communication Equipment",
+      "action": "PT Change",
+      "analyst": "Argus Research",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "650"
+    },
+    {
+      "date": "2026-06-05",
+      "ticker": "LULU",
+      "company": "Lululemon Athletica Inc.",
+      "sector": "Consumer Cyclical",
+      "industry": "Apparel - Retail",
+      "action": "PT Change",
+      "analyst": "Truist Financial",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "115"
     },
     {
       "date": "2026-06-04",
@@ -6331,7 +6474,7 @@
       "rating_prev": "Overweight",
       "rating_new": "Overweight",
       "pt_prev": "",
-      "pt_new": "37"
+      "pt_new": ""
     },
     {
       "date": "2026-06-03",
@@ -8997,6 +9140,84 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "540"
+    },
+    {
+      "date": "2026-06-03",
+      "ticker": "GTLB",
+      "company": "GitLab Inc.",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "action": "PT Change",
+      "analyst": "Cantor Fitzgerald",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "35"
+    },
+    {
+      "date": "2026-06-03",
+      "ticker": "ACHC",
+      "company": "Acadia Healthcare Company, Inc.",
+      "sector": "Healthcare",
+      "industry": "Medical - Care Facilities",
+      "action": "PT Change",
+      "analyst": "Jefferies",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "30"
+    },
+    {
+      "date": "2026-06-03",
+      "ticker": "DG",
+      "company": "Dollar General Corporation",
+      "sector": "Consumer Defensive",
+      "industry": "Discount Stores",
+      "action": "PT Change",
+      "analyst": "Raymond James",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "145"
+    },
+    {
+      "date": "2026-06-03",
+      "ticker": "GTLB",
+      "company": "GitLab Inc.",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "action": "PT Change",
+      "analyst": "Needham",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "38"
+    },
+    {
+      "date": "2026-06-03",
+      "ticker": "FDX",
+      "company": "FedEx Corporation",
+      "sector": "Industrials",
+      "industry": "Integrated Freight & Logistics",
+      "action": "PT Change",
+      "analyst": "Raymond James",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "180"
+    },
+    {
+      "date": "2026-06-03",
+      "ticker": "CORZ",
+      "company": "Core Scientific, Inc.",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "action": "PT Change",
+      "analyst": "Bernstein",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "32"
     },
     {
       "date": "2026-06-02",
