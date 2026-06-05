@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-05T19:48:41Z",
-  "total": 5612,
+  "updated_at": "2026-06-05T21:21:52Z",
+  "total": 5623,
   "records": [
     {
       "date": "2026-06-05",
@@ -2171,7 +2171,7 @@
       "rating_prev": "Positive",
       "rating_new": "Positive",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "138"
     },
     {
       "date": "2026-06-05",
@@ -2184,7 +2184,7 @@
       "rating_prev": "Positive",
       "rating_new": "Positive",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "104"
     },
     {
       "date": "2026-06-05",
@@ -2197,7 +2197,7 @@
       "rating_prev": "Neutral",
       "rating_new": "Neutral",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "50"
     },
     {
       "date": "2026-06-05",
@@ -2210,7 +2210,7 @@
       "rating_prev": "Neutral",
       "rating_new": "Neutral",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "337"
     },
     {
       "date": "2026-06-05",
@@ -2223,7 +2223,7 @@
       "rating_prev": "Positive",
       "rating_new": "Positive",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "305"
     },
     {
       "date": "2026-06-05",
@@ -2236,7 +2236,7 @@
       "rating_prev": "Buy",
       "rating_new": "Buy",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "40"
     },
     {
       "date": "2026-06-05",
@@ -2261,6 +2261,110 @@
       "analyst": "Goldman Sachs",
       "rating_prev": "Buy",
       "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-05",
+      "ticker": "META",
+      "company": "Meta Platforms, Inc.",
+      "sector": "Communication Services",
+      "industry": "Internet Content & Information",
+      "action": "Initialise",
+      "analyst": "Craig-Hallum",
+      "rating_prev": null,
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-05",
+      "ticker": "META",
+      "company": "Meta Platforms, Inc.",
+      "sector": "Communication Services",
+      "industry": "Internet Content & Information",
+      "action": "Downgrade",
+      "analyst": "Exane BNP Paribas",
+      "rating_prev": "Underperform",
+      "rating_new": "Neutral",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-05",
+      "ticker": "META",
+      "company": "Meta Platforms, Inc.",
+      "sector": "Communication Services",
+      "industry": "Internet Content & Information",
+      "action": "Upgrade",
+      "analyst": "Citigroup",
+      "rating_prev": "Underweight",
+      "rating_new": "Hold",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-05",
+      "ticker": "META",
+      "company": "Meta Platforms, Inc.",
+      "sector": "Communication Services",
+      "industry": "Internet Content & Information",
+      "action": "Downgrade",
+      "analyst": "Bernstein",
+      "rating_prev": "Outperform",
+      "rating_new": "Underperform",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-05",
+      "ticker": "META",
+      "company": "Meta Platforms, Inc.",
+      "sector": "Communication Services",
+      "industry": "Internet Content & Information",
+      "action": "Initialise",
+      "analyst": "Barclays",
+      "rating_prev": "Overweight",
+      "rating_new": "Overweight",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-05",
+      "ticker": "META",
+      "company": "Meta Platforms, Inc.",
+      "sector": "Communication Services",
+      "industry": "Internet Content & Information",
+      "action": "Downgrade",
+      "analyst": "Citigroup",
+      "rating_prev": "Outperform",
+      "rating_new": "Underweight",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-05",
+      "ticker": "META",
+      "company": "Meta Platforms, Inc.",
+      "sector": "Communication Services",
+      "industry": "Internet Content & Information",
+      "action": "Upgrade",
+      "analyst": "Guggenheim",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-05",
+      "ticker": "META",
+      "company": "Meta Platforms, Inc.",
+      "sector": "Communication Services",
+      "industry": "Internet Content & Information",
+      "action": "Downgrade",
+      "analyst": "Exane BNP Paribas",
+      "rating_prev": "Outperform",
+      "rating_new": "Underperform",
       "pt_prev": "",
       "pt_new": ""
     },
@@ -9374,6 +9478,45 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "46"
+    },
+    {
+      "date": "2026-06-03",
+      "ticker": "NU",
+      "company": "Nu Holdings Ltd.",
+      "sector": "Financial Services",
+      "industry": "Banks - Diversified",
+      "action": "PT Change",
+      "analyst": "Scotiabank",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "13"
+    },
+    {
+      "date": "2026-06-03",
+      "ticker": "PANW",
+      "company": "Palo Alto Networks, Inc.",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "action": "PT Change",
+      "analyst": "Needham",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "350"
+    },
+    {
+      "date": "2026-06-03",
+      "ticker": "HON",
+      "company": "Honeywell International Inc.",
+      "sector": "Industrials",
+      "industry": "Conglomerates",
+      "action": "PT Change",
+      "analyst": "Goldman Sachs",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "276"
     },
     {
       "date": "2026-06-02",
