@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-05T02:57:27Z",
-  "total": 5386,
+  "updated_at": "2026-06-05T07:09:42Z",
+  "total": 5387,
   "records": [
     {
       "date": "2026-06-05",
@@ -50,6 +50,19 @@
       "action": "Initialise",
       "analyst": "CICC",
       "rating_prev": null,
+      "rating_new": "Outperform",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-05",
+      "ticker": "BZ",
+      "company": "Kanzhun Limited",
+      "sector": "Industrials",
+      "industry": "Staffing & Employment Services",
+      "action": "Upgrade",
+      "analyst": "Bernstein",
+      "rating_prev": "Outperform",
       "rating_new": "Outperform",
       "pt_prev": "",
       "pt_new": ""
