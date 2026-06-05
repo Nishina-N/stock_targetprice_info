@@ -1,7 +1,59 @@
 {
-  "updated_at": "2026-06-04T23:06:23Z",
-  "total": 5382,
+  "updated_at": "2026-06-05T02:57:27Z",
+  "total": 5386,
   "records": [
+    {
+      "date": "2026-06-05",
+      "ticker": "CMC",
+      "company": "Commercial Metals Company",
+      "sector": "Basic Materials",
+      "industry": "Steel",
+      "action": "Upgrade",
+      "analyst": "Jefferies",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-05",
+      "ticker": "STTK",
+      "company": "Shattuck Labs, Inc.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "Upgrade",
+      "analyst": "Citigroup",
+      "rating_prev": "Neutral",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-05",
+      "ticker": "ONTO",
+      "company": "Onto Innovation Inc.",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "action": "Initialise",
+      "analyst": "Deutsche Bank",
+      "rating_prev": null,
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": "350"
+    },
+    {
+      "date": "2026-06-05",
+      "ticker": "ABNB",
+      "company": "Airbnb, Inc.",
+      "sector": "Consumer Cyclical",
+      "industry": "Travel Services",
+      "action": "Initialise",
+      "analyst": "CICC",
+      "rating_prev": null,
+      "rating_new": "Outperform",
+      "pt_prev": "",
+      "pt_new": ""
+    },
     {
       "date": "2026-06-04",
       "ticker": "AVGO",
