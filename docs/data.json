@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-05T17:12:20Z",
-  "total": 5600,
+  "updated_at": "2026-06-05T19:48:41Z",
+  "total": 5612,
   "records": [
     {
       "date": "2026-06-05",
@@ -2106,7 +2106,7 @@
       "rating_prev": "Market Perform",
       "rating_new": "Market Perform",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "29"
     },
     {
       "date": "2026-06-05",
@@ -2159,6 +2159,110 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "115"
+    },
+    {
+      "date": "2026-06-05",
+      "ticker": "CNI",
+      "company": "Canadian National Railway Company",
+      "sector": "Industrials",
+      "industry": "Railroads",
+      "action": "Hold",
+      "analyst": "Susquehanna",
+      "rating_prev": "Positive",
+      "rating_new": "Positive",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-05",
+      "ticker": "CP",
+      "company": "Canadian Pacific Kansas City Ltd.",
+      "sector": "Industrials",
+      "industry": "Railroads",
+      "action": "Hold",
+      "analyst": "Susquehanna",
+      "rating_prev": "Positive",
+      "rating_new": "Positive",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-05",
+      "ticker": "CSX",
+      "company": "CSX Corporation",
+      "sector": "Industrials",
+      "industry": "Railroads",
+      "action": "Hold",
+      "analyst": "Susquehanna",
+      "rating_prev": "Neutral",
+      "rating_new": "Neutral",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-05",
+      "ticker": "NSC",
+      "company": "Norfolk Southern Corporation",
+      "sector": "Industrials",
+      "industry": "Railroads",
+      "action": "Hold",
+      "analyst": "Susquehanna",
+      "rating_prev": "Neutral",
+      "rating_new": "Neutral",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-05",
+      "ticker": "UNP",
+      "company": "Union Pacific Corporation",
+      "sector": "Industrials",
+      "industry": "Railroads",
+      "action": "Hold",
+      "analyst": "Susquehanna",
+      "rating_prev": "Positive",
+      "rating_new": "Positive",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-05",
+      "ticker": "GIII",
+      "company": "G-III Apparel Group, Ltd.",
+      "sector": "Consumer Cyclical",
+      "industry": "Apparel - Manufacturers",
+      "action": "Hold",
+      "analyst": "BTIG",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-05",
+      "ticker": "COIN",
+      "company": "Coinbase Global, Inc.",
+      "sector": "Financial Services",
+      "industry": "Financial - Data & Stock Exchanges",
+      "action": "Hold",
+      "analyst": "Monness",
+      "rating_prev": "Sell",
+      "rating_new": "Sell",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-05",
+      "ticker": "JEF",
+      "company": "Jefferies Financial Group Inc.",
+      "sector": "Financial Services",
+      "industry": "Financial - Capital Markets",
+      "action": "Hold",
+      "analyst": "Goldman Sachs",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
     },
     {
       "date": "2026-06-04",
@@ -9218,6 +9322,58 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "32"
+    },
+    {
+      "date": "2026-06-03",
+      "ticker": "PANW",
+      "company": "Palo Alto Networks, Inc.",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "action": "PT Change",
+      "analyst": "Piper Sandler",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "345"
+    },
+    {
+      "date": "2026-06-03",
+      "ticker": "HIVE",
+      "company": "HIVE Digital Technologies Ltd.",
+      "sector": "Financial Services",
+      "industry": "Information Technology Services",
+      "action": "PT Change",
+      "analyst": "H.C. Wainwright",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "7"
+    },
+    {
+      "date": "2026-06-03",
+      "ticker": "SNDX",
+      "company": "Syndax Pharmaceuticals, Inc.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "PT Change",
+      "analyst": "H.C. Wainwright",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "40"
+    },
+    {
+      "date": "2026-06-03",
+      "ticker": "ZYME",
+      "company": "Zymeworks Inc.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "PT Change",
+      "analyst": "H.C. Wainwright",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "46"
     },
     {
       "date": "2026-06-02",
