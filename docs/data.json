@@ -1,7 +1,20 @@
 {
-  "updated_at": "2026-06-06T13:22:51Z",
-  "total": 5623,
+  "updated_at": "2026-06-06T15:10:57Z",
+  "total": 5625,
   "records": [
+    {
+      "date": "2026-06-06",
+      "ticker": "SOC",
+      "company": "Sable Offshore Corp.",
+      "sector": "Energy",
+      "industry": "Oil & Gas Drilling",
+      "action": "Hold",
+      "analyst": "Roth Capital",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
     {
       "date": "2026-06-05",
       "ticker": "CMC",
@@ -9517,6 +9530,19 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "276"
+    },
+    {
+      "date": "2026-06-03",
+      "ticker": "ULTA",
+      "company": "Ulta Beauty, Inc.",
+      "sector": "Consumer Cyclical",
+      "industry": "Specialty Retail",
+      "action": "PT Change",
+      "analyst": "Morgan Stanley",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "630"
     },
     {
       "date": "2026-06-02",
