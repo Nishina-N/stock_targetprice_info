@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-07T21:07:10Z",
-  "total": 5630,
+  "updated_at": "2026-06-07T23:00:38Z",
+  "total": 5631,
   "records": [
     {
       "date": "2026-06-07",
@@ -9608,6 +9608,19 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "13"
+    },
+    {
+      "date": "2026-06-03",
+      "ticker": "GTLB",
+      "company": "GitLab Inc.",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "action": "PT Change",
+      "analyst": "BTIG",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "36"
     },
     {
       "date": "2026-06-02",
