@@ -1,7 +1,20 @@
 {
-  "updated_at": "2026-06-07T15:21:15Z",
-  "total": 5627,
+  "updated_at": "2026-06-07T17:10:40Z",
+  "total": 5629,
   "records": [
+    {
+      "date": "2026-06-07",
+      "ticker": "SAIC",
+      "company": "Science Applications International Corporation",
+      "sector": "Technology",
+      "industry": "Information Technology Services",
+      "action": "Hold",
+      "analyst": "Jefferies",
+      "rating_prev": "Hold",
+      "rating_new": "Hold",
+      "pt_prev": "",
+      "pt_new": ""
+    },
     {
       "date": "2026-06-06",
       "ticker": "SOC",
@@ -9569,6 +9582,19 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "550"
+    },
+    {
+      "date": "2026-06-03",
+      "ticker": "PANW",
+      "company": "Palo Alto Networks, Inc.",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "action": "PT Change",
+      "analyst": "Loop Capital Markets",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "290"
     },
     {
       "date": "2026-06-02",
