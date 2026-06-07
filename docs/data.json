@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-07T17:10:40Z",
-  "total": 5629,
+  "updated_at": "2026-06-07T19:15:55Z",
+  "total": 5630,
   "records": [
     {
       "date": "2026-06-07",
@@ -9595,6 +9595,19 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "290"
+    },
+    {
+      "date": "2026-06-03",
+      "ticker": "NU",
+      "company": "Nu Holdings Ltd.",
+      "sector": "Financial Services",
+      "industry": "Banks - Diversified",
+      "action": "PT Change",
+      "analyst": "Susquehanna",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "13"
     },
     {
       "date": "2026-06-02",
