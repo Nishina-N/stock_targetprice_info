@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-07T23:00:38Z",
-  "total": 5631,
+  "updated_at": "2026-06-08T03:33:14Z",
+  "total": 5634,
   "records": [
     {
       "date": "2026-06-07",
@@ -3185,7 +3185,7 @@
       "rating_prev": "Overweight",
       "rating_new": "Overweight",
       "pt_prev": "",
-      "pt_new": "90"
+      "pt_new": ""
     },
     {
       "date": "2026-06-04",
@@ -9621,6 +9621,45 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "36"
+    },
+    {
+      "date": "2026-06-03",
+      "ticker": "RZLT",
+      "company": "Rezolute, Inc.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "PT Change",
+      "analyst": "Wedbush",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "6"
+    },
+    {
+      "date": "2026-06-03",
+      "ticker": "NN",
+      "company": "NextNav Inc.",
+      "sector": "Communication Services",
+      "industry": "Internet Content & Information",
+      "action": "PT Change",
+      "analyst": "Oppenheimer",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "50"
+    },
+    {
+      "date": "2026-06-03",
+      "ticker": "PANW",
+      "company": "Palo Alto Networks, Inc.",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "action": "PT Change",
+      "analyst": "BTIG",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "333"
     },
     {
       "date": "2026-06-02",
