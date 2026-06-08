@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-08T20:09:07Z",
-  "total": 5885,
+  "updated_at": "2026-06-08T22:23:21Z",
+  "total": 5902,
   "records": [
     {
       "date": "2026-06-08",
@@ -2171,7 +2171,7 @@
       "rating_prev": "Hold",
       "rating_new": "Hold",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "13"
     },
     {
       "date": "2026-06-08",
@@ -2184,7 +2184,7 @@
       "rating_prev": "Strong Buy",
       "rating_new": "Strong Buy",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "91"
     },
     {
       "date": "2026-06-08",
@@ -2328,6 +2328,162 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "22"
+    },
+    {
+      "date": "2026-06-08",
+      "ticker": "NVDA",
+      "company": "NVIDIA Corporation",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "action": "Downgrade",
+      "analyst": "Piper Sandler",
+      "rating_prev": "Overweight",
+      "rating_new": "Neutral",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-08",
+      "ticker": "NVDA",
+      "company": "NVIDIA Corporation",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "action": "Upgrade",
+      "analyst": "Raymond James",
+      "rating_prev": "Strong Buy",
+      "rating_new": "Strong Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-08",
+      "ticker": "AJG",
+      "company": "Arthur J. Gallagher & Co.",
+      "sector": "Financial Services",
+      "industry": "Insurance - Brokers",
+      "action": "Upgrade",
+      "analyst": "UBS",
+      "rating_prev": "Neutral",
+      "rating_new": "Buy",
+      "pt_prev": "240",
+      "pt_new": "250"
+    },
+    {
+      "date": "2026-06-08",
+      "ticker": "EQR",
+      "company": "Equity Residential",
+      "sector": "Real Estate",
+      "industry": "REIT - Residential",
+      "action": "Downgrade",
+      "analyst": "RBC Capital",
+      "rating_prev": "Outperform",
+      "rating_new": "Sector Perform",
+      "pt_prev": "",
+      "pt_new": "70"
+    },
+    {
+      "date": "2026-06-08",
+      "ticker": "INGR",
+      "company": "Ingredion Incorporated",
+      "sector": "Consumer Defensive",
+      "industry": "Packaged Foods",
+      "action": "Downgrade",
+      "analyst": "Oppenheimer",
+      "rating_prev": "Outperform",
+      "rating_new": "Perform",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-08",
+      "ticker": "AU",
+      "company": "AngloGold Ashanti Plc",
+      "sector": "Basic Materials",
+      "industry": "Gold",
+      "action": "Initialise",
+      "analyst": "Morgan Stanley",
+      "rating_prev": "Overweight",
+      "rating_new": "Overweight",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-08",
+      "ticker": "AAPL",
+      "company": "Apple Inc.",
+      "sector": "Technology",
+      "industry": "Consumer Electronics",
+      "action": "Hold",
+      "analyst": "Evercore ISI",
+      "rating_prev": "Outperform",
+      "rating_new": "Outperform",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-08",
+      "ticker": "INCY",
+      "company": "Incyte Corporation",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "Hold",
+      "analyst": "Oppenheimer",
+      "rating_prev": "Outperform",
+      "rating_new": "Outperform",
+      "pt_prev": "",
+      "pt_new": "107"
+    },
+    {
+      "date": "2026-06-08",
+      "ticker": "AAPL",
+      "company": "Apple Inc.",
+      "sector": "Technology",
+      "industry": "Consumer Electronics",
+      "action": "Hold",
+      "analyst": "Wedbush",
+      "rating_prev": "Outperform",
+      "rating_new": "Outperform",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-08",
+      "ticker": "CPB",
+      "company": "Campbell Soup Company",
+      "sector": "Consumer Defensive",
+      "industry": "Packaged Foods",
+      "action": "Hold",
+      "analyst": "BTIG",
+      "rating_prev": "Neutral",
+      "rating_new": "Neutral",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-08",
+      "ticker": "ELVN",
+      "company": "Enliven Therapeutics, Inc.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "PT Change",
+      "analyst": "Stifel Nicolaus",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "60"
+    },
+    {
+      "date": "2026-06-08",
+      "ticker": "PODD",
+      "company": "Insulet Corporation",
+      "sector": "Healthcare",
+      "industry": "Medical - Devices",
+      "action": "PT Change",
+      "analyst": "Raymond James",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "216"
     },
     {
       "date": "2026-06-07",
@@ -8191,6 +8347,71 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "750"
+    },
+    {
+      "date": "2026-06-04",
+      "ticker": "SERA",
+      "company": "Sera Prognostics, Inc.",
+      "sector": "Healthcare",
+      "industry": "Medical - Diagnostics & Research",
+      "action": "PT Change",
+      "analyst": "Craig-Hallum",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "6"
+    },
+    {
+      "date": "2026-06-04",
+      "ticker": "AVGO",
+      "company": "Broadcom Inc.",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "action": "PT Change",
+      "analyst": "Oppenheimer",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "535"
+    },
+    {
+      "date": "2026-06-04",
+      "ticker": "CRWD",
+      "company": "CrowdStrike Holdings, Inc.",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "action": "PT Change",
+      "analyst": "Susquehanna",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "800"
+    },
+    {
+      "date": "2026-06-04",
+      "ticker": "FIVE",
+      "company": "Five Below, Inc.",
+      "sector": "Consumer Cyclical",
+      "industry": "Discount Stores",
+      "action": "PT Change",
+      "analyst": "Bernstein",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "247"
+    },
+    {
+      "date": "2026-06-04",
+      "ticker": "AVGO",
+      "company": "Broadcom Inc.",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "action": "PT Change",
+      "analyst": "KeyBanc",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "575"
     },
     {
       "date": "2026-06-03",
