@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-09T15:51:28Z",
-  "total": 6096,
+  "updated_at": "2026-06-09T17:58:06Z",
+  "total": 6106,
   "records": [
     {
       "date": "2026-06-09",
@@ -1014,7 +1014,7 @@
       "rating_prev": "Buy",
       "rating_new": "Buy",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "66"
     },
     {
       "date": "2026-06-09",
@@ -1157,7 +1157,7 @@
       "rating_prev": "Neutral",
       "rating_new": "Neutral",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "44"
     },
     {
       "date": "2026-06-09",
@@ -1938,6 +1938,84 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "29"
+    },
+    {
+      "date": "2026-06-09",
+      "ticker": "LLY",
+      "company": "Eli Lilly and Company",
+      "sector": "Healthcare",
+      "industry": "Drug Manufacturers - General",
+      "action": "Hold",
+      "analyst": "Jefferies",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": "1350"
+    },
+    {
+      "date": "2026-06-09",
+      "ticker": "NRIX",
+      "company": "Nurix Therapeutics, Inc.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "Hold",
+      "analyst": "UBS",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": "23"
+    },
+    {
+      "date": "2026-06-09",
+      "ticker": "NUVL",
+      "company": "Nuvalent, Inc.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "PT Change",
+      "analyst": "Robert W. Baird",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "122.85"
+    },
+    {
+      "date": "2026-06-09",
+      "ticker": "SPG",
+      "company": "Simon Property Group, Inc.",
+      "sector": "Real Estate",
+      "industry": "REIT - Retail",
+      "action": "PT Change",
+      "analyst": "Morgan Stanley",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "207"
+    },
+    {
+      "date": "2026-06-09",
+      "ticker": "NUVL",
+      "company": "Nuvalent, Inc.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "PT Change",
+      "analyst": "Stifel Nicolaus",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "124"
+    },
+    {
+      "date": "2026-06-09",
+      "ticker": "CP",
+      "company": "Canadian Pacific Kansas City Ltd.",
+      "sector": "Industrials",
+      "industry": "Railroads",
+      "action": "PT Change",
+      "analyst": "CIBC",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "140"
     },
     {
       "date": "2026-06-08",
@@ -4081,7 +4159,7 @@
       "analyst": "Mizuho Securities",
       "rating_prev": "",
       "rating_new": "",
-      "pt_prev": "",
+      "pt_prev": "174",
       "pt_new": "191"
     },
     {
@@ -6904,6 +6982,58 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "350"
+    },
+    {
+      "date": "2026-06-05",
+      "ticker": "RBRK",
+      "company": "Rubrik, Inc.",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "action": "PT Change",
+      "analyst": "Wolfe Research",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "95"
+    },
+    {
+      "date": "2026-06-05",
+      "ticker": "USAC",
+      "company": "USA Compression Partners, LP",
+      "sector": "Energy",
+      "industry": "Oil & Gas Equipment & Services",
+      "action": "PT Change",
+      "analyst": "RBC Capital",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "30"
+    },
+    {
+      "date": "2026-06-05",
+      "ticker": "GWRE",
+      "company": "Guidewire Software, Inc.",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "action": "PT Change",
+      "analyst": "RBC Capital",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "215"
+    },
+    {
+      "date": "2026-06-05",
+      "ticker": "IOT",
+      "company": "Samsara Inc.",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "action": "PT Change",
+      "analyst": "RBC Capital",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "42"
     },
     {
       "date": "2026-06-04",
