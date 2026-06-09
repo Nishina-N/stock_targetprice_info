@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-09T17:58:06Z",
-  "total": 6106,
+  "updated_at": "2026-06-09T20:10:10Z",
+  "total": 6114,
   "records": [
     {
       "date": "2026-06-09",
@@ -2016,6 +2016,84 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "140"
+    },
+    {
+      "date": "2026-06-09",
+      "ticker": "UPST",
+      "company": "Upstart Holdings, Inc.",
+      "sector": "Financial Services",
+      "industry": "Financial - Credit Services",
+      "action": "Hold",
+      "analyst": "Jefferies",
+      "rating_prev": "Hold",
+      "rating_new": "Hold",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-09",
+      "ticker": "ZVRA",
+      "company": "Zevra Therapeutics, Inc.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "Hold",
+      "analyst": "BTIG",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-09",
+      "ticker": "EH",
+      "company": "EHang Holdings Limited",
+      "sector": "Industrials",
+      "industry": "Aerospace & Defense",
+      "action": "Hold",
+      "analyst": "Bank of America Securities",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-09",
+      "ticker": "GSK",
+      "company": "GSK plc",
+      "sector": "Healthcare",
+      "industry": "Drug Manufacturers - General",
+      "action": "Hold",
+      "analyst": "RBC Capital",
+      "rating_prev": "Outperform",
+      "rating_new": "Outperform",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-09",
+      "ticker": "NUVL",
+      "company": "Nuvalent, Inc.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "PT Change",
+      "analyst": "Barclays",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "124"
+    },
+    {
+      "date": "2026-06-09",
+      "ticker": "TAC",
+      "company": "TransAlta Corporation",
+      "sector": "Utilities",
+      "industry": "Independent Power Producers",
+      "action": "PT Change",
+      "analyst": "BMO Capital",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "25"
     },
     {
       "date": "2026-06-08",
@@ -7034,6 +7112,32 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "42"
+    },
+    {
+      "date": "2026-06-05",
+      "ticker": "VOYA",
+      "company": "Voya Financial, Inc.",
+      "sector": "Financial Services",
+      "industry": "Financial - Conglomerates",
+      "action": "PT Change",
+      "analyst": "Barclays",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "98"
+    },
+    {
+      "date": "2026-06-05",
+      "ticker": "RBRK",
+      "company": "Rubrik, Inc.",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "action": "PT Change",
+      "analyst": "BTIG",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "91"
     },
     {
       "date": "2026-06-04",
