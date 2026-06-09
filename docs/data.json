@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-09T00:01:45Z",
-  "total": 5902,
+  "updated_at": "2026-06-09T05:01:33Z",
+  "total": 5903,
   "records": [
     {
       "date": "2026-06-08",
@@ -8412,6 +8412,19 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "575"
+    },
+    {
+      "date": "2026-06-04",
+      "ticker": "CRWD",
+      "company": "CrowdStrike Holdings, Inc.",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "action": "PT Change",
+      "analyst": "BMO Capital",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "745"
     },
     {
       "date": "2026-06-03",
