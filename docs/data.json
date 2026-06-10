@@ -1,7 +1,20 @@
 {
-  "updated_at": "2026-06-10T00:08:57Z",
-  "total": 6148,
+  "updated_at": "2026-06-10T05:13:29Z",
+  "total": 6152,
   "records": [
+    {
+      "date": "2026-06-10",
+      "ticker": "HESM",
+      "company": "Hess Midstream LP",
+      "sector": "Energy",
+      "industry": "Oil & Gas Midstream",
+      "action": "Downgrade",
+      "analyst": "Morgan Stanley",
+      "rating_prev": "Equal-Weight",
+      "rating_new": "Underweight",
+      "pt_prev": "",
+      "pt_new": ""
+    },
     {
       "date": "2026-06-09",
       "ticker": "AAPL",
@@ -2393,6 +2406,19 @@
       "rating_new": "Overweight",
       "pt_prev": "",
       "pt_new": "150"
+    },
+    {
+      "date": "2026-06-09",
+      "ticker": "AMGN",
+      "company": "Amgen Inc.",
+      "sector": "Healthcare",
+      "industry": "Drug Manufacturers - General",
+      "action": "PT Change",
+      "analyst": "Morgan Stanley",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "340"
     },
     {
       "date": "2026-06-08",
@@ -7580,6 +7606,32 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "240"
+    },
+    {
+      "date": "2026-06-05",
+      "ticker": "XPO",
+      "company": "XPO Logistics, Inc.",
+      "sector": "Industrials",
+      "industry": "Integrated Freight & Logistics",
+      "action": "PT Change",
+      "analyst": "Wells Fargo",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "250"
+    },
+    {
+      "date": "2026-06-05",
+      "ticker": "KNX",
+      "company": "Knight-Swift Transportation Holdings Inc.",
+      "sector": "Industrials",
+      "industry": "Trucking",
+      "action": "PT Change",
+      "analyst": "Wells Fargo",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "86"
     },
     {
       "date": "2026-06-04",
