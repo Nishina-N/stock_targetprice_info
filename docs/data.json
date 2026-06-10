@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-10T16:32:14Z",
-  "total": 6369,
+  "updated_at": "2026-06-10T19:31:38Z",
+  "total": 6380,
   "records": [
     {
       "date": "2026-06-10",
@@ -1222,7 +1222,7 @@
       "rating_prev": "Overweight",
       "rating_new": "Overweight",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "88"
     },
     {
       "date": "2026-06-10",
@@ -1820,7 +1820,7 @@
       "rating_prev": "Outperform",
       "rating_new": "Outperform",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "123"
     },
     {
       "date": "2026-06-10",
@@ -2185,6 +2185,123 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "250"
+    },
+    {
+      "date": "2026-06-10",
+      "ticker": "ETR",
+      "company": "Entergy Corporation",
+      "sector": "Utilities",
+      "industry": "Regulated Electric",
+      "action": "Hold",
+      "analyst": "Jefferies",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-10",
+      "ticker": "JILL",
+      "company": "J.Jill, Inc.",
+      "sector": "Consumer Cyclical",
+      "industry": "Apparel - Retail",
+      "action": "Initialise",
+      "analyst": "Needham",
+      "rating_prev": null,
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-10",
+      "ticker": "BFH",
+      "company": "Bread Financial Holdings, Inc.",
+      "sector": "Financial Services",
+      "industry": "Financial - Credit Services",
+      "action": "Hold",
+      "analyst": "Bank of America Securities",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-10",
+      "ticker": "DNTH",
+      "company": "Dianthus Therapeutics, Inc.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "Hold",
+      "analyst": "Wolfe Research",
+      "rating_prev": "Outperform",
+      "rating_new": "Outperform",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-10",
+      "ticker": "AU",
+      "company": "AngloGold Ashanti Plc",
+      "sector": "Basic Materials",
+      "industry": "Gold",
+      "action": "Downgrade",
+      "analyst": "Macquarie",
+      "rating_prev": "Outperform",
+      "rating_new": "Neutral",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-10",
+      "ticker": "BFH",
+      "company": "Bread Financial Holdings, Inc.",
+      "sector": "Financial Services",
+      "industry": "Financial - Credit Services",
+      "action": "Hold",
+      "analyst": "Wolfe Research",
+      "rating_prev": "Positive",
+      "rating_new": "Positive",
+      "pt_prev": "",
+      "pt_new": "108"
+    },
+    {
+      "date": "2026-06-10",
+      "ticker": "ZVRA",
+      "company": "Zevra Therapeutics, Inc.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "PT Change",
+      "analyst": "Maxim Group",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "35"
+    },
+    {
+      "date": "2026-06-10",
+      "ticker": "CHWY",
+      "company": "Chewy, Inc.",
+      "sector": "Consumer Cyclical",
+      "industry": "Specialty Retail",
+      "action": "PT Change",
+      "analyst": "Piper Sandler",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "30"
+    },
+    {
+      "date": "2026-06-10",
+      "ticker": "AVO",
+      "company": "Mission Produce, Inc.",
+      "sector": "Consumer Defensive",
+      "industry": "Food Distribution",
+      "action": "PT Change",
+      "analyst": "UBS",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "16"
     },
     {
       "date": "2026-06-09",
@@ -7205,6 +7322,32 @@
       "pt_new": "22"
     },
     {
+      "date": "2026-06-08",
+      "ticker": "WPC",
+      "company": "W. P. Carey Inc.",
+      "sector": "Real Estate",
+      "industry": "REIT - Diversified",
+      "action": "PT Change",
+      "analyst": "Wolfe Research",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "85"
+    },
+    {
+      "date": "2026-06-08",
+      "ticker": "APGE",
+      "company": "Apogee Therapeutics, Inc.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "PT Change",
+      "analyst": "RBC Capital",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "97"
+    },
+    {
       "date": "2026-06-07",
       "ticker": "SAIC",
       "company": "Science Applications International Corporation",
@@ -9788,7 +9931,7 @@
       "analyst": "UBS",
       "rating_prev": "",
       "rating_new": "",
-      "pt_prev": "",
+      "pt_prev": "50",
       "pt_new": "54"
     },
     {
