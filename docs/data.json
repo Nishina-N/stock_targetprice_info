@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-10T21:56:10Z",
-  "total": 6392,
+  "updated_at": "2026-06-10T23:24:03Z",
+  "total": 6398,
   "records": [
     {
       "date": "2026-06-10",
@@ -2366,7 +2366,7 @@
       "rating_prev": null,
       "rating_new": "Buy",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "26"
     },
     {
       "date": "2026-06-10",
@@ -2445,6 +2445,84 @@
       "rating_new": "Strong Buy",
       "pt_prev": "",
       "pt_new": ""
+    },
+    {
+      "date": "2026-06-10",
+      "ticker": "CHWY",
+      "company": "Chewy, Inc.",
+      "sector": "Consumer Cyclical",
+      "industry": "Specialty Retail",
+      "action": "Downgrade",
+      "analyst": "MoffettNathanson",
+      "rating_prev": "Buy",
+      "rating_new": "Neutral",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-10",
+      "ticker": "CASY",
+      "company": "Casey's General Stores, Inc.",
+      "sector": "Consumer Cyclical",
+      "industry": "Specialty Retail",
+      "action": "Hold",
+      "analyst": "Goldman Sachs",
+      "rating_prev": "Neutral",
+      "rating_new": "Neutral",
+      "pt_prev": "",
+      "pt_new": "695"
+    },
+    {
+      "date": "2026-06-10",
+      "ticker": "MU",
+      "company": "Micron Technology, Inc.",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "action": "Hold",
+      "analyst": "Daiwa",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": "1600"
+    },
+    {
+      "date": "2026-06-10",
+      "ticker": "CGEM",
+      "company": "Cullinan Therapeutics, Inc.",
+      "sector": "Healthcare",
+      "industry": "Medical - Pharmaceuticals",
+      "action": "Hold",
+      "analyst": "William Blair",
+      "rating_prev": "Outperform",
+      "rating_new": "Outperform",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-10",
+      "ticker": "TOST",
+      "company": "Toast, Inc.",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "action": "PT Change",
+      "analyst": "Piper Sandler",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "32"
+    },
+    {
+      "date": "2026-06-10",
+      "ticker": "ATLC",
+      "company": "Atlanticus Holdings Corporation",
+      "sector": "Financial Services",
+      "industry": "Financial - Credit Services",
+      "action": "PT Change",
+      "analyst": "William Blair",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "100"
     },
     {
       "date": "2026-06-09",
