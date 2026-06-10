@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-09T22:20:42Z",
-  "total": 6145,
+  "updated_at": "2026-06-10T00:08:57Z",
+  "total": 6148,
   "records": [
     {
       "date": "2026-06-09",
@@ -2380,6 +2380,19 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "11"
+    },
+    {
+      "date": "2026-06-09",
+      "ticker": "SN",
+      "company": "SharkNinja, Inc.",
+      "sector": "Consumer Cyclical",
+      "industry": "Furnishings, Fixtures & Appliances",
+      "action": "Initialise",
+      "analyst": "Piper Sandler",
+      "rating_prev": null,
+      "rating_new": "Overweight",
+      "pt_prev": "",
+      "pt_new": "150"
     },
     {
       "date": "2026-06-08",
@@ -7541,6 +7554,32 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "154"
+    },
+    {
+      "date": "2026-06-05",
+      "ticker": "R",
+      "company": "Ryder System, Inc.",
+      "sector": "Industrials",
+      "industry": "Rental & Leasing Services",
+      "action": "PT Change",
+      "analyst": "Wells Fargo",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "290"
+    },
+    {
+      "date": "2026-06-05",
+      "ticker": "LSTR",
+      "company": "Landstar System, Inc.",
+      "sector": "Industrials",
+      "industry": "Integrated Freight & Logistics",
+      "action": "PT Change",
+      "analyst": "Wells Fargo",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "240"
     },
     {
       "date": "2026-06-04",
