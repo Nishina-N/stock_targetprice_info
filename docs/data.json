@@ -1,7 +1,33 @@
 {
-  "updated_at": "2026-06-11T03:30:53Z",
-  "total": 6398,
+  "updated_at": "2026-06-11T08:41:16Z",
+  "total": 6401,
   "records": [
+    {
+      "date": "2026-06-11",
+      "ticker": "LI",
+      "company": "Li Auto Inc.",
+      "sector": "Consumer Cyclical",
+      "industry": "Auto - Manufacturers",
+      "action": "Upgrade",
+      "analyst": "Goldman Sachs",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-11",
+      "ticker": "LI",
+      "company": "Li Auto Inc.",
+      "sector": "Consumer Cyclical",
+      "industry": "Auto - Manufacturers",
+      "action": "Upgrade",
+      "analyst": "Goldman Sachs",
+      "rating_prev": "Buy",
+      "rating_new": "Neutral",
+      "pt_prev": "",
+      "pt_new": ""
+    },
     {
       "date": "2026-06-10",
       "ticker": "HESM",
@@ -7580,6 +7606,19 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "35"
+    },
+    {
+      "date": "2026-06-08",
+      "ticker": "MU",
+      "company": "Micron Technology, Inc.",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "action": "PT Change",
+      "analyst": "Wells Fargo",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "1220"
     },
     {
       "date": "2026-06-07",
