@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-11T21:58:41Z",
-  "total": 6644,
+  "updated_at": "2026-06-11T23:40:19Z",
+  "total": 6652,
   "records": [
     {
       "date": "2026-06-11",
@@ -2275,7 +2275,7 @@
       "rating_prev": null,
       "rating_new": "Market Perform",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "96"
     },
     {
       "date": "2026-06-11",
@@ -2288,7 +2288,7 @@
       "rating_prev": null,
       "rating_new": "Market Perform",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "60"
     },
     {
       "date": "2026-06-11",
@@ -2301,7 +2301,7 @@
       "rating_prev": "Market Perform",
       "rating_new": "Market Perform",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "95"
     },
     {
       "date": "2026-06-11",
@@ -2314,7 +2314,7 @@
       "rating_prev": "Market Perform",
       "rating_new": "Market Perform",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "143"
     },
     {
       "date": "2026-06-11",
@@ -2327,7 +2327,7 @@
       "rating_prev": null,
       "rating_new": "Outperform",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "38"
     },
     {
       "date": "2026-06-11",
@@ -2340,7 +2340,7 @@
       "rating_prev": "Outperform",
       "rating_new": "Market Perform",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "84"
     },
     {
       "date": "2026-06-11",
@@ -2353,7 +2353,7 @@
       "rating_prev": "Hold",
       "rating_new": "Market Perform",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "82"
     },
     {
       "date": "2026-06-11",
@@ -2366,7 +2366,7 @@
       "rating_prev": "Outperform",
       "rating_new": "Market Perform",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "156"
     },
     {
       "date": "2026-06-11",
@@ -2392,7 +2392,7 @@
       "rating_prev": "Outperform",
       "rating_new": "Outperform",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "44"
     },
     {
       "date": "2026-06-11",
@@ -2405,7 +2405,7 @@
       "rating_prev": "Buy",
       "rating_new": "Buy",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "300"
     },
     {
       "date": "2026-06-11",
@@ -2418,7 +2418,7 @@
       "rating_prev": null,
       "rating_new": "Outperform",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "185"
     },
     {
       "date": "2026-06-11",
@@ -2431,7 +2431,7 @@
       "rating_prev": "Outperform",
       "rating_new": "Outperform",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "275"
     },
     {
       "date": "2026-06-11",
@@ -2444,7 +2444,7 @@
       "rating_prev": "Buy",
       "rating_new": "Buy",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "19"
     },
     {
       "date": "2026-06-11",
@@ -2458,6 +2458,84 @@
       "rating_new": "Neutral",
       "pt_prev": "",
       "pt_new": ""
+    },
+    {
+      "date": "2026-06-11",
+      "ticker": "FORM",
+      "company": "FormFactor, Inc.",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "action": "Upgrade",
+      "analyst": "B. Riley",
+      "rating_prev": "Neutral",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-11",
+      "ticker": "TGT",
+      "company": "Target Corporation",
+      "sector": "Consumer Defensive",
+      "industry": "Discount Stores",
+      "action": "Hold",
+      "analyst": "Goldman Sachs",
+      "rating_prev": "Neutral",
+      "rating_new": "Neutral",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-11",
+      "ticker": "CNM",
+      "company": "Core & Main, Inc.",
+      "sector": "Industrials",
+      "industry": "Industrial - Distribution",
+      "action": "Hold",
+      "analyst": "Goldman Sachs",
+      "rating_prev": "Neutral",
+      "rating_new": "Neutral",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-11",
+      "ticker": "EDU",
+      "company": "New Oriental Education & Technology Group Inc.",
+      "sector": "Consumer Defensive",
+      "industry": "Education & Training Services",
+      "action": "PT Change",
+      "analyst": "New Street",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "65"
+    },
+    {
+      "date": "2026-06-11",
+      "ticker": "LOVE",
+      "company": "The Lovesac Company",
+      "sector": "Consumer Cyclical",
+      "industry": "Furnishings, Fixtures & Appliances",
+      "action": "PT Change",
+      "analyst": "Canaccord Genuity",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "22"
+    },
+    {
+      "date": "2026-06-11",
+      "ticker": "PODD",
+      "company": "Insulet Corporation",
+      "sector": "Healthcare",
+      "industry": "Medical - Devices",
+      "action": "PT Change",
+      "analyst": "Truist Financial",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "219"
     },
     {
       "date": "2026-06-10",
@@ -7632,6 +7710,32 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "70"
+    },
+    {
+      "date": "2026-06-09",
+      "ticker": "TWO",
+      "company": "Two Harbors Investment Corp.",
+      "sector": "Real Estate",
+      "industry": "REIT - Mortgage",
+      "action": "PT Change",
+      "analyst": "Compass Point",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "13"
+    },
+    {
+      "date": "2026-06-09",
+      "ticker": "ALKS",
+      "company": "Alkermes plc",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "PT Change",
+      "analyst": "RBC Capital",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "56"
     },
     {
       "date": "2026-06-08",
