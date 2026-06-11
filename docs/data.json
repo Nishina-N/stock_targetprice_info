@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-11T16:50:19Z",
-  "total": 6613,
+  "updated_at": "2026-06-11T19:32:22Z",
+  "total": 6617,
   "records": [
     {
       "date": "2026-06-11",
@@ -2211,6 +2211,58 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "60"
+    },
+    {
+      "date": "2026-06-11",
+      "ticker": "STM",
+      "company": "STMicroelectronics N.V.",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "action": "Hold",
+      "analyst": "Deutsche Bank",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-11",
+      "ticker": "CLYM",
+      "company": "Climb Bio, Inc.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "Hold",
+      "analyst": "BTIG",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": "20"
+    },
+    {
+      "date": "2026-06-11",
+      "ticker": "PODD",
+      "company": "Insulet Corporation",
+      "sector": "Healthcare",
+      "industry": "Medical - Devices",
+      "action": "PT Change",
+      "analyst": "UBS",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "219"
+    },
+    {
+      "date": "2026-06-11",
+      "ticker": "KIM",
+      "company": "Kimco Realty Corporation",
+      "sector": "Real Estate",
+      "industry": "REIT - Retail",
+      "action": "PT Change",
+      "analyst": "Stifel Nicolaus",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "28"
     },
     {
       "date": "2026-06-10",
