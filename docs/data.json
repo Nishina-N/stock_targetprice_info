@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-11T12:41:12Z",
-  "total": 6547,
+  "updated_at": "2026-06-11T16:50:19Z",
+  "total": 6613,
   "records": [
     {
       "date": "2026-06-11",
@@ -39,7 +39,7 @@
       "rating_prev": "Outperform",
       "rating_new": "Outperform",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "220"
     },
     {
       "date": "2026-06-11",
@@ -65,7 +65,7 @@
       "rating_prev": null,
       "rating_new": "Buy",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "32"
     },
     {
       "date": "2026-06-11",
@@ -117,7 +117,7 @@
       "rating_prev": "Neutral",
       "rating_new": "Neutral",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "22"
     },
     {
       "date": "2026-06-11",
@@ -156,7 +156,7 @@
       "rating_prev": "Overweight",
       "rating_new": "Overweight",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "27"
     },
     {
       "date": "2026-06-11",
@@ -169,7 +169,7 @@
       "rating_prev": "Overweight",
       "rating_new": "Overweight",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "150"
     },
     {
       "date": "2026-06-11",
@@ -182,7 +182,7 @@
       "rating_prev": "Buy",
       "rating_new": "Buy",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "63"
     },
     {
       "date": "2026-06-11",
@@ -195,7 +195,7 @@
       "rating_prev": "Buy",
       "rating_new": "Buy",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "30"
     },
     {
       "date": "2026-06-11",
@@ -208,7 +208,7 @@
       "rating_prev": "Neutral",
       "rating_new": "Neutral",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "4.5"
     },
     {
       "date": "2026-06-11",
@@ -221,7 +221,7 @@
       "rating_prev": "Buy",
       "rating_new": "Buy",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "335"
     },
     {
       "date": "2026-06-11",
@@ -234,7 +234,7 @@
       "rating_prev": "Buy",
       "rating_new": "Buy",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "97"
     },
     {
       "date": "2026-06-11",
@@ -260,7 +260,7 @@
       "rating_prev": "Neutral",
       "rating_new": "Neutral",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "55"
     },
     {
       "date": "2026-06-11",
@@ -273,7 +273,7 @@
       "rating_prev": "Overweight",
       "rating_new": "Overweight",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "226"
     },
     {
       "date": "2026-06-11",
@@ -286,7 +286,7 @@
       "rating_prev": "Overweight",
       "rating_new": "Overweight",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "46"
     },
     {
       "date": "2026-06-11",
@@ -299,7 +299,7 @@
       "rating_prev": "Overweight",
       "rating_new": "Overweight",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "225"
     },
     {
       "date": "2026-06-11",
@@ -1105,7 +1105,7 @@
       "rating_prev": "Outperform",
       "rating_new": "Outperform",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "325"
     },
     {
       "date": "2026-06-11",
@@ -1470,6 +1470,747 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "17"
+    },
+    {
+      "date": "2026-06-11",
+      "ticker": "DECK",
+      "company": "Deckers Outdoor Corporation",
+      "sector": "Consumer Cyclical",
+      "industry": "Apparel - Footwear & Accessories",
+      "action": "Hold",
+      "analyst": "Piper Sandler",
+      "rating_prev": "Neutral",
+      "rating_new": "Neutral",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-11",
+      "ticker": "ORCL",
+      "company": "Oracle Corporation",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "action": "Hold",
+      "analyst": "KeyBanc",
+      "rating_prev": "Overweight",
+      "rating_new": "Overweight",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-11",
+      "ticker": "OXM",
+      "company": "Oxford Industries, Inc.",
+      "sector": "Consumer Cyclical",
+      "industry": "Apparel - Manufacturers",
+      "action": "Hold",
+      "analyst": "KeyBanc",
+      "rating_prev": "Sector Weight",
+      "rating_new": "Sector Weight",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-11",
+      "ticker": "JILL",
+      "company": "J.Jill, Inc.",
+      "sector": "Consumer Cyclical",
+      "industry": "Apparel - Retail",
+      "action": "Hold",
+      "analyst": "Telsey Advisory",
+      "rating_prev": "Market Perform",
+      "rating_new": "Market Perform",
+      "pt_prev": "",
+      "pt_new": "14"
+    },
+    {
+      "date": "2026-06-11",
+      "ticker": "OXM",
+      "company": "Oxford Industries, Inc.",
+      "sector": "Consumer Cyclical",
+      "industry": "Apparel - Manufacturers",
+      "action": "Hold",
+      "analyst": "Telsey Advisory",
+      "rating_prev": "Market Perform",
+      "rating_new": "Market Perform",
+      "pt_prev": "",
+      "pt_new": "44"
+    },
+    {
+      "date": "2026-06-11",
+      "ticker": "TGS",
+      "company": "Transportadora de Gas del Sur S.A.",
+      "sector": "Energy",
+      "industry": "Oil & Gas Integrated",
+      "action": "Hold",
+      "analyst": "Bank of America Securities",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-11",
+      "ticker": "CRGY",
+      "company": "Crescent Energy Company",
+      "sector": "Energy",
+      "industry": "Oil & Gas Exploration & Production",
+      "action": "Hold",
+      "analyst": "KeyBanc",
+      "rating_prev": "Overweight",
+      "rating_new": "Overweight",
+      "pt_prev": "",
+      "pt_new": "19"
+    },
+    {
+      "date": "2026-06-11",
+      "ticker": "INTC",
+      "company": "Intel Corporation",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "action": "Initialise",
+      "analyst": "Jefferies",
+      "rating_prev": "Hold",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-11",
+      "ticker": "INTC",
+      "company": "Intel Corporation",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "action": "Initialise",
+      "analyst": "Wolfe Research",
+      "rating_prev": "Underperform",
+      "rating_new": "Peer Perform",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-11",
+      "ticker": "INTC",
+      "company": "Intel Corporation",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "action": "Downgrade",
+      "analyst": "MoffettNathanson",
+      "rating_prev": null,
+      "rating_new": "Neutral",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-11",
+      "ticker": "INTC",
+      "company": "Intel Corporation",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "action": "Initialise",
+      "analyst": "Oppenheimer",
+      "rating_prev": "Perform",
+      "rating_new": "Outperform",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-11",
+      "ticker": "INTC",
+      "company": "Intel Corporation",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "action": "Initialise",
+      "analyst": "Piper Sandler",
+      "rating_prev": null,
+      "rating_new": "Neutral",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-11",
+      "ticker": "INTC",
+      "company": "Intel Corporation",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "action": "Downgrade",
+      "analyst": "Morgan Stanley",
+      "rating_prev": "Overweight",
+      "rating_new": "Underweight",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-11",
+      "ticker": "INTC",
+      "company": "Intel Corporation",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "action": "Initialise",
+      "analyst": "New Street",
+      "rating_prev": "Neutral",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-11",
+      "ticker": "INTC",
+      "company": "Intel Corporation",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "action": "Downgrade",
+      "analyst": "Citigroup",
+      "rating_prev": "Buy",
+      "rating_new": "Neutral",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-11",
+      "ticker": "INTC",
+      "company": "Intel Corporation",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "action": "Upgrade",
+      "analyst": "BTIG",
+      "rating_prev": "Neutral",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-11",
+      "ticker": "NVT",
+      "company": "nVent Electric plc",
+      "sector": "Industrials",
+      "industry": "Electrical Equipment & Parts",
+      "action": "Hold",
+      "analyst": "UBS",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-11",
+      "ticker": "VLO",
+      "company": "Valero Energy Corporation",
+      "sector": "Energy",
+      "industry": "Oil & Gas Refining & Marketing",
+      "action": "Hold",
+      "analyst": "UBS",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": "280"
+    },
+    {
+      "date": "2026-06-11",
+      "ticker": "HUMA",
+      "company": "Humacyte, Inc.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "Hold",
+      "analyst": "H.C. Wainwright",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-11",
+      "ticker": "TWLO",
+      "company": "Twilio Inc.",
+      "sector": "Communication Services",
+      "industry": "Internet Content & Information",
+      "action": "Hold",
+      "analyst": "Tigress Financial",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": "255"
+    },
+    {
+      "date": "2026-06-11",
+      "ticker": "OWL",
+      "company": "Blue Owl Capital Inc.",
+      "sector": "Financial Services",
+      "industry": "Asset Management",
+      "action": "Hold",
+      "analyst": "UBS",
+      "rating_prev": "Neutral",
+      "rating_new": "Neutral",
+      "pt_prev": "",
+      "pt_new": "9.5"
+    },
+    {
+      "date": "2026-06-11",
+      "ticker": "PLAY",
+      "company": "Dave & Buster's Entertainment, Inc.",
+      "sector": "Communication Services",
+      "industry": "Entertainment",
+      "action": "Hold",
+      "analyst": "Benchmark",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-11",
+      "ticker": "DKNG",
+      "company": "DraftKings Inc.",
+      "sector": "Consumer Cyclical",
+      "industry": "Gambling, Resorts & Casinos",
+      "action": "Hold",
+      "analyst": "Bernstein",
+      "rating_prev": "Outperform",
+      "rating_new": "Outperform",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-11",
+      "ticker": "BKNG",
+      "company": "Booking Holdings Inc.",
+      "sector": "Consumer Cyclical",
+      "industry": "Travel Services",
+      "action": "Hold",
+      "analyst": "Bernstein",
+      "rating_prev": "Market Perform",
+      "rating_new": "Market Perform",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-11",
+      "ticker": "J",
+      "company": "Jacobs Solutions Inc.",
+      "sector": "Industrials",
+      "industry": "Engineering & Construction",
+      "action": "Hold",
+      "analyst": "Bernstein",
+      "rating_prev": "Outperform",
+      "rating_new": "Outperform",
+      "pt_prev": "",
+      "pt_new": "163"
+    },
+    {
+      "date": "2026-06-11",
+      "ticker": "CLOV",
+      "company": "Clover Health Investments, Corp.",
+      "sector": "Healthcare",
+      "industry": "Medical - Healthcare Plans",
+      "action": "Hold",
+      "analyst": "UBS",
+      "rating_prev": "Neutral",
+      "rating_new": "Neutral",
+      "pt_prev": "",
+      "pt_new": "4.75"
+    },
+    {
+      "date": "2026-06-11",
+      "ticker": "FE",
+      "company": "FirstEnergy Corp.",
+      "sector": "Utilities",
+      "industry": "Regulated Electric",
+      "action": "Hold",
+      "analyst": "UBS",
+      "rating_prev": "Neutral",
+      "rating_new": "Neutral",
+      "pt_prev": "",
+      "pt_new": "51"
+    },
+    {
+      "date": "2026-06-11",
+      "ticker": "HON",
+      "company": "Honeywell International Inc.",
+      "sector": "Industrials",
+      "industry": "Conglomerates",
+      "action": "Hold",
+      "analyst": "Bernstein",
+      "rating_prev": "Market Perform",
+      "rating_new": "Market Perform",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-11",
+      "ticker": "FSLR",
+      "company": "First Solar, Inc.",
+      "sector": "Energy",
+      "industry": "Solar",
+      "action": "Hold",
+      "analyst": "UBS",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-11",
+      "ticker": "CHWY",
+      "company": "Chewy, Inc.",
+      "sector": "Consumer Cyclical",
+      "industry": "Specialty Retail",
+      "action": "Hold",
+      "analyst": "UBS",
+      "rating_prev": "Neutral",
+      "rating_new": "Neutral",
+      "pt_prev": "",
+      "pt_new": "24"
+    },
+    {
+      "date": "2026-06-11",
+      "ticker": "GEV",
+      "company": "GE Vernova Inc.",
+      "sector": "Utilities",
+      "industry": "Renewable Utilities",
+      "action": "Hold",
+      "analyst": "Jefferies",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": "1210"
+    },
+    {
+      "date": "2026-06-11",
+      "ticker": "AFYA",
+      "company": "Afya Limited",
+      "sector": "Consumer Defensive",
+      "industry": "Education & Training Services",
+      "action": "Hold",
+      "analyst": "Bank of America Securities",
+      "rating_prev": "Neutral",
+      "rating_new": "Neutral",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-11",
+      "ticker": "GEV",
+      "company": "GE Vernova Inc.",
+      "sector": "Utilities",
+      "industry": "Renewable Utilities",
+      "action": "Upgrade",
+      "analyst": "Jefferies",
+      "rating_prev": "Buy",
+      "rating_new": "Positive",
+      "pt_prev": "",
+      "pt_new": "1210"
+    },
+    {
+      "date": "2026-06-11",
+      "ticker": "CNK",
+      "company": "Cinemark Holdings, Inc.",
+      "sector": "Communication Services",
+      "industry": "Entertainment",
+      "action": "Hold",
+      "analyst": "B. Riley",
+      "rating_prev": "Neutral",
+      "rating_new": "Neutral",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-11",
+      "ticker": "MCS",
+      "company": "The Marcus Corporation",
+      "sector": "Communication Services",
+      "industry": "Entertainment",
+      "action": "Hold",
+      "analyst": "B. Riley",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-11",
+      "ticker": "AMC",
+      "company": "AMC Entertainment Holdings, Inc.",
+      "sector": "Communication Services",
+      "industry": "Entertainment",
+      "action": "Hold",
+      "analyst": "B. Riley",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-11",
+      "ticker": "ARE",
+      "company": "Alexandria Real Estate Equities, Inc.",
+      "sector": "Real Estate",
+      "industry": "REIT - Office",
+      "action": "Downgrade",
+      "analyst": "Morgan Stanley",
+      "rating_prev": "Outperform",
+      "rating_new": "Underweight",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-11",
+      "ticker": "CVS",
+      "company": "CVS Health Corporation",
+      "sector": "Healthcare",
+      "industry": "Medical - Healthcare Plans",
+      "action": "Hold",
+      "analyst": "Cantor Fitzgerald",
+      "rating_prev": "Overweight",
+      "rating_new": "Overweight",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-11",
+      "ticker": "ORCL",
+      "company": "Oracle Corporation",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "action": "Hold",
+      "analyst": "Wedbush",
+      "rating_prev": "Outperform",
+      "rating_new": "Outperform",
+      "pt_prev": "275",
+      "pt_new": "240"
+    },
+    {
+      "date": "2026-06-11",
+      "ticker": "HUM",
+      "company": "Humana Inc.",
+      "sector": "Healthcare",
+      "industry": "Medical - Healthcare Plans",
+      "action": "Hold",
+      "analyst": "Cantor Fitzgerald",
+      "rating_prev": "Neutral",
+      "rating_new": "Neutral",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-11",
+      "ticker": "NET",
+      "company": "Cloudflare, Inc.",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "action": "PT Change",
+      "analyst": "Truist Financial",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "250"
+    },
+    {
+      "date": "2026-06-11",
+      "ticker": "OXM",
+      "company": "Oxford Industries, Inc.",
+      "sector": "Consumer Cyclical",
+      "industry": "Apparel - Manufacturers",
+      "action": "PT Change",
+      "analyst": "Truist Financial",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "43",
+      "pt_new": "40"
+    },
+    {
+      "date": "2026-06-11",
+      "ticker": "CHWY",
+      "company": "Chewy, Inc.",
+      "sector": "Consumer Cyclical",
+      "industry": "Specialty Retail",
+      "action": "PT Change",
+      "analyst": "RBC Capital",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "47",
+      "pt_new": "34"
+    },
+    {
+      "date": "2026-06-11",
+      "ticker": "SJM",
+      "company": "The J. M. Smucker Company",
+      "sector": "Consumer Defensive",
+      "industry": "Packaged Foods",
+      "action": "PT Change",
+      "analyst": "UBS",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "130"
+    },
+    {
+      "date": "2026-06-11",
+      "ticker": "CASY",
+      "company": "Casey's General Stores, Inc.",
+      "sector": "Consumer Cyclical",
+      "industry": "Specialty Retail",
+      "action": "PT Change",
+      "analyst": "UBS",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "805",
+      "pt_new": "945"
+    },
+    {
+      "date": "2026-06-11",
+      "ticker": "ATEN",
+      "company": "A10 Networks, Inc.",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "action": "PT Change",
+      "analyst": "Mizuho Securities",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "30"
+    },
+    {
+      "date": "2026-06-11",
+      "ticker": "RY",
+      "company": "Royal Bank of Canada",
+      "sector": "Financial Services",
+      "industry": "Banks - Diversified",
+      "action": "PT Change",
+      "analyst": "Argus Research",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "225"
+    },
+    {
+      "date": "2026-06-11",
+      "ticker": "DASH",
+      "company": "DoorDash, Inc.",
+      "sector": "Communication Services",
+      "industry": "Internet Content & Information",
+      "action": "PT Change",
+      "analyst": "Argus Research",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "190"
+    },
+    {
+      "date": "2026-06-11",
+      "ticker": "RBRK",
+      "company": "Rubrik, Inc.",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "action": "PT Change",
+      "analyst": "D.A. Davidson",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "90"
+    },
+    {
+      "date": "2026-06-11",
+      "ticker": "DOC",
+      "company": "Healthpeak Properties, Inc.",
+      "sector": "Real Estate",
+      "industry": "REIT - Healthcare Facilities",
+      "action": "PT Change",
+      "analyst": "Morgan Stanley",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "20",
+      "pt_new": "22"
+    },
+    {
+      "date": "2026-06-11",
+      "ticker": "LAKE",
+      "company": "Lakeland Industries, Inc.",
+      "sector": "Consumer Cyclical",
+      "industry": "Apparel - Manufacturers",
+      "action": "PT Change",
+      "analyst": "D.A. Davidson",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "18"
+    },
+    {
+      "date": "2026-06-11",
+      "ticker": "ORCL",
+      "company": "Oracle Corporation",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "action": "PT Change",
+      "analyst": "D.A. Davidson",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "225"
+    },
+    {
+      "date": "2026-06-11",
+      "ticker": "STRO",
+      "company": "Sutro Biopharma, Inc.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "PT Change",
+      "analyst": "Truist Financial",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "50"
+    },
+    {
+      "date": "2026-06-11",
+      "ticker": "DDOG",
+      "company": "Datadog, Inc.",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "action": "PT Change",
+      "analyst": "New Street",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "260"
+    },
+    {
+      "date": "2026-06-11",
+      "ticker": "EXTR",
+      "company": "Extreme Networks, Inc.",
+      "sector": "Technology",
+      "industry": "Communication Equipment",
+      "action": "PT Change",
+      "analyst": "Rosenblatt Securities",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "39"
+    },
+    {
+      "date": "2026-06-11",
+      "ticker": "RBRK",
+      "company": "Rubrik, Inc.",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "action": "PT Change",
+      "analyst": "Cantor Fitzgerald",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "95"
+    },
+    {
+      "date": "2026-06-11",
+      "ticker": "LINC",
+      "company": "Lincoln Educational Services Corporation",
+      "sector": "Consumer Defensive",
+      "industry": "Education & Training Services",
+      "action": "PT Change",
+      "analyst": "Rosenblatt Securities",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "60"
     },
     {
       "date": "2026-06-10",
@@ -6399,6 +7140,97 @@
       "pt_new": "340"
     },
     {
+      "date": "2026-06-09",
+      "ticker": "WST",
+      "company": "West Pharmaceutical Services, Inc.",
+      "sector": "Healthcare",
+      "industry": "Medical - Instruments & Supplies",
+      "action": "PT Change",
+      "analyst": "Barclays",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "400"
+    },
+    {
+      "date": "2026-06-09",
+      "ticker": "SYNA",
+      "company": "Synaptics Incorporated",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "action": "PT Change",
+      "analyst": "Wells Fargo",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "155"
+    },
+    {
+      "date": "2026-06-09",
+      "ticker": "JCI",
+      "company": "Johnson Controls International plc",
+      "sector": "Industrials",
+      "industry": "Construction",
+      "action": "PT Change",
+      "analyst": "Morgan Stanley",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "175"
+    },
+    {
+      "date": "2026-06-09",
+      "ticker": "APLD",
+      "company": "Applied Digital Corporation",
+      "sector": "Technology",
+      "industry": "Information Technology Services",
+      "action": "PT Change",
+      "analyst": "Needham",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "83"
+    },
+    {
+      "date": "2026-06-09",
+      "ticker": "MGNI",
+      "company": "Magnite, Inc.",
+      "sector": "Communication Services",
+      "industry": "Advertising Agencies",
+      "action": "PT Change",
+      "analyst": "BTIG",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "20"
+    },
+    {
+      "date": "2026-06-09",
+      "ticker": "CPB",
+      "company": "Campbell Soup Company",
+      "sector": "Consumer Defensive",
+      "industry": "Packaged Foods",
+      "action": "PT Change",
+      "analyst": "Bernstein",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "18"
+    },
+    {
+      "date": "2026-06-09",
+      "ticker": "FFIV",
+      "company": "F5, Inc.",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "action": "PT Change",
+      "analyst": "RBC Capital",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "450"
+    },
+    {
       "date": "2026-06-08",
       "ticker": "BCS",
       "company": "Barclays PLC",
@@ -9517,6 +10349,32 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "198"
+    },
+    {
+      "date": "2026-06-08",
+      "ticker": "AJG",
+      "company": "Arthur J. Gallagher & Co.",
+      "sector": "Financial Services",
+      "industry": "Insurance - Brokers",
+      "action": "PT Change",
+      "analyst": "UBS",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "250"
+    },
+    {
+      "date": "2026-06-08",
+      "ticker": "EQR",
+      "company": "Equity Residential",
+      "sector": "Real Estate",
+      "industry": "REIT - Residential",
+      "action": "PT Change",
+      "analyst": "RBC Capital",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "70"
     },
     {
       "date": "2026-06-07",
