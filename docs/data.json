@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-12T19:01:52Z",
-  "total": 6841,
+  "updated_at": "2026-06-12T21:28:45Z",
+  "total": 6848,
   "records": [
     {
       "date": "2026-06-12",
@@ -1964,6 +1964,71 @@
       "rating_new": "",
       "pt_prev": "42",
       "pt_new": "40"
+    },
+    {
+      "date": "2026-06-12",
+      "ticker": "INTC",
+      "company": "Intel Corporation",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "action": "Downgrade",
+      "analyst": "Wells Fargo",
+      "rating_prev": "Market Perform",
+      "rating_new": "Underweight",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-12",
+      "ticker": "INTC",
+      "company": "Intel Corporation",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "action": "Upgrade",
+      "analyst": "Citigroup",
+      "rating_prev": "Neutral",
+      "rating_new": "Positive",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-12",
+      "ticker": "INTC",
+      "company": "Intel Corporation",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "action": "Initialise",
+      "analyst": "Bernstein",
+      "rating_prev": "Market Perform",
+      "rating_new": "Underperform",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-12",
+      "ticker": "INTC",
+      "company": "Intel Corporation",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "action": "Downgrade",
+      "analyst": "Barclays",
+      "rating_prev": "Reduce",
+      "rating_new": "Underperform",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-12",
+      "ticker": "INTC",
+      "company": "Intel Corporation",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "action": "Upgrade",
+      "analyst": "Jefferies",
+      "rating_prev": "Buy",
+      "rating_new": "Outperform",
+      "pt_prev": "",
+      "pt_new": ""
     },
     {
       "date": "2026-06-11",
@@ -7164,6 +7229,32 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "95"
+    },
+    {
+      "date": "2026-06-10",
+      "ticker": "JBL",
+      "company": "Jabil Inc.",
+      "sector": "Technology",
+      "industry": "Hardware, Equipment & Parts",
+      "action": "PT Change",
+      "analyst": "Raymond James",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "425"
+    },
+    {
+      "date": "2026-06-10",
+      "ticker": "FANG",
+      "company": "Diamondback Energy, Inc.",
+      "sector": "Energy",
+      "industry": "Oil & Gas Exploration & Production",
+      "action": "PT Change",
+      "analyst": "Raymond James",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "249"
     },
     {
       "date": "2026-06-09",
