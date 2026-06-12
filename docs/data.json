@@ -1,7 +1,20 @@
 {
-  "updated_at": "2026-06-11T23:40:19Z",
-  "total": 6652,
+  "updated_at": "2026-06-12T03:30:44Z",
+  "total": 6654,
   "records": [
+    {
+      "date": "2026-06-12",
+      "ticker": "PHIN",
+      "company": "PHINIA Inc.",
+      "sector": "Consumer Cyclical",
+      "industry": "Auto - Parts",
+      "action": "Initialise",
+      "analyst": "KeyBanc",
+      "rating_prev": null,
+      "rating_new": "Overweight",
+      "pt_prev": "",
+      "pt_new": "105"
+    },
     {
       "date": "2026-06-11",
       "ticker": "LI",
@@ -2496,7 +2509,7 @@
       "rating_prev": "Neutral",
       "rating_new": "Neutral",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "24"
     },
     {
       "date": "2026-06-11",
@@ -7736,6 +7749,19 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "56"
+    },
+    {
+      "date": "2026-06-09",
+      "ticker": "GHM",
+      "company": "Graham Corporation",
+      "sector": "Industrials",
+      "industry": "Industrial - Machinery",
+      "action": "PT Change",
+      "analyst": "Oppenheimer",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "110"
     },
     {
       "date": "2026-06-08",
