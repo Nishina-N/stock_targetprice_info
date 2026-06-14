@@ -1,7 +1,20 @@
 {
-  "updated_at": "2026-06-14T11:27:25Z",
-  "total": 6848,
+  "updated_at": "2026-06-14T13:52:46Z",
+  "total": 6850,
   "records": [
+    {
+      "date": "2026-06-14",
+      "ticker": "VIST",
+      "company": "Vista Energy, S.A.B. de C.V.",
+      "sector": "Energy",
+      "industry": "Oil & Gas Exploration & Production",
+      "action": "Initialise",
+      "analyst": "HSBC",
+      "rating_prev": null,
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
     {
       "date": "2026-06-12",
       "ticker": "PHIN",
@@ -7255,6 +7268,19 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "249"
+    },
+    {
+      "date": "2026-06-10",
+      "ticker": "ETR",
+      "company": "Entergy Corporation",
+      "sector": "Utilities",
+      "industry": "Regulated Electric",
+      "action": "PT Change",
+      "analyst": "BTIG",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "126"
     },
     {
       "date": "2026-06-09",
