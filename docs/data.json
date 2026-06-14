@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-14T13:52:46Z",
-  "total": 6850,
+  "updated_at": "2026-06-14T15:46:52Z",
+  "total": 6851,
   "records": [
     {
       "date": "2026-06-14",
@@ -12,6 +12,19 @@
       "analyst": "HSBC",
       "rating_prev": null,
       "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": "95"
+    },
+    {
+      "date": "2026-06-14",
+      "ticker": "ONTO",
+      "company": "Onto Innovation Inc.",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "action": "Initialise",
+      "analyst": "Morgan Stanley",
+      "rating_prev": null,
+      "rating_new": "Overweight",
       "pt_prev": "",
       "pt_new": ""
     },
