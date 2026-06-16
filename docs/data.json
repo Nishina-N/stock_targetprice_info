@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-16T21:40:00Z",
-  "total": 7336,
+  "updated_at": "2026-06-16T23:20:40Z",
+  "total": 7341,
   "records": [
     {
       "date": "2026-06-16",
@@ -1573,7 +1573,7 @@
       "rating_prev": null,
       "rating_new": "Market Perform",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "9"
     },
     {
       "date": "2026-06-16",
@@ -1586,7 +1586,7 @@
       "rating_prev": "Outperform",
       "rating_new": "Outperform",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "283"
     },
     {
       "date": "2026-06-16",
@@ -1612,7 +1612,7 @@
       "rating_prev": null,
       "rating_new": "Outperform",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "296"
     },
     {
       "date": "2026-06-16",
@@ -1638,7 +1638,7 @@
       "rating_prev": null,
       "rating_new": "Market Perform",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "276"
     },
     {
       "date": "2026-06-16",
@@ -1651,7 +1651,7 @@
       "rating_prev": "Market Perform",
       "rating_new": "Market Perform",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "56"
     },
     {
       "date": "2026-06-16",
@@ -1664,7 +1664,7 @@
       "rating_prev": null,
       "rating_new": "Outperform",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "1208"
     },
     {
       "date": "2026-06-16",
@@ -1677,7 +1677,7 @@
       "rating_prev": null,
       "rating_new": "Outperform",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "187"
     },
     {
       "date": "2026-06-16",
@@ -1690,7 +1690,7 @@
       "rating_prev": null,
       "rating_new": "Outperform",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "107"
     },
     {
       "date": "2026-06-16",
@@ -1716,7 +1716,7 @@
       "rating_prev": "Outperform",
       "rating_new": "Outperform",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "11"
     },
     {
       "date": "2026-06-16",
@@ -1834,6 +1834,71 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "45"
+    },
+    {
+      "date": "2026-06-16",
+      "ticker": "HUN",
+      "company": "Huntsman Corporation",
+      "sector": "Basic Materials",
+      "industry": "Chemicals",
+      "action": "PT Change",
+      "analyst": "Mizuho Securities",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "14"
+    },
+    {
+      "date": "2026-06-16",
+      "ticker": "WELL",
+      "company": "Welltower Inc.",
+      "sector": "Real Estate",
+      "industry": "REIT - Healthcare Facilities",
+      "action": "PT Change",
+      "analyst": "Raymond James",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "226"
+    },
+    {
+      "date": "2026-06-16",
+      "ticker": "VTR",
+      "company": "Ventas, Inc.",
+      "sector": "Real Estate",
+      "industry": "REIT - Healthcare Facilities",
+      "action": "PT Change",
+      "analyst": "Raymond James",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "94"
+    },
+    {
+      "date": "2026-06-16",
+      "ticker": "OHI",
+      "company": "Omega Healthcare Investors, Inc.",
+      "sector": "Real Estate",
+      "industry": "REIT - Healthcare Facilities",
+      "action": "PT Change",
+      "analyst": "Raymond James",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "50"
+    },
+    {
+      "date": "2026-06-16",
+      "ticker": "OXBR",
+      "company": "Oxbridge Re Holdings Limited",
+      "sector": "Financial Services",
+      "industry": "Insurance - Reinsurance",
+      "action": "PT Change",
+      "analyst": "Maxim Group",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "3"
     },
     {
       "date": "2026-06-15",
