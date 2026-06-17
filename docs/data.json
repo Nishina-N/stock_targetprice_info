@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-17T19:22:32Z",
-  "total": 7543,
+  "updated_at": "2026-06-17T21:57:13Z",
+  "total": 7553,
   "records": [
     {
       "date": "2026-06-17",
@@ -1911,7 +1911,7 @@
       "rating_prev": "Overweight",
       "rating_new": "Overweight",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "39"
     },
     {
       "date": "2026-06-17",
@@ -1990,6 +1990,97 @@
       "rating_new": "",
       "pt_prev": "329",
       "pt_new": "320"
+    },
+    {
+      "date": "2026-06-17",
+      "ticker": "PRAX",
+      "company": "Praxis Precision Medicines, Inc.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "Initialise",
+      "analyst": "RBC Capital",
+      "rating_prev": null,
+      "rating_new": "Outperform",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-17",
+      "ticker": "REXR",
+      "company": "Rexford Industrial Realty, Inc.",
+      "sector": "Real Estate",
+      "industry": "REIT - Industrial",
+      "action": "Initialise",
+      "analyst": "Raymond James",
+      "rating_prev": null,
+      "rating_new": "Underperform",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-17",
+      "ticker": "DVN",
+      "company": "Devon Energy Corporation",
+      "sector": "Energy",
+      "industry": "Oil & Gas Exploration & Production",
+      "action": "Downgrade",
+      "analyst": "Citigroup",
+      "rating_prev": "Buy",
+      "rating_new": "Neutral",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-17",
+      "ticker": "TRNO",
+      "company": "Terreno Realty Corporation",
+      "sector": "Real Estate",
+      "industry": "REIT - Industrial",
+      "action": "Initialise",
+      "analyst": "Raymond James",
+      "rating_prev": null,
+      "rating_new": "Underperform",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-17",
+      "ticker": "EVR",
+      "company": "Evercore Inc.",
+      "sector": "Financial Services",
+      "industry": "Financial - Capital Markets",
+      "action": "Hold",
+      "analyst": "UBS",
+      "rating_prev": "Outperform",
+      "rating_new": "Outperform",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-17",
+      "ticker": "IONQ",
+      "company": "IonQ, Inc.",
+      "sector": "Technology",
+      "industry": "Computer Hardware",
+      "action": "Hold",
+      "analyst": "Vertical Research",
+      "rating_prev": "Outperform",
+      "rating_new": "Outperform",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-17",
+      "ticker": "KMX",
+      "company": "CarMax, Inc.",
+      "sector": "Consumer Cyclical",
+      "industry": "Auto - Dealerships",
+      "action": "Hold",
+      "analyst": "Bank of America Securities",
+      "rating_prev": "Underperform",
+      "rating_new": "Underperform",
+      "pt_prev": "",
+      "pt_new": ""
     },
     {
       "date": "2026-06-16",
@@ -4133,7 +4224,7 @@
       "analyst": "Piper Sandler",
       "rating_prev": "Overweight",
       "rating_new": "Overweight",
-      "pt_prev": "",
+      "pt_prev": "320",
       "pt_new": "329"
     },
     {
@@ -6748,6 +6839,45 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "17"
+    },
+    {
+      "date": "2026-06-15",
+      "ticker": "RACE",
+      "company": "Ferrari N.V.",
+      "sector": "Consumer Cyclical",
+      "industry": "Auto - Manufacturers",
+      "action": "PT Change",
+      "analyst": "Morgan Stanley",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "438"
+    },
+    {
+      "date": "2026-06-15",
+      "ticker": "DD",
+      "company": "DuPont de Nemours, Inc.",
+      "sector": "Basic Materials",
+      "industry": "Chemicals - Specialty",
+      "action": "PT Change",
+      "analyst": "Goldman Sachs",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "53"
+    },
+    {
+      "date": "2026-06-15",
+      "ticker": "RKLB",
+      "company": "Rocket Lab USA, Inc.",
+      "sector": "Industrials",
+      "industry": "Aerospace & Defense",
+      "action": "PT Change",
+      "analyst": "KeyBanc",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "135"
     },
     {
       "date": "2026-06-14",
