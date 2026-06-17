@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-17T03:37:50Z",
-  "total": 7342,
+  "updated_at": "2026-06-17T08:58:51Z",
+  "total": 7345,
   "records": [
     {
       "date": "2026-06-17",
@@ -14,6 +14,45 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "125"
+    },
+    {
+      "date": "2026-06-17",
+      "ticker": "TT",
+      "company": "Trane Technologies plc",
+      "sector": "Industrials",
+      "industry": "Construction",
+      "action": "Hold",
+      "analyst": "Goldman Sachs",
+      "rating_prev": "Neutral",
+      "rating_new": "Neutral",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-17",
+      "ticker": "ZGN",
+      "company": "Ermenegildo Zegna N.V.",
+      "sector": "Consumer Cyclical",
+      "industry": "Apparel - Manufacturers",
+      "action": "Downgrade",
+      "analyst": "Goldman Sachs",
+      "rating_prev": "Buy",
+      "rating_new": "Outperform",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-17",
+      "ticker": "BAP",
+      "company": "Credicorp Ltd.",
+      "sector": "Financial Services",
+      "industry": "Banks - Regional",
+      "action": "Upgrade",
+      "analyst": "Morgan Stanley",
+      "rating_prev": null,
+      "rating_new": "Overweight",
+      "pt_prev": "",
+      "pt_new": "480"
     },
     {
       "date": "2026-06-16",
