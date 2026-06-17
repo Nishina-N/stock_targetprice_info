@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-17T21:57:13Z",
-  "total": 7553,
+  "updated_at": "2026-06-17T23:25:09Z",
+  "total": 7558,
   "records": [
     {
       "date": "2026-06-17",
@@ -2002,7 +2002,7 @@
       "rating_prev": null,
       "rating_new": "Outperform",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "449"
     },
     {
       "date": "2026-06-17",
@@ -2081,6 +2081,71 @@
       "rating_new": "Underperform",
       "pt_prev": "",
       "pt_new": ""
+    },
+    {
+      "date": "2026-06-17",
+      "ticker": "INTU",
+      "company": "Intuit Inc.",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "action": "PT Change",
+      "analyst": "Stifel Nicolaus",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "375",
+      "pt_new": "275"
+    },
+    {
+      "date": "2026-06-17",
+      "ticker": "CODA",
+      "company": "Coda Octopus Group, Inc.",
+      "sector": "Industrials",
+      "industry": "Aerospace & Defense",
+      "action": "PT Change",
+      "analyst": "UBS",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "14"
+    },
+    {
+      "date": "2026-06-17",
+      "ticker": "STAG",
+      "company": "STAG Industrial, Inc.",
+      "sector": "Real Estate",
+      "industry": "REIT - Industrial",
+      "action": "PT Change",
+      "analyst": "Raymond James",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "44"
+    },
+    {
+      "date": "2026-06-17",
+      "ticker": "EGP",
+      "company": "EastGroup Properties, Inc.",
+      "sector": "Real Estate",
+      "industry": "REIT - Industrial",
+      "action": "PT Change",
+      "analyst": "Raymond James",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "241"
+    },
+    {
+      "date": "2026-06-17",
+      "ticker": "EVR",
+      "company": "Evercore Inc.",
+      "sector": "Financial Services",
+      "industry": "Financial - Capital Markets",
+      "action": "PT Change",
+      "analyst": "Evercore ISI",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "930"
     },
     {
       "date": "2026-06-16",
