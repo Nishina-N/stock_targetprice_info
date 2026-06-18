@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-18T03:29:59Z",
-  "total": 7562,
+  "updated_at": "2026-06-18T08:41:03Z",
+  "total": 7567,
   "records": [
     {
       "date": "2026-06-18",
@@ -27,6 +27,58 @@
       "rating_new": "Outperform",
       "pt_prev": "",
       "pt_new": "84"
+    },
+    {
+      "date": "2026-06-18",
+      "ticker": "IREN",
+      "company": "IREN Limited",
+      "sector": "Financial Services",
+      "industry": "Financial - Capital Markets",
+      "action": "Initialise",
+      "analyst": "Jefferies",
+      "rating_prev": null,
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-18",
+      "ticker": "CODA",
+      "company": "Coda Octopus Group, Inc.",
+      "sector": "Industrials",
+      "industry": "Aerospace & Defense",
+      "action": "Upgrade",
+      "analyst": "UBS",
+      "rating_prev": null,
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-18",
+      "ticker": "ENGN",
+      "company": "enGene Holdings Inc.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "Downgrade",
+      "analyst": "Morgan Stanley",
+      "rating_prev": null,
+      "rating_new": "Underweight",
+      "pt_prev": "",
+      "pt_new": "3"
+    },
+    {
+      "date": "2026-06-18",
+      "ticker": "BCS",
+      "company": "Barclays PLC",
+      "sector": "Financial Services",
+      "industry": "Banks - Diversified",
+      "action": "Initialise",
+      "analyst": "Barclays",
+      "rating_prev": "Overweight",
+      "rating_new": "Cautious",
+      "pt_prev": "",
+      "pt_new": ""
     },
     {
       "date": "2026-06-17",
@@ -6995,6 +7047,19 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "24"
+    },
+    {
+      "date": "2026-06-15",
+      "ticker": "BETR",
+      "company": "Better Home & Finance Holding Company",
+      "sector": "Financial Services",
+      "industry": "Financial - Mortgages",
+      "action": "PT Change",
+      "analyst": "Roth Capital",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "35"
     },
     {
       "date": "2026-06-14",
