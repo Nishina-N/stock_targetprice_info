@@ -1,7 +1,33 @@
 {
-  "updated_at": "2026-06-17T23:25:09Z",
-  "total": 7558,
+  "updated_at": "2026-06-18T03:29:59Z",
+  "total": 7562,
   "records": [
+    {
+      "date": "2026-06-18",
+      "ticker": "C",
+      "company": "Citigroup Inc.",
+      "sector": "Financial Services",
+      "industry": "Banks - Diversified",
+      "action": "Hold",
+      "analyst": "Wells Fargo",
+      "rating_prev": "Overweight",
+      "rating_new": "Overweight",
+      "pt_prev": "",
+      "pt_new": "165"
+    },
+    {
+      "date": "2026-06-18",
+      "ticker": "WPC",
+      "company": "W. P. Carey Inc.",
+      "sector": "Real Estate",
+      "industry": "REIT - Diversified",
+      "action": "Hold",
+      "analyst": "BMO Capital",
+      "rating_prev": "Outperform",
+      "rating_new": "Outperform",
+      "pt_prev": "",
+      "pt_new": "84"
+    },
     {
       "date": "2026-06-17",
       "ticker": "ALGT",
@@ -2146,6 +2172,19 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "930"
+    },
+    {
+      "date": "2026-06-17",
+      "ticker": "ACMR",
+      "company": "ACM Research, Inc.",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "action": "PT Change",
+      "analyst": "Roth Capital",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "100",
+      "pt_new": "125"
     },
     {
       "date": "2026-06-16",
@@ -6943,6 +6982,19 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "135"
+    },
+    {
+      "date": "2026-06-15",
+      "ticker": "CPNG",
+      "company": "Coupang, Inc.",
+      "sector": "Consumer Cyclical",
+      "industry": "Specialty Retail",
+      "action": "PT Change",
+      "analyst": "CLSA",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "24"
     },
     {
       "date": "2026-06-14",
