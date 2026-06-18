@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-18T16:25:51Z",
-  "total": 7755,
+  "updated_at": "2026-06-18T19:24:08Z",
+  "total": 7770,
   "records": [
     {
       "date": "2026-06-18",
@@ -598,7 +598,7 @@
       "rating_prev": null,
       "rating_new": "Hold",
       "pt_prev": "",
-      "pt_new": "10"
+      "pt_new": ""
     },
     {
       "date": "2026-06-18",
@@ -1339,7 +1339,7 @@
       "rating_prev": "Overweight",
       "rating_new": "Overweight",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "66"
     },
     {
       "date": "2026-06-18",
@@ -1352,7 +1352,7 @@
       "rating_prev": "Buy",
       "rating_new": "Buy",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "25"
     },
     {
       "date": "2026-06-18",
@@ -1365,7 +1365,7 @@
       "rating_prev": "Buy",
       "rating_new": "Buy",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "46"
     },
     {
       "date": "2026-06-18",
@@ -1977,6 +1977,175 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "27"
+    },
+    {
+      "date": "2026-06-18",
+      "ticker": "LYFT",
+      "company": "Lyft, Inc.",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "action": "Downgrade",
+      "analyst": "Bernstein",
+      "rating_prev": "Underperform",
+      "rating_new": "Sell",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-18",
+      "ticker": "LYFT",
+      "company": "Lyft, Inc.",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "action": "Upgrade",
+      "analyst": "UBS",
+      "rating_prev": "Neutral",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-18",
+      "ticker": "LYFT",
+      "company": "Lyft, Inc.",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "action": "Initialise",
+      "analyst": "Wedbush",
+      "rating_prev": "Underperform",
+      "rating_new": "Outperform",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-18",
+      "ticker": "LYFT",
+      "company": "Lyft, Inc.",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "action": "Initialise",
+      "analyst": "Exane BNP Paribas",
+      "rating_prev": null,
+      "rating_new": "Underperform",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-18",
+      "ticker": "LYFT",
+      "company": "Lyft, Inc.",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "action": "Initialise",
+      "analyst": "First Shanghai",
+      "rating_prev": null,
+      "rating_new": "Underperform",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-18",
+      "ticker": "TTWO",
+      "company": "Take-Two Interactive Software, Inc.",
+      "sector": "Communication Services",
+      "industry": "Electronic Gaming & Multimedia",
+      "action": "Hold",
+      "analyst": "Jefferies",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-18",
+      "ticker": "BE",
+      "company": "Bloom Energy Corporation",
+      "sector": "Industrials",
+      "industry": "Electrical Equipment & Parts",
+      "action": "Hold",
+      "analyst": "UBS",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-18",
+      "ticker": "ARM",
+      "company": "Arm Holdings plc American Depositary Shares",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "action": "Downgrade",
+      "analyst": "New Street",
+      "rating_prev": "Buy",
+      "rating_new": "Neutral",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-18",
+      "ticker": "OSW",
+      "company": "OneSpaWorld Holdings Limited",
+      "sector": "Consumer Cyclical",
+      "industry": "Leisure",
+      "action": "Hold",
+      "analyst": "Jefferies",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": "35"
+    },
+    {
+      "date": "2026-06-18",
+      "ticker": "ACN",
+      "company": "Accenture plc",
+      "sector": "Technology",
+      "industry": "Information Technology Services",
+      "action": "PT Change",
+      "analyst": "Robert W. Baird",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "190"
+    },
+    {
+      "date": "2026-06-18",
+      "ticker": "ACN",
+      "company": "Accenture plc",
+      "sector": "Technology",
+      "industry": "Information Technology Services",
+      "action": "PT Change",
+      "analyst": "Evercore ISI",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "180"
+    },
+    {
+      "date": "2026-06-18",
+      "ticker": "ULTA",
+      "company": "Ulta Beauty, Inc.",
+      "sector": "Consumer Cyclical",
+      "industry": "Specialty Retail",
+      "action": "PT Change",
+      "analyst": "Argus Research",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "550"
+    },
+    {
+      "date": "2026-06-18",
+      "ticker": "JBL",
+      "company": "Jabil Inc.",
+      "sector": "Technology",
+      "industry": "Hardware, Equipment & Parts",
+      "action": "PT Change",
+      "analyst": "Argus Research",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "475"
     },
     {
       "date": "2026-06-17",
@@ -9504,6 +9673,32 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "95"
+    },
+    {
+      "date": "2026-06-15",
+      "ticker": "CME",
+      "company": "CME Group Inc.",
+      "sector": "Financial Services",
+      "industry": "Financial - Data & Stock Exchanges",
+      "action": "PT Change",
+      "analyst": "Piper Sandler",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "320",
+      "pt_new": "329"
+    },
+    {
+      "date": "2026-06-15",
+      "ticker": "AXON",
+      "company": "Axon Enterprise, Inc.",
+      "sector": "Industrials",
+      "industry": "Aerospace & Defense",
+      "action": "PT Change",
+      "analyst": "Piper Sandler",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "674"
     },
     {
       "date": "2026-06-14",
