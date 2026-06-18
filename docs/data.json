@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-18T19:24:08Z",
-  "total": 7770,
+  "updated_at": "2026-06-18T22:02:56Z",
+  "total": 7776,
   "records": [
     {
       "date": "2026-06-18",
@@ -598,7 +598,7 @@
       "rating_prev": null,
       "rating_new": "Hold",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "10"
     },
     {
       "date": "2026-06-18",
@@ -2146,6 +2146,58 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "475"
+    },
+    {
+      "date": "2026-06-18",
+      "ticker": "ACN",
+      "company": "Accenture plc",
+      "sector": "Technology",
+      "industry": "Information Technology Services",
+      "action": "Downgrade",
+      "analyst": "William Blair",
+      "rating_prev": null,
+      "rating_new": "Market Perform",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-18",
+      "ticker": "MRNA",
+      "company": "Moderna, Inc.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "Hold",
+      "analyst": "Jefferies",
+      "rating_prev": "Hold",
+      "rating_new": "Hold",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-18",
+      "ticker": "IMMX",
+      "company": "Immix Biopharma, Inc.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "Initialise",
+      "analyst": "Citigroup",
+      "rating_prev": null,
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-18",
+      "ticker": "CNP",
+      "company": "CenterPoint Energy, Inc.",
+      "sector": "Utilities",
+      "industry": "Regulated Electric",
+      "action": "PT Change",
+      "analyst": "Jefferies",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "50"
     },
     {
       "date": "2026-06-17",
@@ -9699,6 +9751,32 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "674"
+    },
+    {
+      "date": "2026-06-15",
+      "ticker": "VST",
+      "company": "Vistra Corp.",
+      "sector": "Utilities",
+      "industry": "Independent Power Producers",
+      "action": "PT Change",
+      "analyst": "Seaport Global",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "230"
+    },
+    {
+      "date": "2026-06-15",
+      "ticker": "SCCO",
+      "company": "Southern Copper Corporation",
+      "sector": "Basic Materials",
+      "industry": "Copper",
+      "action": "PT Change",
+      "analyst": "Scotiabank",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "140"
     },
     {
       "date": "2026-06-14",
