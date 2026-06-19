@@ -1,7 +1,46 @@
 {
-  "updated_at": "2026-06-19T11:18:07Z",
-  "total": 7778,
+  "updated_at": "2026-06-19T14:55:20Z",
+  "total": 7782,
   "records": [
+    {
+      "date": "2026-06-19",
+      "ticker": "ACN",
+      "company": "Accenture plc",
+      "sector": "Technology",
+      "industry": "Information Technology Services",
+      "action": "Hold",
+      "analyst": "BMO Capital",
+      "rating_prev": "Market Perform",
+      "rating_new": "Market Perform",
+      "pt_prev": "",
+      "pt_new": "150"
+    },
+    {
+      "date": "2026-06-19",
+      "ticker": "NVO",
+      "company": "Novo Nordisk A/S",
+      "sector": "Healthcare",
+      "industry": "Drug Manufacturers - General",
+      "action": "Upgrade",
+      "analyst": "Nordea",
+      "rating_prev": "Hold",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-19",
+      "ticker": "KR",
+      "company": "The Kroger Co.",
+      "sector": "Consumer Defensive",
+      "industry": "Grocery Stores",
+      "action": "Hold",
+      "analyst": "Goldman Sachs",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": "82"
+    },
     {
       "date": "2026-06-18",
       "ticker": "C",
@@ -9803,6 +9842,19 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "140"
+    },
+    {
+      "date": "2026-06-15",
+      "ticker": "ROKU",
+      "company": "Roku, Inc.",
+      "sector": "Communication Services",
+      "industry": "Entertainment",
+      "action": "PT Change",
+      "analyst": "Jefferies",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "160"
     },
     {
       "date": "2026-06-14",
