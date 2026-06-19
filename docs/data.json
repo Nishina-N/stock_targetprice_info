@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-18T22:02:56Z",
-  "total": 7776,
+  "updated_at": "2026-06-19T00:22:49Z",
+  "total": 7778,
   "records": [
     {
       "date": "2026-06-18",
@@ -2198,6 +2198,32 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "50"
+    },
+    {
+      "date": "2026-06-18",
+      "ticker": "FDX",
+      "company": "FedEx Corporation",
+      "sector": "Industrials",
+      "industry": "Integrated Freight & Logistics",
+      "action": "PT Change",
+      "analyst": "Bernstein",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "424"
+    },
+    {
+      "date": "2026-06-18",
+      "ticker": "ATEN",
+      "company": "A10 Networks, Inc.",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "action": "PT Change",
+      "analyst": "BTIG",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "37"
     },
     {
       "date": "2026-06-17",
