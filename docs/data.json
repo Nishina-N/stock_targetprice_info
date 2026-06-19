@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-19T19:43:31Z",
-  "total": 7782,
+  "updated_at": "2026-06-19T21:05:57Z",
+  "total": 7783,
   "records": [
     {
       "date": "2026-06-19",
@@ -6319,6 +6319,19 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "3"
+    },
+    {
+      "date": "2026-06-16",
+      "ticker": "GILT",
+      "company": "Gilat Satellite Networks Ltd.",
+      "sector": "Technology",
+      "industry": "Communication Equipment",
+      "action": "PT Change",
+      "analyst": "Needham",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "20"
     },
     {
       "date": "2026-06-15",
