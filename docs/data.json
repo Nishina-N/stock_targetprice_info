@@ -1,7 +1,20 @@
 {
-  "updated_at": "2026-06-20T08:48:33Z",
-  "total": 7783,
+  "updated_at": "2026-06-20T11:13:32Z",
+  "total": 7785,
   "records": [
+    {
+      "date": "2026-06-20",
+      "ticker": "AGI",
+      "company": "Alamos Gold Inc.",
+      "sector": "Basic Materials",
+      "industry": "Gold",
+      "action": "Hold",
+      "analyst": "CIBC",
+      "rating_prev": "Outperform",
+      "rating_new": "Outperform",
+      "pt_prev": "",
+      "pt_new": ""
+    },
     {
       "date": "2026-06-19",
       "ticker": "ACN",
@@ -4421,6 +4434,19 @@
       "rating_new": "",
       "pt_prev": "100",
       "pt_new": "125"
+    },
+    {
+      "date": "2026-06-17",
+      "ticker": "EPD",
+      "company": "Enterprise Products Partners L.P.",
+      "sector": "Energy",
+      "industry": "Oil & Gas Midstream",
+      "action": "PT Change",
+      "analyst": "Goldman Sachs",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "38"
     },
     {
       "date": "2026-06-16",
