@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-20T15:43:38Z",
-  "total": 7785,
+  "updated_at": "2026-06-20T17:21:58Z",
+  "total": 7786,
   "records": [
     {
       "date": "2026-06-20",
@@ -4447,6 +4447,19 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "38"
+    },
+    {
+      "date": "2026-06-17",
+      "ticker": "EWTX",
+      "company": "Edgewise Therapeutics, Inc.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "PT Change",
+      "analyst": "Goldman Sachs",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "32"
     },
     {
       "date": "2026-06-16",
