@@ -1,7 +1,20 @@
 {
-  "updated_at": "2026-06-21T16:01:17Z",
-  "total": 7786,
+  "updated_at": "2026-06-21T18:16:48Z",
+  "total": 7787,
   "records": [
+    {
+      "date": "2026-06-21",
+      "ticker": "INTC",
+      "company": "Intel Corporation",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "action": "PT Change",
+      "analyst": "Mizuho Securities",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "128",
+      "pt_new": "135"
+    },
     {
       "date": "2026-06-20",
       "ticker": "AGI",
