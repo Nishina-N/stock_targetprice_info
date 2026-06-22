@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-22T17:27:48Z",
-  "total": 7989,
+  "updated_at": "2026-06-22T20:39:30Z",
+  "total": 7993,
   "records": [
     {
       "date": "2026-06-22",
@@ -2107,6 +2107,58 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "10"
+    },
+    {
+      "date": "2026-06-22",
+      "ticker": "APGE",
+      "company": "Apogee Therapeutics, Inc.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "Downgrade",
+      "analyst": "Deutsche Bank",
+      "rating_prev": "Buy",
+      "rating_new": "Hold",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-22",
+      "ticker": "DFTX",
+      "company": "Definium Therapeutics, Inc.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "Hold",
+      "analyst": "Citigroup",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-22",
+      "ticker": "INCY",
+      "company": "Incyte Corporation",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "PT Change",
+      "analyst": "Truist Financial",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "105"
+    },
+    {
+      "date": "2026-06-22",
+      "ticker": "DFTX",
+      "company": "Definium Therapeutics, Inc.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "PT Change",
+      "analyst": "Canaccord Genuity",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "60"
     },
     {
       "date": "2026-06-21",
