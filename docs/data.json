@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-22T20:39:30Z",
-  "total": 7993,
+  "updated_at": "2026-06-22T22:43:49Z",
+  "total": 8002,
   "records": [
     {
       "date": "2026-06-22",
@@ -2119,7 +2119,7 @@
       "rating_prev": "Buy",
       "rating_new": "Hold",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "135"
     },
     {
       "date": "2026-06-22",
@@ -2159,6 +2159,45 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "60"
+    },
+    {
+      "date": "2026-06-22",
+      "ticker": "TGTX",
+      "company": "TG Therapeutics, Inc.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "Hold",
+      "analyst": "Jefferies",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": "83"
+    },
+    {
+      "date": "2026-06-22",
+      "ticker": "EXEL",
+      "company": "Exelixis, Inc.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "Hold",
+      "analyst": "Morgan Stanley",
+      "rating_prev": "Positive",
+      "rating_new": "Positive",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-22",
+      "ticker": "TSHA",
+      "company": "Taysha Gene Therapies, Inc.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "Hold",
+      "analyst": "Bank of America Securities",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
     },
     {
       "date": "2026-06-21",
@@ -9010,6 +9049,84 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "50"
+    },
+    {
+      "date": "2026-06-16",
+      "ticker": "CEG",
+      "company": "Constellation Energy Corporation",
+      "sector": "Utilities",
+      "industry": "Renewable Utilities",
+      "action": "PT Change",
+      "analyst": "Bernstein",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "296"
+    },
+    {
+      "date": "2026-06-16",
+      "ticker": "VST",
+      "company": "Vistra Corp.",
+      "sector": "Utilities",
+      "industry": "Independent Power Producers",
+      "action": "PT Change",
+      "analyst": "Bernstein",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "187"
+    },
+    {
+      "date": "2026-06-16",
+      "ticker": "NEE",
+      "company": "NextEra Energy, Inc.",
+      "sector": "Utilities",
+      "industry": "Regulated Electric",
+      "action": "PT Change",
+      "analyst": "Bernstein",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "107"
+    },
+    {
+      "date": "2026-06-16",
+      "ticker": "BE",
+      "company": "Bloom Energy Corporation",
+      "sector": "Industrials",
+      "industry": "Electrical Equipment & Parts",
+      "action": "PT Change",
+      "analyst": "Bernstein",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "276"
+    },
+    {
+      "date": "2026-06-16",
+      "ticker": "ENPH",
+      "company": "Enphase Energy, Inc.",
+      "sector": "Energy",
+      "industry": "Solar",
+      "action": "PT Change",
+      "analyst": "Bernstein",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "56"
+    },
+    {
+      "date": "2026-06-16",
+      "ticker": "GEV",
+      "company": "GE Vernova Inc.",
+      "sector": "Utilities",
+      "industry": "Renewable Utilities",
+      "action": "PT Change",
+      "analyst": "Bernstein",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "1208",
+      "pt_new": "1208"
     },
     {
       "date": "2026-06-15",
