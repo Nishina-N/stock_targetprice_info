@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-23T19:55:21Z",
-  "total": 8191,
+  "updated_at": "2026-06-23T21:28:46Z",
+  "total": 8198,
   "records": [
     {
       "date": "2026-06-23",
@@ -1886,6 +1886,97 @@
       "rating_new": "Buy",
       "pt_prev": "",
       "pt_new": ""
+    },
+    {
+      "date": "2026-06-23",
+      "ticker": "MAC",
+      "company": "The Macerich Company",
+      "sector": "Real Estate",
+      "industry": "REIT - Retail",
+      "action": "Upgrade",
+      "analyst": "Citigroup",
+      "rating_prev": "Neutral",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-23",
+      "ticker": "WMT",
+      "company": "Walmart Inc.",
+      "sector": "Consumer Defensive",
+      "industry": "Discount Stores",
+      "action": "Downgrade",
+      "analyst": "Wells Fargo",
+      "rating_prev": "Overweight",
+      "rating_new": "Reduce",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-23",
+      "ticker": "WMT",
+      "company": "Walmart Inc.",
+      "sector": "Consumer Defensive",
+      "industry": "Discount Stores",
+      "action": "Downgrade",
+      "analyst": "Susquehanna",
+      "rating_prev": null,
+      "rating_new": "Neutral",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-23",
+      "ticker": "WMT",
+      "company": "Walmart Inc.",
+      "sector": "Consumer Defensive",
+      "industry": "Discount Stores",
+      "action": "Upgrade",
+      "analyst": "Evercore ISI",
+      "rating_prev": "Outperform",
+      "rating_new": "Outperform",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-23",
+      "ticker": "NTRA",
+      "company": "Natera, Inc.",
+      "sector": "Healthcare",
+      "industry": "Medical - Diagnostics & Research",
+      "action": "PT Change",
+      "analyst": "BTIG",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "270"
+    },
+    {
+      "date": "2026-06-23",
+      "ticker": "STZ",
+      "company": "Constellation Brands, Inc.",
+      "sector": "Consumer Defensive",
+      "industry": "Beverages - Wineries & Distilleries",
+      "action": "PT Change",
+      "analyst": "Jefferies",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "157"
+    },
+    {
+      "date": "2026-06-23",
+      "ticker": "ACMR",
+      "company": "ACM Research, Inc.",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "action": "PT Change",
+      "analyst": "Morgan Stanley",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "130"
     },
     {
       "date": "2026-06-22",
