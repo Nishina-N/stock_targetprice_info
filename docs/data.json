@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-23T21:28:46Z",
-  "total": 8198,
+  "updated_at": "2026-06-23T23:05:16Z",
+  "total": 8204,
   "records": [
     {
       "date": "2026-06-23",
@@ -1977,6 +1977,71 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "130"
+    },
+    {
+      "date": "2026-06-23",
+      "ticker": "APGE",
+      "company": "Apogee Therapeutics, Inc.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "Downgrade",
+      "analyst": "Cowen & Co.",
+      "rating_prev": null,
+      "rating_new": "Hold",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-23",
+      "ticker": "ACMR",
+      "company": "ACM Research, Inc.",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "action": "Hold",
+      "analyst": "Morgan Stanley",
+      "rating_prev": "Overweight",
+      "rating_new": "Overweight",
+      "pt_prev": "",
+      "pt_new": "130"
+    },
+    {
+      "date": "2026-06-23",
+      "ticker": "NTRA",
+      "company": "Natera, Inc.",
+      "sector": "Healthcare",
+      "industry": "Medical - Diagnostics & Research",
+      "action": "Hold",
+      "analyst": "BTIG",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": "270"
+    },
+    {
+      "date": "2026-06-23",
+      "ticker": "TEX",
+      "company": "Terex Corporation",
+      "sector": "Industrials",
+      "industry": "Agricultural - Machinery",
+      "action": "PT Change",
+      "analyst": "D.A. Davidson",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "81"
+    },
+    {
+      "date": "2026-06-23",
+      "ticker": "MAC",
+      "company": "The Macerich Company",
+      "sector": "Real Estate",
+      "industry": "REIT - Retail",
+      "action": "PT Change",
+      "analyst": "Truist Financial",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "26"
     },
     {
       "date": "2026-06-22",
@@ -6540,6 +6605,19 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "84"
+    },
+    {
+      "date": "2026-06-18",
+      "ticker": "CAG",
+      "company": "Conagra Brands, Inc.",
+      "sector": "Consumer Defensive",
+      "industry": "Packaged Foods",
+      "action": "PT Change",
+      "analyst": "Deutsche Bank",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "12"
     },
     {
       "date": "2026-06-17",
