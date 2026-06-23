@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-22T22:43:49Z",
-  "total": 8002,
+  "updated_at": "2026-06-23T00:01:29Z",
+  "total": 8003,
   "records": [
     {
       "date": "2026-06-22",
@@ -2198,6 +2198,19 @@
       "rating_new": "Buy",
       "pt_prev": "",
       "pt_new": ""
+    },
+    {
+      "date": "2026-06-22",
+      "ticker": "POWW",
+      "company": "Outdoor Holding Company",
+      "sector": "Industrials",
+      "industry": "Aerospace & Defense",
+      "action": "Hold",
+      "analyst": "Roth Capital",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": "2.75"
     },
     {
       "date": "2026-06-21",
