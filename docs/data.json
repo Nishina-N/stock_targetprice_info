@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-24T16:14:50Z",
-  "total": 8424,
+  "updated_at": "2026-06-24T18:48:49Z",
+  "total": 8428,
   "records": [
     {
       "date": "2026-06-24",
@@ -2289,6 +2289,32 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "56"
+    },
+    {
+      "date": "2026-06-24",
+      "ticker": "MU",
+      "company": "Micron Technology, Inc.",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "action": "Hold",
+      "analyst": "UBS",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-24",
+      "ticker": "PAC",
+      "company": "Grupo Aeroportuario del Pacífico, S.A.B. de C.V.",
+      "sector": "Industrials",
+      "industry": "Airlines, Airports & Air Services",
+      "action": "Upgrade",
+      "analyst": "Itau BBA",
+      "rating_prev": null,
+      "rating_new": "Outperform",
+      "pt_prev": "",
+      "pt_new": ""
     },
     {
       "date": "2026-06-23",
@@ -6620,6 +6646,32 @@
       "pt_new": "82"
     },
     {
+      "date": "2026-06-19",
+      "ticker": "ACN",
+      "company": "Accenture plc",
+      "sector": "Technology",
+      "industry": "Information Technology Services",
+      "action": "PT Change",
+      "analyst": "BMO Capital",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "150"
+    },
+    {
+      "date": "2026-06-19",
+      "ticker": "KR",
+      "company": "The Kroger Co.",
+      "sector": "Consumer Defensive",
+      "industry": "Grocery Stores",
+      "action": "PT Change",
+      "analyst": "Goldman Sachs",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "82"
+    },
+    {
       "date": "2026-06-18",
       "ticker": "C",
       "company": "Citigroup Inc.",
@@ -8826,7 +8878,7 @@
       "analyst": "Bernstein",
       "rating_prev": "",
       "rating_new": "",
-      "pt_prev": "",
+      "pt_prev": "397",
       "pt_new": "424"
     },
     {
