@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-24T02:49:08Z",
-  "total": 8211,
+  "updated_at": "2026-06-24T06:43:43Z",
+  "total": 8216,
   "records": [
     {
       "date": "2026-06-24",
@@ -13,7 +13,7 @@
       "rating_prev": "Neutral",
       "rating_new": "Neutral",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "55"
     },
     {
       "date": "2026-06-24",
@@ -26,7 +26,7 @@
       "rating_prev": "Overweight",
       "rating_new": "Overweight",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "418"
     },
     {
       "date": "2026-06-24",
@@ -39,7 +39,7 @@
       "rating_prev": "Overweight",
       "rating_new": "Overweight",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "262"
     },
     {
       "date": "2026-06-24",
@@ -66,6 +66,71 @@
       "rating_new": "Overweight",
       "pt_prev": "",
       "pt_new": "274"
+    },
+    {
+      "date": "2026-06-24",
+      "ticker": "NKE",
+      "company": "NIKE, Inc.",
+      "sector": "Consumer Cyclical",
+      "industry": "Apparel - Footwear & Accessories",
+      "action": "Hold",
+      "analyst": "Bank of America Securities",
+      "rating_prev": "Neutral",
+      "rating_new": "Neutral",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-24",
+      "ticker": "TWLO",
+      "company": "Twilio Inc.",
+      "sector": "Communication Services",
+      "industry": "Internet Content & Information",
+      "action": "Initialise",
+      "analyst": "Goldman Sachs",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-24",
+      "ticker": "ZETA",
+      "company": "Zeta Global Holdings Corp.",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "action": "PT Change",
+      "analyst": "Goldman Sachs",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "28"
+    },
+    {
+      "date": "2026-06-24",
+      "ticker": "KVYO",
+      "company": "Klaviyo, Inc.",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "action": "PT Change",
+      "analyst": "Goldman Sachs",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "26"
+    },
+    {
+      "date": "2026-06-24",
+      "ticker": "BRZE",
+      "company": "Braze, Inc.",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "action": "PT Change",
+      "analyst": "Goldman Sachs",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "34"
     },
     {
       "date": "2026-06-23",
