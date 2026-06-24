@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-24T18:48:49Z",
-  "total": 8428,
+  "updated_at": "2026-06-24T20:45:08Z",
+  "total": 8433,
   "records": [
     {
       "date": "2026-06-24",
@@ -2315,6 +2315,32 @@
       "rating_new": "Outperform",
       "pt_prev": "",
       "pt_new": ""
+    },
+    {
+      "date": "2026-06-24",
+      "ticker": "IONQ",
+      "company": "IonQ, Inc.",
+      "sector": "Technology",
+      "industry": "Computer Hardware",
+      "action": "Hold",
+      "analyst": "Benchmark",
+      "rating_prev": "Outperform",
+      "rating_new": "Outperform",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-24",
+      "ticker": "NTRA",
+      "company": "Natera, Inc.",
+      "sector": "Healthcare",
+      "industry": "Medical - Diagnostics & Research",
+      "action": "PT Change",
+      "analyst": "BTIG",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "270",
+      "pt_new": "275"
     },
     {
       "date": "2026-06-23",
@@ -6579,6 +6605,45 @@
       "rating_new": "Buy",
       "pt_prev": "",
       "pt_new": "2.75"
+    },
+    {
+      "date": "2026-06-22",
+      "ticker": "FANG",
+      "company": "Diamondback Energy, Inc.",
+      "sector": "Energy",
+      "industry": "Oil & Gas Exploration & Production",
+      "action": "PT Change",
+      "analyst": "Roth Capital",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "212"
+    },
+    {
+      "date": "2026-06-22",
+      "ticker": "COP",
+      "company": "ConocoPhillips",
+      "sector": "Energy",
+      "industry": "Oil & Gas Exploration & Production",
+      "action": "PT Change",
+      "analyst": "Roth Capital",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "130"
+    },
+    {
+      "date": "2026-06-22",
+      "ticker": "APA",
+      "company": "APA Corporation",
+      "sector": "Energy",
+      "industry": "Oil & Gas Exploration & Production",
+      "action": "PT Change",
+      "analyst": "Roth Capital",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "38"
     },
     {
       "date": "2026-06-21",
