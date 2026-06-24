@@ -1,7 +1,72 @@
 {
-  "updated_at": "2026-06-23T23:05:16Z",
-  "total": 8204,
+  "updated_at": "2026-06-24T02:49:08Z",
+  "total": 8211,
   "records": [
+    {
+      "date": "2026-06-24",
+      "ticker": "OVV",
+      "company": "Ovintiv Inc.",
+      "sector": "Energy",
+      "industry": "Oil & Gas Exploration & Production",
+      "action": "Hold",
+      "analyst": "Roth Capital",
+      "rating_prev": "Neutral",
+      "rating_new": "Neutral",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-24",
+      "ticker": "RS",
+      "company": "Reliance Steel & Aluminum Co.",
+      "sector": "Basic Materials",
+      "industry": "Steel",
+      "action": "Hold",
+      "analyst": "KeyBanc",
+      "rating_prev": "Overweight",
+      "rating_new": "Overweight",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-24",
+      "ticker": "STLD",
+      "company": "Steel Dynamics, Inc.",
+      "sector": "Basic Materials",
+      "industry": "Steel",
+      "action": "Hold",
+      "analyst": "KeyBanc",
+      "rating_prev": "Overweight",
+      "rating_new": "Overweight",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-24",
+      "ticker": "MRK",
+      "company": "Merck & Co., Inc.",
+      "sector": "Healthcare",
+      "industry": "Drug Manufacturers - General",
+      "action": "Initialise",
+      "analyst": "CICC",
+      "rating_prev": null,
+      "rating_new": "Outperform",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-24",
+      "ticker": "NUE",
+      "company": "Nucor Corporation",
+      "sector": "Basic Materials",
+      "industry": "Steel",
+      "action": "Upgrade",
+      "analyst": "KeyBanc",
+      "rating_prev": null,
+      "rating_new": "Overweight",
+      "pt_prev": "",
+      "pt_new": "274"
+    },
     {
       "date": "2026-06-23",
       "ticker": "TTE",
@@ -2042,6 +2107,19 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "26"
+    },
+    {
+      "date": "2026-06-23",
+      "ticker": "DVN",
+      "company": "Devon Energy Corporation",
+      "sector": "Energy",
+      "industry": "Oil & Gas Exploration & Production",
+      "action": "PT Change",
+      "analyst": "Goldman Sachs",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "54"
     },
     {
       "date": "2026-06-22",
@@ -6618,6 +6696,19 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "12"
+    },
+    {
+      "date": "2026-06-18",
+      "ticker": "INDV",
+      "company": "Indivior Pharmaceuticals Inc",
+      "sector": "Healthcare",
+      "industry": "Drug Manufacturers - Specialty & Generic",
+      "action": "PT Change",
+      "analyst": "Barclays",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "46"
     },
     {
       "date": "2026-06-17",
