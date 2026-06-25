@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-25T14:22:01Z",
-  "total": 8661,
+  "updated_at": "2026-06-25T17:08:48Z",
+  "total": 8674,
   "records": [
     {
       "date": "2026-06-25",
@@ -975,7 +975,7 @@
       "rating_prev": "Hold",
       "rating_new": "Hold",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "80"
     },
     {
       "date": "2026-06-25",
@@ -1001,7 +1001,7 @@
       "rating_prev": "Outperform",
       "rating_new": "Outperform",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "285"
     },
     {
       "date": "2026-06-25",
@@ -2003,6 +2003,149 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "124"
+    },
+    {
+      "date": "2026-06-25",
+      "ticker": "HBM",
+      "company": "Hudbay Minerals Inc.",
+      "sector": "Basic Materials",
+      "industry": "Copper",
+      "action": "Hold",
+      "analyst": "Scotiabank",
+      "rating_prev": "Outperform",
+      "rating_new": "Outperform",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-25",
+      "ticker": "DFTX",
+      "company": "Definium Therapeutics, Inc.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "Hold",
+      "analyst": "UBS",
+      "rating_prev": "Positive",
+      "rating_new": "Positive",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-25",
+      "ticker": "PNC",
+      "company": "The PNC Financial Services Group, Inc.",
+      "sector": "Financial Services",
+      "industry": "Banks - Regional",
+      "action": "Hold",
+      "analyst": "UBS",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-25",
+      "ticker": "SITE",
+      "company": "SiteOne Landscape Supply, Inc.",
+      "sector": "Industrials",
+      "industry": "Industrial - Distribution",
+      "action": "Hold",
+      "analyst": "UBS",
+      "rating_prev": "Neutral",
+      "rating_new": "Neutral",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-25",
+      "ticker": "TECH",
+      "company": "Bio-Techne Corporation",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "PT Change",
+      "analyst": "Leerink Partners",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "73"
+    },
+    {
+      "date": "2026-06-25",
+      "ticker": "SEZL",
+      "company": "Sezzle Inc.",
+      "sector": "Financial Services",
+      "industry": "Financial - Credit Services",
+      "action": "PT Change",
+      "analyst": "Northland Securities",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "160",
+      "pt_new": "170"
+    },
+    {
+      "date": "2026-06-25",
+      "ticker": "INVE",
+      "company": "Identiv, Inc.",
+      "sector": "Technology",
+      "industry": "Computer Hardware",
+      "action": "PT Change",
+      "analyst": "UBS",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "3.1"
+    },
+    {
+      "date": "2026-06-25",
+      "ticker": "JAGX",
+      "company": "Jaguar Health, Inc.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "PT Change",
+      "analyst": "BOCOM International Holdings Company",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "3.209"
+    },
+    {
+      "date": "2026-06-25",
+      "ticker": "CTRN",
+      "company": "Citi Trends, Inc.",
+      "sector": "Consumer Cyclical",
+      "industry": "Apparel - Retail",
+      "action": "PT Change",
+      "analyst": "D.A. Davidson",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "73"
+    },
+    {
+      "date": "2026-06-25",
+      "ticker": "MU",
+      "company": "Micron Technology, Inc.",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "action": "PT Change",
+      "analyst": "Deutsche Bank",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "1500",
+      "pt_new": "1550"
+    },
+    {
+      "date": "2026-06-25",
+      "ticker": "TEAM",
+      "company": "Atlassian Corporation",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "action": "PT Change",
+      "analyst": "BMO Capital",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "95"
     },
     {
       "date": "2026-06-24",
@@ -9268,7 +9411,7 @@
       "analyst": "Cantor Fitzgerald",
       "rating_prev": "",
       "rating_new": "",
-      "pt_prev": "",
+      "pt_prev": "220",
       "pt_new": "200"
     },
     {
@@ -9333,7 +9476,7 @@
       "analyst": "Needham",
       "rating_prev": "",
       "rating_new": "",
-      "pt_prev": "",
+      "pt_prev": "1650",
       "pt_new": "1550"
     },
     {
@@ -9608,6 +9751,32 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "375"
+    },
+    {
+      "date": "2026-06-22",
+      "ticker": "TGTX",
+      "company": "TG Therapeutics, Inc.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "PT Change",
+      "analyst": "Jefferies",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "83"
+    },
+    {
+      "date": "2026-06-22",
+      "ticker": "APGE",
+      "company": "Apogee Therapeutics, Inc.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "PT Change",
+      "analyst": "Deutsche Bank",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "135"
     },
     {
       "date": "2026-06-21",
