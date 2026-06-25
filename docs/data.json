@@ -1,7 +1,20 @@
 {
-  "updated_at": "2026-06-25T00:05:57Z",
-  "total": 8475,
+  "updated_at": "2026-06-25T05:01:06Z",
+  "total": 8477,
   "records": [
+    {
+      "date": "2026-06-25",
+      "ticker": "CELH",
+      "company": "Celsius Holdings, Inc.",
+      "sector": "Consumer Defensive",
+      "industry": "Beverages - Non-Alcoholic",
+      "action": "Hold",
+      "analyst": "Roth Capital",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
     {
       "date": "2026-06-24",
       "ticker": "OVV",
@@ -7190,6 +7203,19 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "92"
+    },
+    {
+      "date": "2026-06-22",
+      "ticker": "ACN",
+      "company": "Accenture plc",
+      "sector": "Technology",
+      "industry": "Information Technology Services",
+      "action": "PT Change",
+      "analyst": "Wells Fargo",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "200"
     },
     {
       "date": "2026-06-21",
