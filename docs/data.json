@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-25T21:27:49Z",
-  "total": 8692,
+  "updated_at": "2026-06-25T23:13:43Z",
+  "total": 8694,
   "records": [
     {
       "date": "2026-06-25",
@@ -2197,7 +2197,7 @@
       "rating_prev": null,
       "rating_new": "Overweight",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "31"
     },
     {
       "date": "2026-06-25",
@@ -2210,7 +2210,7 @@
       "rating_prev": null,
       "rating_new": "Overweight",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "180"
     },
     {
       "date": "2026-06-25",
@@ -2249,7 +2249,7 @@
       "rating_prev": null,
       "rating_new": "Strong Buy",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "19"
     },
     {
       "date": "2026-06-25",
@@ -2261,8 +2261,8 @@
       "analyst": "Jefferies",
       "rating_prev": "Hold",
       "rating_new": "Buy",
-      "pt_prev": "",
-      "pt_new": ""
+      "pt_prev": "27",
+      "pt_new": "60"
     },
     {
       "date": "2026-06-25",
@@ -2328,6 +2328,32 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "162"
+    },
+    {
+      "date": "2026-06-25",
+      "ticker": "TECH",
+      "company": "Bio-Techne Corporation",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "Downgrade",
+      "analyst": "William Blair",
+      "rating_prev": "Outperform",
+      "rating_new": "Market Perform",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-25",
+      "ticker": "EPRX",
+      "company": "Eupraxia Pharmaceuticals Inc.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "Initialise",
+      "analyst": "Oppenheimer",
+      "rating_prev": null,
+      "rating_new": "Outperform",
+      "pt_prev": "",
+      "pt_new": ""
     },
     {
       "date": "2026-06-24",
