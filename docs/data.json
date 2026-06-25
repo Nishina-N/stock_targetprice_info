@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-25T17:08:48Z",
-  "total": 8674,
+  "updated_at": "2026-06-25T19:52:52Z",
+  "total": 8677,
   "records": [
     {
       "date": "2026-06-25",
@@ -2148,6 +2148,32 @@
       "pt_new": "95"
     },
     {
+      "date": "2026-06-25",
+      "ticker": "BMBL",
+      "company": "Bumble Inc.",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "action": "Hold",
+      "analyst": "Raymond James",
+      "rating_prev": "Market Perform",
+      "rating_new": "Market Perform",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-25",
+      "ticker": "TCOM",
+      "company": "Trip.com Group Limited",
+      "sector": "Consumer Cyclical",
+      "industry": "Travel Services",
+      "action": "Hold",
+      "analyst": "Citigroup",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
       "date": "2026-06-24",
       "ticker": "OVV",
       "company": "Ovintiv Inc.",
@@ -2925,7 +2951,7 @@
       "rating_prev": "Buy",
       "rating_new": "Buy",
       "pt_prev": "",
-      "pt_new": "66"
+      "pt_new": ""
     },
     {
       "date": "2026-06-24",
@@ -9779,6 +9805,19 @@
       "pt_new": "135"
     },
     {
+      "date": "2026-06-22",
+      "ticker": "POWW",
+      "company": "Outdoor Holding Company",
+      "sector": "Industrials",
+      "industry": "Aerospace & Defense",
+      "action": "PT Change",
+      "analyst": "Roth Capital",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "2.75"
+    },
+    {
       "date": "2026-06-21",
       "ticker": "INTC",
       "company": "Intel Corporation",
@@ -11582,7 +11621,7 @@
       "analyst": "Northland Securities",
       "rating_prev": "",
       "rating_new": "",
-      "pt_prev": "",
+      "pt_prev": "170",
       "pt_new": "160"
     },
     {
