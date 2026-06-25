@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-24T22:13:09Z",
-  "total": 8472,
+  "updated_at": "2026-06-25T00:05:57Z",
+  "total": 8475,
   "records": [
     {
       "date": "2026-06-24",
@@ -2353,7 +2353,7 @@
       "rating_prev": "Neutral",
       "rating_new": "Neutral",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "75"
     },
     {
       "date": "2026-06-24",
@@ -2744,6 +2744,32 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "57"
+    },
+    {
+      "date": "2026-06-24",
+      "ticker": "BSAC",
+      "company": "Banco Santander-Chile",
+      "sector": "Financial Services",
+      "industry": "Banks - Regional",
+      "action": "Upgrade",
+      "analyst": "Santander",
+      "rating_prev": "Neutral",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-24",
+      "ticker": "PRIM",
+      "company": "Primoris Services Corporation",
+      "sector": "Industrials",
+      "industry": "Engineering & Construction",
+      "action": "Initialise",
+      "analyst": "Goldman Sachs",
+      "rating_prev": "Sell",
+      "rating_new": "Sell",
+      "pt_prev": "",
+      "pt_new": "102"
     },
     {
       "date": "2026-06-23",
@@ -7151,6 +7177,19 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "31"
+    },
+    {
+      "date": "2026-06-22",
+      "ticker": "LIVN",
+      "company": "LivaNova PLC",
+      "sector": "Healthcare",
+      "industry": "Medical - Devices",
+      "action": "PT Change",
+      "analyst": "KeyBanc",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "92"
     },
     {
       "date": "2026-06-21",
