@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-26T16:12:13Z",
-  "total": 8946,
+  "updated_at": "2026-06-26T18:27:55Z",
+  "total": 8953,
   "records": [
     {
       "date": "2026-06-26",
@@ -2601,6 +2601,45 @@
       "rating_new": "",
       "pt_prev": "95",
       "pt_new": "85"
+    },
+    {
+      "date": "2026-06-26",
+      "ticker": "UNCY",
+      "company": "Unicycive Therapeutics, Inc.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "Hold",
+      "analyst": "H.C. Wainwright",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-26",
+      "ticker": "BA",
+      "company": "The Boeing Company",
+      "sector": "Industrials",
+      "industry": "Aerospace & Defense",
+      "action": "Initialise",
+      "analyst": "Wedbush",
+      "rating_prev": "Buy",
+      "rating_new": "Outperform",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-26",
+      "ticker": "SYNA",
+      "company": "Synaptics Incorporated",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "action": "PT Change",
+      "analyst": "Barclays",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "135"
     },
     {
       "date": "2026-06-25",
@@ -7736,6 +7775,58 @@
       "rating_new": "Sell",
       "pt_prev": "",
       "pt_new": "102"
+    },
+    {
+      "date": "2026-06-24",
+      "ticker": "OVV",
+      "company": "Ovintiv Inc.",
+      "sector": "Energy",
+      "industry": "Oil & Gas Exploration & Production",
+      "action": "PT Change",
+      "analyst": "Roth Capital",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "55"
+    },
+    {
+      "date": "2026-06-24",
+      "ticker": "RS",
+      "company": "Reliance Steel & Aluminum Co.",
+      "sector": "Basic Materials",
+      "industry": "Steel",
+      "action": "PT Change",
+      "analyst": "KeyBanc",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "418"
+    },
+    {
+      "date": "2026-06-24",
+      "ticker": "STLD",
+      "company": "Steel Dynamics, Inc.",
+      "sector": "Basic Materials",
+      "industry": "Steel",
+      "action": "PT Change",
+      "analyst": "KeyBanc",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "262"
+    },
+    {
+      "date": "2026-06-24",
+      "ticker": "NUE",
+      "company": "Nucor Corporation",
+      "sector": "Basic Materials",
+      "industry": "Steel",
+      "action": "PT Change",
+      "analyst": "KeyBanc",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "274"
     },
     {
       "date": "2026-06-23",
