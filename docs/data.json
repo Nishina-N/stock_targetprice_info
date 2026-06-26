@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-26T20:43:43Z",
-  "total": 8961,
+  "updated_at": "2026-06-26T22:08:22Z",
+  "total": 8968,
   "records": [
     {
       "date": "2026-06-26",
@@ -2744,6 +2744,84 @@
       "rating_new": "Buy",
       "pt_prev": "",
       "pt_new": ""
+    },
+    {
+      "date": "2026-06-26",
+      "ticker": "TECH",
+      "company": "Bio-Techne Corporation",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "Downgrade",
+      "analyst": "Citigroup",
+      "rating_prev": "Buy",
+      "rating_new": "Neutral",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-26",
+      "ticker": "BA",
+      "company": "The Boeing Company",
+      "sector": "Industrials",
+      "industry": "Aerospace & Defense",
+      "action": "Upgrade",
+      "analyst": "BMO Capital",
+      "rating_prev": null,
+      "rating_new": "Outperform",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-26",
+      "ticker": "BA",
+      "company": "The Boeing Company",
+      "sector": "Industrials",
+      "industry": "Aerospace & Defense",
+      "action": "Initialise",
+      "analyst": "BTIG",
+      "rating_prev": null,
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-26",
+      "ticker": "BA",
+      "company": "The Boeing Company",
+      "sector": "Industrials",
+      "industry": "Aerospace & Defense",
+      "action": "Upgrade",
+      "analyst": "Piper Sandler",
+      "rating_prev": null,
+      "rating_new": "Overweight",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-26",
+      "ticker": "CNVS",
+      "company": "Cineverse Corp.",
+      "sector": "Communication Services",
+      "industry": "Entertainment",
+      "action": "PT Change",
+      "analyst": "Industrial Alliance Securities",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "9"
+    },
+    {
+      "date": "2026-06-26",
+      "ticker": "AYI",
+      "company": "Acuity Brands, Inc.",
+      "sector": "Industrials",
+      "industry": "Electrical Equipment & Parts",
+      "action": "PT Change",
+      "analyst": "Oppenheimer",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "465"
     },
     {
       "date": "2026-06-25",
@@ -7931,6 +8009,19 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "274"
+    },
+    {
+      "date": "2026-06-24",
+      "ticker": "TXG",
+      "company": "10x Genomics, Inc.",
+      "sector": "Healthcare",
+      "industry": "Medical - Healthcare Information Services",
+      "action": "PT Change",
+      "analyst": "Barclays",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "40"
     },
     {
       "date": "2026-06-23",
