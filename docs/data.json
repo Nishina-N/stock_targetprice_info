@@ -1,7 +1,72 @@
 {
-  "updated_at": "2026-06-25T23:13:43Z",
-  "total": 8694,
+  "updated_at": "2026-06-26T02:54:01Z",
+  "total": 8704,
   "records": [
+    {
+      "date": "2026-06-26",
+      "ticker": "AMAT",
+      "company": "Applied Materials, Inc.",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "action": "Hold",
+      "analyst": "Jefferies",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-26",
+      "ticker": "NKE",
+      "company": "NIKE, Inc.",
+      "sector": "Consumer Cyclical",
+      "industry": "Apparel - Footwear & Accessories",
+      "action": "Downgrade",
+      "analyst": "KeyBanc",
+      "rating_prev": "Sector Weight",
+      "rating_new": "Sector Weight",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-26",
+      "ticker": "TCOM",
+      "company": "Trip.com Group Limited",
+      "sector": "Consumer Cyclical",
+      "industry": "Travel Services",
+      "action": "Downgrade",
+      "analyst": "Macquarie",
+      "rating_prev": "Outperform",
+      "rating_new": "Neutral",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-26",
+      "ticker": "AMT",
+      "company": "American Tower Corporation",
+      "sector": "Real Estate",
+      "industry": "REIT - Specialty",
+      "action": "Upgrade",
+      "analyst": "RBC Capital",
+      "rating_prev": "Outperform",
+      "rating_new": "Outperform",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-26",
+      "ticker": "PRQR",
+      "company": "ProQR Therapeutics N.V.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "PT Change",
+      "analyst": "Chardan Capital",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "3"
+    },
     {
       "date": "2026-06-25",
       "ticker": "CELH",
@@ -2353,7 +2418,20 @@
       "rating_prev": null,
       "rating_new": "Outperform",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "17"
+    },
+    {
+      "date": "2026-06-25",
+      "ticker": "IHG",
+      "company": "InterContinental Hotels Group PLC",
+      "sector": "Consumer Cyclical",
+      "industry": "Travel Lodging",
+      "action": "Hold",
+      "analyst": "Jefferies",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": "195"
     },
     {
       "date": "2026-06-24",
@@ -7216,6 +7294,58 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "550"
+    },
+    {
+      "date": "2026-06-23",
+      "ticker": "GWW",
+      "company": "W.W. Grainger, Inc.",
+      "sector": "Industrials",
+      "industry": "Industrial - Distribution",
+      "action": "PT Change",
+      "analyst": "Barclays",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "1166"
+    },
+    {
+      "date": "2026-06-23",
+      "ticker": "TRGP",
+      "company": "Targa Resources Corp.",
+      "sector": "Energy",
+      "industry": "Oil & Gas Midstream",
+      "action": "PT Change",
+      "analyst": "Barclays",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "270"
+    },
+    {
+      "date": "2026-06-23",
+      "ticker": "SUN",
+      "company": "Sunoco LP",
+      "sector": "Energy",
+      "industry": "Oil & Gas Refining & Marketing",
+      "action": "PT Change",
+      "analyst": "Barclays",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "75"
+    },
+    {
+      "date": "2026-06-23",
+      "ticker": "D",
+      "company": "Dominion Energy, Inc.",
+      "sector": "Utilities",
+      "industry": "Regulated Electric",
+      "action": "PT Change",
+      "analyst": "Barclays",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "69"
     },
     {
       "date": "2026-06-22",
