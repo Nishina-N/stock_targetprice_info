@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-26T02:54:01Z",
+  "updated_at": "2026-06-26T06:52:20Z",
   "total": 8704,
   "records": [
     {
@@ -12,8 +12,8 @@
       "analyst": "Jefferies",
       "rating_prev": "Buy",
       "rating_new": "Buy",
-      "pt_prev": "",
-      "pt_new": ""
+      "pt_prev": "510",
+      "pt_new": "770"
     },
     {
       "date": "2026-06-26",
@@ -39,7 +39,7 @@
       "rating_prev": "Outperform",
       "rating_new": "Neutral",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "44.3"
     },
     {
       "date": "2026-06-26",
@@ -52,7 +52,7 @@
       "rating_prev": "Outperform",
       "rating_new": "Outperform",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "205"
     },
     {
       "date": "2026-06-26",
