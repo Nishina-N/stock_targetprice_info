@@ -1,7 +1,20 @@
 {
-  "updated_at": "2026-06-27T14:25:42Z",
-  "total": 8968,
+  "updated_at": "2026-06-27T16:01:23Z",
+  "total": 8969,
   "records": [
+    {
+      "date": "2026-06-27",
+      "ticker": "MMYT",
+      "company": "MakeMyTrip Limited",
+      "sector": "Consumer Cyclical",
+      "industry": "Travel Services",
+      "action": "PT Change",
+      "analyst": "Goldman Sachs",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "84"
+    },
     {
       "date": "2026-06-26",
       "ticker": "AMAT",
