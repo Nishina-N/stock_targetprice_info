@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-28T15:14:35Z",
-  "total": 8970,
+  "updated_at": "2026-06-28T17:04:03Z",
+  "total": 8971,
   "records": [
     {
       "date": "2026-06-27",
@@ -8048,6 +8048,19 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "40"
+    },
+    {
+      "date": "2026-06-24",
+      "ticker": "TWST",
+      "company": "Twist Bioscience Corporation",
+      "sector": "Healthcare",
+      "industry": "Medical - Diagnostics & Research",
+      "action": "PT Change",
+      "analyst": "Barclays",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "95"
     },
     {
       "date": "2026-06-23",
