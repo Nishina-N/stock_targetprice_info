@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-29T17:32:12Z",
-  "total": 9214,
+  "updated_at": "2026-06-29T19:50:52Z",
+  "total": 9225,
   "records": [
     {
       "date": "2026-06-29",
@@ -2509,7 +2509,7 @@
       "rating_prev": "Buy",
       "rating_new": "Buy",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "120"
     },
     {
       "date": "2026-06-29",
@@ -2601,6 +2601,84 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "35"
+    },
+    {
+      "date": "2026-06-29",
+      "ticker": "MRK",
+      "company": "Merck & Co., Inc.",
+      "sector": "Healthcare",
+      "industry": "Drug Manufacturers - General",
+      "action": "Hold",
+      "analyst": "Scotiabank",
+      "rating_prev": "Outperform",
+      "rating_new": "Outperform",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-29",
+      "ticker": "FLUT",
+      "company": "Flutter Entertainment plc",
+      "sector": "Consumer Cyclical",
+      "industry": "Gambling, Resorts & Casinos",
+      "action": "Hold",
+      "analyst": "Citigroup",
+      "rating_prev": "Sell",
+      "rating_new": "Sell",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-29",
+      "ticker": "TSLA",
+      "company": "Tesla, Inc.",
+      "sector": "Consumer Cyclical",
+      "industry": "Auto - Manufacturers",
+      "action": "Initialise",
+      "analyst": "Guggenheim",
+      "rating_prev": "Sell",
+      "rating_new": "Neutral",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-29",
+      "ticker": "APOG",
+      "company": "Apogee Enterprises, Inc.",
+      "sector": "Industrials",
+      "industry": "Construction",
+      "action": "Downgrade",
+      "analyst": "Kansas City Capital",
+      "rating_prev": null,
+      "rating_new": "Perform",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-29",
+      "ticker": "VRDN",
+      "company": "Viridian Therapeutics, Inc.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "Hold",
+      "analyst": "Wedbush",
+      "rating_prev": "Outperform",
+      "rating_new": "Outperform",
+      "pt_prev": "",
+      "pt_new": "43"
+    },
+    {
+      "date": "2026-06-29",
+      "ticker": "QDEL",
+      "company": "QuidelOrtho Corporation",
+      "sector": "Healthcare",
+      "industry": "Medical - Instruments & Supplies",
+      "action": "Hold",
+      "analyst": "Jefferies",
+      "rating_prev": "Hold",
+      "rating_new": "Hold",
+      "pt_prev": "",
+      "pt_new": ""
     },
     {
       "date": "2026-06-27",
@@ -3002,7 +3080,7 @@
       "analyst": "UBS",
       "rating_prev": "",
       "rating_new": "",
-      "pt_prev": "",
+      "pt_prev": "95",
       "pt_new": "110"
     },
     {
@@ -7996,6 +8074,71 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "150"
+    },
+    {
+      "date": "2026-06-25",
+      "ticker": "CAE",
+      "company": "CAE Inc.",
+      "sector": "Industrials",
+      "industry": "Aerospace & Defense",
+      "action": "PT Change",
+      "analyst": "Jefferies",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "26"
+    },
+    {
+      "date": "2026-06-25",
+      "ticker": "UNP",
+      "company": "Union Pacific Corporation",
+      "sector": "Industrials",
+      "industry": "Railroads",
+      "action": "PT Change",
+      "analyst": "Evercore ISI",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "294"
+    },
+    {
+      "date": "2026-06-25",
+      "ticker": "CNI",
+      "company": "Canadian National Railway Company",
+      "sector": "Industrials",
+      "industry": "Railroads",
+      "action": "PT Change",
+      "analyst": "Evercore ISI",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "124"
+    },
+    {
+      "date": "2026-06-25",
+      "ticker": "IONS",
+      "company": "Ionis Pharmaceuticals, Inc.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "PT Change",
+      "analyst": "H.C. Wainwright",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "130"
+    },
+    {
+      "date": "2026-06-25",
+      "ticker": "NKE",
+      "company": "NIKE, Inc.",
+      "sector": "Consumer Cyclical",
+      "industry": "Apparel - Footwear & Accessories",
+      "action": "PT Change",
+      "analyst": "BTIG",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "55"
     },
     {
       "date": "2026-06-24",
