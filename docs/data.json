@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-28T22:01:25Z",
-  "total": 8971,
+  "updated_at": "2026-06-29T00:03:53Z",
+  "total": 8972,
   "records": [
     {
       "date": "2026-06-27",
@@ -8061,6 +8061,19 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "95"
+    },
+    {
+      "date": "2026-06-24",
+      "ticker": "NUVL",
+      "company": "Nuvalent, Inc.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "PT Change",
+      "analyst": "Bernstein",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "124"
     },
     {
       "date": "2026-06-23",
