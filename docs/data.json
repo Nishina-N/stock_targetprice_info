@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-29T14:44:31Z",
-  "total": 9201,
+  "updated_at": "2026-06-29T17:32:12Z",
+  "total": 9214,
   "records": [
     {
       "date": "2026-06-29",
@@ -364,7 +364,7 @@
       "rating_prev": "Overweight",
       "rating_new": "Overweight",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "19"
     },
     {
       "date": "2026-06-29",
@@ -377,7 +377,7 @@
       "rating_prev": "Buy",
       "rating_new": "Buy",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "51"
     },
     {
       "date": "2026-06-29",
@@ -390,7 +390,7 @@
       "rating_prev": null,
       "rating_new": "Outperform",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "140"
     },
     {
       "date": "2026-06-29",
@@ -455,7 +455,7 @@
       "rating_prev": null,
       "rating_new": "Overweight",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "31"
     },
     {
       "date": "2026-06-29",
@@ -519,8 +519,8 @@
       "analyst": "UBS",
       "rating_prev": "Neutral",
       "rating_new": "Neutral",
-      "pt_prev": "",
-      "pt_new": ""
+      "pt_prev": "110",
+      "pt_new": "95"
     },
     {
       "date": "2026-06-29",
@@ -650,7 +650,7 @@
       "rating_prev": "Neutral",
       "rating_new": "Neutral",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "35"
     },
     {
       "date": "2026-06-29",
@@ -2497,6 +2497,110 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "165"
+    },
+    {
+      "date": "2026-06-29",
+      "ticker": "RKLB",
+      "company": "Rocket Lab USA, Inc.",
+      "sector": "Industrials",
+      "industry": "Aerospace & Defense",
+      "action": "Hold",
+      "analyst": "Craig-Hallum",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-29",
+      "ticker": "UBS",
+      "company": "UBS Group AG",
+      "sector": "Financial Services",
+      "industry": "Banks - Diversified",
+      "action": "Hold",
+      "analyst": "Deutsche Bank",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-29",
+      "ticker": "MLM",
+      "company": "Martin Marietta Materials, Inc.",
+      "sector": "Basic Materials",
+      "industry": "Construction Materials",
+      "action": "Hold",
+      "analyst": "Raymond James",
+      "rating_prev": "Outperform",
+      "rating_new": "Outperform",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-29",
+      "ticker": "ZYME",
+      "company": "Zymeworks Inc.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "Hold",
+      "analyst": "B. Riley",
+      "rating_prev": "Positive",
+      "rating_new": "Positive",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-29",
+      "ticker": "IRDM",
+      "company": "Iridium Communications Inc.",
+      "sector": "Communication Services",
+      "industry": "Telecommunications Services",
+      "action": "Downgrade",
+      "analyst": "Oppenheimer",
+      "rating_prev": "Outperform",
+      "rating_new": "Perform",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-29",
+      "ticker": "CHRD",
+      "company": "Chord Energy Corporation",
+      "sector": "Energy",
+      "industry": "Oil & Gas Exploration & Production",
+      "action": "Hold",
+      "analyst": "BMO Capital",
+      "rating_prev": "Outperform",
+      "rating_new": "Outperform",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-29",
+      "ticker": "BLD",
+      "company": "TopBuild Corp.",
+      "sector": "Industrials",
+      "industry": "Engineering & Construction",
+      "action": "PT Change",
+      "analyst": "Evercore ISI",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "360"
+    },
+    {
+      "date": "2026-06-29",
+      "ticker": "VRDN",
+      "company": "Viridian Therapeutics, Inc.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "PT Change",
+      "analyst": "Truist Financial",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "35"
     },
     {
       "date": "2026-06-27",
@@ -7827,6 +7931,71 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "57"
+    },
+    {
+      "date": "2026-06-25",
+      "ticker": "ACT",
+      "company": "Enact Holdings, Inc.",
+      "sector": "Financial Services",
+      "industry": "Insurance - Specialty",
+      "action": "PT Change",
+      "analyst": "RBC Capital",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "47",
+      "pt_new": "47"
+    },
+    {
+      "date": "2026-06-25",
+      "ticker": "ABSI",
+      "company": "Absci Corporation",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "PT Change",
+      "analyst": "H.C. Wainwright",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "16"
+    },
+    {
+      "date": "2026-06-25",
+      "ticker": "VICI",
+      "company": "VICI Properties Inc.",
+      "sector": "Real Estate",
+      "industry": "REIT - Diversified",
+      "action": "PT Change",
+      "analyst": "RBC Capital",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "29"
+    },
+    {
+      "date": "2026-06-25",
+      "ticker": "ICLR",
+      "company": "ICON Public Limited Company",
+      "sector": "Healthcare",
+      "industry": "Medical - Diagnostics & Research",
+      "action": "PT Change",
+      "analyst": "RBC Capital",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "185"
+    },
+    {
+      "date": "2026-06-25",
+      "ticker": "INTC",
+      "company": "Intel Corporation",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "action": "PT Change",
+      "analyst": "Goldman Sachs",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "150"
     },
     {
       "date": "2026-06-24",
