@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-29T21:21:38Z",
-  "total": 9237,
+  "updated_at": "2026-06-29T22:52:17Z",
+  "total": 9243,
   "records": [
     {
       "date": "2026-06-29",
@@ -2691,7 +2691,7 @@
       "rating_prev": "Neutral",
       "rating_new": "Overweight",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "254"
     },
     {
       "date": "2026-06-29",
@@ -2704,7 +2704,7 @@
       "rating_prev": "Underweight",
       "rating_new": "Overweight",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "103"
     },
     {
       "date": "2026-06-29",
@@ -2717,7 +2717,7 @@
       "rating_prev": "Neutral",
       "rating_new": "Neutral",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "42"
     },
     {
       "date": "2026-06-29",
@@ -2730,7 +2730,7 @@
       "rating_prev": "Outperform",
       "rating_new": "Outperform",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "3000"
     },
     {
       "date": "2026-06-29",
@@ -2743,7 +2743,7 @@
       "rating_prev": "Underweight",
       "rating_new": "Overweight",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "100"
     },
     {
       "date": "2026-06-29",
@@ -2756,7 +2756,7 @@
       "rating_prev": "Overweight",
       "rating_new": "Overweight",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "394"
     },
     {
       "date": "2026-06-29",
@@ -2769,7 +2769,7 @@
       "rating_prev": "Overweight",
       "rating_new": "Overweight",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "597"
     },
     {
       "date": "2026-06-29",
@@ -2782,7 +2782,7 @@
       "rating_prev": "Neutral",
       "rating_new": "Overweight",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "396"
     },
     {
       "date": "2026-06-29",
@@ -2809,6 +2809,58 @@
       "rating_new": "Buy",
       "pt_prev": "",
       "pt_new": ""
+    },
+    {
+      "date": "2026-06-29",
+      "ticker": "RKLB",
+      "company": "Rocket Lab USA, Inc.",
+      "sector": "Industrials",
+      "industry": "Aerospace & Defense",
+      "action": "Hold",
+      "analyst": "Roth Capital",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-29",
+      "ticker": "TECH",
+      "company": "Bio-Techne Corporation",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "Downgrade",
+      "analyst": "Cowen & Co.",
+      "rating_prev": "Buy",
+      "rating_new": "Hold",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-29",
+      "ticker": "HTZ",
+      "company": "Hertz Global Holdings, Inc.",
+      "sector": "Industrials",
+      "industry": "Rental & Leasing Services",
+      "action": "PT Change",
+      "analyst": "Morgan Stanley",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "3.5"
+    },
+    {
+      "date": "2026-06-29",
+      "ticker": "TW",
+      "company": "Tradeweb Markets Inc.",
+      "sector": "Financial Services",
+      "industry": "Financial - Capital Markets",
+      "action": "PT Change",
+      "analyst": "Loop Capital Markets",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "109",
+      "pt_new": "146"
     },
     {
       "date": "2026-06-27",
@@ -8295,6 +8347,32 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "235"
+    },
+    {
+      "date": "2026-06-25",
+      "ticker": "KHC",
+      "company": "The Kraft Heinz Company",
+      "sector": "Consumer Defensive",
+      "industry": "Packaged Foods",
+      "action": "PT Change",
+      "analyst": "Piper Sandler",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "24"
+    },
+    {
+      "date": "2026-06-25",
+      "ticker": "PHVS",
+      "company": "Pharvaris N.V.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "PT Change",
+      "analyst": "Morgan Stanley",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "46"
     },
     {
       "date": "2026-06-24",
