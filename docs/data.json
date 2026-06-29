@@ -1,7 +1,33 @@
 {
-  "updated_at": "2026-06-29T00:03:53Z",
-  "total": 8972,
+  "updated_at": "2026-06-29T05:27:00Z",
+  "total": 8976,
   "records": [
+    {
+      "date": "2026-06-29",
+      "ticker": "WULF",
+      "company": "TeraWulf Inc.",
+      "sector": "Financial Services",
+      "industry": "Financial - Capital Markets",
+      "action": "Initialise",
+      "analyst": "Citigroup",
+      "rating_prev": "Market Outperform",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-29",
+      "ticker": "ACAD",
+      "company": "ACADIA Pharmaceuticals Inc.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "Hold",
+      "analyst": "Citigroup",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
     {
       "date": "2026-06-27",
       "ticker": "MMYT",
@@ -8074,6 +8100,32 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "124"
+    },
+    {
+      "date": "2026-06-24",
+      "ticker": "BABA",
+      "company": "Alibaba Group Holding Limited",
+      "sector": "Consumer Cyclical",
+      "industry": "Specialty Retail",
+      "action": "PT Change",
+      "analyst": "Daiwa",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "175"
+    },
+    {
+      "date": "2026-06-24",
+      "ticker": "INVH",
+      "company": "Invitation Homes Inc.",
+      "sector": "Real Estate",
+      "industry": "REIT - Residential",
+      "action": "PT Change",
+      "analyst": "Wells Fargo",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "33"
     },
     {
       "date": "2026-06-23",
