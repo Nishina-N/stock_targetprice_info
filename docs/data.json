@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-29T19:50:52Z",
-  "total": 9225,
+  "updated_at": "2026-06-29T21:21:38Z",
+  "total": 9237,
   "records": [
     {
       "date": "2026-06-29",
@@ -2613,7 +2613,7 @@
       "rating_prev": "Outperform",
       "rating_new": "Outperform",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "155"
     },
     {
       "date": "2026-06-29",
@@ -2677,6 +2677,136 @@
       "analyst": "Jefferies",
       "rating_prev": "Hold",
       "rating_new": "Hold",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-29",
+      "ticker": "COF",
+      "company": "Capital One Financial Corporation",
+      "sector": "Financial Services",
+      "industry": "Financial - Credit Services",
+      "action": "Initialise",
+      "analyst": "Piper Sandler",
+      "rating_prev": "Neutral",
+      "rating_new": "Overweight",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-29",
+      "ticker": "AFRM",
+      "company": "Affirm Holdings, Inc.",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "action": "Initialise",
+      "analyst": "Piper Sandler",
+      "rating_prev": "Underweight",
+      "rating_new": "Overweight",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-29",
+      "ticker": "PYPL",
+      "company": "PayPal Holdings, Inc.",
+      "sector": "Financial Services",
+      "industry": "Financial - Credit Services",
+      "action": "Hold",
+      "analyst": "Piper Sandler",
+      "rating_prev": "Neutral",
+      "rating_new": "Neutral",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-29",
+      "ticker": "SNDK",
+      "company": "Sandisk Corporation",
+      "sector": "Technology",
+      "industry": "Hardware, Equipment & Parts",
+      "action": "Hold",
+      "analyst": "Bernstein",
+      "rating_prev": "Outperform",
+      "rating_new": "Outperform",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-29",
+      "ticker": "XYZ",
+      "company": "Block, Inc.",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "action": "Upgrade",
+      "analyst": "Piper Sandler",
+      "rating_prev": "Underweight",
+      "rating_new": "Overweight",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-29",
+      "ticker": "V",
+      "company": "Visa Inc.",
+      "sector": "Financial Services",
+      "industry": "Financial - Credit Services",
+      "action": "Initialise",
+      "analyst": "Piper Sandler",
+      "rating_prev": "Overweight",
+      "rating_new": "Overweight",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-29",
+      "ticker": "MA",
+      "company": "Mastercard Incorporated",
+      "sector": "Financial Services",
+      "industry": "Financial - Credit Services",
+      "action": "Initialise",
+      "analyst": "Piper Sandler",
+      "rating_prev": "Overweight",
+      "rating_new": "Overweight",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-29",
+      "ticker": "AXP",
+      "company": "American Express Company",
+      "sector": "Financial Services",
+      "industry": "Financial - Credit Services",
+      "action": "Initialise",
+      "analyst": "Piper Sandler",
+      "rating_prev": "Neutral",
+      "rating_new": "Overweight",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-29",
+      "ticker": "RKT",
+      "company": "Rocket Companies, Inc.",
+      "sector": "Financial Services",
+      "industry": "Financial - Mortgages",
+      "action": "Initialise",
+      "analyst": "Benchmark",
+      "rating_prev": null,
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-29",
+      "ticker": "TW",
+      "company": "Tradeweb Markets Inc.",
+      "sector": "Financial Services",
+      "industry": "Financial - Capital Markets",
+      "action": "Upgrade",
+      "analyst": "Goldman Sachs",
+      "rating_prev": "Neutral",
+      "rating_new": "Buy",
       "pt_prev": "",
       "pt_new": ""
     },
@@ -8139,6 +8269,32 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "55"
+    },
+    {
+      "date": "2026-06-25",
+      "ticker": "ABSI",
+      "company": "Absci Corporation",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "PT Change",
+      "analyst": "Morgan Stanley",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "10"
+    },
+    {
+      "date": "2026-06-25",
+      "ticker": "QCOM",
+      "company": "QUALCOMM Incorporated",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "action": "PT Change",
+      "analyst": "Bernstein",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "235"
     },
     {
       "date": "2026-06-24",
