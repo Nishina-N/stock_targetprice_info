@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-30T21:24:41Z",
-  "total": 9507,
+  "updated_at": "2026-06-30T23:07:05Z",
+  "total": 9514,
   "records": [
     {
       "date": "2026-06-30",
@@ -2171,7 +2171,7 @@
       "rating_prev": "Outperform",
       "rating_new": "Outperform",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "250"
     },
     {
       "date": "2026-06-30",
@@ -2197,7 +2197,7 @@
       "rating_prev": null,
       "rating_new": "Strong Buy",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "10"
     },
     {
       "date": "2026-06-30",
@@ -2210,7 +2210,7 @@
       "rating_prev": null,
       "rating_new": "Overweight",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "7.9"
     },
     {
       "date": "2026-06-30",
@@ -2235,8 +2235,8 @@
       "analyst": "Jefferies",
       "rating_prev": "Hold",
       "rating_new": "Buy",
-      "pt_prev": "",
-      "pt_new": ""
+      "pt_prev": "90",
+      "pt_new": "158"
     },
     {
       "date": "2026-06-30",
@@ -2249,7 +2249,7 @@
       "rating_prev": null,
       "rating_new": "Outperform",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "85"
     },
     {
       "date": "2026-06-30",
@@ -2276,6 +2276,58 @@
       "rating_new": "Buy",
       "pt_prev": "",
       "pt_new": "42"
+    },
+    {
+      "date": "2026-06-30",
+      "ticker": "FOXA",
+      "company": "Fox Corporation",
+      "sector": "Communication Services",
+      "industry": "Entertainment",
+      "action": "Upgrade",
+      "analyst": "Wolfe Research",
+      "rating_prev": "Underperform",
+      "rating_new": "Outperform",
+      "pt_prev": "",
+      "pt_new": "71"
+    },
+    {
+      "date": "2026-06-30",
+      "ticker": "MSTR",
+      "company": "Strategy Inc",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "action": "PT Change",
+      "analyst": "Credit Suisse",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "250"
+    },
+    {
+      "date": "2026-06-30",
+      "ticker": "ABT",
+      "company": "Abbott Laboratories",
+      "sector": "Healthcare",
+      "industry": "Medical - Devices",
+      "action": "PT Change",
+      "analyst": "Robert W. Baird",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "121"
+    },
+    {
+      "date": "2026-06-30",
+      "ticker": "CAVA",
+      "company": "CAVA Group, Inc.",
+      "sector": "Consumer Cyclical",
+      "industry": "Restaurants",
+      "action": "PT Change",
+      "analyst": "Wolfe Research",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "95"
     },
     {
       "date": "2026-06-29",
@@ -8659,6 +8711,45 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "34"
+    },
+    {
+      "date": "2026-06-26",
+      "ticker": "MSBI",
+      "company": "Midland States Bancorp, Inc.",
+      "sector": "Financial Services",
+      "industry": "Banks - Regional",
+      "action": "PT Change",
+      "analyst": "Piper Sandler",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "32"
+    },
+    {
+      "date": "2026-06-26",
+      "ticker": "MBWM",
+      "company": "Mercantile Bank Corporation",
+      "sector": "Financial Services",
+      "industry": "Banks - Regional",
+      "action": "PT Change",
+      "analyst": "Piper Sandler",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "60"
+    },
+    {
+      "date": "2026-06-26",
+      "ticker": "INBK",
+      "company": "First Internet Bancorp",
+      "sector": "Financial Services",
+      "industry": "Banks - Regional",
+      "action": "PT Change",
+      "analyst": "Piper Sandler",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "26"
     },
     {
       "date": "2026-06-25",
