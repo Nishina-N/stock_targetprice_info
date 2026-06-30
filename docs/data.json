@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-29T22:52:17Z",
-  "total": 9243,
+  "updated_at": "2026-06-29T23:59:52Z",
+  "total": 9245,
   "records": [
     {
       "date": "2026-06-29",
@@ -2821,7 +2821,7 @@
       "rating_prev": "Buy",
       "rating_new": "Buy",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "130"
     },
     {
       "date": "2026-06-29",
@@ -2861,6 +2861,19 @@
       "rating_new": "",
       "pt_prev": "109",
       "pt_new": "146"
+    },
+    {
+      "date": "2026-06-29",
+      "ticker": "FTNT",
+      "company": "Fortinet, Inc.",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "action": "Downgrade",
+      "analyst": "HSBC",
+      "rating_prev": "Hold",
+      "rating_new": "Reduce",
+      "pt_prev": "",
+      "pt_new": ""
     },
     {
       "date": "2026-06-27",
@@ -8373,6 +8386,19 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "46"
+    },
+    {
+      "date": "2026-06-25",
+      "ticker": "CFBK",
+      "company": "CF Bankshares Inc.",
+      "sector": "Financial Services",
+      "industry": "Banks - Regional",
+      "action": "PT Change",
+      "analyst": "Piper Sandler",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "36"
     },
     {
       "date": "2026-06-24",
