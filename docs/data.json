@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-30T14:09:21Z",
-  "total": 9455,
+  "updated_at": "2026-06-30T17:02:47Z",
+  "total": 9476,
   "records": [
     {
       "date": "2026-06-30",
@@ -857,8 +857,8 @@
       "analyst": "Piper Sandler",
       "rating_prev": "Overweight",
       "rating_new": "Overweight",
-      "pt_prev": "",
-      "pt_new": ""
+      "pt_prev": "100",
+      "pt_new": "32"
     },
     {
       "date": "2026-06-30",
@@ -923,7 +923,7 @@
       "rating_prev": "Hold",
       "rating_new": "Hold",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "36"
     },
     {
       "date": "2026-06-30",
@@ -935,8 +935,8 @@
       "analyst": "Deutsche Bank",
       "rating_prev": "Buy",
       "rating_new": "Buy",
-      "pt_prev": "",
-      "pt_new": ""
+      "pt_prev": "105",
+      "pt_new": "113"
     },
     {
       "date": "2026-06-30",
@@ -949,7 +949,7 @@
       "rating_prev": "Buy",
       "rating_new": "Buy",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "165"
     },
     {
       "date": "2026-06-30",
@@ -962,7 +962,7 @@
       "rating_prev": "Buy",
       "rating_new": "Buy",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "263"
     },
     {
       "date": "2026-06-30",
@@ -988,7 +988,7 @@
       "rating_prev": "Buy",
       "rating_new": "Buy",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "119"
     },
     {
       "date": "2026-06-30",
@@ -1079,7 +1079,7 @@
       "rating_prev": "Neutral",
       "rating_new": "Neutral",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "26"
     },
     {
       "date": "2026-06-30",
@@ -1130,8 +1130,8 @@
       "analyst": "UBS",
       "rating_prev": "Buy",
       "rating_new": "Buy",
-      "pt_prev": "",
-      "pt_new": ""
+      "pt_prev": "75",
+      "pt_new": "77"
     },
     {
       "date": "2026-06-30",
@@ -1910,7 +1910,7 @@
       "analyst": "Fox Advisors",
       "rating_prev": "",
       "rating_new": "",
-      "pt_prev": "",
+      "pt_prev": "24",
       "pt_new": "24"
     },
     {
@@ -1951,6 +1951,175 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "85"
+    },
+    {
+      "date": "2026-06-30",
+      "ticker": "UNCY",
+      "company": "Unicycive Therapeutics, Inc.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "Hold",
+      "analyst": "B. Riley",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-30",
+      "ticker": "TFII",
+      "company": "TFI International Inc.",
+      "sector": "Industrials",
+      "industry": "Trucking",
+      "action": "Hold",
+      "analyst": "CIBC",
+      "rating_prev": "Outperform",
+      "rating_new": "Outperform",
+      "pt_prev": "",
+      "pt_new": "172"
+    },
+    {
+      "date": "2026-06-30",
+      "ticker": "FSV",
+      "company": "FirstService Corporation",
+      "sector": "Real Estate",
+      "industry": "Real Estate - Services",
+      "action": "Hold",
+      "analyst": "Scotiabank",
+      "rating_prev": "Outperform",
+      "rating_new": "Outperform",
+      "pt_prev": "",
+      "pt_new": "175"
+    },
+    {
+      "date": "2026-06-30",
+      "ticker": "DBVT",
+      "company": "DBV Technologies S.A.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "Hold",
+      "analyst": "H.C. Wainwright",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-06-30",
+      "ticker": "XYZ",
+      "company": "Block, Inc.",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "action": "PT Change",
+      "analyst": "Rosenblatt Securities",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "100"
+    },
+    {
+      "date": "2026-06-30",
+      "ticker": "TTI",
+      "company": "TETRA Technologies, Inc.",
+      "sector": "Energy",
+      "industry": "Oil & Gas Equipment & Services",
+      "action": "PT Change",
+      "analyst": "Northland Securities",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "14"
+    },
+    {
+      "date": "2026-06-30",
+      "ticker": "AVAV",
+      "company": "AeroVironment, Inc.",
+      "sector": "Industrials",
+      "industry": "Aerospace & Defense",
+      "action": "PT Change",
+      "analyst": "Needham",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "225"
+    },
+    {
+      "date": "2026-06-30",
+      "ticker": "CNXC",
+      "company": "Concentrix Corporation",
+      "sector": "Technology",
+      "industry": "Information Technology Services",
+      "action": "PT Change",
+      "analyst": "Barrington",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "30"
+    },
+    {
+      "date": "2026-06-30",
+      "ticker": "NEM",
+      "company": "Newmont Corporation",
+      "sector": "Basic Materials",
+      "industry": "Gold",
+      "action": "PT Change",
+      "analyst": "UBS",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "120"
+    },
+    {
+      "date": "2026-06-30",
+      "ticker": "HCC",
+      "company": "Warrior Met Coal, Inc.",
+      "sector": "Energy",
+      "industry": "Coal",
+      "action": "PT Change",
+      "analyst": "UBS",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "100"
+    },
+    {
+      "date": "2026-06-30",
+      "ticker": "CNR",
+      "company": "Core Natural Resources, Inc.",
+      "sector": "Energy",
+      "industry": "Coal",
+      "action": "PT Change",
+      "analyst": "UBS",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "100"
+    },
+    {
+      "date": "2026-06-30",
+      "ticker": "AA",
+      "company": "Alcoa Corporation",
+      "sector": "Basic Materials",
+      "industry": "Aluminum",
+      "action": "PT Change",
+      "analyst": "UBS",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "80",
+      "pt_new": "68"
+    },
+    {
+      "date": "2026-06-30",
+      "ticker": "AVAV",
+      "company": "AeroVironment, Inc.",
+      "sector": "Industrials",
+      "industry": "Aerospace & Defense",
+      "action": "PT Change",
+      "analyst": "UBS",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "166"
     },
     {
       "date": "2026-06-29",
@@ -4549,7 +4718,7 @@
       "analyst": "Truist Financial",
       "rating_prev": "",
       "rating_new": "",
-      "pt_prev": "",
+      "pt_prev": "38",
       "pt_new": "35"
     },
     {
@@ -4824,6 +4993,19 @@
       "rating_new": "Reduce",
       "pt_prev": "",
       "pt_new": "102"
+    },
+    {
+      "date": "2026-06-29",
+      "ticker": "NTRA",
+      "company": "Natera, Inc.",
+      "sector": "Healthcare",
+      "industry": "Medical - Diagnostics & Research",
+      "action": "PT Change",
+      "analyst": "Guggenheim",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "290"
     },
     {
       "date": "2026-06-27",
@@ -7983,6 +8165,97 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "205"
+    },
+    {
+      "date": "2026-06-26",
+      "ticker": "SNX",
+      "company": "TD SYNNEX Corporation",
+      "sector": "Technology",
+      "industry": "Technology Distributors",
+      "action": "PT Change",
+      "analyst": "UBS",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "352"
+    },
+    {
+      "date": "2026-06-26",
+      "ticker": "XEL",
+      "company": "Xcel Energy Inc.",
+      "sector": "Utilities",
+      "industry": "Regulated Electric",
+      "action": "PT Change",
+      "analyst": "BTIG",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "98"
+    },
+    {
+      "date": "2026-06-26",
+      "ticker": "DRI",
+      "company": "Darden Restaurants, Inc.",
+      "sector": "Consumer Cyclical",
+      "industry": "Restaurants",
+      "action": "PT Change",
+      "analyst": "BTIG",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "235"
+    },
+    {
+      "date": "2026-06-26",
+      "ticker": "ON",
+      "company": "ON Semiconductor Corporation",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "action": "PT Change",
+      "analyst": "Needham",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "130"
+    },
+    {
+      "date": "2026-06-26",
+      "ticker": "BNL",
+      "company": "Broadstone Net Lease, Inc.",
+      "sector": "Real Estate",
+      "industry": "REIT - Diversified",
+      "action": "PT Change",
+      "analyst": "BTIG",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "23"
+    },
+    {
+      "date": "2026-06-26",
+      "ticker": "ON",
+      "company": "ON Semiconductor Corporation",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "action": "PT Change",
+      "analyst": "Susquehanna",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "140"
+    },
+    {
+      "date": "2026-06-26",
+      "ticker": "FCEL",
+      "company": "FuelCell Energy, Inc.",
+      "sector": "Industrials",
+      "industry": "Electrical Equipment & Parts",
+      "action": "PT Change",
+      "analyst": "Jefferies",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "24"
     },
     {
       "date": "2026-06-25",
