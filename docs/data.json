@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-01T14:25:55Z",
-  "total": 9698,
+  "updated_at": "2026-07-01T17:10:23Z",
+  "total": 9712,
   "records": [
     {
       "date": "2026-07-01",
@@ -1183,7 +1183,7 @@
       "rating_prev": "Buy",
       "rating_new": "Buy",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "66"
     },
     {
       "date": "2026-07-01",
@@ -1221,8 +1221,8 @@
       "analyst": "UBS",
       "rating_prev": "Neutral",
       "rating_new": "Neutral",
-      "pt_prev": "",
-      "pt_new": ""
+      "pt_prev": "50",
+      "pt_new": "48"
     },
     {
       "date": "2026-07-01",
@@ -1235,7 +1235,7 @@
       "rating_prev": "Outperform",
       "rating_new": "Outperform",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "344"
     },
     {
       "date": "2026-07-01",
@@ -2081,6 +2081,149 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "85"
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "GH",
+      "company": "Guardant Health, Inc.",
+      "sector": "Healthcare",
+      "industry": "Medical - Diagnostics & Research",
+      "action": "Hold",
+      "analyst": "BTIG",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "AA",
+      "company": "Alcoa Corporation",
+      "sector": "Basic Materials",
+      "industry": "Aluminum",
+      "action": "Hold",
+      "analyst": "B. Riley",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "NKE",
+      "company": "NIKE, Inc.",
+      "sector": "Consumer Cyclical",
+      "industry": "Apparel - Footwear & Accessories",
+      "action": "Downgrade",
+      "analyst": "BTIG",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "LDOS",
+      "company": "Leidos Holdings, Inc.",
+      "sector": "Technology",
+      "industry": "Information Technology Services",
+      "action": "PT Change",
+      "analyst": "Jefferies",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "140",
+      "pt_new": "110"
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "AVAV",
+      "company": "AeroVironment, Inc.",
+      "sector": "Industrials",
+      "industry": "Aerospace & Defense",
+      "action": "PT Change",
+      "analyst": "Jefferies",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "229"
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "SSRM",
+      "company": "SSR Mining Inc.",
+      "sector": "Basic Materials",
+      "industry": "Gold",
+      "action": "PT Change",
+      "analyst": "UBS",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "40",
+      "pt_new": "39"
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "P",
+      "company": "Everpure, Inc.",
+      "sector": "Technology",
+      "industry": "Computer Hardware",
+      "action": "PT Change",
+      "analyst": "D.A. Davidson",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "100"
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "STZ",
+      "company": "Constellation Brands, Inc.",
+      "sector": "Consumer Defensive",
+      "industry": "Beverages - Wineries & Distilleries",
+      "action": "PT Change",
+      "analyst": "BMO Capital",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "174"
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "FIVN",
+      "company": "Five9, Inc.",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "action": "PT Change",
+      "analyst": "Truist Financial",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "23"
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "NKE",
+      "company": "NIKE, Inc.",
+      "sector": "Consumer Cyclical",
+      "industry": "Apparel - Footwear & Accessories",
+      "action": "PT Change",
+      "analyst": "Jefferies",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "75"
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "SPSC",
+      "company": "SPS Commerce, Inc.",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "action": "PT Change",
+      "analyst": "D.A. Davidson",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "55"
     },
     {
       "date": "2026-06-30",
@@ -7398,6 +7541,45 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "205"
+    },
+    {
+      "date": "2026-06-29",
+      "ticker": "PFGC",
+      "company": "Performance Food Group Company",
+      "sector": "Consumer Defensive",
+      "industry": "Food Distribution",
+      "action": "PT Change",
+      "analyst": "Guggenheim",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "125"
+    },
+    {
+      "date": "2026-06-29",
+      "ticker": "TSM",
+      "company": "Taiwan Semiconductor Manufacturing Company Limited",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "action": "PT Change",
+      "analyst": "Barclays",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "625"
+    },
+    {
+      "date": "2026-06-29",
+      "ticker": "OKTA",
+      "company": "Okta, Inc.",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "action": "PT Change",
+      "analyst": "Scotiabank",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "135"
     },
     {
       "date": "2026-06-27",
