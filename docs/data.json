@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-01T02:59:13Z",
-  "total": 9519,
+  "updated_at": "2026-07-01T07:16:47Z",
+  "total": 9525,
   "records": [
     {
       "date": "2026-07-01",
@@ -13,7 +13,7 @@
       "rating_prev": "Outperform",
       "rating_new": "Sector Perform",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "28"
     },
     {
       "date": "2026-07-01",
@@ -53,6 +53,58 @@
       "rating_new": "Buy",
       "pt_prev": "",
       "pt_new": "17"
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "NKE",
+      "company": "NIKE, Inc.",
+      "sector": "Consumer Cyclical",
+      "industry": "Apparel - Footwear & Accessories",
+      "action": "Hold",
+      "analyst": "Guggenheim",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "GRND",
+      "company": "Grindr Inc.",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "action": "Upgrade",
+      "analyst": "Morgan Stanley",
+      "rating_prev": null,
+      "rating_new": "Overweight",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "BORR",
+      "company": "Borr Drilling Limited",
+      "sector": "Energy",
+      "industry": "Oil & Gas Drilling",
+      "action": "PT Change",
+      "analyst": "Capital One Financial",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "6"
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "SDRL",
+      "company": "Seadrill Limited",
+      "sector": "Energy",
+      "industry": "Oil & Gas Drilling",
+      "action": "PT Change",
+      "analyst": "Capital One Financial",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "55"
     },
     {
       "date": "2026-06-30",
@@ -8815,6 +8867,32 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "79"
+    },
+    {
+      "date": "2026-06-26",
+      "ticker": "AOUT",
+      "company": "American Outdoor Brands, Inc.",
+      "sector": "Consumer Cyclical",
+      "industry": "Leisure",
+      "action": "PT Change",
+      "analyst": "Roth Capital",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "13.5"
+    },
+    {
+      "date": "2026-06-26",
+      "ticker": "UMBF",
+      "company": "UMB Financial Corporation",
+      "sector": "Financial Services",
+      "industry": "Banks - Regional",
+      "action": "PT Change",
+      "analyst": "Piper Sandler",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "161"
     },
     {
       "date": "2026-06-25",
