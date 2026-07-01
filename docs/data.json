@@ -1,7 +1,59 @@
 {
-  "updated_at": "2026-06-30T23:07:05Z",
-  "total": 9514,
+  "updated_at": "2026-07-01T02:59:13Z",
+  "total": 9519,
   "records": [
+    {
+      "date": "2026-07-01",
+      "ticker": "DOW",
+      "company": "Dow Inc.",
+      "sector": "Basic Materials",
+      "industry": "Chemicals",
+      "action": "Downgrade",
+      "analyst": "RBC Capital",
+      "rating_prev": "Outperform",
+      "rating_new": "Sector Perform",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "LION",
+      "company": "Lionsgate Studios Corp.",
+      "sector": "Communication Services",
+      "industry": "Entertainment",
+      "action": "Initialise",
+      "analyst": "B. Riley",
+      "rating_prev": null,
+      "rating_new": "Neutral",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "TALO",
+      "company": "Talos Energy Inc.",
+      "sector": "Energy",
+      "industry": "Oil & Gas Exploration & Production",
+      "action": "Upgrade",
+      "analyst": "Roth Capital",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": "17"
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "TALO",
+      "company": "Talos Energy Inc.",
+      "sector": "Energy",
+      "industry": "Oil & Gas Exploration & Production",
+      "action": "Hold",
+      "analyst": "Roth Capital",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": "17"
+    },
     {
       "date": "2026-06-30",
       "ticker": "AVAV",
@@ -8750,6 +8802,19 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "26"
+    },
+    {
+      "date": "2026-06-26",
+      "ticker": "SMBC",
+      "company": "Southern Missouri Bancorp, Inc.",
+      "sector": "Financial Services",
+      "industry": "Banks - Regional",
+      "action": "PT Change",
+      "analyst": "Piper Sandler",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "79"
     },
     {
       "date": "2026-06-25",
