@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-01T11:20:30Z",
-  "total": 9609,
+  "updated_at": "2026-07-01T14:25:55Z",
+  "total": 9698,
   "records": [
     {
       "date": "2026-07-01",
@@ -130,7 +130,7 @@
       "rating_prev": "Overweight",
       "rating_new": "Overweight",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "25"
     },
     {
       "date": "2026-07-01",
@@ -143,7 +143,7 @@
       "rating_prev": "Positive",
       "rating_new": "Positive",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "66"
     },
     {
       "date": "2026-07-01",
@@ -156,7 +156,7 @@
       "rating_prev": "Positive",
       "rating_new": "Positive",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "28"
     },
     {
       "date": "2026-07-01",
@@ -208,7 +208,7 @@
       "rating_prev": "Buy",
       "rating_new": "Buy",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "170"
     },
     {
       "date": "2026-07-01",
@@ -221,7 +221,7 @@
       "rating_prev": "Buy",
       "rating_new": "Buy",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "235"
     },
     {
       "date": "2026-07-01",
@@ -259,8 +259,8 @@
       "analyst": "Wells Fargo",
       "rating_prev": "Overweight",
       "rating_new": "Overweight",
-      "pt_prev": "",
-      "pt_new": ""
+      "pt_prev": "325",
+      "pt_new": "420"
     },
     {
       "date": "2026-07-01",
@@ -286,7 +286,7 @@
       "rating_prev": null,
       "rating_new": "Buy",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "55"
     },
     {
       "date": "2026-07-01",
@@ -298,8 +298,8 @@
       "analyst": "Goldman Sachs",
       "rating_prev": "Neutral",
       "rating_new": "Neutral",
-      "pt_prev": "",
-      "pt_new": ""
+      "pt_prev": "35",
+      "pt_new": "40"
     },
     {
       "date": "2026-07-01",
@@ -325,7 +325,7 @@
       "rating_prev": "Strong Buy",
       "rating_new": "Strong Buy",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "27"
     },
     {
       "date": "2026-07-01",
@@ -338,7 +338,7 @@
       "rating_prev": "Strong Buy",
       "rating_new": "Strong Buy",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "55"
     },
     {
       "date": "2026-07-01",
@@ -364,7 +364,7 @@
       "rating_prev": "Outperform",
       "rating_new": "Outperform",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "26"
     },
     {
       "date": "2026-07-01",
@@ -377,7 +377,7 @@
       "rating_prev": "Outperform",
       "rating_new": "Outperform",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "350"
     },
     {
       "date": "2026-07-01",
@@ -403,7 +403,7 @@
       "rating_prev": "Outperform",
       "rating_new": "Outperform",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "28"
     },
     {
       "date": "2026-07-01",
@@ -416,7 +416,7 @@
       "rating_prev": "Outperform",
       "rating_new": "Outperform",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "36"
     },
     {
       "date": "2026-07-01",
@@ -429,7 +429,7 @@
       "rating_prev": "Outperform",
       "rating_new": "Outperform",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "32"
     },
     {
       "date": "2026-07-01",
@@ -442,7 +442,7 @@
       "rating_prev": null,
       "rating_new": "Outperform",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "52"
     },
     {
       "date": "2026-07-01",
@@ -455,7 +455,7 @@
       "rating_prev": "Strong Buy",
       "rating_new": "Strong Buy",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "32"
     },
     {
       "date": "2026-07-01",
@@ -468,7 +468,7 @@
       "rating_prev": "Strong Buy",
       "rating_new": "Strong Buy",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "63"
     },
     {
       "date": "2026-07-01",
@@ -481,7 +481,7 @@
       "rating_prev": "Outperform",
       "rating_new": "Outperform",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "72"
     },
     {
       "date": "2026-07-01",
@@ -494,7 +494,7 @@
       "rating_prev": "Outperform",
       "rating_new": "Outperform",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "56"
     },
     {
       "date": "2026-07-01",
@@ -507,7 +507,7 @@
       "rating_prev": "Outperform",
       "rating_new": "Outperform",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "58"
     },
     {
       "date": "2026-07-01",
@@ -520,7 +520,7 @@
       "rating_prev": "Outperform",
       "rating_new": "Outperform",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "35"
     },
     {
       "date": "2026-07-01",
@@ -533,7 +533,7 @@
       "rating_prev": "Buy",
       "rating_new": "Buy",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "85"
     },
     {
       "date": "2026-07-01",
@@ -559,7 +559,7 @@
       "rating_prev": null,
       "rating_new": "Buy",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "34"
     },
     {
       "date": "2026-07-01",
@@ -572,7 +572,7 @@
       "rating_prev": "Overweight",
       "rating_new": "Overweight",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "279"
     },
     {
       "date": "2026-07-01",
@@ -585,7 +585,7 @@
       "rating_prev": null,
       "rating_new": "Buy",
       "pt_prev": "",
-      "pt_new": ""
+      "pt_new": "17"
     },
     {
       "date": "2026-07-01",
@@ -1028,6 +1028,1059 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "70"
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "CRM",
+      "company": "Salesforce, Inc.",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "action": "Initialise",
+      "analyst": "UBS",
+      "rating_prev": "Market Outperform",
+      "rating_new": "Overweight",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "CRM",
+      "company": "Salesforce, Inc.",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "action": "Initialise",
+      "analyst": "Raymond James",
+      "rating_prev": "Strong Buy",
+      "rating_new": "Outperform",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "CRM",
+      "company": "Salesforce, Inc.",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "action": "Initialise",
+      "analyst": "Susquehanna",
+      "rating_prev": null,
+      "rating_new": "Neutral",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "CRM",
+      "company": "Salesforce, Inc.",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "action": "Downgrade",
+      "analyst": "Wolfe Research",
+      "rating_prev": "Outperform",
+      "rating_new": "Peer Perform",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "CRM",
+      "company": "Salesforce, Inc.",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "action": "Upgrade",
+      "analyst": "Jefferies",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "CRM",
+      "company": "Salesforce, Inc.",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "action": "Downgrade",
+      "analyst": "RBC Capital",
+      "rating_prev": "Sector Perform",
+      "rating_new": "Sector Perform",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "CRM",
+      "company": "Salesforce, Inc.",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "action": "Downgrade",
+      "analyst": "Truist Financial",
+      "rating_prev": null,
+      "rating_new": "Market Perform",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "CRM",
+      "company": "Salesforce, Inc.",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "action": "Upgrade",
+      "analyst": "Citigroup",
+      "rating_prev": "Market Outperform",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "CRM",
+      "company": "Salesforce, Inc.",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "action": "Initialise",
+      "analyst": "Wedbush",
+      "rating_prev": "Outperform",
+      "rating_new": "Outperform",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "ZBRA",
+      "company": "Zebra Technologies Corporation",
+      "sector": "Technology",
+      "industry": "Communication Equipment",
+      "action": "Hold",
+      "analyst": "UBS",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "PTGX",
+      "company": "Protagonist Therapeutics, Inc.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "Hold",
+      "analyst": "Cowen & Co.",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "SLB",
+      "company": "SLB N.V.",
+      "sector": "Energy",
+      "industry": "Oil & Gas Equipment & Services",
+      "action": "Hold",
+      "analyst": "UBS",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "P",
+      "company": "Everpure, Inc.",
+      "sector": "Technology",
+      "industry": "Computer Hardware",
+      "action": "Hold",
+      "analyst": "Cowen & Co.",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "STZ",
+      "company": "Constellation Brands, Inc.",
+      "sector": "Consumer Defensive",
+      "industry": "Beverages - Wineries & Distilleries",
+      "action": "Hold",
+      "analyst": "Cowen & Co.",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "NKE",
+      "company": "NIKE, Inc.",
+      "sector": "Consumer Cyclical",
+      "industry": "Apparel - Footwear & Accessories",
+      "action": "Hold",
+      "analyst": "UBS",
+      "rating_prev": "Neutral",
+      "rating_new": "Neutral",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "APD",
+      "company": "Air Products and Chemicals, Inc.",
+      "sector": "Basic Materials",
+      "industry": "Chemicals - Specialty",
+      "action": "Hold",
+      "analyst": "Bernstein",
+      "rating_prev": "Outperform",
+      "rating_new": "Outperform",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "SOC",
+      "company": "Sable Offshore Corp.",
+      "sector": "Energy",
+      "industry": "Oil & Gas Drilling",
+      "action": "Hold",
+      "analyst": "Roth Capital",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "STZ",
+      "company": "Constellation Brands, Inc.",
+      "sector": "Consumer Defensive",
+      "industry": "Beverages - Wineries & Distilleries",
+      "action": "Hold",
+      "analyst": "Bernstein",
+      "rating_prev": "Outperform",
+      "rating_new": "Outperform",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "AMGN",
+      "company": "Amgen Inc.",
+      "sector": "Healthcare",
+      "industry": "Drug Manufacturers - General",
+      "action": "Hold",
+      "analyst": "BMO Capital",
+      "rating_prev": "Outperform",
+      "rating_new": "Outperform",
+      "pt_prev": "",
+      "pt_new": "400"
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "BE",
+      "company": "Bloom Energy Corporation",
+      "sector": "Industrials",
+      "industry": "Electrical Equipment & Parts",
+      "action": "Hold",
+      "analyst": "Roth Capital",
+      "rating_prev": "Neutral",
+      "rating_new": "Neutral",
+      "pt_prev": "",
+      "pt_new": "285"
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "ES",
+      "company": "Eversource Energy",
+      "sector": "Utilities",
+      "industry": "Regulated Electric",
+      "action": "Hold",
+      "analyst": "BMO Capital",
+      "rating_prev": "Market Perform",
+      "rating_new": "Market Perform",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "DAVE",
+      "company": "Dave Inc.",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "action": "Hold",
+      "analyst": "Benchmark",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "MAN",
+      "company": "ManpowerGroup Inc.",
+      "sector": "Industrials",
+      "industry": "Staffing & Employment Services",
+      "action": "Hold",
+      "analyst": "BMO Capital",
+      "rating_prev": "Market Perform",
+      "rating_new": "Market Perform",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "SLB",
+      "company": "SLB N.V.",
+      "sector": "Energy",
+      "industry": "Oil & Gas Equipment & Services",
+      "action": "Hold",
+      "analyst": "Cowen & Co.",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "AAL",
+      "company": "American Airlines Group Inc.",
+      "sector": "Industrials",
+      "industry": "Airlines, Airports & Air Services",
+      "action": "Hold",
+      "analyst": "Bernstein",
+      "rating_prev": "Outperform",
+      "rating_new": "Outperform",
+      "pt_prev": "",
+      "pt_new": "23"
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "AYI",
+      "company": "Acuity Brands, Inc.",
+      "sector": "Industrials",
+      "industry": "Electrical Equipment & Parts",
+      "action": "Hold",
+      "analyst": "Morgan Stanley",
+      "rating_prev": "Overweight",
+      "rating_new": "Overweight",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "IFF",
+      "company": "International Flavors & Fragrances Inc.",
+      "sector": "Basic Materials",
+      "industry": "Chemicals - Specialty",
+      "action": "Hold",
+      "analyst": "Morgan Stanley",
+      "rating_prev": "Overweight",
+      "rating_new": "Overweight",
+      "pt_prev": "",
+      "pt_new": "95"
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "XRN",
+      "company": "Chiron Real Estate Inc.",
+      "sector": "Financial Services",
+      "industry": "REIT - Industrial",
+      "action": "Hold",
+      "analyst": "Alliance Global Partners",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "FLNC",
+      "company": "Fluence Energy, Inc.",
+      "sector": "Utilities",
+      "industry": "Renewable Utilities",
+      "action": "Initialise",
+      "analyst": "GLJ Research",
+      "rating_prev": null,
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": "26"
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "FCNCA",
+      "company": "First Citizens BancShares, Inc.",
+      "sector": "Financial Services",
+      "industry": "Banks - Regional",
+      "action": "Hold",
+      "analyst": "Citigroup",
+      "rating_prev": "Neutral",
+      "rating_new": "Neutral",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "GUTS",
+      "company": "Fractyl Health, Inc. Common Stock",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "Initialise",
+      "analyst": "Craig-Hallum",
+      "rating_prev": null,
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "MEOH",
+      "company": "Methanex Corporation",
+      "sector": "Basic Materials",
+      "industry": "Chemicals",
+      "action": "Hold",
+      "analyst": "RBC Capital",
+      "rating_prev": "Sector Perform",
+      "rating_new": "Sector Perform",
+      "pt_prev": "",
+      "pt_new": "65"
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "HON",
+      "company": "Honeywell International Inc.",
+      "sector": "Industrials",
+      "industry": "Conglomerates",
+      "action": "Hold",
+      "analyst": "Citigroup",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "ORKA",
+      "company": "Oruka Therapeutics, Inc.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "Hold",
+      "analyst": "UBS",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": "130"
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "HCA",
+      "company": "HCA Healthcare, Inc.",
+      "sector": "Healthcare",
+      "industry": "Medical - Care Facilities",
+      "action": "Hold",
+      "analyst": "Cantor Fitzgerald",
+      "rating_prev": "Overweight",
+      "rating_new": "Overweight",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "GANX",
+      "company": "Gain Therapeutics, Inc.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "Hold",
+      "analyst": "H.C. Wainwright",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "NAGE",
+      "company": "Niagen Bioscience Inc",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "Hold",
+      "analyst": "H.C. Wainwright",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "ACIU",
+      "company": "AC Immune S.A.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "Hold",
+      "analyst": "H.C. Wainwright",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "AKBA",
+      "company": "Akebia Therapeutics, Inc.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "Hold",
+      "analyst": "H.C. Wainwright",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "VKTX",
+      "company": "Viking Therapeutics, Inc.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "Hold",
+      "analyst": "Cantor Fitzgerald",
+      "rating_prev": "Overweight",
+      "rating_new": "Overweight",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "RGNX",
+      "company": "REGENXBIO Inc.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "Hold",
+      "analyst": "H.C. Wainwright",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": "26"
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "ES",
+      "company": "Eversource Energy",
+      "sector": "Utilities",
+      "industry": "Regulated Electric",
+      "action": "PT Change",
+      "analyst": "Capital One Financial",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "73"
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "DAVE",
+      "company": "Dave Inc.",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "action": "PT Change",
+      "analyst": "Coker Palmer",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "475"
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "ALG",
+      "company": "Alamo Group Inc.",
+      "sector": "Industrials",
+      "industry": "Agricultural - Machinery",
+      "action": "PT Change",
+      "analyst": "D.A. Davidson",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "188"
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "ELVN",
+      "company": "Enliven Therapeutics, Inc.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "PT Change",
+      "analyst": "Stifel Nicolaus",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "60",
+      "pt_new": "80"
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "KRUS",
+      "company": "Kura Sushi USA, Inc.",
+      "sector": "Consumer Cyclical",
+      "industry": "Restaurants",
+      "action": "PT Change",
+      "analyst": "D.A. Davidson",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "70"
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "PRGS",
+      "company": "Progress Software Corporation",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "action": "PT Change",
+      "analyst": "Oppenheimer",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "50"
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "XRN",
+      "company": "Chiron Real Estate Inc.",
+      "sector": "Financial Services",
+      "industry": "REIT - Industrial",
+      "action": "PT Change",
+      "analyst": "Industrial Alliance Securities",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "43"
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "SYNA",
+      "company": "Synaptics Incorporated",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "action": "PT Change",
+      "analyst": "Mizuho Securities",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "170"
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "ON",
+      "company": "ON Semiconductor Corporation",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "action": "PT Change",
+      "analyst": "Mizuho Securities",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "125"
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "ZION",
+      "company": "Zions Bancorporation, National Association",
+      "sector": "Financial Services",
+      "industry": "Banks - Regional",
+      "action": "PT Change",
+      "analyst": "Fundamental Research",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "75"
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "VLY",
+      "company": "Valley National Bancorp",
+      "sector": "Financial Services",
+      "industry": "Banks - Regional",
+      "action": "PT Change",
+      "analyst": "National Bank",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "17.5"
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "TCBI",
+      "company": "Texas Capital Bancshares, Inc.",
+      "sector": "Financial Services",
+      "industry": "Banks - Regional",
+      "action": "PT Change",
+      "analyst": "Fundamental Research",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "110"
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "SSB",
+      "company": "SouthState Corporation",
+      "sector": "Financial Services",
+      "industry": "Banks - Regional",
+      "action": "PT Change",
+      "analyst": "Fundamental Research",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "120"
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "FLG",
+      "company": "Flagstar Financial, Inc.",
+      "sector": "Financial Services",
+      "industry": "Banks - Regional",
+      "action": "PT Change",
+      "analyst": "Fundamental Research",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "17"
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "FHN",
+      "company": "First Horizon Corporation",
+      "sector": "Financial Services",
+      "industry": "Banks - Regional",
+      "action": "PT Change",
+      "analyst": "Fundamental Research",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "28.5"
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "FCNCA",
+      "company": "First Citizens BancShares, Inc.",
+      "sector": "Financial Services",
+      "industry": "Banks - Regional",
+      "action": "PT Change",
+      "analyst": "Fundamental Research",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "2350"
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "CUBI",
+      "company": "Customers Bancorp, Inc.",
+      "sector": "Financial Services",
+      "industry": "Banks - Regional",
+      "action": "PT Change",
+      "analyst": "Fundamental Research",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "94"
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "COLB",
+      "company": "Columbia Banking System, Inc.",
+      "sector": "Financial Services",
+      "industry": "Banks - Regional",
+      "action": "PT Change",
+      "analyst": "Fundamental Research",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "35"
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "EOG",
+      "company": "EOG Resources, Inc.",
+      "sector": "Energy",
+      "industry": "Oil & Gas Exploration & Production",
+      "action": "PT Change",
+      "analyst": "Truist Financial",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "134"
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "GLW",
+      "company": "Corning Incorporated",
+      "sector": "Technology",
+      "industry": "Hardware, Equipment & Parts",
+      "action": "PT Change",
+      "analyst": "Mizuho Securities",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "270"
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "ESI",
+      "company": "Element Solutions Inc",
+      "sector": "Basic Materials",
+      "industry": "Chemicals - Specialty",
+      "action": "PT Change",
+      "analyst": "Mizuho Securities",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "54"
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "ENTG",
+      "company": "Entegris, Inc.",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "action": "PT Change",
+      "analyst": "Mizuho Securities",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "180",
+      "pt_new": "200"
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "HUN",
+      "company": "Huntsman Corporation",
+      "sector": "Basic Materials",
+      "industry": "Chemicals",
+      "action": "PT Change",
+      "analyst": "Mizuho Securities",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "14",
+      "pt_new": "13"
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "LYB",
+      "company": "LyondellBasell Industries N.V.",
+      "sector": "Basic Materials",
+      "industry": "Chemicals - Specialty",
+      "action": "PT Change",
+      "analyst": "Mizuho Securities",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "62"
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "DOW",
+      "company": "Dow Inc.",
+      "sector": "Basic Materials",
+      "industry": "Chemicals",
+      "action": "PT Change",
+      "analyst": "Mizuho Securities",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "35"
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "BE",
+      "company": "Bloom Energy Corporation",
+      "sector": "Industrials",
+      "industry": "Electrical Equipment & Parts",
+      "action": "PT Change",
+      "analyst": "UBS",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "322",
+      "pt_new": "350"
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "PPG",
+      "company": "PPG Industries, Inc.",
+      "sector": "Basic Materials",
+      "industry": "Chemicals - Specialty",
+      "action": "PT Change",
+      "analyst": "Mizuho Securities",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "135"
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "NKE",
+      "company": "NIKE, Inc.",
+      "sector": "Consumer Cyclical",
+      "industry": "Apparel - Footwear & Accessories",
+      "action": "PT Change",
+      "analyst": "Stifel Nicolaus",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "50",
+      "pt_new": "45"
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "DKNG",
+      "company": "DraftKings Inc.",
+      "sector": "Consumer Cyclical",
+      "industry": "Gambling, Resorts & Casinos",
+      "action": "PT Change",
+      "analyst": "Susquehanna",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "31"
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "HIMS",
+      "company": "Hims & Hers Health, Inc.",
+      "sector": "Healthcare",
+      "industry": "Medical - Equipment & Services",
+      "action": "PT Change",
+      "analyst": "Canaccord Genuity",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "40"
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "MSTR",
+      "company": "Strategy Inc",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "action": "PT Change",
+      "analyst": "Canaccord Genuity",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "163",
+      "pt_new": "130"
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "PANW",
+      "company": "Palo Alto Networks, Inc.",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "action": "PT Change",
+      "analyst": "BTIG",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "333",
+      "pt_new": "380"
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "KDP",
+      "company": "Keurig Dr Pepper Inc.",
+      "sector": "Consumer Defensive",
+      "industry": "Beverages - Non-Alcoholic",
+      "action": "PT Change",
+      "analyst": "Wells Fargo",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "37"
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "HLMN",
+      "company": "Hillman Solutions Corp.",
+      "sector": "Industrials",
+      "industry": "Manufacturing - Tools & Accessories",
+      "action": "PT Change",
+      "analyst": "Canaccord Genuity",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "13"
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "AVAV",
+      "company": "AeroVironment, Inc.",
+      "sector": "Industrials",
+      "industry": "Aerospace & Defense",
+      "action": "PT Change",
+      "analyst": "Canaccord Genuity",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "280"
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "ROAD",
+      "company": "Construction Partners, Inc.",
+      "sector": "Industrials",
+      "industry": "Engineering & Construction",
+      "action": "PT Change",
+      "analyst": "Robert W. Baird",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "145"
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "IQV",
+      "company": "IQVIA Holdings Inc.",
+      "sector": "Healthcare",
+      "industry": "Medical - Diagnostics & Research",
+      "action": "PT Change",
+      "analyst": "Robert W. Baird",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "249"
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "NKE",
+      "company": "NIKE, Inc.",
+      "sector": "Consumer Cyclical",
+      "industry": "Apparel - Footwear & Accessories",
+      "action": "PT Change",
+      "analyst": "Wells Fargo",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "40"
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "NKE",
+      "company": "NIKE, Inc.",
+      "sector": "Consumer Cyclical",
+      "industry": "Apparel - Footwear & Accessories",
+      "action": "PT Change",
+      "analyst": "Barclays",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "52"
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "ZTS",
+      "company": "Zoetis Inc.",
+      "sector": "Healthcare",
+      "industry": "Drug Manufacturers - Specialty & Generic",
+      "action": "PT Change",
+      "analyst": "Barclays",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "85"
     },
     {
       "date": "2026-06-30",
@@ -6241,6 +7294,110 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "290"
+    },
+    {
+      "date": "2026-06-29",
+      "ticker": "SEI",
+      "company": "Solaris Energy Infrastructure, Inc.",
+      "sector": "Energy",
+      "industry": "Oil & Gas Equipment & Services",
+      "action": "PT Change",
+      "analyst": "Needham",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "97"
+    },
+    {
+      "date": "2026-06-29",
+      "ticker": "APP",
+      "company": "AppLovin Corporation",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "action": "PT Change",
+      "analyst": "Raymond James",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "640"
+    },
+    {
+      "date": "2026-06-29",
+      "ticker": "WBD",
+      "company": "Warner Bros. Discovery, Inc.",
+      "sector": "Communication Services",
+      "industry": "Entertainment",
+      "action": "PT Change",
+      "analyst": "Seaport Global",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "31"
+    },
+    {
+      "date": "2026-06-29",
+      "ticker": "CYTK",
+      "company": "Cytokinetics, Incorporated",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "action": "PT Change",
+      "analyst": "UBS",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "115"
+    },
+    {
+      "date": "2026-06-29",
+      "ticker": "MKSI",
+      "company": "MKS Inc.",
+      "sector": "Technology",
+      "industry": "Hardware, Equipment & Parts",
+      "action": "PT Change",
+      "analyst": "KeyBanc",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "475"
+    },
+    {
+      "date": "2026-06-29",
+      "ticker": "AMAT",
+      "company": "Applied Materials, Inc.",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "action": "PT Change",
+      "analyst": "KeyBanc",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "750"
+    },
+    {
+      "date": "2026-06-29",
+      "ticker": "HOOD",
+      "company": "Robinhood Markets, Inc.",
+      "sector": "Financial Services",
+      "industry": "Financial - Capital Markets",
+      "action": "PT Change",
+      "analyst": "Goldman Sachs",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "121"
+    },
+    {
+      "date": "2026-06-29",
+      "ticker": "PGR",
+      "company": "The Progressive Corporation",
+      "sector": "Financial Services",
+      "industry": "Insurance - Property & Casualty",
+      "action": "PT Change",
+      "analyst": "Wells Fargo",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "205"
     },
     {
       "date": "2026-06-27",
