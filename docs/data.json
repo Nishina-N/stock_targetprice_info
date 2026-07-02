@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-01T23:09:28Z",
-  "total": 9742,
+  "updated_at": "2026-07-02T02:49:32Z",
+  "total": 9748,
   "records": [
     {
       "date": "2026-07-01",
@@ -2458,6 +2458,58 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "84.5"
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "RMD",
+      "company": "ResMed Inc.",
+      "sector": "Healthcare",
+      "industry": "Medical - Instruments & Supplies",
+      "action": "Hold",
+      "analyst": "Goldman Sachs",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "KB",
+      "company": "KB Financial Group Inc.",
+      "sector": "Financial Services",
+      "industry": "Banks - Regional",
+      "action": "Hold",
+      "analyst": "Goldman Sachs",
+      "rating_prev": "Buy",
+      "rating_new": "Buy",
+      "pt_prev": "",
+      "pt_new": ""
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "NTES",
+      "company": "NetEase, Inc.",
+      "sector": "Technology",
+      "industry": "Electronic Gaming & Multimedia",
+      "action": "PT Change",
+      "analyst": "Goldman Sachs",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "169"
+    },
+    {
+      "date": "2026-07-01",
+      "ticker": "MSM",
+      "company": "MSC Industrial Direct Co., Inc.",
+      "sector": "Industrials",
+      "industry": "Industrial - Distribution",
+      "action": "PT Change",
+      "analyst": "Jefferies",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "130"
     },
     {
       "date": "2026-06-30",
@@ -7970,6 +8022,32 @@
       "rating_new": "",
       "pt_prev": "",
       "pt_new": "470"
+    },
+    {
+      "date": "2026-06-29",
+      "ticker": "ADI",
+      "company": "Analog Devices, Inc.",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "action": "PT Change",
+      "analyst": "Cantor Fitzgerald",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "550"
+    },
+    {
+      "date": "2026-06-29",
+      "ticker": "AEIS",
+      "company": "Advanced Energy Industries, Inc.",
+      "sector": "Industrials",
+      "industry": "Electrical Equipment & Parts",
+      "action": "PT Change",
+      "analyst": "Cantor Fitzgerald",
+      "rating_prev": "",
+      "rating_new": "",
+      "pt_prev": "",
+      "pt_new": "450"
     },
     {
       "date": "2026-06-27",
