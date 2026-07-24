@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-24T16:33:17Z",
-  "total": 22264,
+  "updated_at": "2026-07-24T18:14:57Z",
+  "total": 22266,
   "records": [
     {
       "transactionDate": "2026-07-23",
@@ -5563,6 +5563,24 @@
       "sharesOwned": 496680.0,
       "formType": "4",
       "link": "https://www.sec.gov/Archives/edgar/data/1804176/000110465926085497/0001104659-26-085497-index.htm"
+    },
+    {
+      "transactionDate": "2026-07-20",
+      "filingDate": "2026-07-24",
+      "ticker": "GDTC",
+      "company": "CytoMed Therapeutics Limited",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "insiderName": "Choo Chee Kong",
+      "role": "",
+      "transactionType": "P-Purchase",
+      "transactionLabel": "Buy",
+      "shares": 100000.0,
+      "price": 1.5,
+      "totalValue": 150000.0,
+      "sharesOwned": 630324.0,
+      "formType": "4",
+      "link": "https://www.sec.gov/Archives/edgar/data/1873093/000149315226034516/0001493152-26-034516-index.htm"
     },
     {
       "transactionDate": "2026-07-20",
@@ -28999,6 +29017,24 @@
       "sharesOwned": 4018735.0,
       "formType": "4",
       "link": "https://www.sec.gov/Archives/edgar/data/1855612/000185561226000119/0001855612-26-000119-index.htm"
+    },
+    {
+      "transactionDate": "2026-07-14",
+      "filingDate": "2026-07-24",
+      "ticker": "GDTC",
+      "company": "CytoMed Therapeutics Limited",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "insiderName": "Choo Chee Kong",
+      "role": "",
+      "transactionType": "P-Purchase",
+      "transactionLabel": "Buy",
+      "shares": 100000.0,
+      "price": 1.5,
+      "totalValue": 150000.0,
+      "sharesOwned": 530324.0,
+      "formType": "4",
+      "link": "https://www.sec.gov/Archives/edgar/data/1873093/000149315226034516/0001493152-26-034516-index.htm"
     },
     {
       "transactionDate": "2026-07-14",
