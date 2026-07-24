@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-24T10:59:17Z",
-  "total": 22253,
+  "updated_at": "2026-07-24T12:23:19Z",
+  "total": 22254,
   "records": [
     {
       "transactionDate": "2026-07-23",
@@ -559,6 +559,24 @@
       "sharesOwned": 27700.0,
       "formType": "4",
       "link": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526314995/0001193125-26-314995-index.htm"
+    },
+    {
+      "transactionDate": "2026-07-22",
+      "filingDate": "2026-07-24",
+      "ticker": "BMR",
+      "company": "Beamr Imaging Ltd.",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "insiderName": "Carmel Sharon",
+      "role": "Chief Executive Officer",
+      "transactionType": "P-Purchase",
+      "transactionLabel": "Buy",
+      "shares": 82650.0,
+      "price": 1.285,
+      "totalValue": 106205.25,
+      "sharesOwned": 3650840.0,
+      "formType": "4",
+      "link": "https://www.sec.gov/Archives/edgar/data/1899005/000121390026081115/0001213900-26-081115-index.htm"
     },
     {
       "transactionDate": "2026-07-22",
