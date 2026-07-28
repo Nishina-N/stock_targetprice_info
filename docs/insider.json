@@ -1,7 +1,25 @@
 {
-  "updated_at": "2026-07-28T16:03:12Z",
-  "total": 22593,
+  "updated_at": "2026-07-28T18:10:05Z",
+  "total": 22594,
   "records": [
+    {
+      "transactionDate": "2026-07-28",
+      "filingDate": "2026-07-28",
+      "ticker": "LOAN",
+      "company": "Manhattan Bridge Capital, Inc.",
+      "sector": "Real Estate",
+      "industry": "REIT - Mortgage",
+      "insiderName": "RAN ASSAF",
+      "role": "President And Ceo",
+      "transactionType": "P-Purchase",
+      "transactionLabel": "Buy",
+      "shares": 8000.0,
+      "price": 3.99,
+      "totalValue": 31920.0,
+      "sharesOwned": 1235000.0,
+      "formType": "4",
+      "link": "https://www.sec.gov/Archives/edgar/data/1080340/000149315226034977/0001493152-26-034977-index.htm"
+    },
     {
       "transactionDate": "2026-07-27",
       "filingDate": "2026-07-28",
@@ -4210,7 +4228,7 @@
       "shares": 6260.0,
       "price": 30.46,
       "totalValue": 190679.6,
-      "sharesOwned": 0.0,
+      "sharesOwned": 265318.0,
       "formType": "4",
       "link": "https://www.sec.gov/Archives/edgar/data/1104506/000140205126000042/0001402051-26-000042-index.htm"
     },
@@ -4228,7 +4246,7 @@
       "shares": 4440.0,
       "price": 17.16,
       "totalValue": 76190.4,
-      "sharesOwned": 0.0,
+      "sharesOwned": 269758.0,
       "formType": "4",
       "link": "https://www.sec.gov/Archives/edgar/data/1104506/000140205126000042/0001402051-26-000042-index.htm"
     },
