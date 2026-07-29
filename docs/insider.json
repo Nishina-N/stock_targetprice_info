@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-29T08:31:33Z",
-  "total": 22797,
+  "updated_at": "2026-07-29T11:21:02Z",
+  "total": 22798,
   "records": [
     {
       "transactionDate": "2026-07-28",
@@ -289,6 +289,24 @@
       "sharesOwned": 21679.8708,
       "formType": "4",
       "link": "https://www.sec.gov/Archives/edgar/data/1099800/000122520826006777/0001225208-26-006777-index.htm"
+    },
+    {
+      "transactionDate": "2026-07-27",
+      "filingDate": "2026-07-29",
+      "ticker": "GLSI",
+      "company": "Greenwich LifeSciences, Inc.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "insiderName": "Patel Snehal",
+      "role": "Ceo And Cfo",
+      "transactionType": "P-Purchase",
+      "transactionLabel": "Buy",
+      "shares": 1500.0,
+      "price": 13.62,
+      "totalValue": 20430.0,
+      "sharesOwned": 5609202.0,
+      "formType": "4",
+      "link": "https://www.sec.gov/Archives/edgar/data/1799788/000149315226035085/0001493152-26-035085-index.htm"
     },
     {
       "transactionDate": "2026-07-27",
