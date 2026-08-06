@@ -1,7 +1,25 @@
 {
-  "updated_at": "2026-08-06T08:27:07Z",
-  "total": 25574,
+  "updated_at": "2026-08-06T11:17:24Z",
+  "total": 25576,
   "records": [
+    {
+      "transactionDate": "2026-08-05",
+      "filingDate": "2026-08-06",
+      "ticker": "TM",
+      "company": "Toyota Motor Corporation",
+      "sector": "Consumer Cyclical",
+      "industry": "Auto - Manufacturers",
+      "insiderName": "Kon Kenta",
+      "role": "President",
+      "transactionType": "P-Purchase",
+      "transactionLabel": "Buy",
+      "shares": 85000.0,
+      "price": 18.41,
+      "totalValue": 1564850.0,
+      "sharesOwned": 148100.0,
+      "formType": "4",
+      "link": "https://www.sec.gov/Archives/edgar/data/1094517/000094787126000750/0000947871-26-000750-index.htm"
+    },
     {
       "transactionDate": "2026-08-05",
       "filingDate": "2026-08-05",
@@ -1459,6 +1477,24 @@
       "sharesOwned": 4207105.0,
       "formType": "4",
       "link": "https://www.sec.gov/Archives/edgar/data/1828962/000185156426000030/0001851564-26-000030-index.htm"
+    },
+    {
+      "transactionDate": "2026-08-04",
+      "filingDate": "2026-08-06",
+      "ticker": "CHKP",
+      "company": "Check Point Software Technologies Ltd.",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "insiderName": "Seddik Sherif",
+      "role": "Chief Revenue Officer",
+      "transactionType": "S-Sale",
+      "transactionLabel": "Sell",
+      "shares": 10272.0,
+      "price": 123.5889,
+      "totalValue": 1269505.18,
+      "sharesOwned": 24675.0,
+      "formType": "4",
+      "link": "https://www.sec.gov/Archives/edgar/data/1015922/000117891326003885/0001178913-26-003885-index.htm"
     },
     {
       "transactionDate": "2026-08-04",
