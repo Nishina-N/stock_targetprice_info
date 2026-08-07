@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-07T11:41:17Z",
-  "total": 26128,
+  "updated_at": "2026-08-07T12:52:26Z",
+  "total": 26129,
   "records": [
     {
       "transactionDate": "2026-08-06",
@@ -829,6 +829,24 @@
       "sharesOwned": 14500.0,
       "formType": "4",
       "link": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526339004/0001193125-26-339004-index.htm"
+    },
+    {
+      "transactionDate": "2026-08-05",
+      "filingDate": "2026-08-07",
+      "ticker": "IDCC",
+      "company": "InterDigital, Inc.",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "insiderName": "Pankaj Rajesh",
+      "role": "Chief Technology Officer",
+      "transactionType": "S-Sale",
+      "transactionLabel": "Sell",
+      "shares": 1500.0,
+      "price": 324.88,
+      "totalValue": 487320.0,
+      "sharesOwned": 66515.7125,
+      "formType": "4",
+      "link": "https://www.sec.gov/Archives/edgar/data/1405495/000162828026054590/0001628280-26-054590-index.htm"
     },
     {
       "transactionDate": "2026-08-05",
