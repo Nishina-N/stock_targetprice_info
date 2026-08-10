@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-10T12:56:39Z",
-  "total": 26750,
+  "updated_at": "2026-08-10T14:19:12Z",
+  "total": 26752,
   "records": [
     {
       "transactionDate": "2026-08-07",
@@ -847,6 +847,24 @@
       "sharesOwned": 8435.0,
       "formType": "4",
       "link": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000479/0001046179-26-000479-index.htm"
+    },
+    {
+      "transactionDate": "2026-08-07",
+      "filingDate": "2026-08-10",
+      "ticker": "WEYS",
+      "company": "Weyco Group, Inc.",
+      "sector": "Consumer Cyclical",
+      "industry": "Apparel - Footwear & Accessories",
+      "insiderName": "Schiff Kevin",
+      "role": "Vp, President - Florsheim",
+      "transactionType": "S-Sale",
+      "transactionLabel": "Sell",
+      "shares": 1191.0,
+      "price": 45.3215,
+      "totalValue": 53977.91,
+      "sharesOwned": 27733.0,
+      "formType": "4",
+      "link": "https://www.sec.gov/Archives/edgar/data/106532/000169164626000004/0001691646-26-000004-index.htm"
     },
     {
       "transactionDate": "2026-08-07",
@@ -479593,6 +479611,24 @@
       "sharesOwned": 266.0,
       "formType": "4",
       "link": "https://www.sec.gov/Archives/edgar/data/1690820/000108801126000004/0001088011-26-000004-index.htm"
+    },
+    {
+      "transactionDate": "2026-02-06",
+      "filingDate": "2026-08-10",
+      "ticker": "BR",
+      "company": "Broadridge Financial Solutions, Inc.",
+      "sector": "Technology",
+      "industry": "Information Technology Services",
+      "insiderName": "Duelks Robert N",
+      "role": "Director",
+      "transactionType": "S-Sale",
+      "transactionLabel": "Sell",
+      "shares": 253.0,
+      "price": 192.6,
+      "totalValue": 48727.8,
+      "sharesOwned": 8600.0,
+      "formType": "4/A",
+      "link": "https://www.sec.gov/Archives/edgar/data/1383312/000122520826007037/0001225208-26-007037-index.htm"
     },
     {
       "transactionDate": "2026-02-03",
