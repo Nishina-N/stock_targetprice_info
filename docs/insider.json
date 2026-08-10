@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-10T15:55:35Z",
-  "total": 26758,
+  "updated_at": "2026-08-10T16:50:52Z",
+  "total": 26760,
   "records": [
     {
       "transactionDate": "2026-08-07",
@@ -865,6 +865,42 @@
       "sharesOwned": 27733.0,
       "formType": "4",
       "link": "https://www.sec.gov/Archives/edgar/data/106532/000169164626000004/0001691646-26-000004-index.htm"
+    },
+    {
+      "transactionDate": "2026-08-07",
+      "filingDate": "2026-08-10",
+      "ticker": "SON",
+      "company": "Sonoco Products Company",
+      "sector": "Consumer Cyclical",
+      "industry": "Packaging & Containers",
+      "insiderName": "Coker R. Howard",
+      "role": "President & Ceo",
+      "transactionType": "P-Purchase",
+      "transactionLabel": "Buy",
+      "shares": 4345.0,
+      "price": 57.4099,
+      "totalValue": 249446.02,
+      "sharesOwned": 546937.0,
+      "formType": "4",
+      "link": "https://www.sec.gov/Archives/edgar/data/91767/000122520826007040/0001225208-26-007040-index.htm"
+    },
+    {
+      "transactionDate": "2026-08-07",
+      "filingDate": "2026-08-10",
+      "ticker": "ARCB",
+      "company": "ArcBest Corporation",
+      "sector": "Industrials",
+      "industry": "Trucking",
+      "insiderName": "MCREYNOLDS JUDY R",
+      "role": "Director",
+      "transactionType": "S-Sale",
+      "transactionLabel": "Sell",
+      "shares": 2857.0,
+      "price": 138.98,
+      "totalValue": 397065.86,
+      "sharesOwned": 50048.14,
+      "formType": "4",
+      "link": "https://www.sec.gov/Archives/edgar/data/894405/000119300426000008/0001193004-26-000008-index.htm"
     },
     {
       "transactionDate": "2026-08-07",
