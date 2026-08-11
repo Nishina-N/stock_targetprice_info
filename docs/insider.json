@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-11T15:56:20Z",
-  "total": 27267,
+  "updated_at": "2026-08-11T16:55:28Z",
+  "total": 27269,
   "records": [
     {
       "transactionDate": "2026-08-10",
@@ -397,6 +397,24 @@
       "sharesOwned": 1237687.0,
       "formType": "4",
       "link": "https://www.sec.gov/Archives/edgar/data/1793663/000119312526343692/0001193125-26-343692-index.htm"
+    },
+    {
+      "transactionDate": "2026-08-10",
+      "filingDate": "2026-08-11",
+      "ticker": "KO",
+      "company": "The Coca-Cola Company",
+      "sector": "Consumer Defensive",
+      "industry": "Beverages - Non-Alcoholic",
+      "insiderName": "Ray Sanket",
+      "role": "President Inswa",
+      "transactionType": "S-Sale",
+      "transactionLabel": "Sell",
+      "shares": 9958.0,
+      "price": 86.5,
+      "totalValue": 861367.0,
+      "sharesOwned": 62105.0,
+      "formType": "4",
+      "link": "https://www.sec.gov/Archives/edgar/data/21344/000002134426000163/0000021344-26-000163-index.htm"
     },
     {
       "transactionDate": "2026-08-10",
@@ -36469,6 +36487,24 @@
       "sharesOwned": 32842.0,
       "formType": "4",
       "link": "https://www.sec.gov/Archives/edgar/data/1169770/000200147426000006/0002001474-26-000006-index.htm"
+    },
+    {
+      "transactionDate": "2026-08-03",
+      "filingDate": "2026-08-11",
+      "ticker": "LMNR",
+      "company": "Limoneira Company",
+      "sector": "Consumer Defensive",
+      "industry": "Agricultural Farm Products",
+      "insiderName": "Hamm Gregory C.",
+      "role": "Vp, Cfo And Treasurer",
+      "transactionType": "S-Sale",
+      "transactionLabel": "Sell",
+      "shares": 1000.0,
+      "price": 12.9855,
+      "totalValue": 12985.5,
+      "sharesOwned": 86812.0,
+      "formType": "4",
+      "link": "https://www.sec.gov/Archives/edgar/data/1342423/000110465926093921/0001104659-26-093921-index.htm"
     },
     {
       "transactionDate": "2026-08-03",
