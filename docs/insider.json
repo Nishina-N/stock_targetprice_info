@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-11T11:39:58Z",
-  "total": 27244,
+  "updated_at": "2026-08-11T12:52:39Z",
+  "total": 27247,
   "records": [
     {
       "transactionDate": "2026-08-10",
@@ -199,6 +199,24 @@
       "sharesOwned": 96478.371,
       "formType": "4",
       "link": "https://www.sec.gov/Archives/edgar/data/763901/000119312526343400/0001193125-26-343400-index.htm"
+    },
+    {
+      "transactionDate": "2026-08-10",
+      "filingDate": "2026-08-11",
+      "ticker": "VIAV",
+      "company": "Viavi Solutions Inc.",
+      "sector": "Technology",
+      "industry": "Communication Equipment",
+      "insiderName": "McNab Paul",
+      "role": "Evp, Chief Mktg & Stgy Officer",
+      "transactionType": "S-Sale",
+      "transactionLabel": "Sell",
+      "shares": 1595.0,
+      "price": 37.37,
+      "totalValue": 59605.15,
+      "sharesOwned": 13876.0,
+      "formType": "4",
+      "link": "https://www.sec.gov/Archives/edgar/data/912093/000091209326000056/0000912093-26-000056-index.htm"
     },
     {
       "transactionDate": "2026-08-10",
@@ -1945,6 +1963,42 @@
       "sharesOwned": 27878.0,
       "formType": "4",
       "link": "https://www.sec.gov/Archives/edgar/data/821483/000143774926026853/0001437749-26-026853-index.htm"
+    },
+    {
+      "transactionDate": "2026-08-07",
+      "filingDate": "2026-08-11",
+      "ticker": "SWIM",
+      "company": "Latham Group, Inc.",
+      "sector": "Industrials",
+      "industry": "Construction",
+      "insiderName": "Kunchala Suraj",
+      "role": "Vice President & Controller",
+      "transactionType": "M-Exempt",
+      "transactionLabel": "Option",
+      "shares": 13483.0,
+      "price": 3.24,
+      "totalValue": 43684.92,
+      "sharesOwned": 4495.0,
+      "formType": "4",
+      "link": "https://www.sec.gov/Archives/edgar/data/1833197/000185176326000010/0001851763-26-000010-index.htm"
+    },
+    {
+      "transactionDate": "2026-08-07",
+      "filingDate": "2026-08-11",
+      "ticker": "CPS",
+      "company": "Cooper-Standard Holdings Inc.",
+      "sector": "Consumer Cyclical",
+      "industry": "Auto - Parts",
+      "insiderName": "Kanary MaryAnn Peterson",
+      "role": "See Remarks",
+      "transactionType": "M-Exempt",
+      "transactionLabel": "Option",
+      "shares": 3619.0,
+      "price": 0.0,
+      "totalValue": 0.0,
+      "sharesOwned": 0.0,
+      "formType": "4",
+      "link": "https://www.sec.gov/Archives/edgar/data/1320461/000132046126000116/0001320461-26-000116-index.htm"
     },
     {
       "transactionDate": "2026-08-07",
