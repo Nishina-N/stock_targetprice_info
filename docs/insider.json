@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-11T10:47:40Z",
-  "total": 27243,
+  "updated_at": "2026-08-11T11:39:58Z",
+  "total": 27244,
   "records": [
     {
       "transactionDate": "2026-08-10",
@@ -181,6 +181,24 @@
       "sharesOwned": 104065.0,
       "formType": "4",
       "link": "https://www.sec.gov/Archives/edgar/data/1086434/000197640826000714/0001976408-26-000714-index.htm"
+    },
+    {
+      "transactionDate": "2026-08-10",
+      "filingDate": "2026-08-11",
+      "ticker": "BPOP",
+      "company": "Popular, Inc.",
+      "sector": "Financial Services",
+      "industry": "Banks - Regional",
+      "insiderName": "FERRER JAVIER D.",
+      "role": "President & Ceo",
+      "transactionType": "S-Sale",
+      "transactionLabel": "Sell",
+      "shares": 35000.0,
+      "price": 175.433,
+      "totalValue": 6140155.0,
+      "sharesOwned": 96478.371,
+      "formType": "4",
+      "link": "https://www.sec.gov/Archives/edgar/data/763901/000119312526343400/0001193125-26-343400-index.htm"
     },
     {
       "transactionDate": "2026-08-10",
@@ -1564,7 +1582,7 @@
       "shares": 2168.0,
       "price": 0.0,
       "totalValue": 0.0,
-      "sharesOwned": 2168.0,
+      "sharesOwned": 11824.0,
       "formType": "4",
       "link": "https://www.sec.gov/Archives/edgar/data/1262823/000119312526342006/0001193125-26-342006-index.htm"
     },
