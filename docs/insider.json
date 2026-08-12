@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-12T09:56:55Z",
+  "updated_at": "2026-08-12T10:59:11Z",
   "total": 27864,
   "records": [
     {
@@ -8726,11 +8726,11 @@
       "transactionType": "S-Sale",
       "transactionLabel": "Sell",
       "shares": 240.0,
-      "price": 829.74,
-      "totalValue": 199137.6,
-      "sharesOwned": 21823.25,
+      "price": 850.0417,
+      "totalValue": 204010.01,
+      "sharesOwned": 20663.25,
       "formType": "4",
-      "link": "https://www.sec.gov/Archives/edgar/data/1137789/000113778926000170/0001137789-26-000170-index.htm"
+      "link": "https://www.sec.gov/Archives/edgar/data/1137789/000113778926000171/0001137789-26-000171-index.htm"
     },
     {
       "transactionDate": "2026-08-07",
@@ -8996,9 +8996,9 @@
       "transactionType": "S-Sale",
       "transactionLabel": "Sell",
       "shares": 280.0,
-      "price": 831.2486,
-      "totalValue": 232749.61,
-      "sharesOwned": 21543.25,
+      "price": 817.7414,
+      "totalValue": 228967.59,
+      "sharesOwned": 24783.25,
       "formType": "4",
       "link": "https://www.sec.gov/Archives/edgar/data/1137789/000113778926000170/0001137789-26-000170-index.htm"
     },
