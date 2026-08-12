@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-12T11:52:05Z",
+  "updated_at": "2026-08-12T12:57:38Z",
   "total": 27868,
   "records": [
     {
@@ -8816,9 +8816,9 @@
       "transactionType": "S-Sale",
       "transactionLabel": "Sell",
       "shares": 320.0,
-      "price": 815.4988,
-      "totalValue": 260959.62,
-      "sharesOwned": 25543.25,
+      "price": 799.6438,
+      "totalValue": 255886.02,
+      "sharesOwned": 35314.25,
       "formType": "4",
       "link": "https://www.sec.gov/Archives/edgar/data/1137789/000113778926000170/0001137789-26-000170-index.htm"
     },
