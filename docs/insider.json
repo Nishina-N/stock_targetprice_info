@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-13T18:56:34Z",
-  "total": 28688,
+  "updated_at": "2026-08-13T19:54:43Z",
+  "total": 28690,
   "records": [
     {
       "transactionDate": "2026-08-13",
@@ -1261,6 +1261,24 @@
       "sharesOwned": 12799.0,
       "formType": "4",
       "link": "https://www.sec.gov/Archives/edgar/data/108385/000175517126000002/0001755171-26-000002-index.htm"
+    },
+    {
+      "transactionDate": "2026-08-12",
+      "filingDate": "2026-08-13",
+      "ticker": "TDY",
+      "company": "Teledyne Technologies Incorporated",
+      "sector": "Technology",
+      "industry": "Hardware, Equipment & Parts",
+      "insiderName": "VON SCHACK WESLEY W",
+      "role": "Director",
+      "transactionType": "S-Sale",
+      "transactionLabel": "Sell",
+      "shares": 468.0,
+      "price": 686.63,
+      "totalValue": 321342.84,
+      "sharesOwned": 10902.0,
+      "formType": "4",
+      "link": "https://www.sec.gov/Archives/edgar/data/1094285/000102535526000006/0001025355-26-000006-index.htm"
     },
     {
       "transactionDate": "2026-08-12",
@@ -3151,6 +3169,24 @@
       "sharesOwned": 11193.6907,
       "formType": "4",
       "link": "https://www.sec.gov/Archives/edgar/data/24090/000212086526000007/0002120865-26-000007-index.htm"
+    },
+    {
+      "transactionDate": "2026-08-11",
+      "filingDate": "2026-08-13",
+      "ticker": "LEU",
+      "company": "Centrus Energy Corp.",
+      "sector": "Energy",
+      "industry": "Uranium",
+      "insiderName": "TINELLI TODD M",
+      "role": "Svp, Cfo & Treasurer",
+      "transactionType": "M-Exempt",
+      "transactionLabel": "Option",
+      "shares": 456.0,
+      "price": 0.0,
+      "totalValue": 0.0,
+      "sharesOwned": 1474.0,
+      "formType": "4",
+      "link": "https://www.sec.gov/Archives/edgar/data/1065059/000162828026056649/0001628280-26-056649-index.htm"
     },
     {
       "transactionDate": "2026-08-11",
@@ -6370,7 +6406,7 @@
       "shares": 10321.0,
       "price": 0.0,
       "totalValue": 0.0,
-      "sharesOwned": 183537.0,
+      "sharesOwned": 155864.0,
       "formType": "4",
       "link": "https://www.sec.gov/Archives/edgar/data/23197/000127469826000008/0001274698-26-000008-index.htm"
     },
