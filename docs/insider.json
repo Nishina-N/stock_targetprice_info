@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-14T10:54:32Z",
-  "total": 29056,
+  "updated_at": "2026-08-14T11:40:40Z",
+  "total": 29057,
   "records": [
     {
       "transactionDate": "2026-08-13",
@@ -19,6 +19,24 @@
       "sharesOwned": 71079.0,
       "formType": "4",
       "link": "https://www.sec.gov/Archives/edgar/data/1821468/000119312526350208/0001193125-26-350208-index.htm"
+    },
+    {
+      "transactionDate": "2026-08-13",
+      "filingDate": "2026-08-14",
+      "ticker": "NICE",
+      "company": "NICE Ltd.",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "insiderName": "Simon Zehava",
+      "role": "Director",
+      "transactionType": "M-Exempt",
+      "transactionLabel": "Option",
+      "shares": 554.0,
+      "price": 0.3076,
+      "totalValue": 170.41,
+      "sharesOwned": 0.0,
+      "formType": "4",
+      "link": "https://www.sec.gov/Archives/edgar/data/1003935/000117891326004132/0001178913-26-004132-index.htm"
     },
     {
       "transactionDate": "2026-08-13",
