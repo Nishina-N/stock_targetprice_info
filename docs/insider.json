@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-14T01:27:22Z",
-  "total": 29049,
+  "updated_at": "2026-08-14T04:02:45Z",
+  "total": 29050,
   "records": [
     {
       "transactionDate": "2026-08-13",
@@ -9577,6 +9577,24 @@
       "sharesOwned": 72588.0,
       "formType": "4",
       "link": "https://www.sec.gov/Archives/edgar/data/1192448/000170585026000022/0001705850-26-000022-index.htm"
+    },
+    {
+      "transactionDate": "2026-08-11",
+      "filingDate": "2026-08-13",
+      "ticker": "SKYH",
+      "company": "Sky Harbour Group Corporation",
+      "sector": "Industrials",
+      "industry": "Aerospace & Defense",
+      "insiderName": "BOSTON OMAHA Corp",
+      "role": "10 Percent Owner",
+      "transactionType": "S-Sale",
+      "transactionLabel": "Sell",
+      "shares": 360000.0,
+      "price": 10.0,
+      "totalValue": 3600000.0,
+      "sharesOwned": 8306163.0,
+      "formType": "4",
+      "link": "https://www.sec.gov/Archives/edgar/data/1494582/000143774926027810/0001437749-26-027810-index.htm"
     },
     {
       "transactionDate": "2026-08-11",
