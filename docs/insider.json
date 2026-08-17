@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-17T10:26:43Z",
-  "total": 29650,
+  "updated_at": "2026-08-17T11:20:17Z",
+  "total": 29652,
   "records": [
     {
       "transactionDate": "2026-08-14",
@@ -379,6 +379,24 @@
       "sharesOwned": 136490.0,
       "formType": "4",
       "link": "https://www.sec.gov/Archives/edgar/data/1041934/000182912626008920/0001829126-26-008920-index.htm"
+    },
+    {
+      "transactionDate": "2026-08-14",
+      "filingDate": "2026-08-17",
+      "ticker": "BORR",
+      "company": "Borr Drilling Limited",
+      "sector": "Energy",
+      "industry": "Oil & Gas Drilling",
+      "insiderName": "Troim Tor Olav",
+      "role": "Director",
+      "transactionType": "P-Purchase",
+      "transactionLabel": "Buy",
+      "shares": 500000.0,
+      "price": 4.3868,
+      "totalValue": 2193400.0,
+      "sharesOwned": 29185941.0,
+      "formType": "4",
+      "link": "https://www.sec.gov/Archives/edgar/data/1715497/000162828026057216/0001628280-26-057216-index.htm"
     },
     {
       "transactionDate": "2026-08-14",
@@ -2215,6 +2233,24 @@
       "sharesOwned": 269220.0,
       "formType": "4",
       "link": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526353146/0001193125-26-353146-index.htm"
+    },
+    {
+      "transactionDate": "2026-08-13",
+      "filingDate": "2026-08-17",
+      "ticker": "VFC",
+      "company": "V.F. Corporation",
+      "sector": "Consumer Cyclical",
+      "industry": "Apparel - Manufacturers",
+      "insiderName": "Carucci Richard",
+      "role": "Director",
+      "transactionType": "P-Purchase",
+      "transactionLabel": "Buy",
+      "shares": 20000.0,
+      "price": 14.73,
+      "totalValue": 294600.0,
+      "sharesOwned": 356215.152,
+      "formType": "4",
+      "link": "https://www.sec.gov/Archives/edgar/data/103379/000010337926000120/0000103379-26-000120-index.htm"
     },
     {
       "transactionDate": "2026-08-13",
