@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-17T17:22:03Z",
-  "total": 29719,
+  "updated_at": "2026-08-17T18:31:46Z",
+  "total": 29722,
   "records": [
     {
       "transactionDate": "2026-08-17",
@@ -3457,6 +3457,60 @@
       "sharesOwned": 17834.0,
       "formType": "4",
       "link": "https://www.sec.gov/Archives/edgar/data/724004/000072400426000085/0000724004-26-000085-index.htm"
+    },
+    {
+      "transactionDate": "2026-08-13",
+      "filingDate": "2026-08-17",
+      "ticker": "GRNT",
+      "company": "Granite Ridge Resources, Inc",
+      "sector": "Energy",
+      "industry": "Oil & Gas Exploration & Production",
+      "insiderName": "MCCARTNEY JOHN",
+      "role": "Director",
+      "transactionType": "P-Purchase",
+      "transactionLabel": "Buy",
+      "shares": 2000.0,
+      "price": 5.0,
+      "totalValue": 10000.0,
+      "sharesOwned": 149143.0,
+      "formType": "4",
+      "link": "https://www.sec.gov/Archives/edgar/data/1928446/000162828026057291/0001628280-26-057291-index.htm"
+    },
+    {
+      "transactionDate": "2026-08-13",
+      "filingDate": "2026-08-17",
+      "ticker": "SONY",
+      "company": "Sony Group Corporation",
+      "sector": "Technology",
+      "industry": "Consumer Electronics",
+      "insiderName": "Tanaka Kenji",
+      "role": "See Remarks",
+      "transactionType": "M-Exempt",
+      "transactionLabel": "Option",
+      "shares": 6500.0,
+      "price": 8.08,
+      "totalValue": 52520.0,
+      "sharesOwned": 0.0,
+      "formType": "4",
+      "link": "https://www.sec.gov/Archives/edgar/data/313838/000119312526353728/0001193125-26-353728-index.htm"
+    },
+    {
+      "transactionDate": "2026-08-13",
+      "filingDate": "2026-08-17",
+      "ticker": "SONY",
+      "company": "Sony Group Corporation",
+      "sector": "Technology",
+      "industry": "Consumer Electronics",
+      "insiderName": "Tanaka Kenji",
+      "role": "See Remarks",
+      "transactionType": "M-Exempt",
+      "transactionLabel": "Option",
+      "shares": 2500.0,
+      "price": 8.41,
+      "totalValue": 21025.0,
+      "sharesOwned": 12500.0,
+      "formType": "4",
+      "link": "https://www.sec.gov/Archives/edgar/data/313838/000119312526353728/0001193125-26-353728-index.htm"
     },
     {
       "transactionDate": "2026-08-13",
@@ -9772,7 +9826,7 @@
       "shares": 5781.0,
       "price": 0.0,
       "totalValue": 0.0,
-      "sharesOwned": 11563.0,
+      "sharesOwned": 30336.0,
       "formType": "4",
       "link": "https://www.sec.gov/Archives/edgar/data/1710072/000185352926000002/0001853529-26-000002-index.htm"
     },
