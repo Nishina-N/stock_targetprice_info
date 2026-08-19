@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-19T10:22:46Z",
-  "total": 31316,
+  "updated_at": "2026-08-19T11:20:10Z",
+  "total": 31318,
   "records": [
     {
       "transactionDate": "2026-08-18",
@@ -1711,6 +1711,42 @@
       "sharesOwned": 310000.0,
       "formType": "4",
       "link": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526356052/0001193125-26-356052-index.htm"
+    },
+    {
+      "transactionDate": "2026-08-17",
+      "filingDate": "2026-08-19",
+      "ticker": "QTRX",
+      "company": "Quanterix Corporation",
+      "sector": "Healthcare",
+      "industry": "Medical - Devices",
+      "insiderName": "DONNELLY WILLIAM P",
+      "role": "Director",
+      "transactionType": "M-Exempt",
+      "transactionLabel": "Option",
+      "shares": 2802.0,
+      "price": 0.0,
+      "totalValue": 0.0,
+      "sharesOwned": 0.0,
+      "formType": "4",
+      "link": "https://www.sec.gov/Archives/edgar/data/1503274/000120792826000009/0001207928-26-000009-index.htm"
+    },
+    {
+      "transactionDate": "2026-08-17",
+      "filingDate": "2026-08-19",
+      "ticker": "SBLK",
+      "company": "Star Bulk Carriers Corp.",
+      "sector": "Industrials",
+      "industry": "Marine Shipping",
+      "insiderName": "Plakantonaki Charis",
+      "role": "Chief Strategy Officer",
+      "transactionType": "S-Sale",
+      "transactionLabel": "Sell",
+      "shares": 10825.0,
+      "price": 29.8201,
+      "totalValue": 322802.58,
+      "sharesOwned": 55778.0,
+      "formType": "4",
+      "link": "https://www.sec.gov/Archives/edgar/data/1386716/000197860426000007/0001978604-26-000007-index.htm"
     },
     {
       "transactionDate": "2026-08-17",
