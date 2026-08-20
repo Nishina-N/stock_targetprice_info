@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-20T10:23:51Z",
-  "total": 32080,
+  "updated_at": "2026-08-20T11:21:14Z",
+  "total": 32081,
   "records": [
     {
       "transactionDate": "2026-08-19",
@@ -235,6 +235,24 @@
       "sharesOwned": 40095.0,
       "formType": "4",
       "link": "https://www.sec.gov/Archives/edgar/data/78150/000119312526357691/0001193125-26-357691-index.htm"
+    },
+    {
+      "transactionDate": "2026-08-19",
+      "filingDate": "2026-08-20",
+      "ticker": "FLUT",
+      "company": "Flutter Entertainment plc",
+      "sector": "Consumer Cyclical",
+      "industry": "Gambling, Resorts & Casinos",
+      "insiderName": "Jackson Jeremy Peter",
+      "role": "Chief Executive Officer",
+      "transactionType": "S-Sale",
+      "transactionLabel": "Sell",
+      "shares": 2112.0,
+      "price": 93.3166,
+      "totalValue": 197084.66,
+      "sharesOwned": 72214.0,
+      "formType": "4",
+      "link": "https://www.sec.gov/Archives/edgar/data/1635327/000201279126000013/0002012791-26-000013-index.htm"
     },
     {
       "transactionDate": "2026-08-19",
