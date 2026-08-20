@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-20T13:41:35Z",
-  "total": 32131,
+  "updated_at": "2026-08-20T14:30:40Z",
+  "total": 32132,
   "records": [
     {
       "transactionDate": "2026-08-19",
@@ -2755,6 +2755,24 @@
       "sharesOwned": 50830490.0,
       "formType": "4",
       "link": "https://www.sec.gov/Archives/edgar/data/1783464/000110465926099029/0001104659-26-099029-index.htm"
+    },
+    {
+      "transactionDate": "2026-08-18",
+      "filingDate": "2026-08-20",
+      "ticker": "CBL",
+      "company": "CBL & Associates Properties, Inc.",
+      "sector": "Real Estate",
+      "industry": "REIT - Retail",
+      "insiderName": "Reinsmidt Kathryn A.",
+      "role": "Evp - Chief Operating Officer",
+      "transactionType": "S-Sale",
+      "transactionLabel": "Sell",
+      "shares": 17515.0,
+      "price": 57.102,
+      "totalValue": 1000141.53,
+      "sharesOwned": 138539.0,
+      "formType": "4",
+      "link": "https://www.sec.gov/Archives/edgar/data/910612/000119312526358328/0001193125-26-358328-index.htm"
     },
     {
       "transactionDate": "2026-08-18",
@@ -13912,7 +13930,7 @@
       "shares": 4100.0,
       "price": 88.2,
       "totalValue": 361620.0,
-      "sharesOwned": 0.0,
+      "sharesOwned": 4114.0,
       "formType": "4",
       "link": "https://www.sec.gov/Archives/edgar/data/93410/000009341026000175/0000093410-26-000175-index.htm"
     },
@@ -13930,7 +13948,7 @@
       "shares": 12700.0,
       "price": 132.69,
       "totalValue": 1685163.0,
-      "sharesOwned": 0.0,
+      "sharesOwned": 16814.0,
       "formType": "4",
       "link": "https://www.sec.gov/Archives/edgar/data/93410/000009341026000175/0000093410-26-000175-index.htm"
     },
