@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-20T14:30:40Z",
-  "total": 32132,
+  "updated_at": "2026-08-20T15:28:05Z",
+  "total": 32136,
   "records": [
     {
       "transactionDate": "2026-08-19",
@@ -451,6 +451,42 @@
       "sharesOwned": 22427.0,
       "formType": "4",
       "link": "https://www.sec.gov/Archives/edgar/data/1045450/000190048226000003/0001900482-26-000003-index.htm"
+    },
+    {
+      "transactionDate": "2026-08-19",
+      "filingDate": "2026-08-20",
+      "ticker": "UMH",
+      "company": "UMH Properties, Inc.",
+      "sector": "Real Estate",
+      "industry": "REIT - Residential",
+      "insiderName": "Carus Jeffrey A",
+      "role": "Director",
+      "transactionType": "P-Purchase",
+      "transactionLabel": "Buy",
+      "shares": 500.0,
+      "price": 16.46,
+      "totalValue": 8230.0,
+      "sharesOwned": 500.0,
+      "formType": "4",
+      "link": "https://www.sec.gov/Archives/edgar/data/752642/000075264226000096/0000752642-26-000096-index.htm"
+    },
+    {
+      "transactionDate": "2026-08-19",
+      "filingDate": "2026-08-20",
+      "ticker": "IBCP",
+      "company": "Independent Bank Corporation",
+      "sector": "Financial Services",
+      "industry": "Banks - Regional",
+      "insiderName": "Kreter Kristopher",
+      "role": "First Vice Pres. & Controller",
+      "transactionType": "S-Sale",
+      "transactionLabel": "Sell",
+      "shares": 300.0,
+      "price": 37.11,
+      "totalValue": 11133.0,
+      "sharesOwned": 2207.0,
+      "formType": "4",
+      "link": "https://www.sec.gov/Archives/edgar/data/39311/000193375026000003/0001933750-26-000003-index.htm"
     },
     {
       "transactionDate": "2026-08-19",
@@ -2773,6 +2809,42 @@
       "sharesOwned": 138539.0,
       "formType": "4",
       "link": "https://www.sec.gov/Archives/edgar/data/910612/000119312526358328/0001193125-26-358328-index.htm"
+    },
+    {
+      "transactionDate": "2026-08-18",
+      "filingDate": "2026-08-20",
+      "ticker": "FFIN",
+      "company": "First Financial Bankshares, Inc.",
+      "sector": "Financial Services",
+      "industry": "Banks - Regional",
+      "insiderName": "Denny Michael B.",
+      "role": "Director",
+      "transactionType": "P-Purchase",
+      "transactionLabel": "Buy",
+      "shares": 3000.0,
+      "price": 34.66,
+      "totalValue": 103980.0,
+      "sharesOwned": 6500.0,
+      "formType": "4",
+      "link": "https://www.sec.gov/Archives/edgar/data/36029/000119312526358683/0001193125-26-358683-index.htm"
+    },
+    {
+      "transactionDate": "2026-08-18",
+      "filingDate": "2026-08-20",
+      "ticker": "RVSB",
+      "company": "Riverview Bancorp, Inc.",
+      "sector": "Financial Services",
+      "industry": "Banks - Regional",
+      "insiderName": "Carlson Bradley",
+      "role": "Director",
+      "transactionType": "P-Purchase",
+      "transactionLabel": "Buy",
+      "shares": 1000.0,
+      "price": 5.07,
+      "totalValue": 5070.0,
+      "sharesOwned": 23421.0,
+      "formType": "4",
+      "link": "https://www.sec.gov/Archives/edgar/data/1041368/000162929226000002/0001629292-26-000002-index.htm"
     },
     {
       "transactionDate": "2026-08-18",
@@ -22714,7 +22786,7 @@
       "shares": 9352.0,
       "price": 0.0,
       "totalValue": 0.0,
-      "sharesOwned": 47575.0,
+      "sharesOwned": 470879.0,
       "formType": "4",
       "link": "https://www.sec.gov/Archives/edgar/data/1018724/000193600626000020/0001936006-26-000020-index.htm"
     },
