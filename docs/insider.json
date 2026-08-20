@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-20T17:23:40Z",
-  "total": 32155,
+  "updated_at": "2026-08-20T18:31:43Z",
+  "total": 32159,
   "records": [
     {
       "transactionDate": "2026-08-20",
@@ -19,6 +19,42 @@
       "sharesOwned": 0.0,
       "formType": "4",
       "link": "https://www.sec.gov/Archives/edgar/data/27996/000204742926000012/0002047429-26-000012-index.htm"
+    },
+    {
+      "transactionDate": "2026-08-20",
+      "filingDate": "2026-08-20",
+      "ticker": "CFFI",
+      "company": "C&F Financial Corporation",
+      "sector": "Financial Services",
+      "industry": "Banks - Regional",
+      "insiderName": "DILLON LARRY G",
+      "role": "Executive Chairman",
+      "transactionType": "S-Sale",
+      "transactionLabel": "Sell",
+      "shares": 1000.0,
+      "price": 86.0,
+      "totalValue": 86000.0,
+      "sharesOwned": 34058.0,
+      "formType": "4",
+      "link": "https://www.sec.gov/Archives/edgar/data/913341/000120050726000008/0001200507-26-000008-index.htm"
+    },
+    {
+      "transactionDate": "2026-08-20",
+      "filingDate": "2026-08-20",
+      "ticker": "BHRB",
+      "company": "Burke & Herbert Financial Services Corp.",
+      "sector": "Financial Services",
+      "industry": "Banks - Regional",
+      "insiderName": "WILSON DAVID",
+      "role": "Director",
+      "transactionType": "P-Purchase",
+      "transactionLabel": "Buy",
+      "shares": 35.0,
+      "price": 70.5726,
+      "totalValue": 2470.04,
+      "sharesOwned": 435.0,
+      "formType": "4",
+      "link": "https://www.sec.gov/Archives/edgar/data/1964333/000120884226000012/0001208842-26-000012-index.htm"
     },
     {
       "transactionDate": "2026-08-19",
@@ -667,6 +703,24 @@
       "sharesOwned": 3244013.0,
       "formType": "4",
       "link": "https://www.sec.gov/Archives/edgar/data/1811074/000143774926028609/0001437749-26-028609-index.htm"
+    },
+    {
+      "transactionDate": "2026-08-19",
+      "filingDate": "2026-08-20",
+      "ticker": "AORT",
+      "company": "Artivion, Inc.",
+      "sector": "Healthcare",
+      "industry": "Medical - Devices",
+      "insiderName": "Mackin James P",
+      "role": "President & Ceo",
+      "transactionType": "S-Sale",
+      "transactionLabel": "Sell",
+      "shares": 70000.0,
+      "price": 28.955,
+      "totalValue": 2026850.0,
+      "sharesOwned": 877275.0,
+      "formType": "4",
+      "link": "https://www.sec.gov/Archives/edgar/data/784199/000162828026058212/0001628280-26-058212-index.htm"
     },
     {
       "transactionDate": "2026-08-19",
@@ -3187,6 +3241,24 @@
       "sharesOwned": 0.0,
       "formType": "4",
       "link": "https://www.sec.gov/Archives/edgar/data/1709048/000162828026058190/0001628280-26-058190-index.htm"
+    },
+    {
+      "transactionDate": "2026-08-18",
+      "filingDate": "2026-08-20",
+      "ticker": "ZD",
+      "company": "Ziff Davis, Inc.",
+      "sector": "Communication Services",
+      "industry": "Advertising Agencies",
+      "insiderName": "KRETZMER W BRIAN",
+      "role": "Director",
+      "transactionType": "S-Sale",
+      "transactionLabel": "Sell",
+      "shares": 2513.0,
+      "price": 55.31,
+      "totalValue": 138994.03,
+      "sharesOwned": 20000.0,
+      "formType": "4",
+      "link": "https://www.sec.gov/Archives/edgar/data/1084048/000121465926010640/0001214659-26-010640-index.htm"
     },
     {
       "transactionDate": "2026-08-18",
