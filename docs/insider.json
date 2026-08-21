@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-21T18:28:57Z",
-  "total": 32816,
+  "updated_at": "2026-08-21T19:22:02Z",
+  "total": 32817,
   "records": [
     {
       "transactionDate": "2026-08-21",
@@ -829,6 +829,24 @@
       "sharesOwned": 78673.0,
       "formType": "4",
       "link": "https://www.sec.gov/Archives/edgar/data/1718939/000204439826000007/0002044398-26-000007-index.htm"
+    },
+    {
+      "transactionDate": "2026-08-20",
+      "filingDate": "2026-08-21",
+      "ticker": "PRTA",
+      "company": "Prothena Corporation plc",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "insiderName": "SCULLY WILLIAM P",
+      "role": "10 Percent Owner",
+      "transactionType": "P-Purchase",
+      "transactionLabel": "Buy",
+      "shares": 50000.0,
+      "price": 8.7886,
+      "totalValue": 439430.0,
+      "sharesOwned": 800000.0,
+      "formType": "4",
+      "link": "https://www.sec.gov/Archives/edgar/data/1559053/000104546326000014/0001045463-26-000014-index.htm"
     },
     {
       "transactionDate": "2026-08-20",
