@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-24T12:38:51Z",
-  "total": 33247,
+  "updated_at": "2026-08-24T13:46:47Z",
+  "total": 33249,
   "records": [
     {
       "transactionDate": "2026-08-24",
@@ -145,6 +145,42 @@
       "sharesOwned": 186000.0,
       "formType": "4",
       "link": "https://www.sec.gov/Archives/edgar/data/1365767/000197640826000761/0001976408-26-000761-index.htm"
+    },
+    {
+      "transactionDate": "2026-08-21",
+      "filingDate": "2026-08-24",
+      "ticker": "IDAI",
+      "company": "T Stamp Inc.",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "insiderName": "Genner Gareth Neville",
+      "role": "Chief Executive Officer",
+      "transactionType": "P-Purchase",
+      "transactionLabel": "Buy",
+      "shares": 1000.0,
+      "price": 3.21,
+      "totalValue": 3210.0,
+      "sharesOwned": 151075.0,
+      "formType": "4",
+      "link": "https://www.sec.gov/Archives/edgar/data/1718939/000191057326000011/0001910573-26-000011-index.htm"
+    },
+    {
+      "transactionDate": "2026-08-21",
+      "filingDate": "2026-08-24",
+      "ticker": "DHT",
+      "company": "DHT Holdings, Inc.",
+      "sector": "Energy",
+      "industry": "Oil & Gas Midstream",
+      "insiderName": "Eglin Jon Stephen",
+      "role": "Chartering & Operations",
+      "transactionType": "S-Sale",
+      "transactionLabel": "Sell",
+      "shares": 25000.0,
+      "price": 20.35,
+      "totalValue": 508750.0,
+      "sharesOwned": 299622.0,
+      "formType": "4",
+      "link": "https://www.sec.gov/Archives/edgar/data/1331284/000133128426000018/0001331284-26-000018-index.htm"
     },
     {
       "transactionDate": "2026-08-21",
@@ -8044,7 +8080,7 @@
       "shares": 30263.0,
       "price": 27.18,
       "totalValue": 822548.34,
-      "sharesOwned": 0.0,
+      "sharesOwned": 109723.0,
       "formType": "4",
       "link": "https://www.sec.gov/Archives/edgar/data/1958140/000203618926000008/0002036189-26-000008-index.htm"
     },
