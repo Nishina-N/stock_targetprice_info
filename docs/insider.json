@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-24T13:46:47Z",
-  "total": 33249,
+  "updated_at": "2026-08-24T14:35:57Z",
+  "total": 33251,
   "records": [
     {
       "transactionDate": "2026-08-24",
@@ -181,6 +181,42 @@
       "sharesOwned": 299622.0,
       "formType": "4",
       "link": "https://www.sec.gov/Archives/edgar/data/1331284/000133128426000018/0001331284-26-000018-index.htm"
+    },
+    {
+      "transactionDate": "2026-08-21",
+      "filingDate": "2026-08-24",
+      "ticker": "CHE",
+      "company": "Chemed Corporation",
+      "sector": "Healthcare",
+      "industry": "Medical - Care Facilities",
+      "insiderName": "LEE SPENCER S",
+      "role": "Executive Vice President",
+      "transactionType": "S-Sale",
+      "transactionLabel": "Sell",
+      "shares": 1000.0,
+      "price": 541.04,
+      "totalValue": 541040.0,
+      "sharesOwned": 13912.0,
+      "formType": "4",
+      "link": "https://www.sec.gov/Archives/edgar/data/19584/000119312526362146/0001193125-26-362146-index.htm"
+    },
+    {
+      "transactionDate": "2026-08-21",
+      "filingDate": "2026-08-24",
+      "ticker": "CHE",
+      "company": "Chemed Corporation",
+      "sector": "Healthcare",
+      "industry": "Medical - Care Facilities",
+      "insiderName": "MCNAMARA KEVIN J",
+      "role": "President And Ceo",
+      "transactionType": "S-Sale",
+      "transactionLabel": "Sell",
+      "shares": 2000.0,
+      "price": 541.16,
+      "totalValue": 1082320.0,
+      "sharesOwned": 70418.0,
+      "formType": "4",
+      "link": "https://www.sec.gov/Archives/edgar/data/19584/000119312526362133/0001193125-26-362133-index.htm"
     },
     {
       "transactionDate": "2026-08-21",
