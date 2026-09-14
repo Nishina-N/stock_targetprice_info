@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-14T05:41:44Z",
-  "total": 33337,
+  "updated_at": "2026-09-14T11:35:41Z",
+  "total": 33340,
   "records": [
     {
       "transactionDate": "2026-09-11",
@@ -253,6 +253,24 @@
       "sharesOwned": 511547.0,
       "formType": "4",
       "link": "https://www.sec.gov/Archives/edgar/data/320121/000162828026061619/0001628280-26-061619-index.htm"
+    },
+    {
+      "transactionDate": "2026-09-10",
+      "filingDate": "2026-09-14",
+      "ticker": "BABA",
+      "company": "Alibaba Group Holding Limited",
+      "sector": "Consumer Cyclical",
+      "industry": "Specialty Retail",
+      "insiderName": "Wu Yongming",
+      "role": "Chief Executive Officer",
+      "transactionType": "M-Exempt",
+      "transactionLabel": "Option",
+      "shares": 320000.0,
+      "price": 0.0,
+      "totalValue": 0.0,
+      "sharesOwned": 640000.0,
+      "formType": "4",
+      "link": "https://www.sec.gov/Archives/edgar/data/1577552/000119312526389757/0001193125-26-389757-index.htm"
     },
     {
       "transactionDate": "2026-09-10",
@@ -559,6 +577,42 @@
       "sharesOwned": 7776019.0,
       "formType": "4",
       "link": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000159/0001778564-26-000159-index.htm"
+    },
+    {
+      "transactionDate": "2026-09-09",
+      "filingDate": "2026-09-14",
+      "ticker": "ALP",
+      "company": "AlphaTON Capital Corp. Common Stock",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "insiderName": "Villani Fiorenzo",
+      "role": "See Remarks",
+      "transactionType": "P-Purchase",
+      "transactionLabel": "Buy",
+      "shares": 7000.0,
+      "price": 5.065,
+      "totalValue": 35455.0,
+      "sharesOwned": 22219.0,
+      "formType": "4",
+      "link": "https://www.sec.gov/Archives/edgar/data/1095435/000117184326006026/0001171843-26-006026-index.htm"
+    },
+    {
+      "transactionDate": "2026-09-09",
+      "filingDate": "2026-09-14",
+      "ticker": "ALP",
+      "company": "AlphaTON Capital Corp. Common Stock",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "insiderName": "Kaiser Brittany",
+      "role": "Chief Executive Officer",
+      "transactionType": "P-Purchase",
+      "transactionLabel": "Buy",
+      "shares": 9350.0,
+      "price": 5.3473,
+      "totalValue": 49997.25,
+      "sharesOwned": 16766.0,
+      "formType": "4",
+      "link": "https://www.sec.gov/Archives/edgar/data/1095435/000117184326006025/0001171843-26-006025-index.htm"
     },
     {
       "transactionDate": "2026-09-09",
