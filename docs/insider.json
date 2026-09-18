@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-18T16:54:23Z",
-  "total": 34033,
+  "updated_at": "2026-09-18T19:24:14Z",
+  "total": 34037,
   "records": [
     {
       "transactionDate": "2026-09-18",
@@ -19,6 +19,24 @@
       "sharesOwned": 788099.0,
       "formType": "4",
       "link": "https://www.sec.gov/Archives/edgar/data/1556739/000157329826000026/0001573298-26-000026-index.htm"
+    },
+    {
+      "transactionDate": "2026-09-18",
+      "filingDate": "2026-09-18",
+      "ticker": "NUTX",
+      "company": "Nutex Health, Inc.",
+      "sector": "Healthcare",
+      "industry": "Medical - Healthcare Information Services",
+      "insiderName": "Saunders Scott J",
+      "role": "Director",
+      "transactionType": "S-Sale",
+      "transactionLabel": "Sell",
+      "shares": 203.0,
+      "price": 214.25,
+      "totalValue": 43492.75,
+      "sharesOwned": 400.0,
+      "formType": "4",
+      "link": "https://www.sec.gov/Archives/edgar/data/1479681/000201897126000004/0002018971-26-000004-index.htm"
     },
     {
       "transactionDate": "2026-09-17",
@@ -415,6 +433,42 @@
       "sharesOwned": 302314.1718,
       "formType": "4",
       "link": "https://www.sec.gov/Archives/edgar/data/275694/000122520826007867/0001225208-26-007867-index.htm"
+    },
+    {
+      "transactionDate": "2026-09-17",
+      "filingDate": "2026-09-18",
+      "ticker": "STNG",
+      "company": "Scorpio Tankers Inc.",
+      "sector": "Energy",
+      "industry": "Oil & Gas Midstream",
+      "insiderName": "BUGBEE ROBERT L",
+      "role": "President",
+      "transactionType": "S-Sale",
+      "transactionLabel": "Sell",
+      "shares": 25000.0,
+      "price": 87.1513,
+      "totalValue": 2178782.5,
+      "sharesOwned": 640288.0,
+      "formType": "4",
+      "link": "https://www.sec.gov/Archives/edgar/data/1483934/000108822626000007/0001088226-26-000007-index.htm"
+    },
+    {
+      "transactionDate": "2026-09-17",
+      "filingDate": "2026-09-18",
+      "ticker": "GLRE",
+      "company": "Greenlight Capital Re, Ltd.",
+      "sector": "Financial Services",
+      "industry": "Insurance - Reinsurance",
+      "insiderName": "Diaz Sherry",
+      "role": "Controller",
+      "transactionType": "S-Sale",
+      "transactionLabel": "Sell",
+      "shares": 13500.0,
+      "price": 15.08,
+      "totalValue": 203580.0,
+      "sharesOwned": 86879.0,
+      "formType": "4",
+      "link": "https://www.sec.gov/Archives/edgar/data/1385613/000138561326000131/0001385613-26-000131-index.htm"
     },
     {
       "transactionDate": "2026-09-17",
@@ -919,6 +973,24 @@
       "sharesOwned": 304265.0,
       "formType": "4",
       "link": "https://www.sec.gov/Archives/edgar/data/1591588/000119401626000006/0001194016-26-000006-index.htm"
+    },
+    {
+      "transactionDate": "2026-09-16",
+      "filingDate": "2026-09-18",
+      "ticker": "STNG",
+      "company": "Scorpio Tankers Inc.",
+      "sector": "Energy",
+      "industry": "Oil & Gas Midstream",
+      "insiderName": "BUGBEE ROBERT L",
+      "role": "President",
+      "transactionType": "S-Sale",
+      "transactionLabel": "Sell",
+      "shares": 231799.0,
+      "price": 86.1856,
+      "totalValue": 19977735.89,
+      "sharesOwned": 665288.0,
+      "formType": "4",
+      "link": "https://www.sec.gov/Archives/edgar/data/1483934/000108822626000007/0001088226-26-000007-index.htm"
     },
     {
       "transactionDate": "2026-09-16",
