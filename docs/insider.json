@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-16T05:21:46Z",
-  "total": 36220,
+  "updated_at": "2026-10-16T10:33:26Z",
+  "total": 36221,
   "records": [
     {
       "transactionDate": "2026-10-15",
@@ -505,6 +505,24 @@
       "sharesOwned": 0.0,
       "formType": "4",
       "link": "https://www.sec.gov/Archives/edgar/data/1891101/000162828026066036/0001628280-26-066036-index.htm"
+    },
+    {
+      "transactionDate": "2026-10-14",
+      "filingDate": "2026-10-16",
+      "ticker": "BZUN",
+      "company": "Baozun Inc.",
+      "sector": "Consumer Cyclical",
+      "industry": "Specialty Retail",
+      "insiderName": "Qiu Wenbin",
+      "role": "Chief Executive Officer",
+      "transactionType": "P-Purchase",
+      "transactionLabel": "Buy",
+      "shares": 5800.0,
+      "price": 3.44,
+      "totalValue": 19952.0,
+      "sharesOwned": 1684372.0,
+      "formType": "4",
+      "link": "https://www.sec.gov/Archives/edgar/data/1625414/000110465926116383/0001104659-26-116383-index.htm"
     },
     {
       "transactionDate": "2026-10-14",
