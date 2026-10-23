@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-23T14:36:21Z",
-  "total": 36850,
+  "updated_at": "2026-10-23T18:50:41Z",
+  "total": 36854,
   "records": [
     {
       "transactionDate": "2026-10-22",
@@ -109,6 +109,42 @@
       "sharesOwned": 74380.0,
       "formType": "4",
       "link": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526429392/0001193125-26-429392-index.htm"
+    },
+    {
+      "transactionDate": "2026-10-22",
+      "filingDate": "2026-10-23",
+      "ticker": "KSS",
+      "company": "Kohl's Corporation",
+      "sector": "Consumer Cyclical",
+      "industry": "Department Stores",
+      "insiderName": "Kent Jennifer J.",
+      "role": "Chief Legal & Corp Affairs Off",
+      "transactionType": "S-Sale",
+      "transactionLabel": "Sell",
+      "shares": 22940.0,
+      "price": 24.0,
+      "totalValue": 550560.0,
+      "sharesOwned": 188572.0,
+      "formType": "4",
+      "link": "https://www.sec.gov/Archives/edgar/data/885639/000088563926000186/0000885639-26-000186-index.htm"
+    },
+    {
+      "transactionDate": "2026-10-22",
+      "filingDate": "2026-10-23",
+      "ticker": "FIBK",
+      "company": "First Interstate BancSystem, Inc.",
+      "sector": "Financial Services",
+      "industry": "Banks - Regional",
+      "insiderName": "Scott Jonathan R",
+      "role": "10 Percent Owner",
+      "transactionType": "S-Sale",
+      "transactionLabel": "Sell",
+      "shares": 5000.0,
+      "price": 36.9,
+      "totalValue": 184500.0,
+      "sharesOwned": 812738.0,
+      "formType": "4",
+      "link": "https://www.sec.gov/Archives/edgar/data/860413/000149315226048199/0001493152-26-048199-index.htm"
     },
     {
       "transactionDate": "2026-10-22",
@@ -5095,6 +5131,24 @@
       "sharesOwned": 10524517.0,
       "formType": "4",
       "link": "https://www.sec.gov/Archives/edgar/data/1512499/000089706926001859/0000897069-26-001859-index.htm"
+    },
+    {
+      "transactionDate": "2026-10-16",
+      "filingDate": "2026-10-23",
+      "ticker": "THFF",
+      "company": "First Financial Corporation",
+      "sector": "Financial Services",
+      "industry": "Banks - Regional",
+      "insiderName": "McDonald James O",
+      "role": "Director",
+      "transactionType": "P-Purchase",
+      "transactionLabel": "Buy",
+      "shares": 86.61,
+      "price": 73.576,
+      "totalValue": 6372.42,
+      "sharesOwned": 11927.95,
+      "formType": "4",
+      "link": "https://www.sec.gov/Archives/edgar/data/714562/000183696926000004/0001836969-26-000004-index.htm"
     },
     {
       "transactionDate": "2026-10-16",
@@ -659197,6 +659251,24 @@
       "sharesOwned": 836643.0,
       "formType": "4/A",
       "link": "https://www.sec.gov/Archives/edgar/data/1227636/000185605926000002/0001856059-26-000002-index.htm"
+    },
+    {
+      "transactionDate": "2026-03-18",
+      "filingDate": "2026-10-23",
+      "ticker": "XCH",
+      "company": "XCHG Limited American Depositary Share",
+      "sector": "Industrials",
+      "industry": "Industrial - Machinery",
+      "insiderName": "Mendez Rebollo Alberto",
+      "role": "See Remarks",
+      "transactionType": "M-Exempt",
+      "transactionLabel": "Option",
+      "shares": 0.0,
+      "price": 0.0,
+      "totalValue": 0.0,
+      "sharesOwned": 2127283.0,
+      "formType": "4",
+      "link": "https://www.sec.gov/Archives/edgar/data/1979887/000118518526004959/0001185185-26-004959-index.htm"
     },
     {
       "transactionDate": "2026-03-18",
