@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-31T01:22:56Z",
-  "total": 37470,
+  "updated_at": "2026-10-31T07:55:18Z",
+  "total": 37473,
   "records": [
     {
       "transactionDate": "2026-10-30",
@@ -307,6 +307,24 @@
       "sharesOwned": 4116182.0,
       "formType": "4",
       "link": "https://www.sec.gov/Archives/edgar/data/1866581/000186658126000172/0001866581-26-000172-index.htm"
+    },
+    {
+      "transactionDate": "2026-10-30",
+      "filingDate": "2026-10-30",
+      "ticker": "NTRA",
+      "company": "Natera, Inc.",
+      "sector": "Healthcare",
+      "industry": "Medical - Diagnostics & Research",
+      "insiderName": "Brophy Michael Burkes",
+      "role": "Chief Financial Officer",
+      "transactionType": "S-Sale",
+      "transactionLabel": "Sell",
+      "shares": 1906.0,
+      "price": 425.55,
+      "totalValue": 811098.3,
+      "sharesOwned": 46574.0,
+      "formType": "4",
+      "link": "https://www.sec.gov/Archives/edgar/data/1604821/000169736226000021/0001697362-26-000021-index.htm"
     },
     {
       "transactionDate": "2026-10-29",
@@ -2395,6 +2413,42 @@
       "sharesOwned": 53509860.0,
       "formType": "4",
       "link": "https://www.sec.gov/Archives/edgar/data/2001184/000201436126000040/0002014361-26-000040-index.htm"
+    },
+    {
+      "transactionDate": "2026-10-28",
+      "filingDate": "2026-10-30",
+      "ticker": "NTRA",
+      "company": "Natera, Inc.",
+      "sector": "Healthcare",
+      "industry": "Medical - Diagnostics & Research",
+      "insiderName": "Brophy Michael Burkes",
+      "role": "Chief Financial Officer",
+      "transactionType": "S-Sale",
+      "transactionLabel": "Sell",
+      "shares": 313.0,
+      "price": 425.3238,
+      "totalValue": 133126.35,
+      "sharesOwned": 49345.0,
+      "formType": "4",
+      "link": "https://www.sec.gov/Archives/edgar/data/1604821/000169736226000021/0001697362-26-000021-index.htm"
+    },
+    {
+      "transactionDate": "2026-10-28",
+      "filingDate": "2026-10-30",
+      "ticker": "NTRA",
+      "company": "Natera, Inc.",
+      "sector": "Healthcare",
+      "industry": "Medical - Diagnostics & Research",
+      "insiderName": "Brophy Michael Burkes",
+      "role": "Chief Financial Officer",
+      "transactionType": "S-Sale",
+      "transactionLabel": "Sell",
+      "shares": 865.0,
+      "price": 426.8731,
+      "totalValue": 369245.23,
+      "sharesOwned": 48480.0,
+      "formType": "4",
+      "link": "https://www.sec.gov/Archives/edgar/data/1604821/000169736226000021/0001697362-26-000021-index.htm"
     },
     {
       "transactionDate": "2026-10-28",
