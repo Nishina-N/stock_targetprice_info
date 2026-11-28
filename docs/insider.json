@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-28T00:59:00Z",
-  "total": 39553,
+  "updated_at": "2026-11-28T08:45:57Z",
+  "total": 39554,
   "records": [
     {
       "transactionDate": "2026-11-27",
@@ -2143,6 +2143,24 @@
       "sharesOwned": 12306950.0,
       "formType": "4",
       "link": "https://www.sec.gov/Archives/edgar/data/1635088/000163508826000159/0001635088-26-000159-index.htm"
+    },
+    {
+      "transactionDate": "2026-11-24",
+      "filingDate": "2026-11-27",
+      "ticker": "ENOV",
+      "company": "Enovis Corporation",
+      "sector": "Industrials",
+      "industry": "Industrial - Machinery",
+      "insiderName": "Singleton Laura Lee",
+      "role": "Svp, Chief Hr Officer",
+      "transactionType": "S-Sale",
+      "transactionLabel": "Sell",
+      "shares": 358.0,
+      "price": 27.0,
+      "totalValue": 9666.0,
+      "sharesOwned": 14979.0,
+      "formType": "4",
+      "link": "https://www.sec.gov/Archives/edgar/data/1420800/000119312526480516/0001193125-26-480516-index.htm"
     },
     {
       "transactionDate": "2026-11-24",
